@@ -1,0 +1,7 @@
+{"query_id": "D1-T1011.001|current", "condition": "new", "model_tag": "phi4-mini", "text": "{\"answer\": [\"TA0010 Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 1010, "n_output_tokens": 13}
+{"query_id": "D1-T1027|current", "condition": "new", "model_tag": "phi4-mini", "text": "{\"answer\": [\"TA0005 Stealth\"]}", "finish_reason": "stop", "n_prompt_tokens": 1395, "n_output_tokens": 12}
+{"query_id": "D1-T1070.001|current", "condition": "new", "model_tag": "phi4-mini", "text": "{\"answer\": [\"TA0112 Defense Impairment\"]}", "finish_reason": "stop", "n_prompt_tokens": 1350, "n_output_tokens": 14}
+{"query_id": "D2-T1001.001|current", "condition": "new", "model_tag": "phi4-mini", "text": "{\"answer\": [\"T1001.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1081, "n_output_tokens": 12}
+{"query_id": "D2-T1070.001|current", "condition": "new", "model_tag": "phi4-mini", "text": "{\"answer\": [\"T1685.005\"]}", "finish_reason": "stop", "n_prompt_tokens": 1287, "n_output_tokens": 12}
+{"query_id": "D4-T1001.001|current", "condition": "new", "model_tag": "phi4-mini", "text": "{\"answer\": [\"T1001.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1304, "n_output_tokens": 12}
+{"query_id": "D4-T1070.001|current", "condition": "new", "model_tag": "phi4-mini", "text": "{\"answer\": [\"T1070.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1307, "n_output_tokens": 12}

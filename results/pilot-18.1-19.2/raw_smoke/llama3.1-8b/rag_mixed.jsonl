@@ -1,0 +1,8 @@
+{"query_id": "D1-T1011.001|unversioned", "condition": "rag_mixed", "model_tag": "llama3.1-8b", "text": "{\"answer\": [\"TA0010 Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 1455, "n_output_tokens": 12}
+{"query_id": "D1-T1011.001|current", "condition": "rag_mixed", "model_tag": "llama3.1-8b", "text": "{\"answer\": [\"TA0010 Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 1481, "n_output_tokens": 12}
+{"query_id": "D2-T1001.001|unversioned", "condition": "rag_mixed", "model_tag": "llama3.1-8b", "text": "{\"answer\": [\"T1001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1210, "n_output_tokens": 9}
+{"query_id": "D2-T1001.001|current", "condition": "rag_mixed", "model_tag": "llama3.1-8b", "text": "{\"answer\": [\"T1036\"]}", "finish_reason": "stop", "n_prompt_tokens": 1489, "n_output_tokens": 9}
+{"query_id": "D3-T1001|unversioned", "condition": "rag_mixed", "model_tag": "llama3.1-8b", "text": "{\"answer\": [\"M1031\"]}", "finish_reason": "stop", "n_prompt_tokens": 1119, "n_output_tokens": 9}
+{"query_id": "D3-T1001|current", "condition": "rag_mixed", "model_tag": "llama3.1-8b", "text": "{\"answer\": [\"M1031\"]}", "finish_reason": "stop", "n_prompt_tokens": 1262, "n_output_tokens": 9}
+{"query_id": "D4-T1001.001|unversioned", "condition": "rag_mixed", "model_tag": "llama3.1-8b", "text": "{\"answer\": [\"T1001.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1751, "n_output_tokens": 11}
+{"query_id": "D4-T1001.001|current", "condition": "rag_mixed", "model_tag": "llama3.1-8b", "text": "{\"answer\": [\"T1001.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1740, "n_output_tokens": 11}

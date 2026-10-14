@@ -1,0 +1,7 @@
+{"query_id": "D1-T1011.001|current", "condition": "old", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"TA0010 Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 1079, "n_output_tokens": 13}
+{"query_id": "D1-T1027|current", "condition": "old", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"TA0005 Defense Evasion\"]}", "finish_reason": "stop", "n_prompt_tokens": 1462, "n_output_tokens": 14}
+{"query_id": "D1-T1070.001|current", "condition": "old", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"TA0005 Defense Evasion\"]}", "finish_reason": "stop", "n_prompt_tokens": 1419, "n_output_tokens": 14}
+{"query_id": "D2-T1001.001|current", "condition": "old", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"T1001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1166, "n_output_tokens": 11}
+{"query_id": "D2-T1070.001|current", "condition": "old", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"T1070\"]}", "finish_reason": "stop", "n_prompt_tokens": 1370, "n_output_tokens": 11}
+{"query_id": "D4-T1001.001|current", "condition": "old", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"T1001.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1408, "n_output_tokens": 15}
+{"query_id": "D4-T1070.001|current", "condition": "old", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"T1070.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1398, "n_output_tokens": 15}

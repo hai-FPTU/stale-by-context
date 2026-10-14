@@ -1,0 +1,113 @@
+{
+  "rung": {
+    "gemma2-9b": {
+      "rung": 0,
+      "name": "mặc định",
+      "env": {},
+      "engine": {},
+      "gpu_mem": null,
+      "max_model_len": null,
+      "effective": {
+        "gpu_mem": 0.85,
+        "max_model_len": 6144
+      }
+    },
+    "phi4-mini": {
+      "rung": 0,
+      "name": "mặc định",
+      "env": {},
+      "engine": {},
+      "gpu_mem": null,
+      "max_model_len": null,
+      "effective": {
+        "gpu_mem": 0.85,
+        "max_model_len": 4096
+      }
+    },
+    "mistral7b-v0.3": {
+      "rung": 0,
+      "name": "mặc định",
+      "env": {},
+      "engine": {},
+      "gpu_mem": null,
+      "max_model_len": null,
+      "effective": {
+        "gpu_mem": 0.85,
+        "max_model_len": 6144
+      }
+    }
+  },
+  "start": {
+    "gemma2-9b": 0,
+    "phi4-mini": 0,
+    "mistral7b-v0.3": 0
+  },
+  "attempts": {
+    "gemma2-9b": [
+      {
+        "phase": "chạy thử",
+        "rung": 0,
+        "ok": true
+      },
+      {
+        "phase": "chạy chính",
+        "rung": 0,
+        "ok": true
+      },
+      {
+        "phase": "chạy thử",
+        "rung": 0,
+        "ok": true
+      },
+      {
+        "phase": "chạy chính",
+        "rung": 0,
+        "ok": true
+      }
+    ],
+    "phi4-mini": [
+      {
+        "phase": "chạy thử",
+        "rung": 0,
+        "ok": true
+      },
+      {
+        "phase": "chạy chính",
+        "rung": 0,
+        "ok": true
+      },
+      {
+        "phase": "chạy thử",
+        "rung": 0,
+        "ok": true
+      },
+      {
+        "phase": "chạy chính",
+        "rung": 0,
+        "ok": true
+      }
+    ],
+    "mistral7b-v0.3": [
+      {
+        "phase": "chạy thử",
+        "rung": 0,
+        "ok": true
+      },
+      {
+        "phase": "chạy chính",
+        "rung": 0,
+        "ok": true
+      },
+      {
+        "phase": "chạy thử",
+        "rung": 0,
+        "ok": true
+      },
+      {
+        "phase": "chạy chính",
+        "rung": 0,
+        "ok": true
+      }
+    ]
+  }
+}

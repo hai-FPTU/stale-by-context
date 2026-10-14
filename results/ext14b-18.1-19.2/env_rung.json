@@ -1,0 +1,59 @@
+{
+  "rung": {
+    "qwen3-14b": {
+      "rung": 2,
+      "name": "rất gọn bộ nhớ",
+      "env": {},
+      "engine": {
+        "enforce_eager": true,
+        "max_num_seqs": 8,
+        "max_num_batched_tokens": 1024
+      },
+      "gpu_mem": 0.95,
+      "max_model_len": 2560,
+      "effective": {
+        "gpu_mem": 0.95,
+        "max_model_len": 2560
+      }
+    }
+  },
+  "start": {},
+  "attempts": {
+    "qwen3-14b": [
+      {
+        "phase": "chạy thử",
+        "rung": 0,
+        "ok": false,
+        "error": "Suy luận lỗi — gửi thầy file ~/p/cti-drift/results/ext14b-18.1-19.2/logs/qwen3-14b_smoke.log"
+      },
+      {
+        "phase": "chạy thử",
+        "rung": 1,
+        "ok": false,
+        "error": "Suy luận lỗi — gửi thầy file ~/p/cti-drift/results/ext14b-18.1-19.2/logs/qwen3-14b_smoke_r1.log"
+      },
+      {
+        "phase": "chạy thử",
+        "rung": 0,
+        "ok": false,
+        "error": "Suy luận lỗi — gửi thầy file ~/p/cti-drift/results/ext14b-18.1-19.2/logs/qwen3-14b_smoke.log"
+      },
+      {
+        "phase": "chạy thử",
+        "rung": 1,
+        "ok": false,
+        "error": "Suy luận lỗi — gửi thầy file ~/p/cti-drift/results/ext14b-18.1-19.2/logs/qwen3-14b_smoke_r1.log"
+      },
+      {
+        "phase": "chạy thử",
+        "rung": 2,
+        "ok": true
+      },
+      {
+        "phase": "chạy chính",
+        "rung": 2,
+        "ok": true
+      }
+    ]
+  }
+}

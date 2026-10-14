@@ -1,0 +1,97 @@
+v_from,v_to,type,id_old,id_new,name_old,name_new,detail,transition
+18.1,19.0,REVOKED→NEW,T1070.001,T1685.005,Clear Windows Event Logs,Clear Windows Event Logs,T1070.001 → T1685.005,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1070.002,T1685.006,Clear Linux or Mac System Logs,Clear Linux or Mac System Logs,T1070.002 → T1685.006,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562,T1685,Impair Defenses,Disable or Modify Tools,T1562 → T1685,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.001,T1685,Disable or Modify Tools,Disable or Modify Tools,T1562.001 → T1685,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.002,T1685.001,Disable Windows Event Logging,Disable or Modify Windows Event Log,T1562.002 → T1685.001,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.003,T1690,Impair Command History Logging,Prevent Command History Logging,T1562.003 → T1690,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.004,T1686,Disable or Modify System Firewall,Disable or Modify System Firewall,T1562.004 → T1686,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.006,T1685,Indicator Blocking,Disable or Modify Tools,T1562.006 → T1685,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.007,T1686.001,Disable or Modify Cloud Firewall,Cloud Firewall,T1562.007 → T1686.001,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.008,T1685.002,Disable or Modify Cloud Logs,Disable or Modify Cloud Log,T1562.008 → T1685.002,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.009,T1688,Safe Mode Boot,Safe Mode Boot,T1562.009 → T1688,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.010,T1689,Downgrade Attack,Downgrade Attack,T1562.010 → T1689,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.011,T1685.003,Spoof Security Alerting,Modify or Spoof Tool UI,T1562.011 → T1685.003,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.012,T1685.004,Disable or Modify Linux Audit System,Disable or Modify Linux Audit System Log,T1562.012 → T1685.004,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.013,T1686.002,Disable or Modify Network Device Firewall,Network Device Firewall,T1562.013 → T1686.002,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1656,T1684.001,Impersonation,Impersonation,T1656 → T1684.001,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1672,T1684.002,Email Spoofing,Email Spoofing,T1672 → T1684.002,18.1→19.0
+18.1,19.0,MERGE,"T1562,T1562.001,T1562.006",T1685,,Disable or Modify Tools,3 mã gộp vào T1685,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1112,T1112,Modify Registry,Modify Registry,"['TA0003', 'TA0005'] → ['TA0003', 'TA0112']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1127,T1127,Trusted Developer Utilities Proxy Execution,Trusted Developer Utilities Proxy Execution,"['TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1127.001,T1127.001,MSBuild,MSBuild,"['TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1127.002,T1127.002,ClickOnce,ClickOnce,"['TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1127.003,T1127.003,JamPlus,JamPlus,"['TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1197,T1197,BITS Jobs,BITS Jobs,"['TA0003', 'TA0005'] → ['TA0002', 'TA0003', 'TA0005']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1207,T1207,Rogue Domain Controller,Rogue Domain Controller,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,RENAMED,T1211,T1211,Exploitation for Defense Evasion,Exploitation for Stealth,Exploitation for Defense Evasion → Exploitation for Stealth,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1222,T1222,File and Directory Permissions Modification,File and Directory Permissions Modification,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,RENAMED,T1222.001,T1222.001,Windows File and Directory Permissions Modification,Windows Permissions,Windows File and Directory Permissions Modification → Windows Permissions,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1222.001,T1222.001,Windows File and Directory Permissions Modification,Windows Permissions,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,RENAMED,T1222.002,T1222.002,Linux and Mac File and Directory Permissions Modification,Linux and Mac Permissions,Linux and Mac File and Directory Permissions Modification → Linux and Mac Permissions,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1222.002,T1222.002,Linux and Mac File and Directory Permissions Modification,Linux and Mac Permissions,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1484,T1484,Domain or Tenant Policy Modification,Domain or Tenant Policy Modification,"['TA0004', 'TA0005'] → ['TA0004', 'TA0112']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1484.001,T1484.001,Group Policy Modification,Group Policy Modification,"['TA0004', 'TA0005'] → ['TA0004', 'TA0112']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1484.002,T1484.002,Trust Modification,Trust Modification,"['TA0004', 'TA0005'] → ['TA0004', 'TA0112']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1548,T1548,Abuse Elevation Control Mechanism,Abuse Elevation Control Mechanism,"['TA0004', 'TA0005'] → ['TA0004']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1548.001,T1548.001,Setuid and Setgid,Setuid and Setgid,"['TA0004', 'TA0005'] → ['TA0004']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1548.002,T1548.002,Bypass User Account Control,Bypass User Account Control,"['TA0004', 'TA0005'] → ['TA0004']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1548.003,T1548.003,Sudo and Sudo Caching,Sudo and Sudo Caching,"['TA0004', 'TA0005'] → ['TA0004']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1548.004,T1548.004,Elevated Execution with Prompt,Elevated Execution with Prompt,"['TA0004', 'TA0005'] → ['TA0004']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1548.005,T1548.005,Temporary Elevated Cloud Access,Temporary Elevated Cloud Access,"['TA0004', 'TA0005'] → ['TA0004']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1548.006,T1548.006,TCC Manipulation,TCC Manipulation,"['TA0004', 'TA0005'] → ['TA0004']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1550,T1550,Use Alternate Authentication Material,Use Alternate Authentication Material,"['TA0005', 'TA0008'] → ['TA0008']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1550.001,T1550.001,Application Access Token,Application Access Token,"['TA0005', 'TA0008'] → ['TA0008']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1550.002,T1550.002,Pass the Hash,Pass the Hash,"['TA0005', 'TA0008'] → ['TA0008']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1550.003,T1550.003,Pass the Ticket,Pass the Ticket,"['TA0005', 'TA0008'] → ['TA0008']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1550.004,T1550.004,Web Session Cookie,Web Session Cookie,"['TA0005', 'TA0008'] → ['TA0008']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1553,T1553,Subvert Trust Controls,Subvert Trust Controls,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1553.001,T1553.001,Gatekeeper Bypass,Gatekeeper Bypass,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1553.002,T1553.002,Code Signing,Code Signing,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1553.003,T1553.003,SIP and Trust Provider Hijacking,SIP and Trust Provider Hijacking,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1553.004,T1553.004,Install Root Certificate,Install Root Certificate,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1553.005,T1553.005,Mark-of-the-Web Bypass,Mark-of-the-Web Bypass,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1553.006,T1553.006,Code Signing Policy Modification,Code Signing Policy Modification,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1556,T1556,Modify Authentication Process,Modify Authentication Process,"['TA0003', 'TA0005', 'TA0006'] → ['TA0003', 'TA0006', 'TA0112']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1556.001,T1556.001,Domain Controller Authentication,Domain Controller Authentication,"['TA0003', 'TA0005', 'TA0006'] → ['TA0003', 'TA0006', 'TA0112']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1556.002,T1556.002,Password Filter DLL,Password Filter DLL,"['TA0003', 'TA0005', 'TA0006'] → ['TA0003', 'TA0006', 'TA0112']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1556.003,T1556.003,Pluggable Authentication Modules,Pluggable Authentication Modules,"['TA0003', 'TA0005', 'TA0006'] → ['TA0003', 'TA0006', 'TA0112']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1556.004,T1556.004,Network Device Authentication,Network Device Authentication,"['TA0003', 'TA0005', 'TA0006'] → ['TA0003', 'TA0006', 'TA0112']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1556.005,T1556.005,Reversible Encryption,Reversible Encryption,"['TA0003', 'TA0005', 'TA0006'] → ['TA0003', 'TA0006', 'TA0112']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1556.006,T1556.006,Multi-Factor Authentication,Multi-Factor Authentication,"['TA0003', 'TA0005', 'TA0006'] → ['TA0003', 'TA0006', 'TA0112']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1556.007,T1556.007,Hybrid Identity,Hybrid Identity,"['TA0003', 'TA0005', 'TA0006'] → ['TA0003', 'TA0006', 'TA0112']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1556.008,T1556.008,Network Provider DLL,Network Provider DLL,"['TA0003', 'TA0005', 'TA0006'] → ['TA0003', 'TA0006', 'TA0112']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1556.009,T1556.009,Conditional Access Policies,Conditional Access Policies,"['TA0003', 'TA0005', 'TA0006'] → ['TA0003', 'TA0006', 'TA0112']",18.1→19.0
+18.1,19.0,RENAMED,T1557.001,T1557.001,LLMNR/NBT-NS Poisoning and SMB Relay,Name Resolution Poisoning and SMB Relay,LLMNR/NBT-NS Poisoning and SMB Relay → Name Resolution Poisoning and SMB Relay,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574,T1574,Hijack Execution Flow,Hijack Execution Flow,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.001,T1574.001,DLL,DLL,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.004,T1574.004,Dylib Hijacking,Dylib Hijacking,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.005,T1574.005,Executable Installer File Permissions Weakness,Executable Installer File Permissions Weakness,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.006,T1574.006,Dynamic Linker Hijacking,Dynamic Linker Hijacking,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.007,T1574.007,Path Interception by PATH Environment Variable,Path Interception by PATH Environment Variable,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.008,T1574.008,Path Interception by Search Order Hijacking,Path Interception by Search Order Hijacking,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.009,T1574.009,Path Interception by Unquoted Path,Path Interception by Unquoted Path,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.010,T1574.010,Services File Permissions Weakness,Services File Permissions Weakness,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.011,T1574.011,Services Registry Permissions Weakness,Services Registry Permissions Weakness,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.012,T1574.012,COR_PROFILER,COR_PROFILER,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.013,T1574.013,KernelCallbackTable,KernelCallbackTable,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.014,T1574.014,AppDomainManager,AppDomainManager,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1578,T1578,Modify Cloud Compute Infrastructure,Modify Cloud Compute Infrastructure,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1578.001,T1578.001,Create Snapshot,Create Snapshot,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1578.002,T1578.002,Create Cloud Instance,Create Cloud Instance,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1578.003,T1578.003,Delete Cloud Instance,Delete Cloud Instance,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1578.004,T1578.004,Revert Cloud Instance,Revert Cloud Instance,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1578.005,T1578.005,Modify Cloud Compute Configurations,Modify Cloud Compute Configurations,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1599,T1599,Network Boundary Bridging,Network Boundary Bridging,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1599.001,T1599.001,Network Address Translation Traversal,Network Address Translation Traversal,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1600,T1600,Weaken Encryption,Weaken Encryption,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1600.001,T1600.001,Reduce Key Space,Reduce Key Space,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1600.002,T1600.002,Disable Crypto Hardware,Disable Crypto Hardware,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1601,T1601,Modify System Image,Modify System Image,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1601.001,T1601.001,Patch System Image,Patch System Image,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1601.002,T1601.002,Downgrade System Image,Downgrade System Image,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1610,T1610,Deploy Container,Deploy Container,"['TA0002', 'TA0005'] → ['TA0002']",18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1647,T1647,Plist File Modification,Plist File Modification,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1666,T1666,Modify Cloud Resource Hierarchy,Modify Cloud Resource Hierarchy,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,REFINED,T1027,T1027,Obfuscated Files or Information,Obfuscated Files or Information,+1 sub-technique (trước có 17),18.1→19.0
+18.1,19.0,TACTIC_REDEFINED,TA0005,TA0005,Defense Evasion,Stealth,defense-evasion → stealth,18.1→19.0

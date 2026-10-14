@@ -1,0 +1,7 @@
+giả thuyết,tên,hiệu [KTC 95%],p Holm,kết luận (E1)
+C1,Có mặt đoạn cũ gây lỗi thời,"0.83 [0.75, 0.90]",0.0005999400059994001,LẶP LẠI ĐƯỢC
+C2,Nhãn phiên bản giảm lỗi thời,"0.75 [0.68, 0.83]",0.0005999400059994001,LẶP LẠI ĐƯỢC
+C3,Chữ current/superseded cần thiết,"0.07 [0.04, 0.11]",0.0007999200079992001,LẶP LẠI ĐƯỢC
+C4,Nhãn số hoạt động nhờ khớp chuỗi,"0.31 [0.25, 0.36]",0.0005999400059994001,LẶP LẠI ĐƯỢC
+C5,Siêu dữ liệu lái câu trả lời,"0.85 [0.78, 0.93]",0.0005999400059994001,LẶP LẠI ĐƯỢC
+C6,Cầu nối giúp trả lời đúng (acc),"0.73 [0.50, 0.92]",0.0007999200079992001,LẶP LẠI ĐƯỢC

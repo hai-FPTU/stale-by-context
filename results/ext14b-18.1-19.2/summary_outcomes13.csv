@@ -1,0 +1,13 @@
+model,condition,CORRECT,INCONSISTENT,NO_ANSWER,PARTIAL,STALE,WRONG
+qwen3-14b,bridge_new_old,1.0,0.0,0.0,0.0,0.0,0.0
+qwen3-14b,bridge_old_new,0.964,0.0,0.0,0.018,0.0,0.018
+qwen3-14b,new,0.938,0.009,0.027,0.009,0.0,0.018
+qwen3-14b,new_old,0.17,0.0,0.0,0.0,0.83,0.0
+qwen3-14b,old,0.0,0.0,0.0,0.0,1.0,0.0
+qwen3-14b,old_new,0.036,0.0,0.0,0.0,0.964,0.0
+qwen3-14b,swap_new_old,0.0,0.0,0.0,0.0,0.991,0.009
+qwen3-14b,swap_old_new,0.0,0.0,0.0,0.009,0.991,0.0
+qwen3-14b,tag_new_old,0.857,0.0,0.0,0.0,0.143,0.0
+qwen3-14b,tag_old_new,0.866,0.0,0.0,0.0,0.134,0.0
+qwen3-14b,vtag_new_old,0.777,0.0,0.0,0.009,0.214,0.0
+qwen3-14b,vtag_old_new,0.795,0.0,0.0,0.0,0.205,0.0

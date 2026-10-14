@@ -1,0 +1,68 @@
+{
+  "benchmark_version": "1.2",
+  "created_utc": "2026-10-12T07:20:17+00:00",
+  "seed": 2026,
+  "attack_version": "19.2",
+  "sources": {
+    "attack": {
+      "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-19.2.json",
+      "file": "data/raw/attack_versions/enterprise-attack-19.2.json",
+      "sha256": "dc1639caa5501d720e280cf1cbd8fbe009884a0c9b3e6e9ed9d0c25166c3d8f4"
+    },
+    "capec": {
+      "url": "https://raw.githubusercontent.com/mitre/cti/master/capec/2.1/stix-capec.json",
+      "file": "data/raw/stix-capec.json",
+      "sha256": "ee6244f48259c1963d0507535e1843d67ba08fe58b4dfe351c1b74f9e376fa69"
+    },
+    "kev": {
+      "url": "https://raw.githubusercontent.com/cisagov/kev-data/main/known_exploited_vulnerabilities.json",
+      "file": "data/raw/known_exploited_vulnerabilities.json",
+      "sha256": "fb1621beec7db19d99c1f919dede3d4cc01ad88acd16f79f1592929c4826dfee",
+      "catalog_version": "2026.10.08",
+      "count": 1739
+    },
+    "cwe": {
+      "url": "https://cwe.mitre.org/data/xml/cwec_latest.xml.zip",
+      "file": "data/raw/cwec_latest.xml.zip",
+      "sha256": "3976f599e5e5200219a3108bb896d06e2a88fbb293369e1883cb423a5e9d7d50",
+      "n_weaknesses": 944,
+      "catalog_version": "4.20"
+    },
+    "cvelistV5": {
+      "url_pattern": "https://raw.githubusercontent.com/CVEProject/cvelistV5/main/cves/YYYY/NNxxx/CVE-YYYY-NNNNN.json",
+      "n_records": 1739,
+      "n_failed": 0,
+      "sha256_of_sorted_hashes": "b2def4ddbf2b0227cb661f464c5d4afeafc86288b8482fc0c7a1f07951fbbf6c"
+    }
+  },
+  "counts": {
+    "questions": 2565,
+    "by_template": {
+      "Q1_tech_tactic": 400,
+      "Q2_subtech_parent": 400,
+      "Q3_tech_mitigation": 400,
+      "Q4_group_uses": 396,
+      "Q5_cve_cwe": 400,
+      "Q6_cve_severity": 400,
+      "Q7_capec_attack": 169
+    },
+    "by_split": {
+      "dev": 507,
+      "test": 2058
+    },
+    "corpus_chunks": 4738,
+    "corpus_docs": 4156,
+    "kg_nodes": 5006,
+    "kg_edges": 11718
+  },
+  "config": {
+    "MAX_KEV_CVES": null,
+    "MAX_PER_TEMPLATE": 400,
+    "DEV_PERCENT": 20,
+    "CHUNK_MAX_WORDS": 300
+  },
+  "output_sha256": {
+    "questions.jsonl": "0a1da9c1629d6a3e9cabe9f1cf2d5f11eadf4bd923b99c802b2e39e823fb27a9",
+    "corpus.jsonl": "0198ec96b46b902b9d08025b1d7efcdfe84838cc927fbea8ad64e698032f040c"
+  }
+}

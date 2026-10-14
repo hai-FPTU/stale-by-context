@@ -1,0 +1,6 @@
+giả thuyết,tên,hiệu [KTC 95%],p Holm,kết luận (E1)
+C2,Nhãn phiên bản giảm lỗi thời,"0.71 [0.65, 0.76]",0.0004999500049995,LẶP LẠI ĐƯỢC
+C3,Chữ current/superseded cần thiết,"0.11 [0.08, 0.14]",0.0004999500049995,LẶP LẠI ĐƯỢC
+C4,Nhãn số hoạt động nhờ khớp chuỗi,"0.18 [0.12, 0.25]",0.0004999500049995,LẶP LẠI ĐƯỢC
+C5,Siêu dữ liệu lái câu trả lời,"0.76 [0.71, 0.81]",0.0004999500049995,LẶP LẠI ĐƯỢC
+C6,Cầu nối giúp trả lời đúng (acc),"0.48 [0.39, 0.58]",0.0004999500049995,LẶP LẠI ĐƯỢC

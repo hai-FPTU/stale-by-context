@@ -1,0 +1,7 @@
+model,condition,CORRECT,NO_ANSWER,PARTIAL,STALE,WRONG
+llama3.1-8b,no_rag,0.122,0.0,0.229,0.147,0.502
+llama3.1-8b,rag_mixed,0.634,0.005,0.089,0.232,0.04
+llama3.1-8b,rag_new,0.815,0.005,0.114,0.028,0.039
+qwen3-8b,no_rag,0.118,0.018,0.041,0.057,0.764
+qwen3-8b,rag_mixed,0.707,0.029,0.031,0.213,0.021
+qwen3-8b,rag_new,0.876,0.033,0.057,0.011,0.022

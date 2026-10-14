@@ -1,0 +1,19 @@
+model,giả thuyết,tên,chỉ số,hiệu [KTC 95%],p một phía,n cụm,trong họ,p Holm,đạt,ngược chiều
+gemma2-9b,C1,Có mặt đoạn cũ gây lỗi thời,drift_ext,"0.90 [0.84, 0.95]",9.999000099990002e-05,87,True,0.0005999400059994001,✓,False
+gemma2-9b,C2,Nhãn phiên bản giảm lỗi thời,drift_ext,"0.72 [0.66, 0.79]",9.999000099990002e-05,87,True,0.0005999400059994001,✓,False
+gemma2-9b,C3,Chữ current/superseded cần thiết,drift_ext,"0.34 [0.27, 0.42]",9.999000099990002e-05,87,True,0.0005999400059994001,✓,False
+gemma2-9b,C4,Nhãn số hoạt động nhờ khớp chuỗi,drift_ext,"0.08 [0.04, 0.12]",9.999000099990002e-05,85,True,0.0005999400059994001,✓,False
+gemma2-9b,C5,Siêu dữ liệu lái câu trả lời,drift_ext,"0.83 [0.77, 0.90]",9.999000099990002e-05,87,True,0.0005999400059994001,✓,False
+gemma2-9b,C6,Cầu nối giúp trả lời đúng (acc),em,"0.07 [-0.15, 0.24]",0.38266173382661733,13,True,0.38266173382661733,·,False
+phi4-mini,C1,Có mặt đoạn cũ gây lỗi thời,drift_ext,"0.67 [0.59, 0.76]",9.999000099990002e-05,87,True,0.0005999400059994001,✓,False
+phi4-mini,C2,Nhãn phiên bản giảm lỗi thời,drift_ext,"0.27 [0.21, 0.33]",9.999000099990002e-05,87,True,0.0005999400059994001,✓,False
+phi4-mini,C3,Chữ current/superseded cần thiết,drift_ext,"0.18 [0.13, 0.23]",9.999000099990002e-05,87,True,0.0005999400059994001,✓,False
+phi4-mini,C4,Nhãn số hoạt động nhờ khớp chuỗi,drift_ext,"0.11 [0.07, 0.15]",9.999000099990002e-05,85,True,0.0005999400059994001,✓,False
+phi4-mini,C5,Siêu dữ liệu lái câu trả lời,drift_ext,"0.29 [0.23, 0.35]",9.999000099990002e-05,87,True,0.0005999400059994001,✓,False
+phi4-mini,C6,Cầu nối giúp trả lời đúng (acc),em,"0.20 [0.00, 0.39]",0.12408759124087591,13,True,0.12408759124087591,·,False
+mistral7b-v0.3,C1,Có mặt đoạn cũ gây lỗi thời,drift_ext,"0.65 [0.55, 0.74]",9.999000099990002e-05,87,True,0.0005999400059994001,✓,False
+mistral7b-v0.3,C2,Nhãn phiên bản giảm lỗi thời,drift_ext,"0.68 [0.61, 0.75]",9.999000099990002e-05,87,True,0.0005999400059994001,✓,False
+mistral7b-v0.3,C3,Chữ current/superseded cần thiết,drift_ext,"0.46 [0.39, 0.54]",9.999000099990002e-05,87,True,0.0005999400059994001,✓,False
+mistral7b-v0.3,C4,Nhãn số hoạt động nhờ khớp chuỗi,drift_ext,"0.13 [0.08, 0.19]",9.999000099990002e-05,85,True,0.0005999400059994001,✓,False
+mistral7b-v0.3,C5,Siêu dữ liệu lái câu trả lời,drift_ext,"0.82 [0.76, 0.89]",9.999000099990002e-05,87,True,0.0005999400059994001,✓,False
+mistral7b-v0.3,C6,Cầu nối giúp trả lời đúng (acc),em,"-0.10 [-0.35, 0.10]",0.8817118288171183,13,True,0.8817118288171183,·,False

@@ -1,0 +1,9 @@
+model,condition,n,giống hệt câu trả lời,lỗi thời changed (06),lỗi thời changed (05)
+qwen3-8b,old_new,312,1.0,0.938,0.938
+qwen3-8b,new_old,312,1.0,0.839,0.839
+qwen3-8b,tag_old_new,312,1.0,0.08,0.08
+qwen3-8b,tag_new_old,312,1.0,0.268,0.268
+llama3.1-8b,old_new,312,0.99,0.929,0.929
+llama3.1-8b,new_old,312,0.99,0.768,0.777
+llama3.1-8b,tag_old_new,312,0.99,0.054,0.054
+llama3.1-8b,tag_new_old,312,1.0,0.223,0.223

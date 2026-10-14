@@ -1,0 +1,6 @@
+giả thuyết,tên,số mô hình đạt,ngưỡng,số mô hình ngược chiều,số mô hình ở sàn,kết luận
+C2,Nhãn phiên bản giảm lỗi thời,5/5,4,0,0,KHẲNG ĐỊNH
+C3,Chữ current/superseded cần thiết,5/5,4,0,0,KHẲNG ĐỊNH
+C4,Nhãn số hoạt động nhờ khớp chuỗi,5/5,4,0,0,KHẲNG ĐỊNH
+C5,Siêu dữ liệu lái câu trả lời,5/5,4,0,0,KHẲNG ĐỊNH
+C6,Cầu nối giúp trả lời đúng (acc),3/5,4,0,0,không khẳng định

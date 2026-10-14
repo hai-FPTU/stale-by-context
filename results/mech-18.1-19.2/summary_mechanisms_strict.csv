@@ -1,0 +1,109 @@
+model,giả thuyết,thứ tự,dữ liệu,nhóm,so sánh,hiệu,hỗ trợ
+qwen3-8b,M1 chữ current/superseded,old_new,mọi mẫu,changed,"stale13(vtag_old_new,ver) − stale13(tag_old_new,ver)","0.33 [0.24, 0.42]",✓ (>0)
+qwen3-8b,M1 chữ current/superseded,old_new,mọi mẫu,label,"stale13(vtag_old_new,ver) − stale13(tag_old_new,ver)","0.24 [0.15, 0.34]",✓ (>0)
+qwen3-8b,M2 số phiên bản trong câu hỏi,old_new,D1+D2,changed,"stale13(tag_old_new,nover) − stale13(tag_old_new,ver)","0.05 [0.01, 0.10]",✓ (>0)
+qwen3-8b,M2 số phiên bản trong câu hỏi,old_new,D1+D2,label,"stale13(tag_old_new,nover) − stale13(tag_old_new,ver)","0.02 [-0.02, 0.08]",·
+qwen3-8b,M2 số phiên bản trong câu hỏi,old_new,mọi mẫu (tham khảo),changed,"stale13(tag_old_new,nover) − stale13(tag_old_new,ver)","0.04 [0.00, 0.08]",·
+qwen3-8b,M2 số phiên bản trong câu hỏi,old_new,mọi mẫu (tham khảo),label,"stale13(tag_old_new,nover) − stale13(tag_old_new,ver)","0.02 [-0.02, 0.08]",·
+qwen3-8b,M2v khớp chữ v19.2 (nhãn chỉ có số),old_new,D1+D2,changed,"stale13(vtag_old_new,nover) − stale13(vtag_old_new,ver)","0.34 [0.24, 0.44]",✓ (>0)
+qwen3-8b,M2v khớp chữ v19.2 (nhãn chỉ có số),old_new,D1+D2,label,"stale13(vtag_old_new,nover) − stale13(vtag_old_new,ver)","0.30 [0.20, 0.40]",✓ (>0)
+qwen3-8b,M2v khớp chữ v19.2 (nhãn chỉ có số),old_new,mọi mẫu (tham khảo),changed,"stale13(vtag_old_new,nover) − stale13(vtag_old_new,ver)","0.30 [0.22, 0.40]",✓ (>0)
+qwen3-8b,M2v khớp chữ v19.2 (nhãn chỉ có số),old_new,mọi mẫu (tham khảo),label,"stale13(vtag_old_new,nover) − stale13(vtag_old_new,ver)","0.30 [0.20, 0.40]",✓ (>0)
+qwen3-8b,"M3 số phiên bản trần, không gợi ý",old_new,D1+D2,changed,"stale13(old_new,nover) − stale13(vtag_old_new,nover)","0.20 [0.10, 0.30]",✓ (>0)
+qwen3-8b,"M3 số phiên bản trần, không gợi ý",old_new,D1+D2,label,"stale13(old_new,nover) − stale13(vtag_old_new,nover)","0.39 [0.28, 0.50]",✓ (>0)
+qwen3-8b,"M3 số phiên bản trần, không gợi ý",old_new,mọi mẫu (tham khảo),changed,"stale13(old_new,nover) − stale13(vtag_old_new,nover)","0.20 [0.11, 0.29]",✓ (>0)
+qwen3-8b,"M3 số phiên bản trần, không gợi ý",old_new,mọi mẫu (tham khảo),label,"stale13(old_new,nover) − stale13(vtag_old_new,nover)","0.39 [0.28, 0.50]",✓ (>0)
+qwen3-8b,M4 theo nhãn (giữ thứ tự nhãn),old_new,mọi mẫu,changed,"stale13(swap_old_new,ver) − stale13(tag_new_old,ver)","0.72 [0.61, 0.84]",✓ (>0)
+qwen3-8b,M4 theo nhãn (giữ thứ tự nhãn),old_new,mọi mẫu,label,"stale13(swap_old_new,ver) − stale13(tag_new_old,ver)","0.66 [0.55, 0.76]",✓ (>0)
+qwen3-8b,"M4n như M4, câu hỏi không số",old_new,D1+D2,changed,"stale13(swap_old_new,nover) − stale13(tag_new_old,nover)","0.66 [0.57, 0.76]",✓ (>0)
+qwen3-8b,"M4n như M4, câu hỏi không số",old_new,D1+D2,label,"stale13(swap_old_new,nover) − stale13(tag_new_old,nover)","0.50 [0.39, 0.61]",✓ (>0)
+qwen3-8b,"M4n như M4, câu hỏi không số",old_new,mọi mẫu (tham khảo),changed,"stale13(swap_old_new,nover) − stale13(tag_new_old,nover)","0.68 [0.58, 0.78]",✓ (>0)
+qwen3-8b,"M4n như M4, câu hỏi không số",old_new,mọi mẫu (tham khảo),label,"stale13(swap_old_new,nover) − stale13(tag_new_old,nover)","0.50 [0.39, 0.61]",✓ (>0)
+qwen3-8b,"M4-alt tráo nhãn, giữ thứ tự nội dung",old_new,mọi mẫu,changed,"stale13(swap_old_new,ver) − stale13(tag_old_new,ver)","0.91 [0.84, 0.97]",✓ (>0)
+qwen3-8b,"M4-alt tráo nhãn, giữ thứ tự nội dung",old_new,mọi mẫu,label,"stale13(swap_old_new,ver) − stale13(tag_old_new,ver)","0.95 [0.90, 0.99]",✓ (>0)
+qwen3-8b,M4b nhãn sai so với không nhãn,old_new,mọi mẫu,changed,"stale13(swap_old_new,ver) − stale13(old_new,ver)","0.10 [0.04, 0.17]",✓ (>0)
+qwen3-8b,M4b nhãn sai so với không nhãn,old_new,mọi mẫu,label,"stale13(swap_old_new,ver) − stale13(old_new,ver)","0.03 [0.00, 0.06]",·
+qwen3-8b,M1 chữ current/superseded,new_old,mọi mẫu,changed,"stale13(vtag_new_old,ver) − stale13(tag_new_old,ver)","0.30 [0.21, 0.40]",✓ (>0)
+qwen3-8b,M1 chữ current/superseded,new_old,mọi mẫu,label,"stale13(vtag_new_old,ver) − stale13(tag_new_old,ver)","0.44 [0.33, 0.55]",✓ (>0)
+qwen3-8b,M2 số phiên bản trong câu hỏi,new_old,D1+D2,changed,"stale13(tag_new_old,nover) − stale13(tag_new_old,ver)","0.08 [0.02, 0.15]",✓ (>0)
+qwen3-8b,M2 số phiên bản trong câu hỏi,new_old,D1+D2,label,"stale13(tag_new_old,nover) − stale13(tag_new_old,ver)","0.16 [0.09, 0.25]",✓ (>0)
+qwen3-8b,M2 số phiên bản trong câu hỏi,new_old,mọi mẫu (tham khảo),changed,"stale13(tag_new_old,nover) − stale13(tag_new_old,ver)","0.04 [-0.02, 0.12]",·
+qwen3-8b,M2 số phiên bản trong câu hỏi,new_old,mọi mẫu (tham khảo),label,"stale13(tag_new_old,nover) − stale13(tag_new_old,ver)","0.16 [0.09, 0.25]",✓ (>0)
+qwen3-8b,M2v khớp chữ v19.2 (nhãn chỉ có số),new_old,D1+D2,changed,"stale13(vtag_new_old,nover) − stale13(vtag_new_old,ver)","0.17 [0.10, 0.25]",✓ (>0)
+qwen3-8b,M2v khớp chữ v19.2 (nhãn chỉ có số),new_old,D1+D2,label,"stale13(vtag_new_old,nover) − stale13(vtag_new_old,ver)","0.11 [0.05, 0.19]",✓ (>0)
+qwen3-8b,M2v khớp chữ v19.2 (nhãn chỉ có số),new_old,mọi mẫu (tham khảo),changed,"stale13(vtag_new_old,nover) − stale13(vtag_new_old,ver)","0.14 [0.08, 0.22]",✓ (>0)
+qwen3-8b,M2v khớp chữ v19.2 (nhãn chỉ có số),new_old,mọi mẫu (tham khảo),label,"stale13(vtag_new_old,nover) − stale13(vtag_new_old,ver)","0.11 [0.05, 0.19]",✓ (>0)
+qwen3-8b,"M3 số phiên bản trần, không gợi ý",new_old,D1+D2,changed,"stale13(new_old,nover) − stale13(vtag_new_old,nover)","0.16 [0.09, 0.24]",✓ (>0)
+qwen3-8b,"M3 số phiên bản trần, không gợi ý",new_old,D1+D2,label,"stale13(new_old,nover) − stale13(vtag_new_old,nover)","0.05 [0.00, 0.11]",·
+qwen3-8b,"M3 số phiên bản trần, không gợi ý",new_old,mọi mẫu (tham khảo),changed,"stale13(new_old,nover) − stale13(vtag_new_old,nover)","0.13 [0.07, 0.20]",✓ (>0)
+qwen3-8b,"M3 số phiên bản trần, không gợi ý",new_old,mọi mẫu (tham khảo),label,"stale13(new_old,nover) − stale13(vtag_new_old,nover)","0.05 [0.00, 0.11]",·
+qwen3-8b,M4 theo nhãn (giữ thứ tự nhãn),new_old,mọi mẫu,changed,"stale13(swap_new_old,ver) − stale13(tag_old_new,ver)","0.92 [0.85, 0.98]",✓ (>0)
+qwen3-8b,M4 theo nhãn (giữ thứ tự nhãn),new_old,mọi mẫu,label,"stale13(swap_new_old,ver) − stale13(tag_old_new,ver)","0.94 [0.88, 0.99]",✓ (>0)
+qwen3-8b,"M4n như M4, câu hỏi không số",new_old,D1+D2,changed,"stale13(swap_new_old,nover) − stale13(tag_old_new,nover)","0.89 [0.83, 0.96]",✓ (>0)
+qwen3-8b,"M4n như M4, câu hỏi không số",new_old,D1+D2,label,"stale13(swap_new_old,nover) − stale13(tag_old_new,nover)","0.91 [0.84, 0.97]",✓ (>0)
+qwen3-8b,"M4n như M4, câu hỏi không số",new_old,mọi mẫu (tham khảo),changed,"stale13(swap_new_old,nover) − stale13(tag_old_new,nover)","0.88 [0.81, 0.95]",✓ (>0)
+qwen3-8b,"M4n như M4, câu hỏi không số",new_old,mọi mẫu (tham khảo),label,"stale13(swap_new_old,nover) − stale13(tag_old_new,nover)","0.91 [0.84, 0.97]",✓ (>0)
+qwen3-8b,"M4-alt tráo nhãn, giữ thứ tự nội dung",new_old,mọi mẫu,changed,"stale13(swap_new_old,ver) − stale13(tag_new_old,ver)","0.73 [0.62, 0.85]",✓ (>0)
+qwen3-8b,"M4-alt tráo nhãn, giữ thứ tự nội dung",new_old,mọi mẫu,label,"stale13(swap_new_old,ver) − stale13(tag_new_old,ver)","0.65 [0.54, 0.75]",✓ (>0)
+qwen3-8b,M4b nhãn sai so với không nhãn,new_old,mọi mẫu,changed,"stale13(swap_new_old,ver) − stale13(new_old,ver)","0.12 [0.07, 0.19]",✓ (>0)
+qwen3-8b,M4b nhãn sai so với không nhãn,new_old,mọi mẫu,label,"stale13(swap_new_old,ver) − stale13(new_old,ver)","0.04 [0.00, 0.09]",·
+qwen3-8b,M4 gộp hai thứ tự (kết luận chính),cả hai,mọi mẫu,changed,"stale13(swap_*) − stale13(tag_*), ver","0.82 [0.74, 0.91]",✓ (>0)
+qwen3-8b,M4 gộp hai thứ tự (kết luận chính),cả hai,mọi mẫu,label,"stale13(swap_*) − stale13(tag_*), ver","0.80 [0.74, 0.86]",✓ (>0)
+qwen3-8b,M5 cầu nối: giảm lỗi thời,old_new,mã thu hồi,changed,stale13(tag_old_new) − stale13(bridge_old_new),"0.23 [0.07, 0.39]",✓ (>0)
+qwen3-8b,M5 cầu nối: tăng độ chính xác,old_new,mã thu hồi,changed,acc(bridge_old_new) − acc(tag_old_new),"0.25 [0.10, 0.42]",✓ (>0)
+qwen3-8b,M5 cầu nối: giảm lỗi thời,new_old,mã thu hồi,changed,stale13(tag_new_old) − stale13(bridge_new_old),"0.50 [0.31, 0.68]",✓ (>0)
+qwen3-8b,M5 cầu nối: tăng độ chính xác,new_old,mã thu hồi,changed,acc(bridge_new_old) − acc(tag_new_old),"0.50 [0.31, 0.68]",✓ (>0)
+llama3.1-8b,M1 chữ current/superseded,old_new,mọi mẫu,changed,"stale13(vtag_old_new,ver) − stale13(tag_old_new,ver)","0.09 [0.03, 0.15]",✓ (>0)
+llama3.1-8b,M1 chữ current/superseded,old_new,mọi mẫu,label,"stale13(vtag_old_new,ver) − stale13(tag_old_new,ver)","0.42 [0.31, 0.54]",✓ (>0)
+llama3.1-8b,M2 số phiên bản trong câu hỏi,old_new,D1+D2,changed,"stale13(tag_old_new,nover) − stale13(tag_old_new,ver)","-0.01 [-0.06, 0.03]",·
+llama3.1-8b,M2 số phiên bản trong câu hỏi,old_new,D1+D2,label,"stale13(tag_old_new,nover) − stale13(tag_old_new,ver)","0.05 [-0.01, 0.12]",·
+llama3.1-8b,M2 số phiên bản trong câu hỏi,old_new,mọi mẫu (tham khảo),changed,"stale13(tag_old_new,nover) − stale13(tag_old_new,ver)","-0.01 [-0.05, 0.03]",·
+llama3.1-8b,M2 số phiên bản trong câu hỏi,old_new,mọi mẫu (tham khảo),label,"stale13(tag_old_new,nover) − stale13(tag_old_new,ver)","0.05 [-0.01, 0.12]",·
+llama3.1-8b,M2v khớp chữ v19.2 (nhãn chỉ có số),old_new,D1+D2,changed,"stale13(vtag_old_new,nover) − stale13(vtag_old_new,ver)","0.60 [0.51, 0.70]",✓ (>0)
+llama3.1-8b,M2v khớp chữ v19.2 (nhãn chỉ có số),old_new,D1+D2,label,"stale13(vtag_old_new,nover) − stale13(vtag_old_new,ver)","0.30 [0.20, 0.40]",✓ (>0)
+llama3.1-8b,M2v khớp chữ v19.2 (nhãn chỉ có số),old_new,mọi mẫu (tham khảo),changed,"stale13(vtag_old_new,nover) − stale13(vtag_old_new,ver)","0.55 [0.46, 0.64]",✓ (>0)
+llama3.1-8b,M2v khớp chữ v19.2 (nhãn chỉ có số),old_new,mọi mẫu (tham khảo),label,"stale13(vtag_old_new,nover) − stale13(vtag_old_new,ver)","0.30 [0.20, 0.40]",✓ (>0)
+llama3.1-8b,"M3 số phiên bản trần, không gợi ý",old_new,D1+D2,changed,"stale13(old_new,nover) − stale13(vtag_old_new,nover)","0.21 [0.12, 0.30]",✓ (>0)
+llama3.1-8b,"M3 số phiên bản trần, không gợi ý",old_new,D1+D2,label,"stale13(old_new,nover) − stale13(vtag_old_new,nover)","0.19 [0.11, 0.28]",✓ (>0)
+llama3.1-8b,"M3 số phiên bản trần, không gợi ý",old_new,mọi mẫu (tham khảo),changed,"stale13(old_new,nover) − stale13(vtag_old_new,nover)","0.26 [0.17, 0.35]",✓ (>0)
+llama3.1-8b,"M3 số phiên bản trần, không gợi ý",old_new,mọi mẫu (tham khảo),label,"stale13(old_new,nover) − stale13(vtag_old_new,nover)","0.19 [0.11, 0.28]",✓ (>0)
+llama3.1-8b,M4 theo nhãn (giữ thứ tự nhãn),old_new,mọi mẫu,changed,"stale13(swap_old_new,ver) − stale13(tag_new_old,ver)","0.76 [0.65, 0.87]",✓ (>0)
+llama3.1-8b,M4 theo nhãn (giữ thứ tự nhãn),old_new,mọi mẫu,label,"stale13(swap_old_new,ver) − stale13(tag_new_old,ver)","0.64 [0.53, 0.74]",✓ (>0)
+llama3.1-8b,"M4n như M4, câu hỏi không số",old_new,D1+D2,changed,"stale13(swap_old_new,nover) − stale13(tag_new_old,nover)","0.75 [0.65, 0.84]",✓ (>0)
+llama3.1-8b,"M4n như M4, câu hỏi không số",old_new,D1+D2,label,"stale13(swap_old_new,nover) − stale13(tag_new_old,nover)","0.55 [0.44, 0.66]",✓ (>0)
+llama3.1-8b,"M4n như M4, câu hỏi không số",old_new,mọi mẫu (tham khảo),changed,"stale13(swap_old_new,nover) − stale13(tag_new_old,nover)","0.76 [0.67, 0.85]",✓ (>0)
+llama3.1-8b,"M4n như M4, câu hỏi không số",old_new,mọi mẫu (tham khảo),label,"stale13(swap_old_new,nover) − stale13(tag_new_old,nover)","0.55 [0.44, 0.66]",✓ (>0)
+llama3.1-8b,"M4-alt tráo nhãn, giữ thứ tự nội dung",old_new,mọi mẫu,changed,"stale13(swap_old_new,ver) − stale13(tag_old_new,ver)","0.93 [0.88, 0.97]",✓ (>0)
+llama3.1-8b,"M4-alt tráo nhãn, giữ thứ tự nội dung",old_new,mọi mẫu,label,"stale13(swap_old_new,ver) − stale13(tag_old_new,ver)","0.93 [0.86, 0.97]",✓ (>0)
+llama3.1-8b,M4b nhãn sai so với không nhãn,old_new,mọi mẫu,changed,"stale13(swap_old_new,ver) − stale13(old_new,ver)","0.03 [0.00, 0.07]",·
+llama3.1-8b,M4b nhãn sai so với không nhãn,old_new,mọi mẫu,label,"stale13(swap_old_new,ver) − stale13(old_new,ver)","0.04 [0.00, 0.09]",·
+llama3.1-8b,M1 chữ current/superseded,new_old,mọi mẫu,changed,"stale13(vtag_new_old,ver) − stale13(tag_new_old,ver)","0.30 [0.22, 0.40]",✓ (>0)
+llama3.1-8b,M1 chữ current/superseded,new_old,mọi mẫu,label,"stale13(vtag_new_old,ver) − stale13(tag_new_old,ver)","0.39 [0.29, 0.50]",✓ (>0)
+llama3.1-8b,M2 số phiên bản trong câu hỏi,new_old,D1+D2,changed,"stale13(tag_new_old,nover) − stale13(tag_new_old,ver)","0.03 [0.00, 0.07]",·
+llama3.1-8b,M2 số phiên bản trong câu hỏi,new_old,D1+D2,label,"stale13(tag_new_old,nover) − stale13(tag_new_old,ver)","0.09 [0.04, 0.15]",✓ (>0)
+llama3.1-8b,M2 số phiên bản trong câu hỏi,new_old,mọi mẫu (tham khảo),changed,"stale13(tag_new_old,nover) − stale13(tag_new_old,ver)","0.00 [-0.05, 0.05]",·
+llama3.1-8b,M2 số phiên bản trong câu hỏi,new_old,mọi mẫu (tham khảo),label,"stale13(tag_new_old,nover) − stale13(tag_new_old,ver)","0.09 [0.04, 0.15]",✓ (>0)
+llama3.1-8b,M2v khớp chữ v19.2 (nhãn chỉ có số),new_old,D1+D2,changed,"stale13(vtag_new_old,nover) − stale13(vtag_new_old,ver)","0.15 [0.08, 0.22]",✓ (>0)
+llama3.1-8b,M2v khớp chữ v19.2 (nhãn chỉ có số),new_old,D1+D2,label,"stale13(vtag_new_old,nover) − stale13(vtag_new_old,ver)","0.12 [0.05, 0.21]",✓ (>0)
+llama3.1-8b,M2v khớp chữ v19.2 (nhãn chỉ có số),new_old,mọi mẫu (tham khảo),changed,"stale13(vtag_new_old,nover) − stale13(vtag_new_old,ver)","0.08 [0.01, 0.16]",✓ (>0)
+llama3.1-8b,M2v khớp chữ v19.2 (nhãn chỉ có số),new_old,mọi mẫu (tham khảo),label,"stale13(vtag_new_old,nover) − stale13(vtag_new_old,ver)","0.12 [0.05, 0.21]",✓ (>0)
+llama3.1-8b,"M3 số phiên bản trần, không gợi ý",new_old,D1+D2,changed,"stale13(new_old,nover) − stale13(vtag_new_old,nover)","0.05 [0.00, 0.11]",·
+llama3.1-8b,"M3 số phiên bản trần, không gợi ý",new_old,D1+D2,label,"stale13(new_old,nover) − stale13(vtag_new_old,nover)","0.03 [-0.05, 0.11]",·
+llama3.1-8b,"M3 số phiên bản trần, không gợi ý",new_old,mọi mẫu (tham khảo),changed,"stale13(new_old,nover) − stale13(vtag_new_old,nover)","0.10 [0.04, 0.16]",✓ (>0)
+llama3.1-8b,"M3 số phiên bản trần, không gợi ý",new_old,mọi mẫu (tham khảo),label,"stale13(new_old,nover) − stale13(vtag_new_old,nover)","0.03 [-0.05, 0.11]",·
+llama3.1-8b,M4 theo nhãn (giữ thứ tự nhãn),new_old,mọi mẫu,changed,"stale13(swap_new_old,ver) − stale13(tag_old_new,ver)","0.95 [0.90, 0.99]",✓ (>0)
+llama3.1-8b,M4 theo nhãn (giữ thứ tự nhãn),new_old,mọi mẫu,label,"stale13(swap_new_old,ver) − stale13(tag_old_new,ver)","0.91 [0.85, 0.96]",✓ (>0)
+llama3.1-8b,"M4n như M4, câu hỏi không số",new_old,D1+D2,changed,"stale13(swap_new_old,nover) − stale13(tag_old_new,nover)","0.95 [0.90, 0.99]",✓ (>0)
+llama3.1-8b,"M4n như M4, câu hỏi không số",new_old,D1+D2,label,"stale13(swap_new_old,nover) − stale13(tag_old_new,nover)","0.86 [0.79, 0.93]",✓ (>0)
+llama3.1-8b,"M4n như M4, câu hỏi không số",new_old,mọi mẫu (tham khảo),changed,"stale13(swap_new_old,nover) − stale13(tag_old_new,nover)","0.96 [0.92, 0.99]",✓ (>0)
+llama3.1-8b,"M4n như M4, câu hỏi không số",new_old,mọi mẫu (tham khảo),label,"stale13(swap_new_old,nover) − stale13(tag_old_new,nover)","0.86 [0.79, 0.93]",✓ (>0)
+llama3.1-8b,"M4-alt tráo nhãn, giữ thứ tự nội dung",new_old,mọi mẫu,changed,"stale13(swap_new_old,ver) − stale13(tag_new_old,ver)","0.78 [0.67, 0.89]",✓ (>0)
+llama3.1-8b,"M4-alt tráo nhãn, giữ thứ tự nội dung",new_old,mọi mẫu,label,"stale13(swap_new_old,ver) − stale13(tag_new_old,ver)","0.62 [0.51, 0.73]",✓ (>0)
+llama3.1-8b,M4b nhãn sai so với không nhãn,new_old,mọi mẫu,changed,"stale13(swap_new_old,ver) − stale13(new_old,ver)","0.24 [0.16, 0.33]",✓ (>0)
+llama3.1-8b,M4b nhãn sai so với không nhãn,new_old,mọi mẫu,label,"stale13(swap_new_old,ver) − stale13(new_old,ver)","0.08 [0.01, 0.15]",✓ (>0)
+llama3.1-8b,M4 gộp hai thứ tự (kết luận chính),cả hai,mọi mẫu,changed,"stale13(swap_*) − stale13(tag_*), ver","0.85 [0.78, 0.92]",✓ (>0)
+llama3.1-8b,M4 gộp hai thứ tự (kết luận chính),cả hai,mọi mẫu,label,"stale13(swap_*) − stale13(tag_*), ver","0.78 [0.71, 0.84]",✓ (>0)
+llama3.1-8b,M5 cầu nối: giảm lỗi thời,old_new,mã thu hồi,changed,stale13(tag_old_new) − stale13(bridge_old_new),"0.05 [0.00, 0.11]",·
+llama3.1-8b,M5 cầu nối: tăng độ chính xác,old_new,mã thu hồi,changed,acc(bridge_old_new) − acc(tag_old_new),"0.15 [0.03, 0.24]",✓ (>0)
+llama3.1-8b,M5 cầu nối: giảm lỗi thời,new_old,mã thu hồi,changed,stale13(tag_new_old) − stale13(bridge_new_old),"0.25 [0.10, 0.38]",✓ (>0)
+llama3.1-8b,M5 cầu nối: tăng độ chính xác,new_old,mã thu hồi,changed,acc(bridge_new_old) − acc(tag_new_old),"0.25 [0.11, 0.37]",✓ (>0)

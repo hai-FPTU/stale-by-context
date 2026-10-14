@@ -1,0 +1,1565 @@
+v_from,v_to,type,id_old,id_new,name_old,name_new,detail,transition
+6.3,7.2,ADDED,,T1001.001,,Junk Data,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1001.002,,Steganography,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1001.003,,Protocol Impersonation,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1003.001,,LSASS Memory,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1003.002,,Security Account Manager,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1003.003,,NTDS,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1003.004,,LSA Secrets,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1003.005,,Cached Domain Credentials,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1003.006,,DCSync,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1003.007,,Proc Filesystem,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1003.008,,/etc/passwd and /etc/shadow,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1011.001,,Exfiltration Over Bluetooth,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1021.001,,Remote Desktop Protocol,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1021.002,,SMB/Windows Admin Shares,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1021.003,,Distributed Component Object Model,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1021.004,,SSH,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1021.005,,VNC,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1021.006,,Windows Remote Management,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1027.001,,Binary Padding,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1027.002,,Software Packing,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1027.003,,Steganography,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1027.004,,Compile After Delivery,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1027.005,,Indicator Removal from Tools,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1036.001,,Invalid Code Signature,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1036.002,,Right-to-Left Override,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1036.003,,Rename System Utilities,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1036.004,,Masquerade Task or Service,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1036.005,,Match Legitimate Name or Location,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1036.006,,Space after Filename,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1037.001,,Logon Script (Windows),sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1037.002,,Logon Script (Mac),sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1037.003,,Network Logon Script,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1037.004,,Rc.common,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1037.005,,Startup Items,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1048.001,,Exfiltration Over Symmetric Encrypted Non-C2 Protocol,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1048.002,,Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1048.003,,Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1052.001,,Exfiltration over USB,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1053.001,,At (Linux),sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1053.002,,At (Windows),sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1053.003,,Cron,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1053.004,,Launchd,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1053.005,,Scheduled Task,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1055.001,,Dynamic-link Library Injection,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1055.002,,Portable Executable Injection,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1055.003,,Thread Execution Hijacking,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1055.004,,Asynchronous Procedure Call,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1055.005,,Thread Local Storage,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1055.008,,Ptrace System Calls,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1055.009,,Proc Memory,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1055.011,,Extra Window Memory Injection,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1055.012,,Process Hollowing,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1055.013,,Process Doppelgänging,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1055.014,,VDSO Hijacking,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1056.001,,Keylogging,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1056.002,,GUI Input Capture,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1056.003,,Web Portal Capture,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1056.004,,Credential API Hooking,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1059.001,,PowerShell,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1059.002,,AppleScript,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1059.003,,Windows Command Shell,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1059.004,,Unix Shell,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1059.005,,Visual Basic,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1059.006,,Python,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1059.007,,JavaScript/JScript,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1069.001,,Local Groups,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1069.002,,Domain Groups,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1069.003,,Cloud Groups,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1070.001,,Clear Windows Event Logs,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1070.002,,Clear Linux or Mac System Logs,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1070.003,,Clear Command History,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1070.004,,File Deletion,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1070.005,,Network Share Connection Removal,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1070.006,,Timestomp,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1071.001,,Web Protocols,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1071.002,,File Transfer Protocols,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1071.003,,Mail Protocols,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1071.004,,DNS,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1074.001,,Local Data Staging,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1074.002,,Remote Data Staging,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1078.001,,Default Accounts,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1078.002,,Domain Accounts,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1078.003,,Local Accounts,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1078.004,,Cloud Accounts,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1087.001,,Local Account,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1087.002,,Domain Account,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1087.003,,Email Account,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1087.004,,Cloud Account,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1090.001,,Internal Proxy,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1090.002,,External Proxy,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1090.003,,Multi-hop Proxy,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1090.004,,Domain Fronting,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1098.001,,Additional Azure Service Principal Credentials,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1098.002,,Exchange Email Delegate Permissions,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1098.003,,Add Office 365 Global Administrator Role,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1098.004,,SSH Authorized Keys,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1102.001,,Dead Drop Resolver,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1102.002,,Bidirectional Communication,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1102.003,,One-Way Communication,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1110.001,,Password Guessing,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1110.002,,Password Cracking,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1110.003,,Password Spraying,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1110.004,,Credential Stuffing,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1114.001,,Local Email Collection,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1114.002,,Remote Email Collection,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1114.003,,Email Forwarding Rule,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1127.001,,MSBuild,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1132.001,,Standard Encoding,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1132.002,,Non-Standard Encoding,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1134.001,,Token Impersonation/Theft,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1134.002,,Create Process with Token,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1134.003,,Make and Impersonate Token,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1134.004,,Parent PID Spoofing,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1134.005,,SID-History Injection,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1136.001,,Local Account,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1136.002,,Domain Account,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1136.003,,Cloud Account,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1137.001,,Office Template Macros,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1137.002,,Office Test,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1137.003,,Outlook Forms,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1137.004,,Outlook Home Page,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1137.005,,Outlook Rules,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1137.006,,Add-ins,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1195.001,,Compromise Software Dependencies and Development Tools,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1195.002,,Compromise Software Supply Chain,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1195.003,,Compromise Hardware Supply Chain,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1204.001,,Malicious Link,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1204.002,,Malicious File,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1205.001,,Port Knocking,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1213.001,,Confluence,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1213.002,,Sharepoint,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1216.001,,PubPrn,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1218.001,,Compiled HTML File,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1218.002,,Control Panel,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1218.003,,CMSTP,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1218.004,,InstallUtil,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1218.005,,Mshta,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1218.007,,Msiexec,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1218.008,,Odbcconf,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1218.009,,Regsvcs/Regasm,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1218.010,,Regsvr32,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1218.011,,Rundll32,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1222.001,,Windows File and Directory Permissions Modification,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1222.002,,Linux and Mac File and Directory Permissions Modification,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1480.001,,Environmental Keying,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1491.001,,Internal Defacement,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1491.002,,External Defacement,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1497.001,,System Checks,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1497.002,,User Activity Based Checks,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1497.003,,Time Based Evasion,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1498.001,,Direct Network Flood,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1498.002,,Reflection Amplification,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1499.001,,OS Exhaustion Flood,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1499.002,,Service Exhaustion Flood,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1499.003,,Application Exhaustion Flood,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1499.004,,Application or System Exploitation,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1505.001,,SQL Stored Procedures,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1505.002,,Transport Agent,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1505.003,,Web Shell,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1518.001,,Security Software Discovery,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1542,,Pre-OS Boot,technique,6.3→7.2
+6.3,7.2,ADDED,,T1542.001,,System Firmware,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1542.002,,Component Firmware,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1542.003,,Bootkit,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1543,,Create or Modify System Process,technique,6.3→7.2
+6.3,7.2,ADDED,,T1543.001,,Launch Agent,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1543.002,,Systemd Service,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1543.003,,Windows Service,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1543.004,,Launch Daemon,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1546,,Event Triggered Execution,technique,6.3→7.2
+6.3,7.2,ADDED,,T1546.001,,Change Default File Association,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1546.002,,Screensaver,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1546.003,,Windows Management Instrumentation Event Subscription,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1546.004,,.bash_profile and .bashrc,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1546.005,,Trap,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1546.006,,LC_LOAD_DYLIB Addition,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1546.007,,Netsh Helper DLL,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1546.008,,Accessibility Features,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1546.009,,AppCert DLLs,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1546.010,,AppInit DLLs,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1546.011,,Application Shimming,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1546.012,,Image File Execution Options Injection,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1546.013,,PowerShell Profile,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1546.014,,Emond,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1546.015,,Component Object Model Hijacking,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1547,,Boot or Logon Autostart Execution,technique,6.3→7.2
+6.3,7.2,ADDED,,T1547.001,,Registry Run Keys / Startup Folder,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1547.002,,Authentication Package,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1547.003,,Time Providers,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1547.004,,Winlogon Helper DLL,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1547.005,,Security Support Provider,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1547.006,,Kernel Modules and Extensions,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1547.007,,Re-opened Applications,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1547.008,,LSASS Driver,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1547.009,,Shortcut Modification,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1547.010,,Port Monitors,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1547.011,,Plist Modification,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1548,,Abuse Elevation Control Mechanism,technique,6.3→7.2
+6.3,7.2,ADDED,,T1548.001,,Setuid and Setgid,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1548.002,,Bypass User Access Control,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1548.003,,Sudo and Sudo Caching,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1548.004,,Elevated Execution with Prompt,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1550,,Use Alternate Authentication Material,technique,6.3→7.2
+6.3,7.2,ADDED,,T1550.001,,Application Access Token,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1550.002,,Pass the Hash,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1550.003,,Pass the Ticket,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1550.004,,Web Session Cookie,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1552,,Unsecured Credentials,technique,6.3→7.2
+6.3,7.2,ADDED,,T1552.001,,Credentials In Files,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1552.002,,Credentials in Registry,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1552.003,,Bash History,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1552.004,,Private Keys,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1552.005,,Cloud Instance Metadata API,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1552.006,,Group Policy Preferences,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1553,,Subvert Trust Controls,technique,6.3→7.2
+6.3,7.2,ADDED,,T1553.001,,Gatekeeper Bypass,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1553.002,,Code Signing,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1553.003,,SIP and Trust Provider Hijacking,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1553.004,,Install Root Certificate,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1554,,Compromise Client Software Binary,technique,6.3→7.2
+6.3,7.2,ADDED,,T1555,,Credentials from Password Stores,technique,6.3→7.2
+6.3,7.2,ADDED,,T1555.001,,Keychain,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1555.002,,Securityd Memory,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1555.003,,Credentials from Web Browsers,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1556,,Modify Authentication Process,technique,6.3→7.2
+6.3,7.2,ADDED,,T1556.001,,Domain Controller Authentication,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1556.002,,Password Filter DLL,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1556.003,,Pluggable Authentication Modules,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1557,,Man-in-the-Middle,technique,6.3→7.2
+6.3,7.2,ADDED,,T1557.001,,LLMNR/NBT-NS Poisoning and SMB Relay,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1558,,Steal or Forge Kerberos Tickets,technique,6.3→7.2
+6.3,7.2,ADDED,,T1558.001,,Golden Ticket,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1558.002,,Silver Ticket,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1558.003,,Kerberoasting,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1559,,Inter-Process Communication,technique,6.3→7.2
+6.3,7.2,ADDED,,T1559.001,,Component Object Model,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1559.002,,Dynamic Data Exchange,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1560,,Archive Collected Data,technique,6.3→7.2
+6.3,7.2,ADDED,,T1560.001,,Archive via Utility,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1560.002,,Archive via Library,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1560.003,,Archive via Custom Method,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1561,,Disk Wipe,technique,6.3→7.2
+6.3,7.2,ADDED,,T1561.001,,Disk Content Wipe,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1561.002,,Disk Structure Wipe,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1562,,Impair Defenses,technique,6.3→7.2
+6.3,7.2,ADDED,,T1562.001,,Disable or Modify Tools,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1562.002,,Disable Windows Event Logging,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1562.003,,HISTCONTROL,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1562.004,,Disable or Modify System Firewall,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1562.006,,Indicator Blocking,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1562.007,,Disable or Modify Cloud Firewall,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1563,,Remote Service Session Hijacking,technique,6.3→7.2
+6.3,7.2,ADDED,,T1563.001,,SSH Hijacking,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1563.002,,RDP Hijacking,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1564,,Hide Artifacts,technique,6.3→7.2
+6.3,7.2,ADDED,,T1564.001,,Hidden Files and Directories,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1564.002,,Hidden Users,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1564.003,,Hidden Window,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1564.004,,NTFS File Attributes,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1564.005,,Hidden File System,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1564.006,,Run Virtual Instance,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1565,,Data Manipulation,technique,6.3→7.2
+6.3,7.2,ADDED,,T1565.001,,Stored Data Manipulation,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1565.002,,Transmitted Data Manipulation,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1565.003,,Runtime Data Manipulation,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1566,,Phishing,technique,6.3→7.2
+6.3,7.2,ADDED,,T1566.001,,Spearphishing Attachment,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1566.002,,Spearphishing Link,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1566.003,,Spearphishing via Service,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1567,,Exfiltration Over Web Service,technique,6.3→7.2
+6.3,7.2,ADDED,,T1567.001,,Exfiltration to Code Repository,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1567.002,,Exfiltration to Cloud Storage,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1568,,Dynamic Resolution,technique,6.3→7.2
+6.3,7.2,ADDED,,T1568.001,,Fast Flux DNS,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1568.002,,Domain Generation Algorithms,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1568.003,,DNS Calculation,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1569,,System Services,technique,6.3→7.2
+6.3,7.2,ADDED,,T1569.001,,Launchctl,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1569.002,,Service Execution,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1570,,Lateral Tool Transfer,technique,6.3→7.2
+6.3,7.2,ADDED,,T1571,,Non-Standard Port,technique,6.3→7.2
+6.3,7.2,ADDED,,T1572,,Protocol Tunneling,technique,6.3→7.2
+6.3,7.2,ADDED,,T1573,,Encrypted Channel,technique,6.3→7.2
+6.3,7.2,ADDED,,T1573.001,,Symmetric Cryptography,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1573.002,,Asymmetric Cryptography,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1574,,Hijack Execution Flow,technique,6.3→7.2
+6.3,7.2,ADDED,,T1574.001,,DLL Search Order Hijacking,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1574.002,,DLL Side-Loading,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1574.004,,Dylib Hijacking,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1574.005,,Executable Installer File Permissions Weakness,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1574.006,,LD_PRELOAD,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1574.007,,Path Interception by PATH Environment Variable,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1574.008,,Path Interception by Search Order Hijacking,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1574.009,,Path Interception by Unquoted Path,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1574.010,,Services File Permissions Weakness,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1574.011,,Services Registry Permissions Weakness,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1574.012,,COR_PROFILER,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1578,,Modify Cloud Compute Infrastructure,technique,6.3→7.2
+6.3,7.2,ADDED,,T1578.001,,Create Snapshot,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1578.002,,Create Cloud Instance,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1578.003,,Delete Cloud Instance,sub-technique,6.3→7.2
+6.3,7.2,ADDED,,T1578.004,,Revert Cloud Instance,sub-technique,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1002,T1560,Data Compressed,Archive Collected Data,T1002 → T1560,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1004,T1547.004,Winlogon Helper DLL,Winlogon Helper DLL,T1004 → T1547.004,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1009,T1027.001,Binary Padding,Binary Padding,T1009 → T1027.001,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1013,T1547.010,Port Monitors,Port Monitors,T1013 → T1547.010,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1015,T1546.008,Accessibility Features,Accessibility Features,T1015 → T1546.008,6.3→7.2
+6.3,7.2,REVOKED→EXISTING,T1017,T1072,Application Deployment Software,Software Deployment Tools,T1017 → T1072,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1019,T1542.001,System Firmware,System Firmware,T1019 → T1542.001,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1022,T1560,Data Encrypted,Archive Collected Data,T1022 → T1560,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1023,T1547.009,Shortcut Modification,Shortcut Modification,T1023 → T1547.009,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1024,T1573,Custom Cryptographic Protocol,Encrypted Channel,T1024 → T1573,6.3→7.2
+6.3,7.2,DEPRECATED,T1026,,Multiband Communication,,,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1028,T1021.006,Windows Remote Management,Windows Remote Management,T1028 → T1021.006,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1031,T1543.003,Modify Existing Service,Windows Service,T1031 → T1543.003,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1032,T1573,Standard Cryptographic Protocol,Encrypted Channel,T1032 → T1573,6.3→7.2
+6.3,7.2,DEPRECATED,T1034,,Path Interception,,,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1035,T1569.002,Service Execution,Service Execution,T1035 → T1569.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1038,T1574.001,DLL Search Order Hijacking,DLL Search Order Hijacking,T1038 → T1574.001,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1042,T1546.001,Change Default File Association,Change Default File Association,T1042 → T1546.001,6.3→7.2
+6.3,7.2,DEPRECATED,T1043,,Commonly Used Port,,,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1044,T1574.010,File System Permissions Weakness,Services File Permissions Weakness,T1044 → T1574.010,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1045,T1027.002,Software Packing,Software Packing,T1045 → T1027.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1050,T1543.003,New Service,Windows Service,T1050 → T1543.003,6.3→7.2
+6.3,7.2,DEPRECATED,T1051,,Shared Webroot,,,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1054,T1562.006,Indicator Blocking,Indicator Blocking,T1054 → T1562.006,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1058,T1574.011,Service Registry Permissions Weakness,Services Registry Permissions Weakness,T1058 → T1574.011,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1060,T1547.001,Registry Run Keys / Startup Folder,Registry Run Keys / Startup Folder,T1060 → T1547.001,6.3→7.2
+6.3,7.2,DEPRECATED,T1061,,Graphical User Interface,,,6.3→7.2
+6.3,7.2,DEPRECATED,T1062,,Hypervisor,,,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1063,T1518.001,Security Software Discovery,Security Software Discovery,T1063 → T1518.001,6.3→7.2
+6.3,7.2,DEPRECATED,T1064,,Scripting,,,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1065,T1571,Uncommonly Used Port,Non-Standard Port,T1065 → T1571,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1066,T1027.005,Indicator Removal from Tools,Indicator Removal from Tools,T1066 → T1027.005,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1067,T1542.003,Bootkit,Bootkit,T1067 → T1542.003,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1073,T1574.002,DLL Side-Loading,DLL Side-Loading,T1073 → T1574.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1075,T1550.002,Pass the Hash,Pass the Hash,T1075 → T1550.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1076,T1021.001,Remote Desktop Protocol,Remote Desktop Protocol,T1076 → T1021.001,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1077,T1021.002,Windows Admin Shares,SMB/Windows Admin Shares,T1077 → T1021.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1079,T1573,Multilayer Encryption,Encrypted Channel,T1079 → T1573,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1081,T1552.001,Credentials in Files,Credentials In Files,T1081 → T1552.001,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1084,T1546.003,Windows Management Instrumentation Event Subscription,Windows Management Instrumentation Event Subscription,T1084 → T1546.003,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1085,T1218.011,Rundll32,Rundll32,T1085 → T1218.011,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1086,T1059.001,PowerShell,PowerShell,T1086 → T1059.001,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1088,T1548.002,Bypass User Account Control,Bypass User Access Control,T1088 → T1548.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1089,T1562.001,Disabling Security Tools,Disable or Modify Tools,T1089 → T1562.001,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1093,T1055.012,Process Hollowing,Process Hollowing,T1093 → T1055.012,6.3→7.2
+6.3,7.2,REVOKED→EXISTING,T1094,T1095,Custom Command and Control Protocol,Non-Application Layer Protocol,T1094 → T1095,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1096,T1564.004,NTFS File Attributes,NTFS File Attributes,T1096 → T1564.004,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1097,T1550.003,Pass the Ticket,Pass the Ticket,T1097 → T1550.003,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1099,T1070.006,Timestomp,Timestomp,T1099 → T1070.006,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1100,T1505.003,Web Shell,Web Shell,T1100 → T1505.003,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1101,T1547.005,Security Support Provider,Security Support Provider,T1101 → T1547.005,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1103,T1546.010,AppInit DLLs,AppInit DLLs,T1103 → T1546.010,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1107,T1070.004,File Deletion,File Deletion,T1107 → T1070.004,6.3→7.2
+6.3,7.2,DEPRECATED,T1108,,Redundant Access,,,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1109,T1542.002,Component Firmware,Component Firmware,T1109 → T1542.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1116,T1553.002,Code Signing,Code Signing,T1116 → T1553.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1117,T1218.010,Regsvr32,Regsvr32,T1117 → T1218.010,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1118,T1218.004,InstallUtil,InstallUtil,T1118 → T1218.004,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1121,T1218.009,Regsvcs/Regasm,Regsvcs/Regasm,T1121 → T1218.009,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1122,T1546.015,Component Object Model Hijacking,Component Object Model Hijacking,T1122 → T1546.015,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1126,T1070.005,Network Share Connection Removal,Network Share Connection Removal,T1126 → T1070.005,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1128,T1546.007,Netsh Helper DLL,Netsh Helper DLL,T1128 → T1546.007,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1130,T1553.004,Install Root Certificate,Install Root Certificate,T1130 → T1553.004,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1131,T1547.002,Authentication Package,Authentication Package,T1131 → T1547.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1138,T1546.011,Application Shimming,Application Shimming,T1138 → T1546.011,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1139,T1552.003,Bash History,Bash History,T1139 → T1552.003,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1141,T1056.002,Input Prompt,GUI Input Capture,T1141 → T1056.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1142,T1555.001,Keychain,Keychain,T1142 → T1555.001,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1143,T1564.003,Hidden Window,Hidden Window,T1143 → T1564.003,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1144,T1553.001,Gatekeeper Bypass,Gatekeeper Bypass,T1144 → T1553.001,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1145,T1552.004,Private Keys,Private Keys,T1145 → T1552.004,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1146,T1070.003,Clear Command History,Clear Command History,T1146 → T1070.003,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1147,T1564.002,Hidden Users,Hidden Users,T1147 → T1564.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1148,T1562.003,HISTCONTROL,HISTCONTROL,T1148 → T1562.003,6.3→7.2
+6.3,7.2,DEPRECATED,T1149,,LC_MAIN Hijacking,,,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1150,T1547.011,Plist Modification,Plist Modification,T1150 → T1547.011,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1151,T1036.006,Space after Filename,Space after Filename,T1151 → T1036.006,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1152,T1569.001,Launchctl,Launchctl,T1152 → T1569.001,6.3→7.2
+6.3,7.2,DEPRECATED,T1153,,Source,,,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1154,T1546.005,Trap,Trap,T1154 → T1546.005,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1155,T1059.002,AppleScript,AppleScript,T1155 → T1059.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1156,T1546.004,.bash_profile and .bashrc,.bash_profile and .bashrc,T1156 → T1546.004,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1157,T1574.004,Dylib Hijacking,Dylib Hijacking,T1157 → T1574.004,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1158,T1564.001,Hidden Files and Directories,Hidden Files and Directories,T1158 → T1564.001,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1159,T1543.001,Launch Agent,Launch Agent,T1159 → T1543.001,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1160,T1543.004,Launch Daemon,Launch Daemon,T1160 → T1543.004,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1161,T1546.006,LC_LOAD_DYLIB Addition,LC_LOAD_DYLIB Addition,T1161 → T1546.006,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1162,T1547.011,Login Item,Plist Modification,T1162 → T1547.011,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1163,T1037.004,Rc.common,Rc.common,T1163 → T1037.004,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1164,T1547.007,Re-opened Applications,Re-opened Applications,T1164 → T1547.007,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1165,T1037.005,Startup Items,Startup Items,T1165 → T1037.005,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1166,T1548.001,Setuid and Setgid,Setuid and Setgid,T1166 → T1548.001,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1167,T1555.002,Securityd Memory,Securityd Memory,T1167 → T1555.002,6.3→7.2
+6.3,7.2,REVOKED→EXISTING,T1168,T1053,Local Job Scheduling,Scheduled Task/Job,T1168 → T1053,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1169,T1548.003,Sudo,Sudo and Sudo Caching,T1169 → T1548.003,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1170,T1218.005,Mshta,Mshta,T1170 → T1218.005,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1171,T1557.001,LLMNR/NBT-NS Poisoning and Relay,LLMNR/NBT-NS Poisoning and SMB Relay,T1171 → T1557.001,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1172,T1090.004,Domain Fronting,Domain Fronting,T1172 → T1090.004,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1173,T1559.002,Dynamic Data Exchange,Dynamic Data Exchange,T1173 → T1559.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1174,T1556.002,Password Filter DLL,Password Filter DLL,T1174 → T1556.002,6.3→7.2
+6.3,7.2,DEPRECATED,T1175,,Component Object Model and Distributed COM,,,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1177,T1547.008,LSASS Driver,LSASS Driver,T1177 → T1547.008,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1178,T1134.005,SID-History Injection,SID-History Injection,T1178 → T1134.005,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1179,T1056.004,Hooking,Credential API Hooking,T1179 → T1056.004,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1180,T1546.002,Screensaver,Screensaver,T1180 → T1546.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1181,T1055.011,Extra Window Memory Injection,Extra Window Memory Injection,T1181 → T1055.011,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1182,T1546.009,AppCert DLLs,AppCert DLLs,T1182 → T1546.009,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1183,T1546.012,Image File Execution Options Injection,Image File Execution Options Injection,T1183 → T1546.012,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1184,T1563.001,SSH Hijacking,SSH Hijacking,T1184 → T1563.001,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1186,T1055.013,Process Doppelgänging,Process Doppelgänging,T1186 → T1055.013,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1188,T1090.003,Multi-hop Proxy,Multi-hop Proxy,T1188 → T1090.003,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1191,T1218.003,CMSTP,CMSTP,T1191 → T1218.003,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1192,T1566.002,Spearphishing Link,Spearphishing Link,T1192 → T1566.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1193,T1566.001,Spearphishing Attachment,Spearphishing Attachment,T1193 → T1566.001,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1194,T1566.003,Spearphishing via Service,Spearphishing via Service,T1194 → T1566.003,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1196,T1218.002,Control Panel Items,Control Panel,T1196 → T1218.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1198,T1553.003,SIP and Trust Provider Hijacking,SIP and Trust Provider Hijacking,T1198 → T1553.003,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1206,T1548.003,Sudo Caching,Sudo and Sudo Caching,T1206 → T1548.003,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1208,T1558.003,Kerberoasting,Kerberoasting,T1208 → T1558.003,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1209,T1547.003,Time Providers,Time Providers,T1209 → T1547.003,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1214,T1552.002,Credentials in Registry,Credentials in Registry,T1214 → T1552.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1215,T1547.006,Kernel Modules and Extensions,Kernel Modules and Extensions,T1215 → T1547.006,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1223,T1218.001,Compiled HTML File,Compiled HTML File,T1223 → T1218.001,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1483,T1568.002,Domain Generation Algorithms,Domain Generation Algorithms,T1483 → T1568.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1487,T1561.002,Disk Structure Wipe,Disk Structure Wipe,T1487 → T1561.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1488,T1561.001,Disk Content Wipe,Disk Content Wipe,T1488 → T1561.001,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1492,T1565.001,Stored Data Manipulation,Stored Data Manipulation,T1492 → T1565.001,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1493,T1565.002,Transmitted Data Manipulation,Transmitted Data Manipulation,T1493 → T1565.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1494,T1565.003,Runtime Data Manipulation,Runtime Data Manipulation,T1494 → T1565.003,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1500,T1027.004,Compile After Delivery,Compile After Delivery,T1500 → T1027.004,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1501,T1543.002,Systemd Service,Systemd Service,T1501 → T1543.002,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1502,T1134.004,Parent PID Spoofing,Parent PID Spoofing,T1502 → T1134.004,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1503,T1555.003,Credentials from Web Browsers,Credentials from Web Browsers,T1503 → T1555.003,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1504,T1546.013,PowerShell Profile,PowerShell Profile,T1504 → T1546.013,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1506,T1550.004,Web Session Cookie,Web Session Cookie,T1506 → T1550.004,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1514,T1548.004,Elevated Execution with Prompt,Elevated Execution with Prompt,T1514 → T1548.004,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1519,T1546.014,Emond,Emond,T1519 → T1546.014,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1522,T1552.005,Cloud Instance Metadata API,Cloud Instance Metadata API,T1522 → T1552.005,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1527,T1550.001,Application Access Token,Application Access Token,T1527 → T1550.001,6.3→7.2
+6.3,7.2,REVOKED→NEW,T1536,T1578.004,Revert Cloud Instance,Revert Cloud Instance,T1536 → T1578.004,6.3→7.2
+6.3,7.2,MERGE,"T1002,T1022",T1560,,Archive Collected Data,2 mã gộp vào T1560,6.3→7.2
+6.3,7.2,MERGE,"T1024,T1032,T1079",T1573,,Encrypted Channel,3 mã gộp vào T1573,6.3→7.2
+6.3,7.2,MERGE,"T1031,T1050",T1543.003,,Windows Service,2 mã gộp vào T1543.003,6.3→7.2
+6.3,7.2,MERGE,"T1150,T1162",T1547.011,,Plist Modification,2 mã gộp vào T1547.011,6.3→7.2
+6.3,7.2,MERGE,"T1169,T1206",T1548.003,,Sudo and Sudo Caching,2 mã gộp vào T1548.003,6.3→7.2
+6.3,7.2,RENAMED,T1003,T1003,Credential Dumping,OS Credential Dumping,Credential Dumping → OS Credential Dumping,6.3→7.2
+6.3,7.2,MITIGATION_CHANGED,T1003,T1003,Credential Dumping,OS Credential Dumping,+['M1041'] -[],6.3→7.2
+6.3,7.2,MAJOR_REVISION,T1003,T1003,Credential Dumping,OS Credential Dumping,v1.1 → v2.0,6.3→7.2
+6.3,7.2,RENAMED,T1006,T1006,File System Logical Offsets,Direct Volume Access,File System Logical Offsets → Direct Volume Access,6.3→7.2
+6.3,7.2,MAJOR_REVISION,T1006,T1006,File System Logical Offsets,Direct Volume Access,v1.0 → v2.0,6.3→7.2
+6.3,7.2,RENAMED,T1037,T1037,Logon Scripts,Boot or Logon Initialization Scripts,Logon Scripts → Boot or Logon Initialization Scripts,6.3→7.2
+6.3,7.2,TACTIC_CHANGED,T1037,T1037,Logon Scripts,Boot or Logon Initialization Scripts,"['TA0003', 'TA0008'] → ['TA0003', 'TA0004']",6.3→7.2
+6.3,7.2,MITIGATION_CHANGED,T1037,T1037,Logon Scripts,Boot or Logon Initialization Scripts,+['M1024'] -[],6.3→7.2
+6.3,7.2,MAJOR_REVISION,T1037,T1037,Logon Scripts,Boot or Logon Initialization Scripts,v1.0 → v2.0,6.3→7.2
+6.3,7.2,RENAMED,T1041,T1041,Exfiltration Over Command and Control Channel,Exfiltration Over C2 Channel,Exfiltration Over Command and Control Channel → Exfiltration Over C2 Channel,6.3→7.2
+6.3,7.2,MAJOR_REVISION,T1041,T1041,Exfiltration Over Command and Control Channel,Exfiltration Over C2 Channel,v1.0 → v2.0,6.3→7.2
+6.3,7.2,MITIGATION_CHANGED,T1052,T1052,Exfiltration Over Physical Medium,Exfiltration Over Physical Medium,+['M1034'] -[],6.3→7.2
+6.3,7.2,RENAMED,T1053,T1053,Scheduled Task,Scheduled Task/Job,Scheduled Task → Scheduled Task/Job,6.3→7.2
+6.3,7.2,MAJOR_REVISION,T1053,T1053,Scheduled Task,Scheduled Task/Job,v1.1 → v2.0,6.3→7.2
+6.3,7.2,RENAMED,T1059,T1059,Command-Line Interface,Command and Scripting Interpreter,Command-Line Interface → Command and Scripting Interpreter,6.3→7.2
+6.3,7.2,MITIGATION_CHANGED,T1059,T1059,Command-Line Interface,Command and Scripting Interpreter,"+['M1021', 'M1026', 'M1042', 'M1045', 'M1049'] -[]",6.3→7.2
+6.3,7.2,MAJOR_REVISION,T1059,T1059,Command-Line Interface,Command and Scripting Interpreter,v1.0 → v2.0,6.3→7.2
+6.3,7.2,RENAMED,T1071,T1071,Standard Application Layer Protocol,Application Layer Protocol,Standard Application Layer Protocol → Application Layer Protocol,6.3→7.2
+6.3,7.2,MAJOR_REVISION,T1071,T1071,Standard Application Layer Protocol,Application Layer Protocol,v1.0 → v2.0,6.3→7.2
+6.3,7.2,RENAMED,T1072,T1072,Third-party Software,Software Deployment Tools,Third-party Software → Software Deployment Tools,6.3→7.2
+6.3,7.2,MAJOR_REVISION,T1072,T1072,Third-party Software,Software Deployment Tools,v1.1 → v2.0,6.3→7.2
+6.3,7.2,MITIGATION_CHANGED,T1078,T1078,Valid Accounts,Valid Accounts,"+[] -['M1018', 'M1032', 'M1037', 'M1047']",6.3→7.2
+6.3,7.2,RENAMED,T1090,T1090,Connection Proxy,Proxy,Connection Proxy → Proxy,6.3→7.2
+6.3,7.2,TACTIC_CHANGED,T1090,T1090,Connection Proxy,Proxy,"['TA0005', 'TA0011'] → ['TA0011']",6.3→7.2
+6.3,7.2,MITIGATION_CHANGED,T1090,T1090,Connection Proxy,Proxy,"+['M1020', 'M1037'] -[]",6.3→7.2
+6.3,7.2,MAJOR_REVISION,T1090,T1090,Connection Proxy,Proxy,v2.0 → v3.0,6.3→7.2
+6.3,7.2,RENAMED,T1095,T1095,Standard Non-Application Layer Protocol,Non-Application Layer Protocol,Standard Non-Application Layer Protocol → Non-Application Layer Protocol,6.3→7.2
+6.3,7.2,MAJOR_REVISION,T1095,T1095,Standard Non-Application Layer Protocol,Non-Application Layer Protocol,v1.0 → v2.0,6.3→7.2
+6.3,7.2,TACTIC_CHANGED,T1098,T1098,Account Manipulation,Account Manipulation,"['TA0003', 'TA0006'] → ['TA0003']",6.3→7.2
+6.3,7.2,TACTIC_CHANGED,T1102,T1102,Web Service,Web Service,"['TA0005', 'TA0011'] → ['TA0011']",6.3→7.2
+6.3,7.2,RENAMED,T1105,T1105,Remote File Copy,Ingress Tool Transfer,Remote File Copy → Ingress Tool Transfer,6.3→7.2
+6.3,7.2,TACTIC_CHANGED,T1105,T1105,Remote File Copy,Ingress Tool Transfer,"['TA0008', 'TA0011'] → ['TA0011']",6.3→7.2
+6.3,7.2,MAJOR_REVISION,T1105,T1105,Remote File Copy,Ingress Tool Transfer,v1.0 → v2.0,6.3→7.2
+6.3,7.2,RENAMED,T1106,T1106,Execution through API,Native API,Execution through API → Native API,6.3→7.2
+6.3,7.2,MAJOR_REVISION,T1106,T1106,Execution through API,Native API,v1.0 → v2.0,6.3→7.2
+6.3,7.2,MITIGATION_CHANGED,T1110,T1110,Brute Force,Brute Force,+['M1018'] -[],6.3→7.2
+6.3,7.2,RENAMED,T1127,T1127,Trusted Developer Utilities,Trusted Developer Utilities Proxy Execution,Trusted Developer Utilities → Trusted Developer Utilities Proxy Execution,6.3→7.2
+6.3,7.2,TACTIC_CHANGED,T1127,T1127,Trusted Developer Utilities,Trusted Developer Utilities Proxy Execution,"['TA0002', 'TA0005'] → ['TA0005']",6.3→7.2
+6.3,7.2,RENAMED,T1129,T1129,Execution through Module Load,Shared Modules,Execution through Module Load → Shared Modules,6.3→7.2
+6.3,7.2,MAJOR_REVISION,T1129,T1129,Execution through Module Load,Shared Modules,v1.0 → v2.0,6.3→7.2
+6.3,7.2,MAJOR_REVISION,T1134,T1134,Access Token Manipulation,Access Token Manipulation,v1.0 → v2.0,6.3→7.2
+6.3,7.2,MITIGATION_CHANGED,T1135,T1135,Network Share Discovery,Network Share Discovery,+['M1028'] -[],6.3→7.2
+6.3,7.2,RENAMED,T1205,T1205,Port Knocking,Traffic Signaling,Port Knocking → Traffic Signaling,6.3→7.2
+6.3,7.2,MAJOR_REVISION,T1205,T1205,Port Knocking,Traffic Signaling,v1.1 → v2.0,6.3→7.2
+6.3,7.2,RENAMED,T1207,T1207,DCShadow,Rogue Domain Controller,DCShadow → Rogue Domain Controller,6.3→7.2
+6.3,7.2,MAJOR_REVISION,T1207,T1207,DCShadow,Rogue Domain Controller,v1.0 → v2.0,6.3→7.2
+6.3,7.2,TACTIC_CHANGED,T1216,T1216,Signed Script Proxy Execution,Signed Script Proxy Execution,"['TA0002', 'TA0005'] → ['TA0005']",6.3→7.2
+6.3,7.2,TACTIC_CHANGED,T1218,T1218,Signed Binary Proxy Execution,Signed Binary Proxy Execution,"['TA0002', 'TA0005'] → ['TA0005']",6.3→7.2
+6.3,7.2,MITIGATION_CHANGED,T1218,T1218,Signed Binary Proxy Execution,Signed Binary Proxy Execution,"+['M1042', 'M1050'] -[]",6.3→7.2
+6.3,7.2,RENAMED,T1219,T1219,Remote Access Tools,Remote Access Software,Remote Access Tools → Remote Access Software,6.3→7.2
+6.3,7.2,MAJOR_REVISION,T1219,T1219,Remote Access Tools,Remote Access Software,v1.0 → v2.0,6.3→7.2
+6.3,7.2,TACTIC_CHANGED,T1220,T1220,XSL Script Processing,XSL Script Processing,"['TA0002', 'TA0005'] → ['TA0005']",6.3→7.2
+6.3,7.2,MITIGATION_CHANGED,T1222,T1222,File and Directory Permissions Modification,File and Directory Permissions Modification,"+['M1022', 'M1026'] -[]",6.3→7.2
+6.3,7.2,TACTIC_CHANGED,T1484,T1484,Group Policy Modification,Group Policy Modification,"['TA0005'] → ['TA0004', 'TA0005']",6.3→7.2
+6.3,7.2,REFINED,T1001,T1001,Data Obfuscation,Data Obfuscation,+3 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1003,T1003,Credential Dumping,OS Credential Dumping,+8 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1011,T1011,Exfiltration Over Other Network Medium,Exfiltration Over Other Network Medium,+1 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1021,T1021,Remote Services,Remote Services,+6 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1027,T1027,Obfuscated Files or Information,Obfuscated Files or Information,+5 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1036,T1036,Masquerading,Masquerading,+6 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1037,T1037,Logon Scripts,Boot or Logon Initialization Scripts,+5 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1048,T1048,Exfiltration Over Alternative Protocol,Exfiltration Over Alternative Protocol,+3 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1052,T1052,Exfiltration Over Physical Medium,Exfiltration Over Physical Medium,+1 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1053,T1053,Scheduled Task,Scheduled Task/Job,+5 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1055,T1055,Process Injection,Process Injection,+11 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1056,T1056,Input Capture,Input Capture,+4 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1059,T1059,Command-Line Interface,Command and Scripting Interpreter,+7 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1069,T1069,Permission Groups Discovery,Permission Groups Discovery,+3 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1070,T1070,Indicator Removal on Host,Indicator Removal on Host,+6 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1071,T1071,Standard Application Layer Protocol,Application Layer Protocol,+4 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1074,T1074,Data Staged,Data Staged,+2 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1078,T1078,Valid Accounts,Valid Accounts,+4 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1087,T1087,Account Discovery,Account Discovery,+4 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1090,T1090,Connection Proxy,Proxy,+4 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1098,T1098,Account Manipulation,Account Manipulation,+4 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1102,T1102,Web Service,Web Service,+3 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1110,T1110,Brute Force,Brute Force,+4 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1114,T1114,Email Collection,Email Collection,+3 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1127,T1127,Trusted Developer Utilities,Trusted Developer Utilities Proxy Execution,+1 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1132,T1132,Data Encoding,Data Encoding,+2 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1134,T1134,Access Token Manipulation,Access Token Manipulation,+5 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1136,T1136,Create Account,Create Account,+3 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1137,T1137,Office Application Startup,Office Application Startup,+6 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1195,T1195,Supply Chain Compromise,Supply Chain Compromise,+3 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1204,T1204,User Execution,User Execution,+2 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1205,T1205,Port Knocking,Traffic Signaling,+1 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1213,T1213,Data from Information Repositories,Data from Information Repositories,+2 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1216,T1216,Signed Script Proxy Execution,Signed Script Proxy Execution,+1 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1218,T1218,Signed Binary Proxy Execution,Signed Binary Proxy Execution,+10 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1222,T1222,File and Directory Permissions Modification,File and Directory Permissions Modification,+2 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1480,T1480,Execution Guardrails,Execution Guardrails,+1 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1491,T1491,Defacement,Defacement,+2 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1497,T1497,Virtualization/Sandbox Evasion,Virtualization/Sandbox Evasion,+3 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1498,T1498,Network Denial of Service,Network Denial of Service,+2 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1499,T1499,Endpoint Denial of Service,Endpoint Denial of Service,+4 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1505,T1505,Server Software Component,Server Software Component,+3 sub-technique (trước có 0),6.3→7.2
+6.3,7.2,REFINED,T1518,T1518,Software Discovery,Software Discovery,+1 sub-technique (trước có 0),6.3→7.2
+7.2,8.2,ADDED,,T1020.001,,Traffic Duplication,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1053.006,,Systemd Timers,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1059.008,,Network Device CLI,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1218.012,,Verclsid,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1484.001,,Group Policy Modification,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1484.002,,Domain Trust Modification,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1542.004,,ROMMONkit,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1542.005,,TFTP Boot,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1547.012,,Print Processors,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1556.004,,Network Device Authentication,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1557.002,,ARP Cache Poisoning,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1558.004,,AS-REP Roasting,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1562.008,,Disable Cloud Logs,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1564.007,,VBA Stomping,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1580,,Cloud Infrastructure Discovery,technique,7.2→8.2
+7.2,8.2,ADDED,,T1583,,Acquire Infrastructure,technique,7.2→8.2
+7.2,8.2,ADDED,,T1583.001,,Domains,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1583.002,,DNS Server,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1583.003,,Virtual Private Server,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1583.004,,Server,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1583.005,,Botnet,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1583.006,,Web Services,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1584,,Compromise Infrastructure,technique,7.2→8.2
+7.2,8.2,ADDED,,T1584.001,,Domains,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1584.002,,DNS Server,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1584.003,,Virtual Private Server,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1584.004,,Server,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1584.005,,Botnet,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1584.006,,Web Services,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1585,,Establish Accounts,technique,7.2→8.2
+7.2,8.2,ADDED,,T1585.001,,Social Media Accounts,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1585.002,,Email Accounts,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1586,,Compromise Accounts,technique,7.2→8.2
+7.2,8.2,ADDED,,T1586.001,,Social Media Accounts,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1586.002,,Email Accounts,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1587,,Develop Capabilities,technique,7.2→8.2
+7.2,8.2,ADDED,,T1587.001,,Malware,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1587.002,,Code Signing Certificates,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1587.003,,Digital Certificates,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1587.004,,Exploits,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1588,,Obtain Capabilities,technique,7.2→8.2
+7.2,8.2,ADDED,,T1588.001,,Malware,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1588.002,,Tool,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1588.003,,Code Signing Certificates,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1588.004,,Digital Certificates,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1588.005,,Exploits,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1588.006,,Vulnerabilities,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1589,,Gather Victim Identity Information,technique,7.2→8.2
+7.2,8.2,ADDED,,T1589.001,,Credentials,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1589.002,,Email Addresses,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1589.003,,Employee Names,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1590,,Gather Victim Network Information,technique,7.2→8.2
+7.2,8.2,ADDED,,T1590.001,,Domain Properties,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1590.002,,DNS,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1590.003,,Network Trust Dependencies,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1590.004,,Network Topology,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1590.005,,IP Addresses,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1590.006,,Network Security Appliances,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1591,,Gather Victim Org Information,technique,7.2→8.2
+7.2,8.2,ADDED,,T1591.001,,Determine Physical Locations,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1591.002,,Business Relationships,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1591.003,,Identify Business Tempo,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1591.004,,Identify Roles,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1592,,Gather Victim Host Information,technique,7.2→8.2
+7.2,8.2,ADDED,,T1592.001,,Hardware,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1592.002,,Software,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1592.003,,Firmware,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1592.004,,Client Configurations,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1593,,Search Open Websites/Domains,technique,7.2→8.2
+7.2,8.2,ADDED,,T1593.001,,Social Media,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1593.002,,Search Engines,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1594,,Search Victim-Owned Websites,technique,7.2→8.2
+7.2,8.2,ADDED,,T1595,,Active Scanning,technique,7.2→8.2
+7.2,8.2,ADDED,,T1595.001,,Scanning IP Blocks,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1595.002,,Vulnerability Scanning,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1596,,Search Open Technical Databases,technique,7.2→8.2
+7.2,8.2,ADDED,,T1596.001,,DNS/Passive DNS,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1596.002,,WHOIS,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1596.003,,Digital Certificates,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1596.004,,CDNs,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1596.005,,Scan Databases,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1597,,Search Closed Sources,technique,7.2→8.2
+7.2,8.2,ADDED,,T1597.001,,Threat Intel Vendors,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1597.002,,Purchase Technical Data,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1598,,Phishing for Information,technique,7.2→8.2
+7.2,8.2,ADDED,,T1598.001,,Spearphishing Service,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1598.002,,Spearphishing Attachment,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1598.003,,Spearphishing Link,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1599,,Network Boundary Bridging,technique,7.2→8.2
+7.2,8.2,ADDED,,T1599.001,,Network Address Translation Traversal,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1600,,Weaken Encryption,technique,7.2→8.2
+7.2,8.2,ADDED,,T1600.001,,Reduce Key Space,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1600.002,,Disable Crypto Hardware,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1601,,Modify System Image,technique,7.2→8.2
+7.2,8.2,ADDED,,T1601.001,,Patch System Image,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1601.002,,Downgrade System Image,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1602,,Data from Configuration Repository,technique,7.2→8.2
+7.2,8.2,ADDED,,T1602.001,,SNMP (MIB Dump),sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1602.002,,Network Device Configuration Dump,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1606,,Forge Web Credentials,technique,7.2→8.2
+7.2,8.2,ADDED,,T1606.001,,Web Cookies,sub-technique,7.2→8.2
+7.2,8.2,ADDED,,T1606.002,,SAML Tokens,sub-technique,7.2→8.2
+7.2,8.2,MAJOR_REVISION,T1018,T1018,Remote System Discovery,Remote System Discovery,v2.1 → v3.0,7.2→8.2
+7.2,8.2,MITIGATION_CHANGED,T1078.004,T1078.004,Cloud Accounts,Cloud Accounts,"+['M1018', 'M1032'] -[]",7.2→8.2
+7.2,8.2,MITIGATION_CHANGED,T1087.004,T1087.004,Cloud Account,Cloud Account,"+['M1018', 'M1047'] -[]",7.2→8.2
+7.2,8.2,MAJOR_REVISION,T1090.003,T1090.003,Multi-hop Proxy,Multi-hop Proxy,v1.0 → v2.0,7.2→8.2
+7.2,8.2,RENAMED,T1098.001,T1098.001,Additional Azure Service Principal Credentials,Additional Cloud Credentials,Additional Azure Service Principal Credentials → Additional Cloud Credentials,7.2→8.2
+7.2,8.2,MAJOR_REVISION,T1098.001,T1098.001,Additional Azure Service Principal Credentials,Additional Cloud Credentials,v1.0 → v2.1,7.2→8.2
+7.2,8.2,MAJOR_REVISION,T1135,T1135,Network Share Discovery,Network Share Discovery,v2.1 → v3.0,7.2→8.2
+7.2,8.2,MAJOR_REVISION,T1213,T1213,Data from Information Repositories,Data from Information Repositories,v2.1 → v3.0,7.2→8.2
+7.2,8.2,RENAMED,T1484,T1484,Group Policy Modification,Domain Policy Modification,Group Policy Modification → Domain Policy Modification,7.2→8.2
+7.2,8.2,MITIGATION_CHANGED,T1484,T1484,Group Policy Modification,Domain Policy Modification,+['M1026'] -[],7.2→8.2
+7.2,8.2,MAJOR_REVISION,T1484,T1484,Group Policy Modification,Domain Policy Modification,v1.1 → v2.0,7.2→8.2
+7.2,8.2,RENAMED,T1548.002,T1548.002,Bypass User Access Control,Bypass User Account Control,Bypass User Access Control → Bypass User Account Control,7.2→8.2
+7.2,8.2,MAJOR_REVISION,T1548.002,T1548.002,Bypass User Access Control,Bypass User Account Control,v1.0 → v2.0,7.2→8.2
+7.2,8.2,MITIGATION_CHANGED,T1552.005,T1552.005,Cloud Instance Metadata API,Cloud Instance Metadata API,+['M1042'] -[],7.2→8.2
+7.2,8.2,MITIGATION_CHANGED,T1557,T1557,Man-in-the-Middle,Man-in-the-Middle,"+['M1017', 'M1041'] -[]",7.2→8.2
+7.2,8.2,RENAMED,T1562.003,T1562.003,HISTCONTROL,Impair Command History Logging,HISTCONTROL → Impair Command History Logging,7.2→8.2
+7.2,8.2,MAJOR_REVISION,T1562.003,T1562.003,HISTCONTROL,Impair Command History Logging,v1.0 → v2.0,7.2→8.2
+7.2,8.2,MAJOR_REVISION,T1566,T1566,Phishing,Phishing,v1.0 → v2.0,7.2→8.2
+7.2,8.2,MAJOR_REVISION,T1566.001,T1566.001,Spearphishing Attachment,Spearphishing Attachment,v1.0 → v2.0,7.2→8.2
+7.2,8.2,MAJOR_REVISION,T1566.002,T1566.002,Spearphishing Link,Spearphishing Link,v1.0 → v2.0,7.2→8.2
+7.2,8.2,MAJOR_REVISION,T1566.003,T1566.003,Spearphishing via Service,Spearphishing via Service,v1.0 → v2.0,7.2→8.2
+7.2,8.2,REFINED,T1020,T1020,Automated Exfiltration,Automated Exfiltration,+1 sub-technique (trước có 0),7.2→8.2
+7.2,8.2,REFINED,T1053,T1053,Scheduled Task/Job,Scheduled Task/Job,+1 sub-technique (trước có 5),7.2→8.2
+7.2,8.2,REFINED,T1059,T1059,Command and Scripting Interpreter,Command and Scripting Interpreter,+1 sub-technique (trước có 7),7.2→8.2
+7.2,8.2,REFINED,T1218,T1218,Signed Binary Proxy Execution,Signed Binary Proxy Execution,+1 sub-technique (trước có 10),7.2→8.2
+7.2,8.2,REFINED,T1484,T1484,Group Policy Modification,Domain Policy Modification,+2 sub-technique (trước có 0),7.2→8.2
+7.2,8.2,REFINED,T1542,T1542,Pre-OS Boot,Pre-OS Boot,+2 sub-technique (trước có 3),7.2→8.2
+7.2,8.2,REFINED,T1547,T1547,Boot or Logon Autostart Execution,Boot or Logon Autostart Execution,+1 sub-technique (trước có 11),7.2→8.2
+7.2,8.2,REFINED,T1556,T1556,Modify Authentication Process,Modify Authentication Process,+1 sub-technique (trước có 3),7.2→8.2
+7.2,8.2,REFINED,T1557,T1557,Man-in-the-Middle,Man-in-the-Middle,+1 sub-technique (trước có 1),7.2→8.2
+7.2,8.2,REFINED,T1558,T1558,Steal or Forge Kerberos Tickets,Steal or Forge Kerberos Tickets,+1 sub-technique (trước có 3),7.2→8.2
+7.2,8.2,REFINED,T1562,T1562,Impair Defenses,Impair Defenses,+1 sub-technique (trước có 6),7.2→8.2
+7.2,8.2,REFINED,T1564,T1564,Hide Artifacts,Hide Artifacts,+1 sub-technique (trước có 6),7.2→8.2
+7.2,8.2,TACTIC_ADDED,,TA0042,,Resource Development,,7.2→8.2
+7.2,8.2,TACTIC_ADDED,,TA0043,,Reconnaissance,,7.2→8.2
+8.2,9.0,ADDED,,T1016.001,,Internet Connection Discovery,sub-technique,8.2→9.0
+8.2,9.0,ADDED,,T1053.007,,Container Orchestration Job,sub-technique,8.2→9.0
+8.2,9.0,ADDED,,T1204.003,,Malicious Image,sub-technique,8.2→9.0
+8.2,9.0,ADDED,,T1547.013,,XDG Autostart Entries,sub-technique,8.2→9.0
+8.2,9.0,ADDED,,T1547.014,,Active Setup,sub-technique,8.2→9.0
+8.2,9.0,ADDED,,T1552.007,,Container API,sub-technique,8.2→9.0
+8.2,9.0,ADDED,,T1553.005,,Mark-of-the-Web Bypass,sub-technique,8.2→9.0
+8.2,9.0,ADDED,,T1553.006,,Code Signing Policy Modification,sub-technique,8.2→9.0
+8.2,9.0,ADDED,,T1555.004,,Windows Credential Manager,sub-technique,8.2→9.0
+8.2,9.0,ADDED,,T1555.005,,Password Managers,sub-technique,8.2→9.0
+8.2,9.0,ADDED,,T1608,,Stage Capabilities,technique,8.2→9.0
+8.2,9.0,ADDED,,T1608.001,,Upload Malware,sub-technique,8.2→9.0
+8.2,9.0,ADDED,,T1608.002,,Upload Tool,sub-technique,8.2→9.0
+8.2,9.0,ADDED,,T1608.003,,Install Digital Certificate,sub-technique,8.2→9.0
+8.2,9.0,ADDED,,T1608.004,,Drive-by Target,sub-technique,8.2→9.0
+8.2,9.0,ADDED,,T1608.005,,Link Target,sub-technique,8.2→9.0
+8.2,9.0,ADDED,,T1609,,Container Administration Command,technique,8.2→9.0
+8.2,9.0,ADDED,,T1610,,Deploy Container,technique,8.2→9.0
+8.2,9.0,ADDED,,T1611,,Escape to Host,technique,8.2→9.0
+8.2,9.0,ADDED,,T1612,,Build Image on Host,technique,8.2→9.0
+8.2,9.0,ADDED,,T1613,,Container and Resource Discovery,technique,8.2→9.0
+8.2,9.0,ADDED,,T1614,,System Location Discovery,technique,8.2→9.0
+8.2,9.0,RENAMED,T1037.004,T1037.004,Rc.common,RC Scripts,Rc.common → RC Scripts,8.2→9.0
+8.2,9.0,MAJOR_REVISION,T1037.004,T1037.004,Rc.common,RC Scripts,v1.0 → v2.0,8.2→9.0
+8.2,9.0,RENAMED,T1059.007,T1059.007,JavaScript/JScript,JavaScript,JavaScript/JScript → JavaScript,8.2→9.0
+8.2,9.0,MAJOR_REVISION,T1059.007,T1059.007,JavaScript/JScript,JavaScript,v1.0 → v2.0,8.2→9.0
+8.2,9.0,MITIGATION_CHANGED,T1068,T1068,Exploitation for Privilege Escalation,Exploitation for Privilege Escalation,+['M1038'] -[],8.2→9.0
+8.2,9.0,MITIGATION_CHANGED,T1176,T1176,Browser Extensions,Browser Extensions,+['M1051'] -[],8.2→9.0
+8.2,9.0,MITIGATION_CHANGED,T1205,T1205,Traffic Signaling,Traffic Signaling,+['M1042'] -[],8.2→9.0
+8.2,9.0,MITIGATION_CHANGED,T1218.007,T1218.007,Msiexec,Msiexec,+['M1042'] -[],8.2→9.0
+8.2,9.0,MAJOR_REVISION,T1497.001,T1497.001,System Checks,System Checks,v1.0 → v2.0,8.2→9.0
+8.2,9.0,RENAMED,T1525,T1525,Implant Container Image,Implant Internal Image,Implant Container Image → Implant Internal Image,8.2→9.0
+8.2,9.0,MAJOR_REVISION,T1525,T1525,Implant Container Image,Implant Internal Image,v1.0 → v2.0,8.2→9.0
+8.2,9.0,RENAMED,T1546.004,T1546.004,.bash_profile and .bashrc,Unix Shell Configuration Modification,.bash_profile and .bashrc → Unix Shell Configuration Modification,8.2→9.0
+8.2,9.0,MAJOR_REVISION,T1546.004,T1546.004,.bash_profile and .bashrc,Unix Shell Configuration Modification,v1.0 → v2.0,8.2→9.0
+8.2,9.0,TACTIC_CHANGED,T1556,T1556,Modify Authentication Process,Modify Authentication Process,"['TA0005', 'TA0006'] → ['TA0003', 'TA0005', 'TA0006']",8.2→9.0
+8.2,9.0,MITIGATION_CHANGED,T1556,T1556,Modify Authentication Process,Modify Authentication Process,+['M1022'] -[],8.2→9.0
+8.2,9.0,MAJOR_REVISION,T1556,T1556,Modify Authentication Process,Modify Authentication Process,v1.1 → v2.0,8.2→9.0
+8.2,9.0,TACTIC_CHANGED,T1556.001,T1556.001,Domain Controller Authentication,Domain Controller Authentication,"['TA0005', 'TA0006'] → ['TA0003', 'TA0005', 'TA0006']",8.2→9.0
+8.2,9.0,MAJOR_REVISION,T1556.001,T1556.001,Domain Controller Authentication,Domain Controller Authentication,v1.0 → v2.0,8.2→9.0
+8.2,9.0,TACTIC_CHANGED,T1556.002,T1556.002,Password Filter DLL,Password Filter DLL,"['TA0005', 'TA0006'] → ['TA0003', 'TA0005', 'TA0006']",8.2→9.0
+8.2,9.0,MAJOR_REVISION,T1556.002,T1556.002,Password Filter DLL,Password Filter DLL,v1.0 → v2.0,8.2→9.0
+8.2,9.0,TACTIC_CHANGED,T1556.003,T1556.003,Pluggable Authentication Modules,Pluggable Authentication Modules,"['TA0005', 'TA0006'] → ['TA0003', 'TA0005', 'TA0006']",8.2→9.0
+8.2,9.0,MAJOR_REVISION,T1556.003,T1556.003,Pluggable Authentication Modules,Pluggable Authentication Modules,v1.0 → v2.0,8.2→9.0
+8.2,9.0,TACTIC_CHANGED,T1556.004,T1556.004,Network Device Authentication,Network Device Authentication,"['TA0005', 'TA0006'] → ['TA0003', 'TA0005', 'TA0006']",8.2→9.0
+8.2,9.0,MAJOR_REVISION,T1556.004,T1556.004,Network Device Authentication,Network Device Authentication,v1.0 → v2.0,8.2→9.0
+8.2,9.0,MITIGATION_CHANGED,T1566,T1566,Phishing,Phishing,+['M1054'] -[],8.2→9.0
+8.2,9.0,MITIGATION_CHANGED,T1566.001,T1566.001,Spearphishing Attachment,Spearphishing Attachment,+['M1054'] -[],8.2→9.0
+8.2,9.0,MITIGATION_CHANGED,T1566.002,T1566.002,Spearphishing Link,Spearphishing Link,+['M1054'] -[],8.2→9.0
+8.2,9.0,MITIGATION_CHANGED,T1574,T1574,Hijack Execution Flow,Hijack Execution Flow,+['M1013'] -[],8.2→9.0
+8.2,9.0,MITIGATION_CHANGED,T1574.002,T1574.002,DLL Side-Loading,DLL Side-Loading,"+['M1013'] -['M1022', 'M1047']",8.2→9.0
+8.2,9.0,MAJOR_REVISION,T1574.002,T1574.002,DLL Side-Loading,DLL Side-Loading,v1.0 → v2.0,8.2→9.0
+8.2,9.0,MAJOR_REVISION,T1574.004,T1574.004,Dylib Hijacking,Dylib Hijacking,v1.0 → v2.0,8.2→9.0
+8.2,9.0,RENAMED,T1574.006,T1574.006,LD_PRELOAD,Dynamic Linker Hijacking,LD_PRELOAD → Dynamic Linker Hijacking,8.2→9.0
+8.2,9.0,MITIGATION_CHANGED,T1574.006,T1574.006,LD_PRELOAD,Dynamic Linker Hijacking,+['M1028'] -[],8.2→9.0
+8.2,9.0,MAJOR_REVISION,T1574.006,T1574.006,LD_PRELOAD,Dynamic Linker Hijacking,v1.1 → v2.0,8.2→9.0
+8.2,9.0,MITIGATION_CHANGED,T1598,T1598,Phishing for Information,Phishing for Information,+['M1054'] -[],8.2→9.0
+8.2,9.0,MITIGATION_CHANGED,T1598.002,T1598.002,Spearphishing Attachment,Spearphishing Attachment,+['M1054'] -[],8.2→9.0
+8.2,9.0,MITIGATION_CHANGED,T1598.003,T1598.003,Spearphishing Link,Spearphishing Link,+['M1054'] -[],8.2→9.0
+8.2,9.0,REFINED,T1016,T1016,System Network Configuration Discovery,System Network Configuration Discovery,+1 sub-technique (trước có 0),8.2→9.0
+8.2,9.0,REFINED,T1053,T1053,Scheduled Task/Job,Scheduled Task/Job,+1 sub-technique (trước có 6),8.2→9.0
+8.2,9.0,REFINED,T1204,T1204,User Execution,User Execution,+1 sub-technique (trước có 2),8.2→9.0
+8.2,9.0,REFINED,T1547,T1547,Boot or Logon Autostart Execution,Boot or Logon Autostart Execution,+2 sub-technique (trước có 12),8.2→9.0
+8.2,9.0,REFINED,T1552,T1552,Unsecured Credentials,Unsecured Credentials,+1 sub-technique (trước có 6),8.2→9.0
+8.2,9.0,REFINED,T1553,T1553,Subvert Trust Controls,Subvert Trust Controls,+2 sub-technique (trước có 4),8.2→9.0
+8.2,9.0,REFINED,T1555,T1555,Credentials from Password Stores,Credentials from Password Stores,+2 sub-technique (trước có 3),8.2→9.0
+9.0,10.1,ADDED,,T1027.006,,HTML Smuggling,sub-technique,9.0→10.1
+9.0,10.1,ADDED,,T1036.007,,Double File Extension,sub-technique,9.0→10.1
+9.0,10.1,ADDED,,T1213.003,,Code Repositories,sub-technique,9.0→10.1
+9.0,10.1,ADDED,,T1218.013,,Mavinject,sub-technique,9.0→10.1
+9.0,10.1,ADDED,,T1218.014,,MMC,sub-technique,9.0→10.1
+9.0,10.1,ADDED,,T1505.004,,IIS Components,sub-technique,9.0→10.1
+9.0,10.1,ADDED,,T1547.015,,Login Items,sub-technique,9.0→10.1
+9.0,10.1,ADDED,,T1562.009,,Safe Mode Boot,sub-technique,9.0→10.1
+9.0,10.1,ADDED,,T1562.010,,Downgrade Attack,sub-technique,9.0→10.1
+9.0,10.1,ADDED,,T1564.008,,Email Hiding Rules,sub-technique,9.0→10.1
+9.0,10.1,ADDED,,T1564.009,,Resource Forking,sub-technique,9.0→10.1
+9.0,10.1,ADDED,,T1614.001,,System Language Discovery,sub-technique,9.0→10.1
+9.0,10.1,ADDED,,T1615,,Group Policy Discovery,technique,9.0→10.1
+9.0,10.1,ADDED,,T1619,,Cloud Storage Object Discovery,technique,9.0→10.1
+9.0,10.1,ADDED,,T1620,,Reflective Code Loading,technique,9.0→10.1
+9.0,10.1,DEPRECATED,T1053.004,,Launchd,,,9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1003,T1003,OS Credential Dumping,OS Credential Dumping,+['M1040'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1003.001,T1003.001,LSASS Memory,LSASS Memory,+['M1040'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1005,T1005,Data from Local System,Data from Local System,+['M1057'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1025,T1025,Data from Removable Media,Data from Removable Media,+['M1057'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1027,T1027,Obfuscated Files or Information,Obfuscated Files or Information,+['M1040'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1041,T1041,Exfiltration Over C2 Channel,Exfiltration Over C2 Channel,+['M1057'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1047,T1047,Windows Management Instrumentation,Windows Management Instrumentation,"+['M1038', 'M1040'] -[]",9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1048,T1048,Exfiltration Over Alternative Protocol,Exfiltration Over Alternative Protocol,+['M1057'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1048.002,T1048.002,Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,+['M1057'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1048.003,T1048.003,Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol,Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol,+['M1057'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1052,T1052,Exfiltration Over Physical Medium,Exfiltration Over Physical Medium,+['M1057'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1052.001,T1052.001,Exfiltration over USB,Exfiltration over USB,+['M1057'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1059,T1059,Command and Scripting Interpreter,Command and Scripting Interpreter,+['M1040'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1059.001,T1059.001,PowerShell,PowerShell,+['M1038'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1059.005,T1059.005,Visual Basic,Visual Basic,+['M1040'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1059.007,T1059.007,JavaScript,JavaScript,+['M1040'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1078,T1078,Valid Accounts,Valid Accounts,+['M1017'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1078.002,T1078.002,Domain Accounts,Domain Accounts,+['M1017'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1078.004,T1078.004,Cloud Accounts,Cloud Accounts,+['M1017'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1091,T1091,Replication Through Removable Media,Replication Through Removable Media,+['M1040'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1106,T1106,Native API,Native API,+['M1040'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1114.003,T1114.003,Email Forwarding Rule,Email Forwarding Rule,+['M1042'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1127.001,T1127.001,MSBuild,MSBuild,+['M1038'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1137,T1137,Office Application Startup,Office Application Startup,+['M1040'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1137.001,T1137.001,Office Template Macros,Office Template Macros,+['M1040'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1137.002,T1137.002,Office Test,Office Test,+['M1040'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1137.003,T1137.003,Outlook Forms,Outlook Forms,+['M1040'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1137.004,T1137.004,Outlook Home Page,Outlook Home Page,+['M1040'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1137.005,T1137.005,Outlook Rules,Outlook Rules,+['M1040'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1137.006,T1137.006,Add-ins,Add-ins,+['M1040'] -[],9.0→10.1
+9.0,10.1,RENAMED,T1185,T1185,Man in the Browser,Browser Session Hijacking,Man in the Browser → Browser Session Hijacking,9.0→10.1
+9.0,10.1,MAJOR_REVISION,T1185,T1185,Man in the Browser,Browser Session Hijacking,v1.0 → v2.0,9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1204,T1204,User Execution,User Execution,+['M1040'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1204.002,T1204.002,Malicious File,Malicious File,+['M1040'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1216.001,T1216.001,PubPrn,PubPrn,+['M1040'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1486,T1486,Data Encrypted for Impact,Data Encrypted for Impact,+['M1040'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1505,T1505,Server Software Component,Server Software Component,"+['M1018', 'M1042'] -[]",9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1505.003,T1505.003,Web Shell,Web Shell,"+['M1018', 'M1042'] -[]",9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1543.001,T1543.001,Launch Agent,Launch Agent,+[] -['M1018'],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1543.004,T1543.004,Launch Daemon,Launch Daemon,+['M1047'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1546.003,T1546.003,Windows Management Instrumentation Event Subscription,Windows Management Instrumentation Event Subscription,+['M1040'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1547.011,T1547.011,Plist Modification,Plist Modification,+['M1013'] -[],9.0→10.1
+9.0,10.1,RENAMED,T1557,T1557,Man-in-the-Middle,Adversary-in-the-Middle,Man-in-the-Middle → Adversary-in-the-Middle,9.0→10.1
+9.0,10.1,MAJOR_REVISION,T1557,T1557,Man-in-the-Middle,Adversary-in-the-Middle,v1.1 → v2.0,9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1562.002,T1562.002,Disable Windows Event Logging,Disable Windows Event Logging,+['M1047'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1567,T1567,Exfiltration Over Web Service,Exfiltration Over Web Service,+['M1057'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1569,T1569,System Services,System Services,+['M1040'] -[],9.0→10.1
+9.0,10.1,MITIGATION_CHANGED,T1569.002,T1569.002,Service Execution,Service Execution,+['M1040'] -[],9.0→10.1
+9.0,10.1,REFINED,T1027,T1027,Obfuscated Files or Information,Obfuscated Files or Information,+1 sub-technique (trước có 5),9.0→10.1
+9.0,10.1,REFINED,T1036,T1036,Masquerading,Masquerading,+1 sub-technique (trước có 6),9.0→10.1
+9.0,10.1,REFINED,T1213,T1213,Data from Information Repositories,Data from Information Repositories,+1 sub-technique (trước có 2),9.0→10.1
+9.0,10.1,REFINED,T1218,T1218,Signed Binary Proxy Execution,Signed Binary Proxy Execution,+2 sub-technique (trước có 11),9.0→10.1
+9.0,10.1,REFINED,T1505,T1505,Server Software Component,Server Software Component,+1 sub-technique (trước có 3),9.0→10.1
+9.0,10.1,REFINED,T1547,T1547,Boot or Logon Autostart Execution,Boot or Logon Autostart Execution,+1 sub-technique (trước có 14),9.0→10.1
+9.0,10.1,REFINED,T1562,T1562,Impair Defenses,Impair Defenses,+2 sub-technique (trước có 7),9.0→10.1
+9.0,10.1,REFINED,T1564,T1564,Hide Artifacts,Hide Artifacts,+2 sub-technique (trước có 7),9.0→10.1
+9.0,10.1,REFINED,T1614,T1614,System Location Discovery,System Location Discovery,+1 sub-technique (trước có 0),9.0→10.1
+10.1,11.3,ADDED,,T1055.015,,ListPlanting,sub-technique,10.1→11.3
+10.1,11.3,ADDED,,T1098.005,,Device Registration,sub-technique,10.1→11.3
+10.1,11.3,ADDED,,T1505.005,,Terminal Services DLL,sub-technique,10.1→11.3
+10.1,11.3,ADDED,,T1556.005,,Reversible Encryption,sub-technique,10.1→11.3
+10.1,11.3,ADDED,,T1557.003,,DHCP Spoofing,sub-technique,10.1→11.3
+10.1,11.3,ADDED,,T1559.003,,XPC Services,sub-technique,10.1→11.3
+10.1,11.3,ADDED,,T1564.010,,Process Argument Spoofing,sub-technique,10.1→11.3
+10.1,11.3,ADDED,,T1574.013,,KernelCallbackTable,sub-technique,10.1→11.3
+10.1,11.3,ADDED,,T1595.003,,Wordlist Scanning,sub-technique,10.1→11.3
+10.1,11.3,ADDED,,T1621,,Multi-Factor Authentication Request Generation,technique,10.1→11.3
+10.1,11.3,ADDED,,T1622,,Debugger Evasion,technique,10.1→11.3
+10.1,11.3,ADDED,,T1647,,Plist File Modification,technique,10.1→11.3
+10.1,11.3,REVOKED→EXISTING,T1053.001,T1053.002,At (Linux),At,T1053.001 → T1053.002,10.1→11.3
+10.1,11.3,REVOKED→NEW,T1547.011,T1647,Plist Modification,Plist File Modification,T1547.011 → T1647,10.1→11.3
+10.1,11.3,RENAMED,T1037.002,T1037.002,Logon Script (Mac),Login Hook,Logon Script (Mac) → Login Hook,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1037.002,T1037.002,Logon Script (Mac),Login Hook,v1.0 → v2.0,10.1→11.3
+10.1,11.3,MITIGATION_CHANGED,T1040,T1040,Network Sniffing,Network Sniffing,+['M1018'] -[],10.1→11.3
+10.1,11.3,RENAMED,T1046,T1046,Network Service Scanning,Network Service Discovery,Network Service Scanning → Network Service Discovery,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1046,T1046,Network Service Scanning,Network Service Discovery,v2.2 → v3.0,10.1→11.3
+10.1,11.3,RENAMED,T1048.003,T1048.003,Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol,Exfiltration Over Unencrypted Non-C2 Protocol,Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol → Exfiltration Over Unencrypted Non-C2 Protocol,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1048.003,T1048.003,Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol,Exfiltration Over Unencrypted Non-C2 Protocol,v1.1 → v2.0,10.1→11.3
+10.1,11.3,RENAMED,T1053.002,T1053.002,At (Windows),At,At (Windows) → At,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1053.002,T1053.002,At (Windows),At,v1.0 → v2.0,10.1→11.3
+10.1,11.3,MITIGATION_CHANGED,T1070.003,T1070.003,Clear Command History,Clear Command History,+['M1029'] -[],10.1→11.3
+10.1,11.3,MITIGATION_CHANGED,T1078,T1078,Valid Accounts,Valid Accounts,+['M1018'] -[],10.1→11.3
+10.1,11.3,RENAMED,T1098.002,T1098.002,Exchange Email Delegate Permissions,Additional Email Delegate Permissions,Exchange Email Delegate Permissions → Additional Email Delegate Permissions,10.1→11.3
+10.1,11.3,MITIGATION_CHANGED,T1098.002,T1098.002,Exchange Email Delegate Permissions,Additional Email Delegate Permissions,+['M1042'] -[],10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1098.002,T1098.002,Exchange Email Delegate Permissions,Additional Email Delegate Permissions,v1.1 → v2.0,10.1→11.3
+10.1,11.3,RENAMED,T1098.003,T1098.003,Add Office 365 Global Administrator Role,Additional Cloud Roles,Add Office 365 Global Administrator Role → Additional Cloud Roles,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1098.003,T1098.003,Add Office 365 Global Administrator Role,Additional Cloud Roles,v1.0 → v2.0,10.1→11.3
+10.1,11.3,MITIGATION_CHANGED,T1098.004,T1098.004,SSH Authorized Keys,SSH Authorized Keys,+['M1018'] -[],10.1→11.3
+10.1,11.3,MITIGATION_CHANGED,T1110.001,T1110.001,Password Guessing,Password Guessing,+['M1051'] -[],10.1→11.3
+10.1,11.3,RENAMED,T1111,T1111,Two-Factor Authentication Interception,Multi-Factor Authentication Interception,Two-Factor Authentication Interception → Multi-Factor Authentication Interception,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1111,T1111,Two-Factor Authentication Interception,Multi-Factor Authentication Interception,v1.1 → v2.0,10.1→11.3
+10.1,11.3,RENAMED,T1216,T1216,Signed Script Proxy Execution,System Script Proxy Execution,Signed Script Proxy Execution → System Script Proxy Execution,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1216,T1216,Signed Script Proxy Execution,System Script Proxy Execution,v1.1 → v2.0,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1216.001,T1216.001,PubPrn,PubPrn,v1.1 → v2.0,10.1→11.3
+10.1,11.3,RENAMED,T1218,T1218,Signed Binary Proxy Execution,System Binary Proxy Execution,Signed Binary Proxy Execution → System Binary Proxy Execution,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1218,T1218,Signed Binary Proxy Execution,System Binary Proxy Execution,v2.1 → v3.0,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1218.001,T1218.001,Compiled HTML File,Compiled HTML File,v1.0 → v2.0,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1218.002,T1218.002,Control Panel,Control Panel,v1.1 → v2.0,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1218.003,T1218.003,CMSTP,CMSTP,v1.0 → v2.0,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1218.004,T1218.004,InstallUtil,InstallUtil,v1.0 → v2.0,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1218.005,T1218.005,Mshta,Mshta,v1.1 → v2.0,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1218.007,T1218.007,Msiexec,Msiexec,v1.1 → v2.0,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1218.008,T1218.008,Odbcconf,Odbcconf,v1.0 → v2.0,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1218.009,T1218.009,Regsvcs/Regasm,Regsvcs/Regasm,v1.0 → v2.0,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1218.010,T1218.010,Regsvr32,Regsvr32,v1.0 → v2.0,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1218.011,T1218.011,Rundll32,Rundll32,v1.1 → v2.0,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1218.012,T1218.012,Verclsid,Verclsid,v1.0 → v2.0,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1218.013,T1218.013,Mavinject,Mavinject,v1.0 → v2.0,10.1→11.3
+10.1,11.3,MAJOR_REVISION,T1218.014,T1218.014,MMC,MMC,v1.0 → v2.0,10.1→11.3
+10.1,11.3,MITIGATION_CHANGED,T1505,T1505,Server Software Component,Server Software Component,+['M1024'] -[],10.1→11.3
+10.1,11.3,MITIGATION_CHANGED,T1542.002,T1542.002,Component Firmware,Component Firmware,+['M1051'] -[],10.1→11.3
+10.1,11.3,MITIGATION_CHANGED,T1543,T1543,Create or Modify System Process,Create or Modify System Process,"+['M1028', 'M1040', 'M1045'] -[]",10.1→11.3
+10.1,11.3,MITIGATION_CHANGED,T1543.001,T1543.001,Launch Agent,Launch Agent,+['M1022'] -[],10.1→11.3
+10.1,11.3,MITIGATION_CHANGED,T1543.003,T1543.003,Windows Service,Windows Service,"+['M1028', 'M1040', 'M1045'] -[]",10.1→11.3
+10.1,11.3,MITIGATION_CHANGED,T1547.006,T1547.006,Kernel Modules and Extensions,Kernel Modules and Extensions,+['M1018'] -[],10.1→11.3
+10.1,11.3,MITIGATION_CHANGED,T1552.007,T1552.007,Container API,Container API,+['M1018'] -[],10.1→11.3
+10.1,11.3,MITIGATION_CHANGED,T1553.005,T1553.005,Mark-of-the-Web Bypass,Mark-of-the-Web Bypass,+['M1042'] -[],10.1→11.3
+10.1,11.3,MITIGATION_CHANGED,T1556,T1556,Modify Authentication Process,Modify Authentication Process,+['M1027'] -[],10.1→11.3
+10.1,11.3,MITIGATION_CHANGED,T1559,T1559,Inter-Process Communication,Inter-Process Communication,+['M1013'] -[],10.1→11.3
+10.1,11.3,MITIGATION_CHANGED,T1566.002,T1566.002,Spearphishing Link,Spearphishing Link,"+['M1018', 'M1047'] -[]",10.1→11.3
+10.1,11.3,MITIGATION_CHANGED,T1574,T1574,Hijack Execution Flow,Hijack Execution Flow,+['M1040'] -[],10.1→11.3
+10.1,11.3,MITIGATION_CHANGED,T1609,T1609,Container Administration Command,Container Administration Command,+['M1018'] -[],10.1→11.3
+10.1,11.3,MITIGATION_CHANGED,T1610,T1610,Deploy Container,Deploy Container,+['M1047'] -[],10.1→11.3
+10.1,11.3,REFINED,T1055,T1055,Process Injection,Process Injection,+1 sub-technique (trước có 11),10.1→11.3
+10.1,11.3,REFINED,T1098,T1098,Account Manipulation,Account Manipulation,+1 sub-technique (trước có 4),10.1→11.3
+10.1,11.3,REFINED,T1505,T1505,Server Software Component,Server Software Component,+1 sub-technique (trước có 4),10.1→11.3
+10.1,11.3,REFINED,T1556,T1556,Modify Authentication Process,Modify Authentication Process,+1 sub-technique (trước có 4),10.1→11.3
+10.1,11.3,REFINED,T1557,T1557,Adversary-in-the-Middle,Adversary-in-the-Middle,+1 sub-technique (trước có 2),10.1→11.3
+10.1,11.3,REFINED,T1559,T1559,Inter-Process Communication,Inter-Process Communication,+1 sub-technique (trước có 2),10.1→11.3
+10.1,11.3,REFINED,T1564,T1564,Hide Artifacts,Hide Artifacts,+1 sub-technique (trước có 9),10.1→11.3
+10.1,11.3,REFINED,T1574,T1574,Hijack Execution Flow,Hijack Execution Flow,+1 sub-technique (trước có 11),10.1→11.3
+10.1,11.3,REFINED,T1595,T1595,Active Scanning,Active Scanning,+1 sub-technique (trước có 2),10.1→11.3
+11.3,12.1,ADDED,,T1027.007,,Dynamic API Resolution,sub-technique,11.3→12.1
+11.3,12.1,ADDED,,T1027.008,,Stripped Payloads,sub-technique,11.3→12.1
+11.3,12.1,ADDED,,T1027.009,,Embedded Payloads,sub-technique,11.3→12.1
+11.3,12.1,ADDED,,T1070.007,,Clear Network Connection History and Configurations,sub-technique,11.3→12.1
+11.3,12.1,ADDED,,T1070.008,,Clear Mailbox Data,sub-technique,11.3→12.1
+11.3,12.1,ADDED,,T1070.009,,Clear Persistence,sub-technique,11.3→12.1
+11.3,12.1,ADDED,,T1205.002,,Socket Filters,sub-technique,11.3→12.1
+11.3,12.1,ADDED,,T1546.016,,Installer Packages,sub-technique,11.3→12.1
+11.3,12.1,ADDED,,T1556.006,,Multi-Factor Authentication,sub-technique,11.3→12.1
+11.3,12.1,ADDED,,T1556.007,,Hybrid Identity,sub-technique,11.3→12.1
+11.3,12.1,ADDED,,T1583.007,,Serverless,sub-technique,11.3→12.1
+11.3,12.1,ADDED,,T1584.007,,Serverless,sub-technique,11.3→12.1
+11.3,12.1,ADDED,,T1585.003,,Cloud Accounts,sub-technique,11.3→12.1
+11.3,12.1,ADDED,,T1586.003,,Cloud Accounts,sub-technique,11.3→12.1
+11.3,12.1,ADDED,,T1593.003,,Code Repositories,sub-technique,11.3→12.1
+11.3,12.1,ADDED,,T1608.006,,SEO Poisoning,sub-technique,11.3→12.1
+11.3,12.1,ADDED,,T1648,,Serverless Execution,technique,11.3→12.1
+11.3,12.1,ADDED,,T1649,,Steal or Forge Authentication Certificates,technique,11.3→12.1
+11.3,12.1,RENAMED,T1070,T1070,Indicator Removal on Host,Indicator Removal,Indicator Removal on Host → Indicator Removal,11.3→12.1
+11.3,12.1,MAJOR_REVISION,T1070,T1070,Indicator Removal on Host,Indicator Removal,v1.3 → v2.0,11.3→12.1
+11.3,12.1,MITIGATION_CHANGED,T1098,T1098,Account Manipulation,Account Manipulation,+['M1018'] -[],11.3→12.1
+11.3,12.1,MITIGATION_CHANGED,T1098.001,T1098.001,Additional Cloud Credentials,Additional Cloud Credentials,+['M1018'] -[],11.3→12.1
+11.3,12.1,MITIGATION_CHANGED,T1098.003,T1098.003,Additional Cloud Roles,Additional Cloud Roles,+['M1018'] -[],11.3→12.1
+11.3,12.1,MITIGATION_CHANGED,T1199,T1199,Trusted Relationship,Trusted Relationship,"+['M1018', 'M1032'] -['M1052']",11.3→12.1
+11.3,12.1,RENAMED,T1530,T1530,Data from Cloud Storage Object,Data from Cloud Storage,Data from Cloud Storage Object → Data from Cloud Storage,11.3→12.1
+11.3,12.1,MAJOR_REVISION,T1530,T1530,Data from Cloud Storage Object,Data from Cloud Storage,v1.1 → v2.0,11.3→12.1
+11.3,12.1,MITIGATION_CHANGED,T1556,T1556,Modify Authentication Process,Modify Authentication Process,"+['M1018', 'M1047'] -[]",11.3→12.1
+11.3,12.1,MITIGATION_CHANGED,T1562,T1562,Impair Defenses,Impair Defenses,+['M1038'] -[],11.3→12.1
+11.3,12.1,MITIGATION_CHANGED,T1562.001,T1562.001,Disable or Modify Tools,Disable or Modify Tools,+['M1038'] -[],11.3→12.1
+11.3,12.1,MITIGATION_CHANGED,T1593,T1593,Search Open Websites/Domains,Search Open Websites/Domains,"+['M1013', 'M1047'] -['M1056']",11.3→12.1
+11.3,12.1,REFINED,T1027,T1027,Obfuscated Files or Information,Obfuscated Files or Information,+3 sub-technique (trước có 6),11.3→12.1
+11.3,12.1,REFINED,T1070,T1070,Indicator Removal on Host,Indicator Removal,+3 sub-technique (trước có 6),11.3→12.1
+11.3,12.1,REFINED,T1205,T1205,Traffic Signaling,Traffic Signaling,+1 sub-technique (trước có 1),11.3→12.1
+11.3,12.1,REFINED,T1546,T1546,Event Triggered Execution,Event Triggered Execution,+1 sub-technique (trước có 15),11.3→12.1
+11.3,12.1,REFINED,T1556,T1556,Modify Authentication Process,Modify Authentication Process,+2 sub-technique (trước có 5),11.3→12.1
+11.3,12.1,REFINED,T1583,T1583,Acquire Infrastructure,Acquire Infrastructure,+1 sub-technique (trước có 6),11.3→12.1
+11.3,12.1,REFINED,T1584,T1584,Compromise Infrastructure,Compromise Infrastructure,+1 sub-technique (trước có 6),11.3→12.1
+11.3,12.1,REFINED,T1585,T1585,Establish Accounts,Establish Accounts,+1 sub-technique (trước có 2),11.3→12.1
+11.3,12.1,REFINED,T1586,T1586,Compromise Accounts,Compromise Accounts,+1 sub-technique (trước có 2),11.3→12.1
+11.3,12.1,REFINED,T1593,T1593,Search Open Websites/Domains,Search Open Websites/Domains,+1 sub-technique (trước có 2),11.3→12.1
+11.3,12.1,REFINED,T1608,T1608,Stage Capabilities,Stage Capabilities,+1 sub-technique (trước có 5),11.3→12.1
+12.1,13.1,ADDED,,T1021.007,,Cloud Services,sub-technique,12.1→13.1
+12.1,13.1,ADDED,,T1027.010,,Command Obfuscation,sub-technique,12.1→13.1
+12.1,13.1,ADDED,,T1027.011,,Fileless Storage,sub-technique,12.1→13.1
+12.1,13.1,ADDED,,T1036.008,,Masquerade File Type,sub-technique,12.1→13.1
+12.1,13.1,ADDED,,T1059.009,,Cloud API,sub-technique,12.1→13.1
+12.1,13.1,ADDED,,T1552.008,,Chat Messages,sub-technique,12.1→13.1
+12.1,13.1,ADDED,,T1556.008,,Network Provider DLL,sub-technique,12.1→13.1
+12.1,13.1,ADDED,,T1562.011,,Spoof Security Alerting,sub-technique,12.1→13.1
+12.1,13.1,ADDED,,T1567.003,,Exfiltration to Text Storage Sites,sub-technique,12.1→13.1
+12.1,13.1,ADDED,,T1583.008,,Malvertising,sub-technique,12.1→13.1
+12.1,13.1,ADDED,,T1650,,Acquire Access,technique,12.1→13.1
+12.1,13.1,ADDED,,T1651,,Cloud Administration Command,technique,12.1→13.1
+12.1,13.1,ADDED,,T1652,,Device Driver Discovery,technique,12.1→13.1
+12.1,13.1,MITIGATION_CHANGED,T1020.001,T1020.001,Traffic Duplication,Traffic Duplication,+['M1018'] -[],12.1→13.1
+12.1,13.1,MITIGATION_CHANGED,T1027,T1027,Obfuscated Files or Information,Obfuscated Files or Information,+['M1047'] -[],12.1→13.1
+12.1,13.1,MITIGATION_CHANGED,T1036,T1036,Masquerading,Masquerading,"+['M1040', 'M1049'] -[]",12.1→13.1
+12.1,13.1,MITIGATION_CHANGED,T1048,T1048,Exfiltration Over Alternative Protocol,Exfiltration Over Alternative Protocol,"+['M1018', 'M1022'] -[]",12.1→13.1
+12.1,13.1,MITIGATION_CHANGED,T1070.008,T1070.008,Clear Mailbox Data,Clear Mailbox Data,+['M1047'] -[],12.1→13.1
+12.1,13.1,MITIGATION_CHANGED,T1078,T1078,Valid Accounts,Valid Accounts,"+['M1015', 'M1036'] -[]",12.1→13.1
+12.1,13.1,MITIGATION_CHANGED,T1078.004,T1078.004,Cloud Accounts,Cloud Accounts,"+['M1015', 'M1036'] -[]",12.1→13.1
+12.1,13.1,RENAMED,T1217,T1217,Browser Bookmark Discovery,Browser Information Discovery,Browser Bookmark Discovery → Browser Information Discovery,12.1→13.1
+12.1,13.1,MAJOR_REVISION,T1217,T1217,Browser Bookmark Discovery,Browser Information Discovery,v1.0 → v2.0,12.1→13.1
+12.1,13.1,MITIGATION_CHANGED,T1490,T1490,Inhibit System Recovery,Inhibit System Recovery,+['M1018'] -[],12.1→13.1
+12.1,13.1,MITIGATION_CHANGED,T1552,T1552,Unsecured Credentials,Unsecured Credentials,+['M1035'] -[],12.1→13.1
+12.1,13.1,MITIGATION_CHANGED,T1552.005,T1552.005,Cloud Instance Metadata API,Cloud Instance Metadata API,+['M1035'] -[],12.1→13.1
+12.1,13.1,MITIGATION_CHANGED,T1556,T1556,Modify Authentication Process,Modify Authentication Process,+['M1024'] -[],12.1→13.1
+12.1,13.1,MITIGATION_CHANGED,T1562,T1562,Impair Defenses,Impair Defenses,+['M1047'] -[],12.1→13.1
+12.1,13.1,MITIGATION_CHANGED,T1562.004,T1562.004,Disable or Modify System Firewall,Disable or Modify System Firewall,+['M1047'] -[],12.1→13.1
+12.1,13.1,MITIGATION_CHANGED,T1609,T1609,Container Administration Command,Container Administration Command,+['M1042'] -[],12.1→13.1
+12.1,13.1,MITIGATION_CHANGED,T1611,T1611,Escape to Host,Escape to Host,+['M1042'] -[],12.1→13.1
+12.1,13.1,REFINED,T1021,T1021,Remote Services,Remote Services,+1 sub-technique (trước có 6),12.1→13.1
+12.1,13.1,REFINED,T1027,T1027,Obfuscated Files or Information,Obfuscated Files or Information,+2 sub-technique (trước có 9),12.1→13.1
+12.1,13.1,REFINED,T1036,T1036,Masquerading,Masquerading,+1 sub-technique (trước có 7),12.1→13.1
+12.1,13.1,REFINED,T1059,T1059,Command and Scripting Interpreter,Command and Scripting Interpreter,+1 sub-technique (trước có 8),12.1→13.1
+12.1,13.1,REFINED,T1552,T1552,Unsecured Credentials,Unsecured Credentials,+1 sub-technique (trước có 7),12.1→13.1
+12.1,13.1,REFINED,T1556,T1556,Modify Authentication Process,Modify Authentication Process,+1 sub-technique (trước có 7),12.1→13.1
+12.1,13.1,REFINED,T1562,T1562,Impair Defenses,Impair Defenses,+1 sub-technique (trước có 9),12.1→13.1
+12.1,13.1,REFINED,T1567,T1567,Exfiltration Over Web Service,Exfiltration Over Web Service,+1 sub-technique (trước có 2),12.1→13.1
+12.1,13.1,REFINED,T1583,T1583,Acquire Infrastructure,Acquire Infrastructure,+1 sub-technique (trước có 7),12.1→13.1
+13.1,14.1,ADDED,,T1016.002,,Wi-Fi Discovery,sub-technique,13.1→14.1
+13.1,14.1,ADDED,,T1021.008,,Direct Cloud VM Connections,sub-technique,13.1→14.1
+13.1,14.1,ADDED,,T1027.012,,LNK Icon Smuggling,sub-technique,13.1→14.1
+13.1,14.1,ADDED,,T1036.009,,Break Process Trees,sub-technique,13.1→14.1
+13.1,14.1,ADDED,,T1098.006,,Additional Container Cluster Roles,sub-technique,13.1→14.1
+13.1,14.1,ADDED,,T1548.005,,Temporary Elevated Cloud Access,sub-technique,13.1→14.1
+13.1,14.1,ADDED,,T1555.006,,Cloud Secrets Management Stores,sub-technique,13.1→14.1
+13.1,14.1,ADDED,,T1562.012,,Disable or Modify Linux Audit System,sub-technique,13.1→14.1
+13.1,14.1,ADDED,,T1564.011,,Ignore Process Interrupts,sub-technique,13.1→14.1
+13.1,14.1,ADDED,,T1566.004,,Spearphishing Voice,sub-technique,13.1→14.1
+13.1,14.1,ADDED,,T1567.004,,Exfiltration Over Webhook,sub-technique,13.1→14.1
+13.1,14.1,ADDED,,T1578.005,,Modify Cloud Compute Configurations,sub-technique,13.1→14.1
+13.1,14.1,ADDED,,T1598.004,,Spearphishing Voice,sub-technique,13.1→14.1
+13.1,14.1,ADDED,,T1653,,Power Settings,technique,13.1→14.1
+13.1,14.1,ADDED,,T1654,,Log Enumeration,technique,13.1→14.1
+13.1,14.1,ADDED,,T1656,,Impersonation,technique,13.1→14.1
+13.1,14.1,ADDED,,T1657,,Financial Theft,technique,13.1→14.1
+13.1,14.1,ADDED,,T1659,,Content Injection,technique,13.1→14.1
+13.1,14.1,MITIGATION_CHANGED,T1006,T1006,Direct Volume Access,Direct Volume Access,"+['M1018', 'M1040'] -[]",13.1→14.1
+13.1,14.1,MITIGATION_CHANGED,T1011,T1011,Exfiltration Over Other Network Medium,Exfiltration Over Other Network Medium,+['M1042'] -[],13.1→14.1
+13.1,14.1,MITIGATION_CHANGED,T1021,T1021,Remote Services,Remote Services,+['M1042'] -[],13.1→14.1
+13.1,14.1,MITIGATION_CHANGED,T1027,T1027,Obfuscated Files or Information,Obfuscated Files or Information,+['M1017'] -[],13.1→14.1
+13.1,14.1,MITIGATION_CHANGED,T1027.006,T1027.006,HTML Smuggling,HTML Smuggling,+['M1048'] -[],13.1→14.1
+13.1,14.1,MITIGATION_CHANGED,T1036,T1036,Masquerading,Masquerading,+['M1017'] -[],13.1→14.1
+13.1,14.1,MITIGATION_CHANGED,T1040,T1040,Network Sniffing,Network Sniffing,+['M1030'] -[],13.1→14.1
+13.1,14.1,MITIGATION_CHANGED,T1072,T1072,Software Deployment Tools,Software Deployment Tools,+['M1033'] -[],13.1→14.1
+13.1,14.1,MITIGATION_CHANGED,T1080,T1080,Taint Shared Content,Taint Shared Content,+['M1049'] -[],13.1→14.1
+13.1,14.1,TACTIC_CHANGED,T1098,T1098,Account Manipulation,Account Manipulation,"['TA0003'] → ['TA0003', 'TA0004']",13.1→14.1
+13.1,14.1,TACTIC_CHANGED,T1098.001,T1098.001,Additional Cloud Credentials,Additional Cloud Credentials,"['TA0003'] → ['TA0003', 'TA0004']",13.1→14.1
+13.1,14.1,TACTIC_CHANGED,T1098.002,T1098.002,Additional Email Delegate Permissions,Additional Email Delegate Permissions,"['TA0003'] → ['TA0003', 'TA0004']",13.1→14.1
+13.1,14.1,TACTIC_CHANGED,T1098.003,T1098.003,Additional Cloud Roles,Additional Cloud Roles,"['TA0003'] → ['TA0003', 'TA0004']",13.1→14.1
+13.1,14.1,TACTIC_CHANGED,T1098.004,T1098.004,SSH Authorized Keys,SSH Authorized Keys,"['TA0003'] → ['TA0003', 'TA0004']",13.1→14.1
+13.1,14.1,TACTIC_CHANGED,T1098.005,T1098.005,Device Registration,Device Registration,"['TA0003'] → ['TA0003', 'TA0004']",13.1→14.1
+13.1,14.1,MITIGATION_CHANGED,T1212,T1212,Exploitation for Credential Access,Exploitation for Credential Access,+['M1013'] -[],13.1→14.1
+13.1,14.1,MAJOR_REVISION,T1547.001,T1547.001,Registry Run Keys / Startup Folder,Registry Run Keys / Startup Folder,v1.2 → v2.0,13.1→14.1
+13.1,14.1,MITIGATION_CHANGED,T1548,T1548,Abuse Elevation Control Mechanism,Abuse Elevation Control Mechanism,+['M1018'] -[],13.1→14.1
+13.1,14.1,MITIGATION_CHANGED,T1555,T1555,Credentials from Password Stores,Credentials from Password Stores,+['M1026'] -[],13.1→14.1
+13.1,14.1,MITIGATION_CHANGED,T1562,T1562,Impair Defenses,Impair Defenses,+['M1054'] -[],13.1→14.1
+13.1,14.1,RENAMED,T1562.008,T1562.008,Disable Cloud Logs,Disable or Modify Cloud Logs,Disable Cloud Logs → Disable or Modify Cloud Logs,13.1→14.1
+13.1,14.1,MAJOR_REVISION,T1562.008,T1562.008,Disable Cloud Logs,Disable or Modify Cloud Logs,v1.3 → v2.0,13.1→14.1
+13.1,14.1,MITIGATION_CHANGED,T1562.010,T1562.010,Downgrade Attack,Downgrade Attack,+['M1054'] -[],13.1→14.1
+13.1,14.1,REFINED,T1016,T1016,System Network Configuration Discovery,System Network Configuration Discovery,+1 sub-technique (trước có 1),13.1→14.1
+13.1,14.1,REFINED,T1021,T1021,Remote Services,Remote Services,+1 sub-technique (trước có 7),13.1→14.1
+13.1,14.1,REFINED,T1027,T1027,Obfuscated Files or Information,Obfuscated Files or Information,+1 sub-technique (trước có 11),13.1→14.1
+13.1,14.1,REFINED,T1036,T1036,Masquerading,Masquerading,+1 sub-technique (trước có 8),13.1→14.1
+13.1,14.1,REFINED,T1098,T1098,Account Manipulation,Account Manipulation,+1 sub-technique (trước có 5),13.1→14.1
+13.1,14.1,REFINED,T1548,T1548,Abuse Elevation Control Mechanism,Abuse Elevation Control Mechanism,+1 sub-technique (trước có 4),13.1→14.1
+13.1,14.1,REFINED,T1555,T1555,Credentials from Password Stores,Credentials from Password Stores,+1 sub-technique (trước có 5),13.1→14.1
+13.1,14.1,REFINED,T1562,T1562,Impair Defenses,Impair Defenses,+1 sub-technique (trước có 10),13.1→14.1
+13.1,14.1,REFINED,T1564,T1564,Hide Artifacts,Hide Artifacts,+1 sub-technique (trước có 10),13.1→14.1
+13.1,14.1,REFINED,T1566,T1566,Phishing,Phishing,+1 sub-technique (trước có 3),13.1→14.1
+13.1,14.1,REFINED,T1567,T1567,Exfiltration Over Web Service,Exfiltration Over Web Service,+1 sub-technique (trước có 3),13.1→14.1
+13.1,14.1,REFINED,T1578,T1578,Modify Cloud Compute Infrastructure,Modify Cloud Compute Infrastructure,+1 sub-technique (trước có 4),13.1→14.1
+13.1,14.1,REFINED,T1598,T1598,Phishing for Information,Phishing for Information,+1 sub-technique (trước có 3),13.1→14.1
+14.1,15.1,ADDED,,T1027.013,,Encrypted/Encoded File,sub-technique,14.1→15.1
+14.1,15.1,ADDED,,T1059.010,,AutoHotKey & AutoIT,sub-technique,14.1→15.1
+14.1,15.1,ADDED,,T1216.002,,SyncAppvPublishingServer,sub-technique,14.1→15.1
+14.1,15.1,ADDED,,T1218.015,,Electron Applications,sub-technique,14.1→15.1
+14.1,15.1,ADDED,,T1543.005,,Container Service,sub-technique,14.1→15.1
+14.1,15.1,ADDED,,T1548.006,,TCC Manipulation,sub-technique,14.1→15.1
+14.1,15.1,ADDED,,T1556.009,,Conditional Access Policies,sub-technique,14.1→15.1
+14.1,15.1,ADDED,,T1564.012,,File/Path Exclusions,sub-technique,14.1→15.1
+14.1,15.1,ADDED,,T1574.014,,AppDomainManager,sub-technique,14.1→15.1
+14.1,15.1,ADDED,,T1584.008,,Network Devices,sub-technique,14.1→15.1
+14.1,15.1,ADDED,,T1588.007,,Artificial Intelligence,sub-technique,14.1→15.1
+14.1,15.1,ADDED,,T1665,,Hide Infrastructure,technique,14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1021,T1021,Remote Services,Remote Services,"+['M1027', 'M1035', 'M1047'] -[]",14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1053,T1053,Scheduled Task/Job,Scheduled Task/Job,+['M1022'] -[],14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1071,T1071,Application Layer Protocol,Application Layer Protocol,+['M1037'] -[],14.1→15.1
+14.1,15.1,MAJOR_REVISION,T1072,T1072,Software Deployment Tools,Software Deployment Tools,v2.2 → v3.0,14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1087,T1087,Account Discovery,Account Discovery,+['M1018'] -[],14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1195,T1195,Supply Chain Compromise,Supply Chain Compromise,"+['M1013', 'M1033', 'M1046'] -[]",14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1195.001,T1195.001,Compromise Software Dependencies and Development Tools,Compromise Software Dependencies and Development Tools,"+['M1013', 'M1033'] -[]",14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1213,T1213,Data from Information Repositories,Data from Information Repositories,+['M1032'] -[],14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1218,T1218,System Binary Proxy Execution,System Binary Proxy Execution,"+['M1021', 'M1037'] -[]",14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1219,T1219,Remote Access Software,Remote Access Software,+['M1042'] -[],14.1→15.1
+14.1,15.1,RENAMED,T1484,T1484,Domain Policy Modification,Domain or Tenant Policy Modification,Domain Policy Modification → Domain or Tenant Policy Modification,14.1→15.1
+14.1,15.1,MAJOR_REVISION,T1484,T1484,Domain Policy Modification,Domain or Tenant Policy Modification,v2.0 → v3.0,14.1→15.1
+14.1,15.1,RENAMED,T1484.002,T1484.002,Domain Trust Modification,Trust Modification,Domain Trust Modification → Trust Modification,14.1→15.1
+14.1,15.1,MAJOR_REVISION,T1484.002,T1484.002,Domain Trust Modification,Trust Modification,v1.1 → v2.0,14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1490,T1490,Inhibit System Recovery,Inhibit System Recovery,+['M1038'] -[],14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1537,T1537,Transfer Data to Cloud Account,Transfer Data to Cloud Account,"+['M1054', 'M1057'] -['M1027']",14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1542,T1542,Pre-OS Boot,Pre-OS Boot,"+['M1035', 'M1047'] -[]",14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1543,T1543,Create or Modify System Process,Create or Modify System Process,"+['M1026', 'M1054'] -[]",14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1546,T1546,Event Triggered Execution,Event Triggered Execution,"+['M1026', 'M1051'] -[]",14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1548,T1548,Abuse Elevation Control Mechanism,Abuse Elevation Control Mechanism,+['M1051'] -[],14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1550,T1550,Use Alternate Authentication Material,Use Alternate Authentication Material,"+['M1013', 'M1015', 'M1027', 'M1047'] -[]",14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1550.001,T1550.001,Application Access Token,Application Access Token,+['M1013'] -[],14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1553,T1553,Subvert Trust Controls,Subvert Trust Controls,+['M1026'] -[],14.1→15.1
+14.1,15.1,RENAMED,T1554,T1554,Compromise Client Software Binary,Compromise Host Software Binary,Compromise Client Software Binary → Compromise Host Software Binary,14.1→15.1
+14.1,15.1,MAJOR_REVISION,T1554,T1554,Compromise Client Software Binary,Compromise Host Software Binary,v1.1 → v2.0,14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1555,T1555,Credentials from Password Stores,Credentials from Password Stores,+['M1051'] -[],14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1558,T1558,Steal or Forge Kerberos Tickets,Steal or Forge Kerberos Tickets,+['M1047'] -[],14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1563,T1563,Remote Service Session Hijacking,Remote Service Session Hijacking,+['M1027'] -[],14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1564,T1564,Hide Artifacts,Hide Artifacts,"+['M1013', 'M1033', 'M1049'] -[]",14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1564.003,T1564.003,Hidden Window,Hidden Window,+['M1033'] -[],14.1→15.1
+14.1,15.1,MITIGATION_CHANGED,T1566,T1566,Phishing,Phishing,+['M1047'] -[],14.1→15.1
+14.1,15.1,MAJOR_REVISION,T1651,T1651,Cloud Administration Command,Cloud Administration Command,v1.0 → v2.0,14.1→15.1
+14.1,15.1,REFINED,T1027,T1027,Obfuscated Files or Information,Obfuscated Files or Information,+1 sub-technique (trước có 12),14.1→15.1
+14.1,15.1,REFINED,T1059,T1059,Command and Scripting Interpreter,Command and Scripting Interpreter,+1 sub-technique (trước có 9),14.1→15.1
+14.1,15.1,REFINED,T1216,T1216,System Script Proxy Execution,System Script Proxy Execution,+1 sub-technique (trước có 1),14.1→15.1
+14.1,15.1,REFINED,T1218,T1218,System Binary Proxy Execution,System Binary Proxy Execution,+1 sub-technique (trước có 13),14.1→15.1
+14.1,15.1,REFINED,T1543,T1543,Create or Modify System Process,Create or Modify System Process,+1 sub-technique (trước có 4),14.1→15.1
+14.1,15.1,REFINED,T1548,T1548,Abuse Elevation Control Mechanism,Abuse Elevation Control Mechanism,+1 sub-technique (trước có 5),14.1→15.1
+14.1,15.1,REFINED,T1556,T1556,Modify Authentication Process,Modify Authentication Process,+1 sub-technique (trước có 8),14.1→15.1
+14.1,15.1,REFINED,T1564,T1564,Hide Artifacts,Hide Artifacts,+1 sub-technique (trước có 11),14.1→15.1
+14.1,15.1,REFINED,T1574,T1574,Hijack Execution Flow,Hijack Execution Flow,+1 sub-technique (trước có 12),14.1→15.1
+14.1,15.1,REFINED,T1584,T1584,Compromise Infrastructure,Compromise Infrastructure,+1 sub-technique (trước có 7),14.1→15.1
+14.1,15.1,REFINED,T1588,T1588,Obtain Capabilities,Obtain Capabilities,+1 sub-technique (trước có 6),14.1→15.1
+15.1,16.1,ADDED,,T1027.014,,Polymorphic Code,sub-technique,15.1→16.1
+15.1,16.1,ADDED,,T1036.010,,Masquerade Account Name,sub-technique,15.1→16.1
+15.1,16.1,ADDED,,T1059.011,,Lua,sub-technique,15.1→16.1
+15.1,16.1,ADDED,,T1070.010,,Relocate Malware,sub-technique,15.1→16.1
+15.1,16.1,ADDED,,T1071.005,,Publish/Subscribe Protocols,sub-technique,15.1→16.1
+15.1,16.1,ADDED,,T1098.007,,Additional Local or Domain Groups,sub-technique,15.1→16.1
+15.1,16.1,ADDED,,T1127.002,,ClickOnce,sub-technique,15.1→16.1
+15.1,16.1,ADDED,,T1213.004,,Customer Relationship Management Software,sub-technique,15.1→16.1
+15.1,16.1,ADDED,,T1213.005,,Messaging Applications,sub-technique,15.1→16.1
+15.1,16.1,ADDED,,T1480.002,,Mutual Exclusion,sub-technique,15.1→16.1
+15.1,16.1,ADDED,,T1485.001,,Lifecycle-Triggered Deletion,sub-technique,15.1→16.1
+15.1,16.1,ADDED,,T1496.001,,Compute Hijacking,sub-technique,15.1→16.1
+15.1,16.1,ADDED,,T1496.002,,Bandwidth Hijacking,sub-technique,15.1→16.1
+15.1,16.1,ADDED,,T1496.003,,SMS Pumping,sub-technique,15.1→16.1
+15.1,16.1,ADDED,,T1496.004,,Cloud Service Hijacking,sub-technique,15.1→16.1
+15.1,16.1,ADDED,,T1546.017,,Udev Rules,sub-technique,15.1→16.1
+15.1,16.1,ADDED,,T1557.004,,Evil Twin,sub-technique,15.1→16.1
+15.1,16.1,ADDED,,T1558.005,,Ccache Files,sub-technique,15.1→16.1
+15.1,16.1,ADDED,,T1666,,Modify Cloud Resource Hierarchy,technique,15.1→16.1
+15.1,16.1,RENAMED,T1001.003,T1001.003,Protocol Impersonation,Protocol or Service Impersonation,Protocol Impersonation → Protocol or Service Impersonation,15.1→16.1
+15.1,16.1,MAJOR_REVISION,T1001.003,T1001.003,Protocol Impersonation,Protocol or Service Impersonation,v1.0 → v2.0,15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1020.001,T1020.001,Traffic Duplication,Traffic Duplication,+['M1057'] -[],15.1→16.1
+15.1,16.1,MAJOR_REVISION,T1027.011,T1027.011,Fileless Storage,Fileless Storage,v1.0 → v2.0,15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1036,T1036,Masquerading,Masquerading,"+['M1018', 'M1047'] -[]",15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1059,T1059,Command and Scripting Interpreter,Command and Scripting Interpreter,"+['M1033', 'M1047'] -[]",15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1078,T1078,Valid Accounts,Valid Accounts,+['M1032'] -[],15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1078.001,T1078.001,Default Accounts,Default Accounts,+['M1032'] -[],15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1078.002,T1078.002,Domain Accounts,Domain Accounts,"+['M1018', 'M1027'] -[]",15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1078.003,T1078.003,Local Accounts,Local Accounts,"+['M1018', 'M1032'] -[]",15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1098,T1098,Account Manipulation,Account Manipulation,"+['M1022', 'M1042'] -[]",15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1098.001,T1098.001,Additional Cloud Credentials,Additional Cloud Credentials,+['M1042'] -[],15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1114,T1114,Email Collection,Email Collection,+['M1060'] -[],15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1114.001,T1114.001,Local Email Collection,Local Email Collection,+['M1060'] -[],15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1114.002,T1114.002,Remote Email Collection,Remote Email Collection,+['M1060'] -[],15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1114.003,T1114.003,Email Forwarding Rule,Email Forwarding Rule,+['M1060'] -[],15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1127,T1127,Trusted Developer Utilities Proxy Execution,Trusted Developer Utilities Proxy Execution,+['M1021'] -[],15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1195,T1195,Supply Chain Compromise,Supply Chain Compromise,+['M1018'] -[],15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1203,T1203,Exploitation for Client Execution,Exploitation for Client Execution,+['M1051'] -[],15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1213,T1213,Data from Information Repositories,Data from Information Repositories,"+['M1041', 'M1054', 'M1060'] -[]",15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1484.002,T1484.002,Trust Modification,Trust Modification,+['M1018'] -[],15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1485,T1485,Data Destruction,Data Destruction,"+['M1018', 'M1032'] -[]",15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1489,T1489,Service Stop,Service Stop,+['M1060'] -[],15.1→16.1
+15.1,16.1,MAJOR_REVISION,T1496,T1496,Resource Hijacking,Resource Hijacking,v1.5 → v2.0,15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1539,T1539,Steal Web Session Cookie,Steal Web Session Cookie,"+['M1021', 'M1047', 'M1051'] -[]",15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1547.009,T1547.009,Shortcut Modification,Shortcut Modification,"+['M1022', 'M1038'] -[]",15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1548.006,T1548.006,TCC Manipulation,TCC Manipulation,+[] -['M1051'],15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1550,T1550,Use Alternate Authentication Material,Use Alternate Authentication Material,+['M1036'] -[],15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1550.001,T1550.001,Application Access Token,Application Access Token,+['M1036'] -[],15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1555.003,T1555.003,Credentials from Web Browsers,Credentials from Web Browsers,"+['M1017', 'M1018', 'M1021', 'M1051'] -[]",15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1555.005,T1555.005,Password Managers,Password Managers,"+['M1017', 'M1018'] -[]",15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1556.001,T1556.001,Domain Controller Authentication,Domain Controller Authentication,+['M1017'] -[],15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1558,T1558,Steal or Forge Kerberos Tickets,Steal or Forge Kerberos Tickets,+['M1043'] -[],15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1566.001,T1566.001,Spearphishing Attachment,Spearphishing Attachment,"+['M1018', 'M1047'] -[]",15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1566.003,T1566.003,Spearphishing via Service,Spearphishing via Service,"+['M1018', 'M1047'] -[]",15.1→16.1
+15.1,16.1,MAJOR_REVISION,T1578.005,T1578.005,Modify Cloud Compute Configurations,Modify Cloud Compute Configurations,v1.0 → v2.0,15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1590.002,T1590.002,DNS,DNS,+['M1054'] -['M1056'],15.1→16.1
+15.1,16.1,MITIGATION_CHANGED,T1648,T1648,Serverless Execution,Serverless Execution,+['M1036'] -[],15.1→16.1
+15.1,16.1,REFINED,T1027,T1027,Obfuscated Files or Information,Obfuscated Files or Information,+1 sub-technique (trước có 13),15.1→16.1
+15.1,16.1,REFINED,T1036,T1036,Masquerading,Masquerading,+1 sub-technique (trước có 9),15.1→16.1
+15.1,16.1,REFINED,T1059,T1059,Command and Scripting Interpreter,Command and Scripting Interpreter,+1 sub-technique (trước có 10),15.1→16.1
+15.1,16.1,REFINED,T1070,T1070,Indicator Removal,Indicator Removal,+1 sub-technique (trước có 9),15.1→16.1
+15.1,16.1,REFINED,T1071,T1071,Application Layer Protocol,Application Layer Protocol,+1 sub-technique (trước có 4),15.1→16.1
+15.1,16.1,REFINED,T1098,T1098,Account Manipulation,Account Manipulation,+1 sub-technique (trước có 6),15.1→16.1
+15.1,16.1,REFINED,T1127,T1127,Trusted Developer Utilities Proxy Execution,Trusted Developer Utilities Proxy Execution,+1 sub-technique (trước có 1),15.1→16.1
+15.1,16.1,REFINED,T1213,T1213,Data from Information Repositories,Data from Information Repositories,+2 sub-technique (trước có 3),15.1→16.1
+15.1,16.1,REFINED,T1480,T1480,Execution Guardrails,Execution Guardrails,+1 sub-technique (trước có 1),15.1→16.1
+15.1,16.1,REFINED,T1485,T1485,Data Destruction,Data Destruction,+1 sub-technique (trước có 0),15.1→16.1
+15.1,16.1,REFINED,T1496,T1496,Resource Hijacking,Resource Hijacking,+4 sub-technique (trước có 0),15.1→16.1
+15.1,16.1,REFINED,T1546,T1546,Event Triggered Execution,Event Triggered Execution,+1 sub-technique (trước có 16),15.1→16.1
+15.1,16.1,REFINED,T1557,T1557,Adversary-in-the-Middle,Adversary-in-the-Middle,+1 sub-technique (trước có 3),15.1→16.1
+15.1,16.1,REFINED,T1558,T1558,Steal or Forge Kerberos Tickets,Steal or Forge Kerberos Tickets,+1 sub-technique (trước có 4),15.1→16.1
+16.1,17.1,ADDED,,T1027.015,,Compression,sub-technique,16.1→17.1
+16.1,17.1,ADDED,,T1027.016,,Junk Code Insertion,sub-technique,16.1→17.1
+16.1,17.1,ADDED,,T1027.017,,SVG Smuggling,sub-technique,16.1→17.1
+16.1,17.1,ADDED,,T1036.011,,Overwrite Process Arguments,sub-technique,16.1→17.1
+16.1,17.1,ADDED,,T1059.012,,Hypervisor CLI,sub-technique,16.1→17.1
+16.1,17.1,ADDED,,T1127.003,,JamPlus,sub-technique,16.1→17.1
+16.1,17.1,ADDED,,T1176.001,,Browser Extensions,sub-technique,16.1→17.1
+16.1,17.1,ADDED,,T1176.002,,IDE Extensions,sub-technique,16.1→17.1
+16.1,17.1,ADDED,,T1204.004,,Malicious Copy and Paste,sub-technique,16.1→17.1
+16.1,17.1,ADDED,,T1219.001,,IDE Tunneling,sub-technique,16.1→17.1
+16.1,17.1,ADDED,,T1219.002,,Remote Desktop Software,sub-technique,16.1→17.1
+16.1,17.1,ADDED,,T1219.003,,Remote Access Hardware,sub-technique,16.1→17.1
+16.1,17.1,ADDED,,T1505.006,,vSphere Installation Bundles,sub-technique,16.1→17.1
+16.1,17.1,ADDED,,T1564.013,,Bind Mounts,sub-technique,16.1→17.1
+16.1,17.1,ADDED,,T1564.014,,Extended Attributes,sub-technique,16.1→17.1
+16.1,17.1,ADDED,,T1569.003,,Systemctl,sub-technique,16.1→17.1
+16.1,17.1,ADDED,,T1667,,Email Bombing,technique,16.1→17.1
+16.1,17.1,ADDED,,T1668,,Exclusive Control,technique,16.1→17.1
+16.1,17.1,ADDED,,T1669,,Wi-Fi Networks,technique,16.1→17.1
+16.1,17.1,ADDED,,T1671,,Cloud Application Integration,technique,16.1→17.1
+16.1,17.1,ADDED,,T1672,,Email Spoofing,technique,16.1→17.1
+16.1,17.1,ADDED,,T1673,,Virtual Machine Discovery,technique,16.1→17.1
+16.1,17.1,ADDED,,T1674,,Input Injection,technique,16.1→17.1
+16.1,17.1,ADDED,,T1675,,ESXi Administration Command,technique,16.1→17.1
+16.1,17.1,REVOKED→EXISTING,T1574.002,T1574.001,DLL Side-Loading,DLL,T1574.002 → T1574.001,16.1→17.1
+16.1,17.1,RENAMED,T1036.003,T1036.003,Rename System Utilities,Rename Legitimate Utilities,Rename System Utilities → Rename Legitimate Utilities,16.1→17.1
+16.1,17.1,MAJOR_REVISION,T1036.003,T1036.003,Rename System Utilities,Rename Legitimate Utilities,v1.1 → v2.0,16.1→17.1
+16.1,17.1,RENAMED,T1036.005,T1036.005,Match Legitimate Name or Location,Match Legitimate Resource Name or Location,Match Legitimate Name or Location → Match Legitimate Resource Name or Location,16.1→17.1
+16.1,17.1,MAJOR_REVISION,T1036.005,T1036.005,Match Legitimate Name or Location,Match Legitimate Resource Name or Location,v1.2 → v2.0,16.1→17.1
+16.1,17.1,MITIGATION_CHANGED,T1095,T1095,Non-Application Layer Protocol,Non-Application Layer Protocol,+['M1047'] -[],16.1→17.1
+16.1,17.1,TACTIC_CHANGED,T1112,T1112,Modify Registry,Modify Registry,"['TA0005'] → ['TA0003', 'TA0005']",16.1→17.1
+16.1,17.1,MAJOR_REVISION,T1112,T1112,Modify Registry,Modify Registry,v1.4 → v2.0,16.1→17.1
+16.1,17.1,RENAMED,T1176,T1176,Browser Extensions,Software Extensions,Browser Extensions → Software Extensions,16.1→17.1
+16.1,17.1,MAJOR_REVISION,T1176,T1176,Browser Extensions,Software Extensions,v1.3 → v2.0,16.1→17.1
+16.1,17.1,MITIGATION_CHANGED,T1189,T1189,Drive-by Compromise,Drive-by Compromise,+['M1017'] -[],16.1→17.1
+16.1,17.1,MITIGATION_CHANGED,T1190,T1190,Exploit Public-Facing Application,Exploit Public-Facing Application,+['M1035'] -[],16.1→17.1
+16.1,17.1,RENAMED,T1219,T1219,Remote Access Software,Remote Access Tools,Remote Access Software → Remote Access Tools,16.1→17.1
+16.1,17.1,MITIGATION_CHANGED,T1219,T1219,Remote Access Software,Remote Access Tools,+['M1034'] -[],16.1→17.1
+16.1,17.1,MAJOR_REVISION,T1219,T1219,Remote Access Software,Remote Access Tools,v2.3 → v3.0,16.1→17.1
+16.1,17.1,MITIGATION_CHANGED,T1505,T1505,Server Software Component,Server Software Component,+['M1046'] -[],16.1→17.1
+16.1,17.1,MITIGATION_CHANGED,T1562,T1562,Impair Defenses,Impair Defenses,+['M1042'] -[],16.1→17.1
+16.1,17.1,MITIGATION_CHANGED,T1562.001,T1562.001,Disable or Modify Tools,Disable or Modify Tools,+['M1047'] -[],16.1→17.1
+16.1,17.1,MITIGATION_CHANGED,T1564,T1564,Hide Artifacts,Hide Artifacts,+['M1047'] -[],16.1→17.1
+16.1,17.1,MITIGATION_CHANGED,T1564.006,T1564.006,Run Virtual Instance,Run Virtual Instance,+['M1047'] -[],16.1→17.1
+16.1,17.1,RENAMED,T1574.001,T1574.001,DLL Search Order Hijacking,DLL,DLL Search Order Hijacking → DLL,16.1→17.1
+16.1,17.1,MITIGATION_CHANGED,T1574.001,T1574.001,DLL Search Order Hijacking,DLL,"+['M1013', 'M1051'] -[]",16.1→17.1
+16.1,17.1,MAJOR_REVISION,T1574.001,T1574.001,DLL Search Order Hijacking,DLL,v1.3 → v2.0,16.1→17.1
+16.1,17.1,MITIGATION_CHANGED,T1611,T1611,Escape to Host,Escape to Host,+['M1051'] -[],16.1→17.1
+16.1,17.1,REFINED,T1027,T1027,Obfuscated Files or Information,Obfuscated Files or Information,+3 sub-technique (trước có 14),16.1→17.1
+16.1,17.1,REFINED,T1036,T1036,Masquerading,Masquerading,+1 sub-technique (trước có 10),16.1→17.1
+16.1,17.1,REFINED,T1059,T1059,Command and Scripting Interpreter,Command and Scripting Interpreter,+1 sub-technique (trước có 11),16.1→17.1
+16.1,17.1,REFINED,T1127,T1127,Trusted Developer Utilities Proxy Execution,Trusted Developer Utilities Proxy Execution,+1 sub-technique (trước có 2),16.1→17.1
+16.1,17.1,REFINED,T1176,T1176,Browser Extensions,Software Extensions,+2 sub-technique (trước có 0),16.1→17.1
+16.1,17.1,REFINED,T1204,T1204,User Execution,User Execution,+1 sub-technique (trước có 3),16.1→17.1
+16.1,17.1,REFINED,T1219,T1219,Remote Access Software,Remote Access Tools,+3 sub-technique (trước có 0),16.1→17.1
+16.1,17.1,REFINED,T1505,T1505,Server Software Component,Server Software Component,+1 sub-technique (trước có 5),16.1→17.1
+16.1,17.1,REFINED,T1564,T1564,Hide Artifacts,Hide Artifacts,+2 sub-technique (trước có 12),16.1→17.1
+16.1,17.1,REFINED,T1569,T1569,System Services,System Services,+1 sub-technique (trước có 2),16.1→17.1
+17.1,18.1,ADDED,,T1036.012,,Browser Fingerprint,sub-technique,17.1→18.1
+17.1,18.1,ADDED,,T1059.013,,Container CLI/API,sub-technique,17.1→18.1
+17.1,18.1,ADDED,,T1204.005,,Malicious Library,sub-technique,17.1→18.1
+17.1,18.1,ADDED,,T1213.006,,Databases,sub-technique,17.1→18.1
+17.1,18.1,ADDED,,T1518.002,,Backup Software Discovery,sub-technique,17.1→18.1
+17.1,18.1,ADDED,,T1546.018,,Python Startup Hooks,sub-technique,17.1→18.1
+17.1,18.1,ADDED,,T1562.013,,Disable or Modify Network Device Firewall,sub-technique,17.1→18.1
+17.1,18.1,ADDED,,T1677,,Poisoned Pipeline Execution,technique,17.1→18.1
+17.1,18.1,ADDED,,T1678,,Delay Execution,technique,17.1→18.1
+17.1,18.1,ADDED,,T1679,,Selective Exclusion,technique,17.1→18.1
+17.1,18.1,ADDED,,T1680,,Local Storage Discovery,technique,17.1→18.1
+17.1,18.1,ADDED,,T1681,,Search Threat Vendor Data,technique,17.1→18.1
+17.1,18.1,MITIGATION_CHANGED,T1071.001,T1071.001,Web Protocols,Web Protocols,+['M1037'] -[],17.1→18.1
+17.1,18.1,MITIGATION_CHANGED,T1071.002,T1071.002,File Transfer Protocols,File Transfer Protocols,+['M1037'] -[],17.1→18.1
+17.1,18.1,MITIGATION_CHANGED,T1071.003,T1071.003,Mail Protocols,Mail Protocols,+['M1037'] -[],17.1→18.1
+17.1,18.1,MAJOR_REVISION,T1082,T1082,System Information Discovery,System Information Discovery,v2.6 → v3.0,17.1→18.1
+17.1,18.1,MITIGATION_CHANGED,T1105,T1105,Ingress Tool Transfer,Ingress Tool Transfer,+['M1037'] -[],17.1→18.1
+17.1,18.1,MITIGATION_CHANGED,T1133,T1133,External Remote Services,External Remote Services,+['M1021'] -[],17.1→18.1
+17.1,18.1,MITIGATION_CHANGED,T1190,T1190,Exploit Public-Facing Application,Exploit Public-Facing Application,+['M1037'] -[],17.1→18.1
+17.1,18.1,MITIGATION_CHANGED,T1204,T1204,User Execution,User Execution,+['M1033'] -[],17.1→18.1
+17.1,18.1,RENAMED,T1497.003,T1497.003,Time Based Evasion,Time Based Checks,Time Based Evasion → Time Based Checks,17.1→18.1
+17.1,18.1,MAJOR_REVISION,T1497.003,T1497.003,Time Based Evasion,Time Based Checks,v1.3 → v2.0,17.1→18.1
+17.1,18.1,RENAMED,T1552.003,T1552.003,Bash History,Shell History,Bash History → Shell History,17.1→18.1
+17.1,18.1,MAJOR_REVISION,T1552.003,T1552.003,Bash History,Shell History,v1.2 → v2.0,17.1→18.1
+17.1,18.1,MAJOR_REVISION,T1597.001,T1597.001,Threat Intel Vendors,Threat Intel Vendors,v1.0 → v2.0,17.1→18.1
+17.1,18.1,REFINED,T1036,T1036,Masquerading,Masquerading,+1 sub-technique (trước có 11),17.1→18.1
+17.1,18.1,REFINED,T1059,T1059,Command and Scripting Interpreter,Command and Scripting Interpreter,+1 sub-technique (trước có 12),17.1→18.1
+17.1,18.1,REFINED,T1204,T1204,User Execution,User Execution,+1 sub-technique (trước có 4),17.1→18.1
+17.1,18.1,REFINED,T1213,T1213,Data from Information Repositories,Data from Information Repositories,+1 sub-technique (trước có 5),17.1→18.1
+17.1,18.1,REFINED,T1518,T1518,Software Discovery,Software Discovery,+1 sub-technique (trước có 1),17.1→18.1
+17.1,18.1,REFINED,T1546,T1546,Event Triggered Execution,Event Triggered Execution,+1 sub-technique (trước có 17),17.1→18.1
+17.1,18.1,REFINED,T1562,T1562,Impair Defenses,Impair Defenses,+1 sub-technique (trước có 11),17.1→18.1
+18.1,19.0,ADDED,,T1027.018,,Invisible Unicode,sub-technique,18.1→19.0
+18.1,19.0,ADDED,,T1682,,Query Public AI Services,technique,18.1→19.0
+18.1,19.0,ADDED,,T1683,,Generate Content,technique,18.1→19.0
+18.1,19.0,ADDED,,T1683.001,,Written Content,sub-technique,18.1→19.0
+18.1,19.0,ADDED,,T1683.002,,Audio-Visual Content,sub-technique,18.1→19.0
+18.1,19.0,ADDED,,T1684,,Social Engineering,technique,18.1→19.0
+18.1,19.0,ADDED,,T1684.001,,Impersonation,sub-technique,18.1→19.0
+18.1,19.0,ADDED,,T1684.002,,Email Spoofing,sub-technique,18.1→19.0
+18.1,19.0,ADDED,,T1685,,Disable or Modify Tools,technique,18.1→19.0
+18.1,19.0,ADDED,,T1685.001,,Disable or Modify Windows Event Log,sub-technique,18.1→19.0
+18.1,19.0,ADDED,,T1685.002,,Disable or Modify Cloud Log,sub-technique,18.1→19.0
+18.1,19.0,ADDED,,T1685.003,,Modify or Spoof Tool UI,sub-technique,18.1→19.0
+18.1,19.0,ADDED,,T1685.004,,Disable or Modify Linux Audit System Log,sub-technique,18.1→19.0
+18.1,19.0,ADDED,,T1685.005,,Clear Windows Event Logs,sub-technique,18.1→19.0
+18.1,19.0,ADDED,,T1685.006,,Clear Linux or Mac System Logs,sub-technique,18.1→19.0
+18.1,19.0,ADDED,,T1686,,Disable or Modify System Firewall,technique,18.1→19.0
+18.1,19.0,ADDED,,T1686.001,,Cloud Firewall,sub-technique,18.1→19.0
+18.1,19.0,ADDED,,T1686.002,,Network Device Firewall,sub-technique,18.1→19.0
+18.1,19.0,ADDED,,T1686.003,,Windows Host Firewall,sub-technique,18.1→19.0
+18.1,19.0,ADDED,,T1687,,Exploitation for Defense Impairment,technique,18.1→19.0
+18.1,19.0,ADDED,,T1688,,Safe Mode Boot,technique,18.1→19.0
+18.1,19.0,ADDED,,T1689,,Downgrade Attack,technique,18.1→19.0
+18.1,19.0,ADDED,,T1690,,Prevent Command History Logging,technique,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1070.001,T1685.005,Clear Windows Event Logs,Clear Windows Event Logs,T1070.001 → T1685.005,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1070.002,T1685.006,Clear Linux or Mac System Logs,Clear Linux or Mac System Logs,T1070.002 → T1685.006,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562,T1685,Impair Defenses,Disable or Modify Tools,T1562 → T1685,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.001,T1685,Disable or Modify Tools,Disable or Modify Tools,T1562.001 → T1685,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.002,T1685.001,Disable Windows Event Logging,Disable or Modify Windows Event Log,T1562.002 → T1685.001,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.003,T1690,Impair Command History Logging,Prevent Command History Logging,T1562.003 → T1690,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.004,T1686,Disable or Modify System Firewall,Disable or Modify System Firewall,T1562.004 → T1686,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.006,T1685,Indicator Blocking,Disable or Modify Tools,T1562.006 → T1685,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.007,T1686.001,Disable or Modify Cloud Firewall,Cloud Firewall,T1562.007 → T1686.001,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.008,T1685.002,Disable or Modify Cloud Logs,Disable or Modify Cloud Log,T1562.008 → T1685.002,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.009,T1688,Safe Mode Boot,Safe Mode Boot,T1562.009 → T1688,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.010,T1689,Downgrade Attack,Downgrade Attack,T1562.010 → T1689,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.011,T1685.003,Spoof Security Alerting,Modify or Spoof Tool UI,T1562.011 → T1685.003,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.012,T1685.004,Disable or Modify Linux Audit System,Disable or Modify Linux Audit System Log,T1562.012 → T1685.004,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1562.013,T1686.002,Disable or Modify Network Device Firewall,Network Device Firewall,T1562.013 → T1686.002,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1656,T1684.001,Impersonation,Impersonation,T1656 → T1684.001,18.1→19.0
+18.1,19.0,REVOKED→NEW,T1672,T1684.002,Email Spoofing,Email Spoofing,T1672 → T1684.002,18.1→19.0
+18.1,19.0,MERGE,"T1562,T1562.001,T1562.006",T1685,,Disable or Modify Tools,3 mã gộp vào T1685,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1006,T1006,Direct Volume Access,Direct Volume Access,v2.3 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1014,T1014,Rootkit,Rootkit,v1.3 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1027,T1027,Obfuscated Files or Information,Obfuscated Files or Information,v1.7 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1027.001,T1027.001,Binary Padding,Binary Padding,v1.3 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1027.002,T1027.002,Software Packing,Software Packing,v1.3 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1027.003,T1027.003,Steganography,Steganography,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1027.004,T1027.004,Compile After Delivery,Compile After Delivery,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1027.005,T1027.005,Indicator Removal from Tools,Indicator Removal from Tools,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1027.006,T1027.006,HTML Smuggling,HTML Smuggling,v1.3 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1027.007,T1027.007,Dynamic API Resolution,Dynamic API Resolution,v1.0 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1027.008,T1027.008,Stripped Payloads,Stripped Payloads,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1027.009,T1027.009,Embedded Payloads,Embedded Payloads,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1027.010,T1027.010,Command Obfuscation,Command Obfuscation,v1.0 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1027.011,T1027.011,Fileless Storage,Fileless Storage,v2.1 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1027.012,T1027.012,LNK Icon Smuggling,LNK Icon Smuggling,v1.0 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1027.013,T1027.013,Encrypted/Encoded File,Encrypted/Encoded File,v1.1 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1027.014,T1027.014,Polymorphic Code,Polymorphic Code,v1.1 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1027.015,T1027.015,Compression,Compression,v1.0 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1027.016,T1027.016,Junk Code Insertion,Junk Code Insertion,v1.0 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1027.017,T1027.017,SVG Smuggling,SVG Smuggling,v1.0 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1036,T1036,Masquerading,Masquerading,v1.8 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1036.001,T1036.001,Invalid Code Signature,Invalid Code Signature,v1.0 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1036.002,T1036.002,Right-to-Left Override,Right-to-Left Override,v1.1 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1036.003,T1036.003,Rename Legitimate Utilities,Rename Legitimate Utilities,v2.0 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1036.004,T1036.004,Masquerade Task or Service,Masquerade Task or Service,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1036.005,T1036.005,Match Legitimate Resource Name or Location,Match Legitimate Resource Name or Location,v2.0 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1036.006,T1036.006,Space after Filename,Space after Filename,v1.1 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1036.007,T1036.007,Double File Extension,Double File Extension,v1.0 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1036.008,T1036.008,Masquerade File Type,Masquerade File Type,v1.1 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1036.009,T1036.009,Break Process Trees,Break Process Trees,v1.0 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1036.010,T1036.010,Masquerade Account Name,Masquerade Account Name,v1.0 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1036.011,T1036.011,Overwrite Process Arguments,Overwrite Process Arguments,v1.0 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1036.012,T1036.012,Browser Fingerprint,Browser Fingerprint,v1.0 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1055,T1055,Process Injection,Process Injection,v1.4 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1055.001,T1055.001,Dynamic-link Library Injection,Dynamic-link Library Injection,v1.4 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1055.002,T1055.002,Portable Executable Injection,Portable Executable Injection,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1055.003,T1055.003,Thread Execution Hijacking,Thread Execution Hijacking,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1055.004,T1055.004,Asynchronous Procedure Call,Asynchronous Procedure Call,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1055.005,T1055.005,Thread Local Storage,Thread Local Storage,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1055.008,T1055.008,Ptrace System Calls,Ptrace System Calls,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1055.009,T1055.009,Proc Memory,Proc Memory,v1.1 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1055.011,T1055.011,Extra Window Memory Injection,Extra Window Memory Injection,v1.1 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1055.012,T1055.012,Process Hollowing,Process Hollowing,v1.4 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1055.013,T1055.013,Process Doppelgänging,Process Doppelgänging,v1.1 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1055.014,T1055.014,VDSO Hijacking,VDSO Hijacking,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1055.015,T1055.015,ListPlanting,ListPlanting,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1070,T1070,Indicator Removal,Indicator Removal,v2.4 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1070.003,T1070.003,Clear Command History,Clear Command History,v1.6 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1070.004,T1070.004,File Deletion,File Deletion,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1070.005,T1070.005,Network Share Connection Removal,Network Share Connection Removal,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1070.006,T1070.006,Timestomp,Timestomp,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1070.007,T1070.007,Clear Network Connection History and Configurations,Clear Network Connection History and Configurations,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1070.008,T1070.008,Clear Mailbox Data,Clear Mailbox Data,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1070.009,T1070.009,Clear Persistence,Clear Persistence,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1070.010,T1070.010,Relocate Malware,Relocate Malware,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1078,T1078,Valid Accounts,Valid Accounts,v2.8 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1078.001,T1078.001,Default Accounts,Default Accounts,v1.5 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1078.002,T1078.002,Domain Accounts,Domain Accounts,v1.5 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1078.003,T1078.003,Local Accounts,Local Accounts,v1.5 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1078.004,T1078.004,Cloud Accounts,Cloud Accounts,v1.9 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1112,T1112,Modify Registry,Modify Registry,"['TA0003', 'TA0005'] → ['TA0003', 'TA0112']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1112,T1112,Modify Registry,Modify Registry,v2.0 → v3.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1127,T1127,Trusted Developer Utilities Proxy Execution,Trusted Developer Utilities Proxy Execution,"['TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1127,T1127,Trusted Developer Utilities Proxy Execution,Trusted Developer Utilities Proxy Execution,v1.3 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1127.001,T1127.001,MSBuild,MSBuild,"['TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1127.001,T1127.001,MSBuild,MSBuild,v1.4 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1127.002,T1127.002,ClickOnce,ClickOnce,"['TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1127.002,T1127.002,ClickOnce,ClickOnce,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1127.003,T1127.003,JamPlus,JamPlus,"['TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1127.003,T1127.003,JamPlus,JamPlus,v1.0 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1134,T1134,Access Token Manipulation,Access Token Manipulation,v2.1 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1134.001,T1134.001,Token Impersonation/Theft,Token Impersonation/Theft,v1.3 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1134.002,T1134.002,Create Process with Token,Create Process with Token,v1.3 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1134.003,T1134.003,Make and Impersonate Token,Make and Impersonate Token,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1134.004,T1134.004,Parent PID Spoofing,Parent PID Spoofing,v1.1 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1134.005,T1134.005,SID-History Injection,SID-History Injection,v1.1 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1140,T1140,Deobfuscate/Decode Files or Information,Deobfuscate/Decode Files or Information,v1.4 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1197,T1197,BITS Jobs,BITS Jobs,"['TA0003', 'TA0005'] → ['TA0002', 'TA0003', 'TA0005']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1197,T1197,BITS Jobs,BITS Jobs,v1.5 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1202,T1202,Indirect Command Execution,Indirect Command Execution,v1.3 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1205,T1205,Traffic Signaling,Traffic Signaling,v2.5 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1205.001,T1205.001,Port Knocking,Port Knocking,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1205.002,T1205.002,Socket Filters,Socket Filters,v1.0 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1207,T1207,Rogue Domain Controller,Rogue Domain Controller,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1207,T1207,Rogue Domain Controller,Rogue Domain Controller,v2.2 → v3.0,18.1→19.0
+18.1,19.0,RENAMED,T1211,T1211,Exploitation for Defense Evasion,Exploitation for Stealth,Exploitation for Defense Evasion → Exploitation for Stealth,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1211,T1211,Exploitation for Defense Evasion,Exploitation for Stealth,v1.5 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1216,T1216,System Script Proxy Execution,System Script Proxy Execution,v2.1 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1216.001,T1216.001,PubPrn,PubPrn,v2.1 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1216.002,T1216.002,SyncAppvPublishingServer,SyncAppvPublishingServer,v1.0 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1218,T1218,System Binary Proxy Execution,System Binary Proxy Execution,v3.2 → v4.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1218.001,T1218.001,Compiled HTML File,Compiled HTML File,v2.2 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1218.002,T1218.002,Control Panel,Control Panel,v2.1 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1218.003,T1218.003,CMSTP,CMSTP,v2.2 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1218.004,T1218.004,InstallUtil,InstallUtil,v2.1 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1218.005,T1218.005,Mshta,Mshta,v2.1 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1218.007,T1218.007,Msiexec,Msiexec,v2.1 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1218.008,T1218.008,Odbcconf,Odbcconf,v2.1 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1218.009,T1218.009,Regsvcs/Regasm,Regsvcs/Regasm,v2.1 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1218.010,T1218.010,Regsvr32,Regsvr32,v2.2 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1218.011,T1218.011,Rundll32,Rundll32,v2.5 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1218.012,T1218.012,Verclsid,Verclsid,v2.1 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1218.013,T1218.013,Mavinject,Mavinject,v2.0 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1218.014,T1218.014,MMC,MMC,v2.1 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1218.015,T1218.015,Electron Applications,Electron Applications,v1.0 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1220,T1220,XSL Script Processing,XSL Script Processing,v1.3 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1221,T1221,Template Injection,Template Injection,v1.4 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1222,T1222,File and Directory Permissions Modification,File and Directory Permissions Modification,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1222,T1222,File and Directory Permissions Modification,File and Directory Permissions Modification,v2.3 → v3.0,18.1→19.0
+18.1,19.0,RENAMED,T1222.001,T1222.001,Windows File and Directory Permissions Modification,Windows Permissions,Windows File and Directory Permissions Modification → Windows Permissions,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1222.001,T1222.001,Windows File and Directory Permissions Modification,Windows Permissions,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1222.001,T1222.001,Windows File and Directory Permissions Modification,Windows Permissions,v1.2 → v2.0,18.1→19.0
+18.1,19.0,RENAMED,T1222.002,T1222.002,Linux and Mac File and Directory Permissions Modification,Linux and Mac Permissions,Linux and Mac File and Directory Permissions Modification → Linux and Mac Permissions,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1222.002,T1222.002,Linux and Mac File and Directory Permissions Modification,Linux and Mac Permissions,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1222.002,T1222.002,Linux and Mac File and Directory Permissions Modification,Linux and Mac Permissions,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1480,T1480,Execution Guardrails,Execution Guardrails,v1.3 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1480.001,T1480.001,Environmental Keying,Environmental Keying,v1.1 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1480.002,T1480.002,Mutual Exclusion,Mutual Exclusion,v1.0 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1484,T1484,Domain or Tenant Policy Modification,Domain or Tenant Policy Modification,"['TA0004', 'TA0005'] → ['TA0004', 'TA0112']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1484,T1484,Domain or Tenant Policy Modification,Domain or Tenant Policy Modification,v3.2 → v4.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1484.001,T1484.001,Group Policy Modification,Group Policy Modification,"['TA0004', 'TA0005'] → ['TA0004', 'TA0112']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1484.001,T1484.001,Group Policy Modification,Group Policy Modification,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1484.002,T1484.002,Trust Modification,Trust Modification,"['TA0004', 'TA0005'] → ['TA0004', 'TA0112']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1484.002,T1484.002,Trust Modification,Trust Modification,v2.2 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1497,T1497,Virtualization/Sandbox Evasion,Virtualization/Sandbox Evasion,v1.4 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1497.001,T1497.001,System Checks,System Checks,v2.3 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1497.002,T1497.002,User Activity Based Checks,User Activity Based Checks,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1497.003,T1497.003,Time Based Checks,Time Based Checks,v2.0 → v3.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1535,T1535,Unused/Unsupported Cloud Regions,Unused/Unsupported Cloud Regions,v1.1 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1542,T1542,Pre-OS Boot,Pre-OS Boot,v1.3 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1542.001,T1542.001,System Firmware,System Firmware,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1542.002,T1542.002,Component Firmware,Component Firmware,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1542.003,T1542.003,Bootkit,Bootkit,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1542.004,T1542.004,ROMMONkit,ROMMONkit,v1.1 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1542.005,T1542.005,TFTP Boot,TFTP Boot,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1548,T1548,Abuse Elevation Control Mechanism,Abuse Elevation Control Mechanism,"['TA0004', 'TA0005'] → ['TA0004']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1548,T1548,Abuse Elevation Control Mechanism,Abuse Elevation Control Mechanism,v1.5 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1548.001,T1548.001,Setuid and Setgid,Setuid and Setgid,"['TA0004', 'TA0005'] → ['TA0004']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1548.001,T1548.001,Setuid and Setgid,Setuid and Setgid,v1.2 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1548.002,T1548.002,Bypass User Account Control,Bypass User Account Control,"['TA0004', 'TA0005'] → ['TA0004']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1548.002,T1548.002,Bypass User Account Control,Bypass User Account Control,v2.2 → v3.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1548.003,T1548.003,Sudo and Sudo Caching,Sudo and Sudo Caching,"['TA0004', 'TA0005'] → ['TA0004']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1548.003,T1548.003,Sudo and Sudo Caching,Sudo and Sudo Caching,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1548.004,T1548.004,Elevated Execution with Prompt,Elevated Execution with Prompt,"['TA0004', 'TA0005'] → ['TA0004']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1548.004,T1548.004,Elevated Execution with Prompt,Elevated Execution with Prompt,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1548.005,T1548.005,Temporary Elevated Cloud Access,Temporary Elevated Cloud Access,"['TA0004', 'TA0005'] → ['TA0004']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1548.005,T1548.005,Temporary Elevated Cloud Access,Temporary Elevated Cloud Access,v1.2 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1548.006,T1548.006,TCC Manipulation,TCC Manipulation,"['TA0004', 'TA0005'] → ['TA0004']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1548.006,T1548.006,TCC Manipulation,TCC Manipulation,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1550,T1550,Use Alternate Authentication Material,Use Alternate Authentication Material,"['TA0005', 'TA0008'] → ['TA0008']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1550,T1550,Use Alternate Authentication Material,Use Alternate Authentication Material,v1.5 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1550.001,T1550.001,Application Access Token,Application Access Token,"['TA0005', 'TA0008'] → ['TA0008']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1550.001,T1550.001,Application Access Token,Application Access Token,v1.8 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1550.002,T1550.002,Pass the Hash,Pass the Hash,"['TA0005', 'TA0008'] → ['TA0008']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1550.002,T1550.002,Pass the Hash,Pass the Hash,v1.3 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1550.003,T1550.003,Pass the Ticket,Pass the Ticket,"['TA0005', 'TA0008'] → ['TA0008']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1550.003,T1550.003,Pass the Ticket,Pass the Ticket,v1.2 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1550.004,T1550.004,Web Session Cookie,Web Session Cookie,"['TA0005', 'TA0008'] → ['TA0008']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1550.004,T1550.004,Web Session Cookie,Web Session Cookie,v1.5 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1553,T1553,Subvert Trust Controls,Subvert Trust Controls,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1553,T1553,Subvert Trust Controls,Subvert Trust Controls,v1.3 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1553.001,T1553.001,Gatekeeper Bypass,Gatekeeper Bypass,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1553.001,T1553.001,Gatekeeper Bypass,Gatekeeper Bypass,v1.3 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1553.002,T1553.002,Code Signing,Code Signing,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1553.002,T1553.002,Code Signing,Code Signing,v1.2 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1553.003,T1553.003,SIP and Trust Provider Hijacking,SIP and Trust Provider Hijacking,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1553.003,T1553.003,SIP and Trust Provider Hijacking,SIP and Trust Provider Hijacking,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1553.004,T1553.004,Install Root Certificate,Install Root Certificate,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1553.004,T1553.004,Install Root Certificate,Install Root Certificate,v1.3 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1553.005,T1553.005,Mark-of-the-Web Bypass,Mark-of-the-Web Bypass,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1553.005,T1553.005,Mark-of-the-Web Bypass,Mark-of-the-Web Bypass,v1.2 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1553.006,T1553.006,Code Signing Policy Modification,Code Signing Policy Modification,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1553.006,T1553.006,Code Signing Policy Modification,Code Signing Policy Modification,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1556,T1556,Modify Authentication Process,Modify Authentication Process,"['TA0003', 'TA0005', 'TA0006'] → ['TA0003', 'TA0006', 'TA0112']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1556,T1556,Modify Authentication Process,Modify Authentication Process,v2.6 → v3.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1556.001,T1556.001,Domain Controller Authentication,Domain Controller Authentication,"['TA0003', 'TA0005', 'TA0006'] → ['TA0003', 'TA0006', 'TA0112']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1556.001,T1556.001,Domain Controller Authentication,Domain Controller Authentication,v2.1 → v3.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1556.002,T1556.002,Password Filter DLL,Password Filter DLL,"['TA0003', 'TA0005', 'TA0006'] → ['TA0003', 'TA0006', 'TA0112']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1556.002,T1556.002,Password Filter DLL,Password Filter DLL,v2.1 → v3.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1556.003,T1556.003,Pluggable Authentication Modules,Pluggable Authentication Modules,"['TA0003', 'TA0005', 'TA0006'] → ['TA0003', 'TA0006', 'TA0112']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1556.003,T1556.003,Pluggable Authentication Modules,Pluggable Authentication Modules,v2.1 → v3.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1556.004,T1556.004,Network Device Authentication,Network Device Authentication,"['TA0003', 'TA0005', 'TA0006'] → ['TA0003', 'TA0006', 'TA0112']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1556.004,T1556.004,Network Device Authentication,Network Device Authentication,v2.1 → v3.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1556.005,T1556.005,Reversible Encryption,Reversible Encryption,"['TA0003', 'TA0005', 'TA0006'] → ['TA0003', 'TA0006', 'TA0112']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1556.005,T1556.005,Reversible Encryption,Reversible Encryption,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1556.006,T1556.006,Multi-Factor Authentication,Multi-Factor Authentication,"['TA0003', 'TA0005', 'TA0006'] → ['TA0003', 'TA0006', 'TA0112']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1556.006,T1556.006,Multi-Factor Authentication,Multi-Factor Authentication,v1.4 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1556.007,T1556.007,Hybrid Identity,Hybrid Identity,"['TA0003', 'TA0005', 'TA0006'] → ['TA0003', 'TA0006', 'TA0112']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1556.007,T1556.007,Hybrid Identity,Hybrid Identity,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1556.008,T1556.008,Network Provider DLL,Network Provider DLL,"['TA0003', 'TA0005', 'TA0006'] → ['TA0003', 'TA0006', 'TA0112']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1556.008,T1556.008,Network Provider DLL,Network Provider DLL,v1.0 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1556.009,T1556.009,Conditional Access Policies,Conditional Access Policies,"['TA0003', 'TA0005', 'TA0006'] → ['TA0003', 'TA0006', 'TA0112']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1556.009,T1556.009,Conditional Access Policies,Conditional Access Policies,v1.1 → v2.0,18.1→19.0
+18.1,19.0,RENAMED,T1557.001,T1557.001,LLMNR/NBT-NS Poisoning and SMB Relay,Name Resolution Poisoning and SMB Relay,LLMNR/NBT-NS Poisoning and SMB Relay → Name Resolution Poisoning and SMB Relay,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1557.001,T1557.001,LLMNR/NBT-NS Poisoning and SMB Relay,Name Resolution Poisoning and SMB Relay,v1.4 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1564,T1564,Hide Artifacts,Hide Artifacts,v1.4 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1564.001,T1564.001,Hidden Files and Directories,Hidden Files and Directories,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1564.002,T1564.002,Hidden Users,Hidden Users,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1564.003,T1564.003,Hidden Window,Hidden Window,v1.4 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1564.004,T1564.004,NTFS File Attributes,NTFS File Attributes,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1564.005,T1564.005,Hidden File System,Hidden File System,v1.1 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1564.006,T1564.006,Run Virtual Instance,Run Virtual Instance,v1.3 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1564.007,T1564.007,VBA Stomping,VBA Stomping,v1.2 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1564.008,T1564.008,Email Hiding Rules,Email Hiding Rules,v1.4 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1564.009,T1564.009,Resource Forking,Resource Forking,v1.1 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1564.010,T1564.010,Process Argument Spoofing,Process Argument Spoofing,v1.1 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1564.011,T1564.011,Ignore Process Interrupts,Ignore Process Interrupts,v1.0 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1564.012,T1564.012,File/Path Exclusions,File/Path Exclusions,v1.0 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1564.013,T1564.013,Bind Mounts,Bind Mounts,v1.0 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1564.014,T1564.014,Extended Attributes,Extended Attributes,v1.0 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574,T1574,Hijack Execution Flow,Hijack Execution Flow,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1574,T1574,Hijack Execution Flow,Hijack Execution Flow,v1.3 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.001,T1574.001,DLL,DLL,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1574.001,T1574.001,DLL,DLL,v2.1 → v3.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.004,T1574.004,Dylib Hijacking,Dylib Hijacking,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1574.004,T1574.004,Dylib Hijacking,Dylib Hijacking,v2.1 → v3.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.005,T1574.005,Executable Installer File Permissions Weakness,Executable Installer File Permissions Weakness,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1574.005,T1574.005,Executable Installer File Permissions Weakness,Executable Installer File Permissions Weakness,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.006,T1574.006,Dynamic Linker Hijacking,Dynamic Linker Hijacking,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1574.006,T1574.006,Dynamic Linker Hijacking,Dynamic Linker Hijacking,v2.1 → v3.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.007,T1574.007,Path Interception by PATH Environment Variable,Path Interception by PATH Environment Variable,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1574.007,T1574.007,Path Interception by PATH Environment Variable,Path Interception by PATH Environment Variable,v1.2 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.008,T1574.008,Path Interception by Search Order Hijacking,Path Interception by Search Order Hijacking,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1574.008,T1574.008,Path Interception by Search Order Hijacking,Path Interception by Search Order Hijacking,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.009,T1574.009,Path Interception by Unquoted Path,Path Interception by Unquoted Path,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1574.009,T1574.009,Path Interception by Unquoted Path,Path Interception by Unquoted Path,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.010,T1574.010,Services File Permissions Weakness,Services File Permissions Weakness,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1574.010,T1574.010,Services File Permissions Weakness,Services File Permissions Weakness,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.011,T1574.011,Services Registry Permissions Weakness,Services Registry Permissions Weakness,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1574.011,T1574.011,Services Registry Permissions Weakness,Services Registry Permissions Weakness,v1.3 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.012,T1574.012,COR_PROFILER,COR_PROFILER,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1574.012,T1574.012,COR_PROFILER,COR_PROFILER,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.013,T1574.013,KernelCallbackTable,KernelCallbackTable,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1574.013,T1574.013,KernelCallbackTable,KernelCallbackTable,v1.0 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1574.014,T1574.014,AppDomainManager,AppDomainManager,"['TA0003', 'TA0004', 'TA0005'] → ['TA0002', 'TA0005']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1574.014,T1574.014,AppDomainManager,AppDomainManager,v1.0 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1578,T1578,Modify Cloud Compute Infrastructure,Modify Cloud Compute Infrastructure,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1578,T1578,Modify Cloud Compute Infrastructure,Modify Cloud Compute Infrastructure,v1.2 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1578.001,T1578.001,Create Snapshot,Create Snapshot,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1578.001,T1578.001,Create Snapshot,Create Snapshot,v1.2 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1578.002,T1578.002,Create Cloud Instance,Create Cloud Instance,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1578.002,T1578.002,Create Cloud Instance,Create Cloud Instance,v1.2 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1578.003,T1578.003,Delete Cloud Instance,Delete Cloud Instance,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1578.003,T1578.003,Delete Cloud Instance,Delete Cloud Instance,v1.2 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1578.004,T1578.004,Revert Cloud Instance,Revert Cloud Instance,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1578.004,T1578.004,Revert Cloud Instance,Revert Cloud Instance,v1.2 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1578.005,T1578.005,Modify Cloud Compute Configurations,Modify Cloud Compute Configurations,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1578.005,T1578.005,Modify Cloud Compute Configurations,Modify Cloud Compute Configurations,v2.0 → v3.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1599,T1599,Network Boundary Bridging,Network Boundary Bridging,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1599,T1599,Network Boundary Bridging,Network Boundary Bridging,v1.2 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1599.001,T1599.001,Network Address Translation Traversal,Network Address Translation Traversal,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1599.001,T1599.001,Network Address Translation Traversal,Network Address Translation Traversal,v1.2 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1600,T1600,Weaken Encryption,Weaken Encryption,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1600,T1600,Weaken Encryption,Weaken Encryption,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1600.001,T1600.001,Reduce Key Space,Reduce Key Space,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1600.001,T1600.001,Reduce Key Space,Reduce Key Space,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1600.002,T1600.002,Disable Crypto Hardware,Disable Crypto Hardware,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1600.002,T1600.002,Disable Crypto Hardware,Disable Crypto Hardware,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1601,T1601,Modify System Image,Modify System Image,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1601,T1601,Modify System Image,Modify System Image,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1601.001,T1601.001,Patch System Image,Patch System Image,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1601.001,T1601.001,Patch System Image,Patch System Image,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1601.002,T1601.002,Downgrade System Image,Downgrade System Image,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1601.002,T1601.002,Downgrade System Image,Downgrade System Image,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1610,T1610,Deploy Container,Deploy Container,"['TA0002', 'TA0005'] → ['TA0002']",18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1610,T1610,Deploy Container,Deploy Container,v1.4 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1612,T1612,Build Image on Host,Build Image on Host,v1.3 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1620,T1620,Reflective Code Loading,Reflective Code Loading,v1.3 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1622,T1622,Debugger Evasion,Debugger Evasion,v1.1 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1647,T1647,Plist File Modification,Plist File Modification,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1647,T1647,Plist File Modification,Plist File Modification,v1.0 → v2.0,18.1→19.0
+18.1,19.0,TACTIC_CHANGED,T1666,T1666,Modify Cloud Resource Hierarchy,Modify Cloud Resource Hierarchy,['TA0005'] → ['TA0112'],18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1666,T1666,Modify Cloud Resource Hierarchy,Modify Cloud Resource Hierarchy,v1.0 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1678,T1678,Delay Execution,Delay Execution,v1.0 → v2.0,18.1→19.0
+18.1,19.0,MAJOR_REVISION,T1679,T1679,Selective Exclusion,Selective Exclusion,v1.0 → v2.0,18.1→19.0
+18.1,19.0,REFINED,T1027,T1027,Obfuscated Files or Information,Obfuscated Files or Information,+1 sub-technique (trước có 17),18.1→19.0
+18.1,19.0,TACTIC_REDEFINED,TA0005,TA0005,Defense Evasion,Stealth,defense-evasion → stealth,18.1→19.0
+18.1,19.0,TACTIC_ADDED,,TA0112,,Defense Impairment,,18.1→19.0

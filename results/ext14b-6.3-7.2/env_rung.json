@@ -1,0 +1,37 @@
+{
+  "rung": {
+    "qwen3-14b": {
+      "rung": 2,
+      "name": "rất gọn bộ nhớ",
+      "env": {},
+      "engine": {
+        "enforce_eager": true,
+        "max_num_seqs": 8,
+        "max_num_batched_tokens": 1024
+      },
+      "gpu_mem": 0.95,
+      "max_model_len": 2560,
+      "effective": {
+        "gpu_mem": 0.95,
+        "max_model_len": 2560
+      }
+    }
+  },
+  "start": {
+    "qwen3-14b": 2
+  },
+  "attempts": {
+    "qwen3-14b": [
+      {
+        "phase": "chạy thử",
+        "rung": 2,
+        "ok": true
+      },
+      {
+        "phase": "chạy chính",
+        "rung": 2,
+        "ok": true
+      }
+    ]
+  }
+}

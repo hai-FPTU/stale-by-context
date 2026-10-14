@@ -1,0 +1,4 @@
+{"query_id": "D1-T1001|current", "condition": "bridge_new_old", "model_tag": "phi4-mini", "text": "{\"answer\": [\"TA0011 Command and Control\"]}", "finish_reason": "stop", "n_prompt_tokens": 1096, "n_output_tokens": 13}
+{"query_id": "D1-T1002|current", "condition": "bridge_new_old", "model_tag": "phi4-mini", "text": "{\"answer\": [\"TA0010 Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 758, "n_output_tokens": 13}
+{"query_id": "D4-T1001|current", "condition": "bridge_new_old", "model_tag": "phi4-mini", "text": "{\"answer\": [\"T1001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1133, "n_output_tokens": 10}
+{"query_id": "D4-T1002|current", "condition": "bridge_new_old", "model_tag": "phi4-mini", "text": "{\"answer\": [\"T1560\"]}", "finish_reason": "stop", "n_prompt_tokens": 859, "n_output_tokens": 10}

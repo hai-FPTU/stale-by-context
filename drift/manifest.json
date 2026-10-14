@@ -1,0 +1,81 @@
+{
+  "created_utc": "2026-10-12T07:19:11+00:00",
+  "index_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/index.json",
+  "versions": {
+    "6.3": {
+      "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-6.3.json",
+      "release_date": "2020-03-09",
+      "sha256": "91a073f92d1f814385d0acf4b403d36965c0cb7613b1188e2995c8d27d170752"
+    },
+    "7.2": {
+      "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-7.2.json",
+      "release_date": "2020-07-15",
+      "sha256": "04728e4b995ee7e2d6459fa91716607ac53d254d23d4dc10ed7e2d85a9046e00"
+    },
+    "8.2": {
+      "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-8.2.json",
+      "release_date": "2021-01-27",
+      "sha256": "8af8ba82d52c2735b1ae6804ab4f2cb8812121d8cdc37e5523ffba671d9ea69b"
+    },
+    "9.0": {
+      "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-9.0.json",
+      "release_date": "2021-04-29",
+      "sha256": "a41aea2db10ec3839a288947813f87a4fe5008992abc687c5e7072735ac0a5b5"
+    },
+    "10.1": {
+      "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-10.1.json",
+      "release_date": "2021-11-10",
+      "sha256": "0a999035f26f4326ad670ec51727014fd42c21fca4bda4be784ac6ad0510fcb6"
+    },
+    "11.3": {
+      "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-11.3.json",
+      "release_date": "2022-07-07",
+      "sha256": "4bb7a2bc26246e029f2cb722e5fc8637571322e33e920b1d2337921b2be8e688"
+    },
+    "12.1": {
+      "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-12.1.json",
+      "release_date": "2022-11-08",
+      "sha256": "e84679af4bc46bba2ba92f60182101f146d5b966898e47924de7321e6bffeaa1"
+    },
+    "13.1": {
+      "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-13.1.json",
+      "release_date": "2023-05-09",
+      "sha256": "5ec90131dc595ef7f2dd6ae0ee24074fbd5e317ed3261f9465660e04f97d426d"
+    },
+    "14.1": {
+      "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-14.1.json",
+      "release_date": "2023-11-14",
+      "sha256": "13af7514ad1bcb59deba6b6b46571168544bbe674eb52f41361916bb1cd9c3d6"
+    },
+    "15.1": {
+      "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-15.1.json",
+      "release_date": "2024-05-02",
+      "sha256": "a57988bffe402bb3e19d92dbe80a12143e1970b814e013e080f9df2fa5a3f6bc"
+    },
+    "16.1": {
+      "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-16.1.json",
+      "release_date": "2024-11-12",
+      "sha256": "8423d8dac3fc2feb825bb07d26e5f5d905e08a88f6fe4652cc20834cbe982813"
+    },
+    "17.1": {
+      "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-17.1.json",
+      "release_date": "2025-05-06",
+      "sha256": "0d1c347a4d584cf7e11ef46556c33b7689341443bf86299188d46c307274323b"
+    },
+    "18.1": {
+      "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-18.1.json",
+      "release_date": "2025-11-13",
+      "sha256": "f857d8f78f2f0c0b7db321a711a39fba98546c1e3076a657684850c83d0962fb"
+    },
+    "19.0": {
+      "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-19.0.json",
+      "release_date": "2026-04-28",
+      "sha256": "df520ea0775a57db7bff760145b02fed89290802913e056b7ed5970b02f3626a"
+    },
+    "19.2": {
+      "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-19.2.json",
+      "release_date": "2026-08-05",
+      "sha256": "dc1639caa5501d720e280cf1cbd8fbe009884a0c9b3e6e9ed9d0c25166c3d8f4"
+    }
+  }
+}

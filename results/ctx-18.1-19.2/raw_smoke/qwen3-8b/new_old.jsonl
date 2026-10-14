@@ -1,0 +1,14 @@
+{"query_id": "D1-T1011.001|unversioned", "condition": "new_old", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"TA0010 Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 762, "n_output_tokens": 14}
+{"query_id": "D1-T1011.001|current", "condition": "new_old", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"TA0010 Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 1139, "n_output_tokens": 14}
+{"query_id": "D1-T1027|unversioned", "condition": "new_old", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"TA0005 Stealth\", \"TA0005 Defense Evasion\"]}", "finish_reason": "stop", "n_prompt_tokens": 1107, "n_output_tokens": 22}
+{"query_id": "D1-T1027|current", "condition": "new_old", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"TA0005 Defense Evasion\"]}", "finish_reason": "stop", "n_prompt_tokens": 1444, "n_output_tokens": 14}
+{"query_id": "D1-T1070.001|unversioned", "condition": "new_old", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"TA0005 Defense Evasion\"]}", "finish_reason": "stop", "n_prompt_tokens": 1264, "n_output_tokens": 14}
+{"query_id": "D1-T1070.001|current", "condition": "new_old", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"TA0005 Defense Evasion\"]}", "finish_reason": "stop", "n_prompt_tokens": 1445, "n_output_tokens": 14}
+{"query_id": "D2-T1001.001|unversioned", "condition": "new_old", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"T1001\"]}", "finish_reason": "stop", "n_prompt_tokens": 909, "n_output_tokens": 11}
+{"query_id": "D2-T1001.001|current", "condition": "new_old", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"T1001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1007, "n_output_tokens": 11}
+{"query_id": "D2-T1070.001|unversioned", "condition": "new_old", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"T1685\", \"T1070\"]}", "finish_reason": "stop", "n_prompt_tokens": 1311, "n_output_tokens": 18}
+{"query_id": "D2-T1070.001|current", "condition": "new_old", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"T1070\"]}", "finish_reason": "stop", "n_prompt_tokens": 1318, "n_output_tokens": 11}
+{"query_id": "D4-T1001.001|unversioned", "condition": "new_old", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"T1001.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1250, "n_output_tokens": 15}
+{"query_id": "D4-T1001.001|current", "condition": "new_old", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"T1001.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1178, "n_output_tokens": 15}
+{"query_id": "D4-T1070.001|unversioned", "condition": "new_old", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"T1070.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1439, "n_output_tokens": 15}
+{"query_id": "D4-T1070.001|current", "condition": "new_old", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"T1070.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1409, "n_output_tokens": 15}

@@ -1,0 +1,7 @@
+{"query_id": "D1-T1011.001|current", "condition": "new", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"TA0010\", \"Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 1221, "n_output_tokens": 18}
+{"query_id": "D1-T1027|current", "condition": "new", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"TA0005 Stealth\"]}", "finish_reason": "stop", "n_prompt_tokens": 1631, "n_output_tokens": 14}
+{"query_id": "D1-T1070.001|current", "condition": "new", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"TA1112 Defense Impairment\"]}", "finish_reason": "stop", "n_prompt_tokens": 1589, "n_output_tokens": 16}
+{"query_id": "D2-T1001.001|current", "condition": "new", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"T1001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1291, "n_output_tokens": 12}
+{"query_id": "D2-T1070.001|current", "condition": "new", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"T1685\"]}", "finish_reason": "stop", "n_prompt_tokens": 1517, "n_output_tokens": 12}
+{"query_id": "D4-T1001.001|current", "condition": "new", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"T1001.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1591, "n_output_tokens": 16}
+{"query_id": "D4-T1070.001|current", "condition": "new", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"T1685.005\"]}", "finish_reason": "stop", "n_prompt_tokens": 1586, "n_output_tokens": 16}

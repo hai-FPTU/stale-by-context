@@ -1,0 +1,4 @@
+{"query_id": "D1-T1001|current", "condition": "new", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"TA0011\", \"Command and Control\"]}", "finish_reason": "stop", "n_prompt_tokens": 1544, "n_output_tokens": 17}
+{"query_id": "D1-T1002|current", "condition": "new", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"TA0009\", \"Collection\"]}", "finish_reason": "stop", "n_prompt_tokens": 1554, "n_output_tokens": 15}
+{"query_id": "D4-T1001|current", "condition": "new", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"T1001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1298, "n_output_tokens": 12}
+{"query_id": "D4-T1002|current", "condition": "new", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"T1560\"]}", "finish_reason": "stop", "n_prompt_tokens": 1308, "n_output_tokens": 12}

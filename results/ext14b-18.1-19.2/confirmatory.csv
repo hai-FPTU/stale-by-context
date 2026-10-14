@@ -1,0 +1,7 @@
+model,giả thuyết,tên,chỉ số,hiệu [KTC 95%],p một phía,n cụm,trong họ,p Holm,đạt,ngược chiều
+qwen3-14b,C1,Có mặt đoạn cũ gây lỗi thời,drift_ext,"0.83 [0.75, 0.90]",9.999000099990002e-05,87,True,0.0005999400059994001,✓,False
+qwen3-14b,C2,Nhãn phiên bản giảm lỗi thời,drift_ext,"0.75 [0.68, 0.83]",9.999000099990002e-05,87,True,0.0005999400059994001,✓,False
+qwen3-14b,C3,Chữ current/superseded cần thiết,drift_ext,"0.07 [0.04, 0.11]",0.00039996000399960006,87,True,0.0007999200079992001,✓,False
+qwen3-14b,C4,Nhãn số hoạt động nhờ khớp chuỗi,drift_ext,"0.31 [0.25, 0.36]",9.999000099990002e-05,85,True,0.0005999400059994001,✓,False
+qwen3-14b,C5,Siêu dữ liệu lái câu trả lời,drift_ext,"0.85 [0.78, 0.93]",9.999000099990002e-05,87,True,0.0005999400059994001,✓,False
+qwen3-14b,C6,Cầu nối giúp trả lời đúng (acc),em,"0.73 [0.50, 0.92]",0.0004999500049995,13,True,0.0007999200079992001,✓,False

@@ -1,0 +1,774 @@
+{
+  "conf_version": "1.4-ext",
+  "transition": "6.3-7.2",
+  "branch": "B",
+  "created_utc": "2026-10-14T08:54:15+00:00",
+  "config": {
+    "CONDITIONS": {
+      "new": {
+        "order": [
+          "N"
+        ],
+        "tag": null,
+        "swap": false,
+        "qforms": [
+          "ver"
+        ]
+      },
+      "old": {
+        "order": [
+          "O"
+        ],
+        "tag": null,
+        "swap": false,
+        "qforms": [
+          "ver"
+        ]
+      },
+      "old_new": {
+        "order": [
+          "O",
+          "N"
+        ],
+        "tag": null,
+        "swap": false,
+        "qforms": [
+          "ver"
+        ]
+      },
+      "new_old": {
+        "order": [
+          "N",
+          "O"
+        ],
+        "tag": null,
+        "swap": false,
+        "qforms": [
+          "ver"
+        ]
+      },
+      "tag_old_new": {
+        "order": [
+          "O",
+          "N"
+        ],
+        "tag": "full",
+        "swap": false,
+        "qforms": [
+          "ver"
+        ]
+      },
+      "tag_new_old": {
+        "order": [
+          "N",
+          "O"
+        ],
+        "tag": "full",
+        "swap": false,
+        "qforms": [
+          "ver"
+        ]
+      },
+      "vtag_old_new": {
+        "order": [
+          "O",
+          "N"
+        ],
+        "tag": "ver",
+        "swap": false,
+        "qforms": [
+          "ver",
+          "nover"
+        ]
+      },
+      "vtag_new_old": {
+        "order": [
+          "N",
+          "O"
+        ],
+        "tag": "ver",
+        "swap": false,
+        "qforms": [
+          "ver",
+          "nover"
+        ]
+      },
+      "swap_old_new": {
+        "order": [
+          "O",
+          "N"
+        ],
+        "tag": "full",
+        "swap": true,
+        "qforms": [
+          "ver"
+        ]
+      },
+      "swap_new_old": {
+        "order": [
+          "N",
+          "O"
+        ],
+        "tag": "full",
+        "swap": true,
+        "qforms": [
+          "ver"
+        ]
+      },
+      "bridge_old_new": {
+        "order": [
+          "O",
+          "N",
+          "B"
+        ],
+        "tag": "full",
+        "swap": false,
+        "qforms": [
+          "ver"
+        ]
+      },
+      "bridge_new_old": {
+        "order": [
+          "N",
+          "O",
+          "B"
+        ],
+        "tag": "full",
+        "swap": false,
+        "qforms": [
+          "ver"
+        ]
+      }
+    },
+    "STUDY": {
+      "18.1-19.2": {
+        "branch": "A",
+        "source": "pilot_queries.jsonl",
+        "templates": [
+          "D1_tech_tactic",
+          "D2_subtech_parent",
+          "D4_id_currency"
+        ],
+        "stable_cap": null,
+        "family": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "C6"
+        ],
+        "min_pass": 1
+      },
+      "6.3-7.2": {
+        "branch": "B",
+        "source": "queries_all.jsonl",
+        "templates": [
+          "D1_tech_tactic",
+          "D4_id_currency"
+        ],
+        "stable_cap": 80,
+        "family": [
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "C6"
+        ],
+        "min_pass": 1
+      }
+    },
+    "N_PASSAGES": 4,
+    "MAX_CHUNK_WORDS": 250,
+    "MAX_MODEL_LEN": 3072,
+    "MAX_TOKENS": 160,
+    "GPU_MEM": 0.92,
+    "SEED": 2026,
+    "BOOT_B": 10000,
+    "ALPHA": 0.05,
+    "ENV_LADDER": [
+      {
+        "name": "gọn bộ nhớ",
+        "env": {},
+        "engine": {
+          "enforce_eager": true,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 2048
+        },
+        "gpu_mem": null,
+        "max_model_len": null
+      },
+      {
+        "name": "gọn bộ nhớ + cuBLASLt",
+        "env": {
+          "TORCH_BLAS_PREFER_CUBLASLT": "1"
+        },
+        "engine": {
+          "enforce_eager": true,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 2048
+        },
+        "gpu_mem": null,
+        "max_model_len": null
+      },
+      {
+        "name": "rất gọn bộ nhớ",
+        "env": {},
+        "engine": {
+          "enforce_eager": true,
+          "max_num_seqs": 8,
+          "max_num_batched_tokens": 1024
+        },
+        "gpu_mem": 0.95,
+        "max_model_len": 2560
+      },
+      {
+        "name": "rất gọn bộ nhớ + cuBLASLt",
+        "env": {
+          "TORCH_BLAS_PREFER_CUBLASLT": "1"
+        },
+        "engine": {
+          "enforce_eager": true,
+          "max_num_seqs": 8,
+          "max_num_batched_tokens": 1024
+        },
+        "gpu_mem": 0.95,
+        "max_model_len": 2560
+      }
+    ]
+  },
+  "models": [
+    {
+      "tag": "qwen3-14b",
+      "repo": "Qwen/Qwen3-14B-AWQ",
+      "revision": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "released": "2025-04",
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "merge_system": false,
+      "explored": false,
+      "extension": true
+    }
+  ],
+  "plan": "bổ sung kế hoạch v1.4 (mở rộng Qwen3-14B)",
+  "inputs": {
+    "queries": {
+      "path": "benchmark/drift-6.3-7.2/queries_all.jsonl",
+      "sha256": "58a6ccb4646c845630e600f03be55fd5382cc5b7fb2f91c7d68421ebaa423380"
+    },
+    "items": {
+      "path": "benchmark/drift-6.3-7.2/items.jsonl",
+      "sha256": "c4849c308e3ab5539d490328a6e3e3505a63c259ba7fcd2046c0fa7210bcdd25"
+    },
+    "drift_manifest": {
+      "path": "benchmark/drift-6.3-7.2/manifest.json",
+      "sha256": "d5ada2826ad42b29c6113e7f6b45995a4e10fa07d2d57a066436595980f12b85"
+    },
+    "tactic_alias": {
+      "path": "benchmark/drift-6.3-7.2/tactic_alias.json",
+      "sha256": "e082cfab19e81ca50a0a0d159ad9019f77b146428378a5f56528cebef14ffa24"
+    },
+    "corpus_old": {
+      "path": "benchmark/attack-6.3/corpus.jsonl",
+      "sha256": "127261d010d2df24e4c19d186f4d34a49f62a6bd9ac5b993a9928b4da58b07e2"
+    },
+    "corpus_new": {
+      "path": "benchmark/attack-7.2/corpus.jsonl",
+      "sha256": "1062f267ff29dae4690ccc2b2b235e6d3f727bfbf3fe17be0263bb36c252f188"
+    },
+    "scoring_module": {
+      "path": "ctidrift_scoring.py",
+      "sha256": "56b3cb0eb0c80aa5501feebc03d3307cf3186b77c66d47523bed7a4f07c32bbf"
+    },
+    "scoring_v13": {
+      "path": "ctidrift_scoring_v13.py",
+      "sha256": "0353476caf8259cae6ed4946167a986ab81e6677ec81d1eba131670edd2b203d"
+    },
+    "manifest_07": {
+      "path": "results/conf-6.3-7.2/manifest.json",
+      "sha256": "f914d8b17e5133d5e43137c1d99cfa268a73d04485e43eb7d462ada57deb455a"
+    },
+    "infer_module": {
+      "path": "ctidrift_infer_v2.py",
+      "sha256": "39b80fe37bb06d4ddbe082a6c372258afe10967a0a599539cd2449d822ea4f74"
+    },
+    "qwen3_8b_A": {
+      "path": "results/mech-18.1-19.2/scored.csv",
+      "sha256": "68817a917e7f9c9978341bd3073cb7e9697d67c70cd4085cbd3e98bf781aa40e"
+    },
+    "qwen3_8b_B": {
+      "path": "results/conf-6.3-7.2/scored.csv",
+      "sha256": "3133612e6dcbceaaadfa4f2a55dc1b2adfe75bbdc760fdc9526512feb50d9f86"
+    }
+  },
+  "prompts": {
+    "new": "2ab9e4fb990ab60d014c69c70e5f2bd879626dfdf99bd68872a5fef3ca6535e0",
+    "old": "c5a2a45f756cece2990ceaf3f813647bdcf18e327e9afe95c3d48803790c367a",
+    "old_new": "bb632267cc52db2738af94a559a2ed6b30ac4890859c1eed1ba99bdbb99d1ba3",
+    "new_old": "1a039ce2e35709314fcc0ffd1e391c3ee209f9d0f1a6100c661d42049be8ba9e",
+    "tag_old_new": "b4fd26724ae5a0fffde3b54870d8a8214067e0050bcf28279ddcc663c11caf64",
+    "tag_new_old": "daef407a0ad8b3b338cf38fc95ecdc96305ddaba234cfba5cf376b8dbe7481d1",
+    "vtag_old_new": "8796c5d57d697feef2be8bc9d2b22dad2b93aec5ed7908d7f2505dfced45cff2",
+    "vtag_new_old": "642dfb98e6fe5c4ee45197fe60af8eec79392bb4a13542aca8d8a225f51368b3",
+    "swap_old_new": "a2586b2f7aba639161d317bf0d0cc32bd74de1a71075cc0417bd7a80e04751dd",
+    "swap_new_old": "880e33c8cd6414b4870afb21fb0da0c0ae56c5f790996ddb4b6eb599fae3774f",
+    "bridge_old_new": "e3c62dd1d12fd49ce0de48904426944051d87f80b67b0e9622dd436949d8d679",
+    "bridge_new_old": "3642ff4d091ef3713430ddc88554bccb8b9e0e25e794e1f00887d915eaa35440"
+  },
+  "prompts_mergedsys": {
+    "new": "15e7bab7d06672d84d39b0fbe01e9534857b1b95f7f4640f91a62a16db09dd50",
+    "old": "1bba9cd4df146745263f0252b84f1a05fa5e01f7f87f872153a48e3aa2896d18",
+    "old_new": "e9391fd463b02ca9e8d2d79f29d52390140d4a94128bc1a52ff0bb19e9dc386f",
+    "new_old": "ec48c846257093e5a1183cfae5b0b4cc433ade2732c87788623509af1f6ecf09",
+    "tag_old_new": "94ac6ab56ca4643906663136f0b6ac0b83e807e2304ee902f3156b9d847c2a2b",
+    "tag_new_old": "9477699353d9f93c9a07050657e9a0267a990c8fdc4e553ba6f087da7db2ae0c",
+    "vtag_old_new": "6016c2a2e98a7233cfa7dbff79ac086dbef8c2c0420953df3e62a04a036b2ce1",
+    "vtag_new_old": "b65c4ad01849d73134c997e10ff325d92a320fe9d3bc9b8ab7de4658598f6955",
+    "swap_old_new": "6aeb54d25e157370dc1ff7f3318bf636dfb8d1847f9f383dbd1891f418b71fc3",
+    "swap_new_old": "e6bb986bd78991f7e7f06547910eec1ca9b15ee68388cb6815c2608e66ed85fe",
+    "bridge_old_new": "0dc9940e15b3e0632bf4ed02d2ba3664cc94751c087cd8d3857d188df0e53cda",
+    "bridge_new_old": "5ba7d55210f92df30e98777405d435d1a45d700e87c0b853ae572466c2229282"
+  },
+  "env_rung": {
+    "qwen3-14b": {
+      "rung": 2,
+      "name": "rất gọn bộ nhớ",
+      "env": {},
+      "engine": {
+        "enforce_eager": true,
+        "max_num_seqs": 8,
+        "max_num_batched_tokens": 1024
+      },
+      "gpu_mem": 0.95,
+      "max_model_len": 2560,
+      "effective": {
+        "gpu_mem": 0.95,
+        "max_model_len": 2560
+      }
+    }
+  },
+  "env_attempts": {
+    "qwen3-14b": [
+      {
+        "phase": "chạy thử",
+        "rung": 2,
+        "ok": true
+      },
+      {
+        "phase": "chạy chính",
+        "rung": 2,
+        "ok": true
+      }
+    ]
+  },
+  "n_queries": 722,
+  "runs": {
+    "qwen3-14b/new": {
+      "model_tag": "qwen3-14b",
+      "repo": "Qwen/Qwen3-14B-AWQ",
+      "revision": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "snapshot": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 2560,
+      "max_tokens": 160,
+      "gpu_mem": 0.95,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "flashinfer_sampler": "0",
+      "script_sha256": "39b80fe37bb06d4ddbe082a6c372258afe10967a0a599539cd2449d822ea4f74",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "engine_kwargs": {
+        "enforce_eager": true,
+        "max_num_batched_tokens": 1024,
+        "max_num_seqs": 8
+      },
+      "blas_env": "",
+      "blas_backend_parent": "_BlasBackend.Cublas",
+      "condition": "new",
+      "n": 361,
+      "run_key": "6ec272ad4939ff7fca6fedf726836c36b80894cbbdb29ab0b83f5cc4877b4039",
+      "seconds": 213.5
+    },
+    "qwen3-14b/old": {
+      "model_tag": "qwen3-14b",
+      "repo": "Qwen/Qwen3-14B-AWQ",
+      "revision": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "snapshot": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 2560,
+      "max_tokens": 160,
+      "gpu_mem": 0.95,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "flashinfer_sampler": "0",
+      "script_sha256": "39b80fe37bb06d4ddbe082a6c372258afe10967a0a599539cd2449d822ea4f74",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "engine_kwargs": {
+        "enforce_eager": true,
+        "max_num_batched_tokens": 1024,
+        "max_num_seqs": 8
+      },
+      "blas_env": "",
+      "blas_backend_parent": "_BlasBackend.Cublas",
+      "condition": "old",
+      "n": 361,
+      "run_key": "4ce0f30d745c6e8eb91f73dacd17c40f240e6f771e844bf0f47f9c09184b2229",
+      "seconds": 211.8
+    },
+    "qwen3-14b/old_new": {
+      "model_tag": "qwen3-14b",
+      "repo": "Qwen/Qwen3-14B-AWQ",
+      "revision": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "snapshot": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 2560,
+      "max_tokens": 160,
+      "gpu_mem": 0.95,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "flashinfer_sampler": "0",
+      "script_sha256": "39b80fe37bb06d4ddbe082a6c372258afe10967a0a599539cd2449d822ea4f74",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "engine_kwargs": {
+        "enforce_eager": true,
+        "max_num_batched_tokens": 1024,
+        "max_num_seqs": 8
+      },
+      "blas_env": "",
+      "blas_backend_parent": "_BlasBackend.Cublas",
+      "condition": "old_new",
+      "n": 361,
+      "run_key": "77cce27f4885f38c5d25ec5ab621c92fc09f86a0152d5f204d82a6e629bda273",
+      "seconds": 205.4
+    },
+    "qwen3-14b/new_old": {
+      "model_tag": "qwen3-14b",
+      "repo": "Qwen/Qwen3-14B-AWQ",
+      "revision": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "snapshot": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 2560,
+      "max_tokens": 160,
+      "gpu_mem": 0.95,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "flashinfer_sampler": "0",
+      "script_sha256": "39b80fe37bb06d4ddbe082a6c372258afe10967a0a599539cd2449d822ea4f74",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "engine_kwargs": {
+        "enforce_eager": true,
+        "max_num_batched_tokens": 1024,
+        "max_num_seqs": 8
+      },
+      "blas_env": "",
+      "blas_backend_parent": "_BlasBackend.Cublas",
+      "condition": "new_old",
+      "n": 361,
+      "run_key": "276ea015afd74f23604790e78ce3d290623cc49456ddd4df5819cbe07ff2235c",
+      "seconds": 203.7
+    },
+    "qwen3-14b/tag_old_new": {
+      "model_tag": "qwen3-14b",
+      "repo": "Qwen/Qwen3-14B-AWQ",
+      "revision": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "snapshot": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 2560,
+      "max_tokens": 160,
+      "gpu_mem": 0.95,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "flashinfer_sampler": "0",
+      "script_sha256": "39b80fe37bb06d4ddbe082a6c372258afe10967a0a599539cd2449d822ea4f74",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "engine_kwargs": {
+        "enforce_eager": true,
+        "max_num_batched_tokens": 1024,
+        "max_num_seqs": 8
+      },
+      "blas_env": "",
+      "blas_backend_parent": "_BlasBackend.Cublas",
+      "condition": "tag_old_new",
+      "n": 361,
+      "run_key": "18ccf57cb61b5e122db620b8a3e281c4d6e9df2c7f60af5f428cd2acdeea4736",
+      "seconds": 213.4
+    },
+    "qwen3-14b/tag_new_old": {
+      "model_tag": "qwen3-14b",
+      "repo": "Qwen/Qwen3-14B-AWQ",
+      "revision": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "snapshot": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 2560,
+      "max_tokens": 160,
+      "gpu_mem": 0.95,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "flashinfer_sampler": "0",
+      "script_sha256": "39b80fe37bb06d4ddbe082a6c372258afe10967a0a599539cd2449d822ea4f74",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "engine_kwargs": {
+        "enforce_eager": true,
+        "max_num_batched_tokens": 1024,
+        "max_num_seqs": 8
+      },
+      "blas_env": "",
+      "blas_backend_parent": "_BlasBackend.Cublas",
+      "condition": "tag_new_old",
+      "n": 361,
+      "run_key": "4b9253e3a3fc9ee71abbb9014e64262b8df538d272e8cac5db117ebf4db4b149",
+      "seconds": 212.9
+    },
+    "qwen3-14b/vtag_old_new": {
+      "model_tag": "qwen3-14b",
+      "repo": "Qwen/Qwen3-14B-AWQ",
+      "revision": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "snapshot": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 2560,
+      "max_tokens": 160,
+      "gpu_mem": 0.95,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "flashinfer_sampler": "0",
+      "script_sha256": "39b80fe37bb06d4ddbe082a6c372258afe10967a0a599539cd2449d822ea4f74",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "engine_kwargs": {
+        "enforce_eager": true,
+        "max_num_batched_tokens": 1024,
+        "max_num_seqs": 8
+      },
+      "blas_env": "",
+      "blas_backend_parent": "_BlasBackend.Cublas",
+      "condition": "vtag_old_new",
+      "n": 722,
+      "run_key": "06447b2bd1faa93d5dd2b026d77a952f3dd9aef26100c2c9d5bf2488030bd9b9",
+      "seconds": 241.0
+    },
+    "qwen3-14b/vtag_new_old": {
+      "model_tag": "qwen3-14b",
+      "repo": "Qwen/Qwen3-14B-AWQ",
+      "revision": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "snapshot": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 2560,
+      "max_tokens": 160,
+      "gpu_mem": 0.95,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "flashinfer_sampler": "0",
+      "script_sha256": "39b80fe37bb06d4ddbe082a6c372258afe10967a0a599539cd2449d822ea4f74",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "engine_kwargs": {
+        "enforce_eager": true,
+        "max_num_batched_tokens": 1024,
+        "max_num_seqs": 8
+      },
+      "blas_env": "",
+      "blas_backend_parent": "_BlasBackend.Cublas",
+      "condition": "vtag_new_old",
+      "n": 722,
+      "run_key": "00a696aa0b86214b0431e542d9201ed91cfe612ee79430e1a4b8e5daf2137abf",
+      "seconds": 240.7
+    },
+    "qwen3-14b/swap_old_new": {
+      "model_tag": "qwen3-14b",
+      "repo": "Qwen/Qwen3-14B-AWQ",
+      "revision": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "snapshot": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 2560,
+      "max_tokens": 160,
+      "gpu_mem": 0.95,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "flashinfer_sampler": "0",
+      "script_sha256": "39b80fe37bb06d4ddbe082a6c372258afe10967a0a599539cd2449d822ea4f74",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "engine_kwargs": {
+        "enforce_eager": true,
+        "max_num_batched_tokens": 1024,
+        "max_num_seqs": 8
+      },
+      "blas_env": "",
+      "blas_backend_parent": "_BlasBackend.Cublas",
+      "condition": "swap_old_new",
+      "n": 361,
+      "run_key": "e0cf6d36945f8c203f2b14590fd80deccd0031ba2af0c3c23f740e60adb861a8",
+      "seconds": 213.2
+    },
+    "qwen3-14b/swap_new_old": {
+      "model_tag": "qwen3-14b",
+      "repo": "Qwen/Qwen3-14B-AWQ",
+      "revision": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "snapshot": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 2560,
+      "max_tokens": 160,
+      "gpu_mem": 0.95,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "flashinfer_sampler": "0",
+      "script_sha256": "39b80fe37bb06d4ddbe082a6c372258afe10967a0a599539cd2449d822ea4f74",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "engine_kwargs": {
+        "enforce_eager": true,
+        "max_num_batched_tokens": 1024,
+        "max_num_seqs": 8
+      },
+      "blas_env": "",
+      "blas_backend_parent": "_BlasBackend.Cublas",
+      "condition": "swap_new_old",
+      "n": 361,
+      "run_key": "eabbd43138a319d6cf8e1fc5d75e4501e28a302feacf70f73fde4eedb555b700",
+      "seconds": 211.4
+    },
+    "qwen3-14b/bridge_old_new": {
+      "model_tag": "qwen3-14b",
+      "repo": "Qwen/Qwen3-14B-AWQ",
+      "revision": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "snapshot": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 2560,
+      "max_tokens": 160,
+      "gpu_mem": 0.95,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "flashinfer_sampler": "0",
+      "script_sha256": "39b80fe37bb06d4ddbe082a6c372258afe10967a0a599539cd2449d822ea4f74",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "engine_kwargs": {
+        "enforce_eager": true,
+        "max_num_batched_tokens": 1024,
+        "max_num_seqs": 8
+      },
+      "blas_env": "",
+      "blas_backend_parent": "_BlasBackend.Cublas",
+      "condition": "bridge_old_new",
+      "n": 361,
+      "run_key": "7571367b5930dfc39c72d1700e58368c65f2544948f600ed93c427975097d0ae",
+      "seconds": 188.1
+    },
+    "qwen3-14b/bridge_new_old": {
+      "model_tag": "qwen3-14b",
+      "repo": "Qwen/Qwen3-14B-AWQ",
+      "revision": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "snapshot": "31c69efc29464b6bb0aee1398b5a7b50a99340c3",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 2560,
+      "max_tokens": 160,
+      "gpu_mem": 0.95,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "flashinfer_sampler": "0",
+      "script_sha256": "39b80fe37bb06d4ddbe082a6c372258afe10967a0a599539cd2449d822ea4f74",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "engine_kwargs": {
+        "enforce_eager": true,
+        "max_num_batched_tokens": 1024,
+        "max_num_seqs": 8
+      },
+      "blas_env": "",
+      "blas_backend_parent": "_BlasBackend.Cublas",
+      "condition": "bridge_new_old",
+      "n": 361,
+      "run_key": "cb1bd136abc8ce30e6ee0ca4f77f5e263b16a5af1c9d4199b380a2ff7f13bca4",
+      "seconds": 188.1
+    }
+  },
+  "outputs": {
+    "confirmatory.csv": "21bc2364ff5ed72a8090ccf77ddbcbbc53811e9a70def820fb885b626344636b",
+    "confirmatory_strict.csv": "a96603166ad17f443b5a784b07e5ea1b1dbbbfcc39be91b9249350f11804f431",
+    "confirmatory_verdicts.csv": "950cca42bd596de1b53c08260e7a3c5678709a9870e8785d23c24c74855ffa41",
+    "confirmatory_verdicts_strict.csv": "950cca42bd596de1b53c08260e7a3c5678709a9870e8785d23c24c74855ffa41",
+    "queries.jsonl": "225db109f059543f7b72a3c5d29e3525d43db6d5f5094c762dd47a44c225cf7b",
+    "raw/qwen3-14b/bridge_new_old.jsonl": "9385bd367909edbc1e2e6a72c1d11ba019a1379eafa6bec3b97aa0ce1ec3aaf6",
+    "raw/qwen3-14b/bridge_old_new.jsonl": "f18b6104dc1b0ac39382f99b9fd4f39b001ee8099096d8164afb7f64428d6df8",
+    "raw/qwen3-14b/new.jsonl": "79e15077b54a87418e8c74926886fbc7dbedd5fafc163628a27a0b796099d3b8",
+    "raw/qwen3-14b/new_old.jsonl": "8a0fac3885a01f8ee9cc1c694d5d9872e7bac9f37d2ef8fb6017e4f5a9c2be11",
+    "raw/qwen3-14b/old.jsonl": "85fab8a1c38d47a2d2ac8775bb293bb2ae3d2d9b9882938d3ef612019a0329c8",
+    "raw/qwen3-14b/old_new.jsonl": "6a77ee03557be3d9d75d665fd2afdd944169cd515641b57718b71849667364e0",
+    "raw/qwen3-14b/swap_new_old.jsonl": "fa11f4ff7927b96a43f2f5460d8b958d1340e181404a24d6d920e8c839caa60e",
+    "raw/qwen3-14b/swap_old_new.jsonl": "f5d4603dad13a9a6422e8734cf735a2a52667f00b63a278f15b291e5b002b748",
+    "raw/qwen3-14b/tag_new_old.jsonl": "b678e9f86d17cceb23529ae87adb80d0d98c3daf2945fc8bf105212b53b1e290",
+    "raw/qwen3-14b/tag_old_new.jsonl": "4293cb94435953555704a6d1b5f9937e5389e42baf7b6a698fa2ce071ce459d4",
+    "raw/qwen3-14b/vtag_new_old.jsonl": "ca7e7809954afa585c1bbae18b03cc684a5f9532d82817811c22e97f88deb7ee",
+    "raw/qwen3-14b/vtag_old_new.jsonl": "e1c9a318d1c8bb93b9b63435d19026e51366b0cec0743f583982cfb4e5b4ebce",
+    "scored.csv": "0ea35e71f6f4c118c0364d53cee45d98a979b486f36ab78e8638f5381f80f792",
+    "summary_conditions.csv": "bba7e803bf806c9c05d9e38768d795ab307ba37a55ceb863cf56fd9319dea26b",
+    "summary_outcomes13.csv": "b4cbac1f33df63bae0d6ac3e041bbce5e5495397e3d2b68be32f697ca0757406"
+  }
+}

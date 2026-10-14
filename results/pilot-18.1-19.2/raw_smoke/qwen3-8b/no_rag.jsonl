@@ -1,0 +1,8 @@
+{"query_id": "D1-T1011.001|unversioned", "condition": "no_rag", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"TA0002 Initial Access\", \"TA0005 Lateral Movement\", \"TA0010 Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 139, "n_output_tokens": 33}
+{"query_id": "D1-T1011.001|current", "condition": "no_rag", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"TA0006 Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 166, "n_output_tokens": 14}
+{"query_id": "D2-T1001.001|unversioned", "condition": "no_rag", "model_tag": "qwen3-8b", "text": "{\"answer\": []}", "finish_reason": "stop", "n_prompt_tokens": 134, "n_output_tokens": 6}
+{"query_id": "D2-T1001.001|current", "condition": "no_rag", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"T1562\"]}", "finish_reason": "stop", "n_prompt_tokens": 161, "n_output_tokens": 11}
+{"query_id": "D3-T1001|unversioned", "condition": "no_rag", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"M1001\"]}", "finish_reason": "stop", "n_prompt_tokens": 126, "n_output_tokens": 11}
+{"query_id": "D3-T1001|current", "condition": "no_rag", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"M1001\"]}", "finish_reason": "stop", "n_prompt_tokens": 153, "n_output_tokens": 11}
+{"query_id": "D4-T1001.001|unversioned", "condition": "no_rag", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"T1001.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 157, "n_output_tokens": 15}
+{"query_id": "D4-T1001.001|current", "condition": "no_rag", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"T1001.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 162, "n_output_tokens": 15}

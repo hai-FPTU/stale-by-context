@@ -1,0 +1,7 @@
+model,condition,n changed,changed: lỗi thời v1.2,changed: lỗi thời v1.3,changed: INCONSISTENT,changed: lỗi thời v1.3 / câu nhất quán,n label,label: tên cũ v1.2,label: lỗi thời v1.3,label: INCONSISTENT
+llama3.1-8b,no_rag,224,0.598,0.188,0.674,0.575,160,0.2,0.081,0.888
+llama3.1-8b,rag_new,224,0.107,0.071,0.174,0.086,160,0.006,0.0,0.019
+llama3.1-8b,rag_mixed,224,0.906,0.938,0.004,0.942,160,0.862,0.831,0.031
+qwen3-8b,no_rag,224,0.223,0.179,0.397,0.296,160,0.031,0.019,0.431
+qwen3-8b,rag_new,224,0.045,0.04,0.031,0.041,160,0.0,0.0,0.025
+qwen3-8b,rag_mixed,224,0.826,0.862,0.009,0.869,160,0.931,0.931,0.012

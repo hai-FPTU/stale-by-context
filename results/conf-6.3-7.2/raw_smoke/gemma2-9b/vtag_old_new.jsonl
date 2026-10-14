@@ -1,0 +1,8 @@
+{"query_id": "D1-T1001|current", "condition": "vtag_old_new", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"TA0011 Command and Control\"]}", "finish_reason": "stop", "n_prompt_tokens": 1144, "n_output_tokens": 14}
+{"query_id": "D1-T1001|current_nover", "condition": "vtag_old_new", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"TA0011 Command and Control\"]}", "finish_reason": "stop", "n_prompt_tokens": 1139, "n_output_tokens": 14}
+{"query_id": "D1-T1002|current", "condition": "vtag_old_new", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"TA0010 Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 1125, "n_output_tokens": 13}
+{"query_id": "D1-T1002|current_nover", "condition": "vtag_old_new", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"TA0010 Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 1120, "n_output_tokens": 13}
+{"query_id": "D4-T1001|current", "condition": "vtag_old_new", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"T1001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1182, "n_output_tokens": 11}
+{"query_id": "D4-T1001|current_nover", "condition": "vtag_old_new", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"T1001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1180, "n_output_tokens": 11}
+{"query_id": "D4-T1002|current", "condition": "vtag_old_new", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"T1560\"]}", "finish_reason": "stop", "n_prompt_tokens": 1163, "n_output_tokens": 11}
+{"query_id": "D4-T1002|current_nover", "condition": "vtag_old_new", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"T1560\"]}", "finish_reason": "stop", "n_prompt_tokens": 1161, "n_output_tokens": 11}

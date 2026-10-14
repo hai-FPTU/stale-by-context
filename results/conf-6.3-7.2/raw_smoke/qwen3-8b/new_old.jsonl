@@ -1,0 +1,4 @@
+{"query_id": "D1-T1001|current", "condition": "new_old", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"TA0011 Command and Control\"]}", "finish_reason": "stop", "n_prompt_tokens": 1069, "n_output_tokens": 14}
+{"query_id": "D1-T1002|current", "condition": "new_old", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"TA0010 Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 1056, "n_output_tokens": 14}
+{"query_id": "D4-T1001|current", "condition": "new_old", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"T1001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1108, "n_output_tokens": 11}
+{"query_id": "D4-T1002|current", "condition": "new_old", "model_tag": "qwen3-8b", "text": "{\"answer\": [\"T1002\"]}", "finish_reason": "stop", "n_prompt_tokens": 1095, "n_output_tokens": 11}

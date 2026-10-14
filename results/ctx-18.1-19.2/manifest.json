@@ -1,0 +1,470 @@
+{
+  "ctx_version": "1.1",
+  "v_old": "18.1",
+  "v_new": "19.2",
+  "created_utc": "2026-10-12T12:33:25+00:00",
+  "config": {
+    "CONDITIONS": {
+      "new": [
+        "N"
+      ],
+      "old": [
+        "O"
+      ],
+      "old_new": [
+        "O",
+        "N"
+      ],
+      "new_old": [
+        "N",
+        "O"
+      ],
+      "tag_old_new": [
+        "O*",
+        "N*"
+      ],
+      "tag_new_old": [
+        "N*",
+        "O*"
+      ],
+      "old_changelog": [
+        "O",
+        "L"
+      ]
+    },
+    "TEMPLATES": [
+      "D1_tech_tactic",
+      "D2_subtech_parent",
+      "D4_id_currency"
+    ],
+    "N_PASSAGES": 4,
+    "MAX_CHUNK_WORDS": 250,
+    "MAX_MODEL_LEN": 6144,
+    "MAX_TOKENS": 160,
+    "GPU_MEM": 0.85,
+    "SEED": 2026,
+    "BOOT_B": 2000
+  },
+  "models": [
+    {
+      "tag": "qwen3-8b",
+      "repo": "Qwen/Qwen3-8B-AWQ",
+      "revision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+      "released": "2025-05",
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    },
+    {
+      "tag": "llama3.1-8b",
+      "repo": "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
+      "revision": "db1f81ad4b8c7e39777509fac66c652eb0a52f91",
+      "released": "2024-07",
+      "chat_template_kwargs": {}
+    }
+  ],
+  "inputs": {
+    "pilot_queries": {
+      "path": "benchmark/drift-18.1-19.2/pilot_queries.jsonl",
+      "sha256": "1382ad00e2b46be9fcac4f405147fd9a7006cc179d75107e495cd142f4b0175f"
+    },
+    "pilot_items": {
+      "path": "benchmark/drift-18.1-19.2/pilot_items.jsonl",
+      "sha256": "d76133e1cd33c2b8265353da1c8785965555ed71cfd46edd26996512b1cb2c07"
+    },
+    "drift_manifest": {
+      "path": "benchmark/drift-18.1-19.2/manifest.json",
+      "sha256": "6abfab5da091ad7f5fa29ca499624a3cf5d1cde79a0bc7a306cd274fbf717c72"
+    },
+    "tactic_alias": {
+      "path": "benchmark/drift-18.1-19.2/tactic_alias.json",
+      "sha256": "a5efc74481539bb160213a920d73546ad8e85709a211383a5674f632e5791179"
+    },
+    "corpus_old": {
+      "path": "benchmark/attack-18.1/corpus.jsonl",
+      "sha256": "d435b77a7e8faabe3e2d1cf5f64e0efda3e22b3786af60d70d1f83a6775ee56e"
+    },
+    "corpus_new": {
+      "path": "benchmark/attack-19.2/corpus.jsonl",
+      "sha256": "0198ec96b46b902b9d08025b1d7efcdfe84838cc927fbea8ad64e698032f040c"
+    },
+    "scoring_module": {
+      "path": "ctidrift_scoring.py",
+      "sha256": "56b3cb0eb0c80aa5501feebc03d3307cf3186b77c66d47523bed7a4f07c32bbf"
+    },
+    "infer_module": {
+      "path": "ctidrift_infer.py",
+      "sha256": "833c7fe70abac2648d2335c2ee241064a33961a9d68464e3b023c9fa0ec4abc4"
+    }
+  },
+  "prompts": {
+    "new": "5dd168209a2f41ad7af545584fbdc860e47bc2f658e868c455033d086bd50408",
+    "old": "3f36d97efe371e5ac8ff579b9e90b705b50e286880ece72b4275772881909111",
+    "old_new": "7a7e4c646acd776419a17d01348d392b01c99b108d8c6b48ce296138f95e51e8",
+    "new_old": "db16237ab0a4b32b3e7b9fb5b16e202cca4fda77c728d1fb3dc6b9fde064704c",
+    "tag_old_new": "fd55584cc0f1a5d476d01324f2e8c68434dad13f1b0c4a9d1c407a2e4826e39a",
+    "tag_new_old": "b60f4b4d033165e6473c716549a63d702b02da636fe64dd1edef5b3340dffccb",
+    "old_changelog": "15cdd147d0bded095c347d97dd8acc0accbc520f5e6afac3a6cdaf1fd4b7b9a1"
+  },
+  "n_queries": 624,
+  "runs": {
+    "qwen3-8b/new": {
+      "model_tag": "qwen3-8b",
+      "repo": "Qwen/Qwen3-8B-AWQ",
+      "revision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+      "snapshot": "4da05a8edb55c6046cce958586c33b61da07bb79",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 6144,
+      "max_tokens": 160,
+      "gpu_mem": 0.85,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "flashinfer_sampler": "0",
+      "script_sha256": "833c7fe70abac2648d2335c2ee241064a33961a9d68464e3b023c9fa0ec4abc4",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "condition": "new",
+      "n": 624,
+      "run_key": "2b57e812bdf4060296387e8301aa584409dfcd89d54d42e83d2014d6dbcc7eac",
+      "seconds": 158.2
+    },
+    "qwen3-8b/old": {
+      "model_tag": "qwen3-8b",
+      "repo": "Qwen/Qwen3-8B-AWQ",
+      "revision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+      "snapshot": "4da05a8edb55c6046cce958586c33b61da07bb79",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 6144,
+      "max_tokens": 160,
+      "gpu_mem": 0.85,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "flashinfer_sampler": "0",
+      "script_sha256": "833c7fe70abac2648d2335c2ee241064a33961a9d68464e3b023c9fa0ec4abc4",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "condition": "old",
+      "n": 624,
+      "run_key": "e4df9de309af4395e9181ed135a162718112d1ebd82d80d17dcc279104f60195",
+      "seconds": 159.1
+    },
+    "qwen3-8b/old_new": {
+      "model_tag": "qwen3-8b",
+      "repo": "Qwen/Qwen3-8B-AWQ",
+      "revision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+      "snapshot": "4da05a8edb55c6046cce958586c33b61da07bb79",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 6144,
+      "max_tokens": 160,
+      "gpu_mem": 0.85,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "flashinfer_sampler": "0",
+      "script_sha256": "833c7fe70abac2648d2335c2ee241064a33961a9d68464e3b023c9fa0ec4abc4",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "condition": "old_new",
+      "n": 624,
+      "run_key": "d348247a63a6c948ba821ac5bcfb423068953a132cc44de35e28db5afcb1ad76",
+      "seconds": 138.2
+    },
+    "qwen3-8b/new_old": {
+      "model_tag": "qwen3-8b",
+      "repo": "Qwen/Qwen3-8B-AWQ",
+      "revision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+      "snapshot": "4da05a8edb55c6046cce958586c33b61da07bb79",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 6144,
+      "max_tokens": 160,
+      "gpu_mem": 0.85,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "flashinfer_sampler": "0",
+      "script_sha256": "833c7fe70abac2648d2335c2ee241064a33961a9d68464e3b023c9fa0ec4abc4",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "condition": "new_old",
+      "n": 624,
+      "run_key": "1aeb456309fb4c79e47d3496e959823e470e5f7a6dc082a855422a0bc6f3d8ef",
+      "seconds": 136.9
+    },
+    "qwen3-8b/tag_old_new": {
+      "model_tag": "qwen3-8b",
+      "repo": "Qwen/Qwen3-8B-AWQ",
+      "revision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+      "snapshot": "4da05a8edb55c6046cce958586c33b61da07bb79",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 6144,
+      "max_tokens": 160,
+      "gpu_mem": 0.85,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "flashinfer_sampler": "0",
+      "script_sha256": "833c7fe70abac2648d2335c2ee241064a33961a9d68464e3b023c9fa0ec4abc4",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "condition": "tag_old_new",
+      "n": 624,
+      "run_key": "52b00fddd57944accb5f7535368b6d485786f5ffe2aacf5c1d50a9a001b8688b",
+      "seconds": 143.7
+    },
+    "qwen3-8b/tag_new_old": {
+      "model_tag": "qwen3-8b",
+      "repo": "Qwen/Qwen3-8B-AWQ",
+      "revision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+      "snapshot": "4da05a8edb55c6046cce958586c33b61da07bb79",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 6144,
+      "max_tokens": 160,
+      "gpu_mem": 0.85,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "flashinfer_sampler": "0",
+      "script_sha256": "833c7fe70abac2648d2335c2ee241064a33961a9d68464e3b023c9fa0ec4abc4",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "condition": "tag_new_old",
+      "n": 624,
+      "run_key": "be37bed275582c8a0cab360b6ad83bf89db861f66a714990ba749bc18b55b2bd",
+      "seconds": 142.7
+    },
+    "qwen3-8b/old_changelog": {
+      "model_tag": "qwen3-8b",
+      "repo": "Qwen/Qwen3-8B-AWQ",
+      "revision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+      "snapshot": "4da05a8edb55c6046cce958586c33b61da07bb79",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 6144,
+      "max_tokens": 160,
+      "gpu_mem": 0.85,
+      "seed": 2026,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "flashinfer_sampler": "0",
+      "script_sha256": "833c7fe70abac2648d2335c2ee241064a33961a9d68464e3b023c9fa0ec4abc4",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "condition": "old_changelog",
+      "n": 624,
+      "run_key": "5ea416009e6b947bb3ef186a92b6e54d9029b46e72a9e198f5f63ad9582c5620",
+      "seconds": 133.4
+    },
+    "llama3.1-8b/new": {
+      "model_tag": "llama3.1-8b",
+      "repo": "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
+      "revision": "db1f81ad4b8c7e39777509fac66c652eb0a52f91",
+      "snapshot": "db1f81ad4b8c7e39777509fac66c652eb0a52f91",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 6144,
+      "max_tokens": 160,
+      "gpu_mem": 0.85,
+      "seed": 2026,
+      "chat_template_kwargs": {},
+      "flashinfer_sampler": "0",
+      "script_sha256": "833c7fe70abac2648d2335c2ee241064a33961a9d68464e3b023c9fa0ec4abc4",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "condition": "new",
+      "n": 624,
+      "run_key": "b52a61176c41dfd385737ec9e46e26e973047b1fb2e3d93682cb185a7df9fbb7",
+      "seconds": 149.8
+    },
+    "llama3.1-8b/old": {
+      "model_tag": "llama3.1-8b",
+      "repo": "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
+      "revision": "db1f81ad4b8c7e39777509fac66c652eb0a52f91",
+      "snapshot": "db1f81ad4b8c7e39777509fac66c652eb0a52f91",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 6144,
+      "max_tokens": 160,
+      "gpu_mem": 0.85,
+      "seed": 2026,
+      "chat_template_kwargs": {},
+      "flashinfer_sampler": "0",
+      "script_sha256": "833c7fe70abac2648d2335c2ee241064a33961a9d68464e3b023c9fa0ec4abc4",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "condition": "old",
+      "n": 624,
+      "run_key": "59842e283890f614bee6a2a9be345d16b3c8e5d08ec0524a4111265bd90ebe4b",
+      "seconds": 150.0
+    },
+    "llama3.1-8b/old_new": {
+      "model_tag": "llama3.1-8b",
+      "repo": "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
+      "revision": "db1f81ad4b8c7e39777509fac66c652eb0a52f91",
+      "snapshot": "db1f81ad4b8c7e39777509fac66c652eb0a52f91",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 6144,
+      "max_tokens": 160,
+      "gpu_mem": 0.85,
+      "seed": 2026,
+      "chat_template_kwargs": {},
+      "flashinfer_sampler": "0",
+      "script_sha256": "833c7fe70abac2648d2335c2ee241064a33961a9d68464e3b023c9fa0ec4abc4",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "condition": "old_new",
+      "n": 624,
+      "run_key": "5c552f3e50724106edf9b595e2992604aee7584ecc6e1205fae7535447b59273",
+      "seconds": 129.5
+    },
+    "llama3.1-8b/new_old": {
+      "model_tag": "llama3.1-8b",
+      "repo": "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
+      "revision": "db1f81ad4b8c7e39777509fac66c652eb0a52f91",
+      "snapshot": "db1f81ad4b8c7e39777509fac66c652eb0a52f91",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 6144,
+      "max_tokens": 160,
+      "gpu_mem": 0.85,
+      "seed": 2026,
+      "chat_template_kwargs": {},
+      "flashinfer_sampler": "0",
+      "script_sha256": "833c7fe70abac2648d2335c2ee241064a33961a9d68464e3b023c9fa0ec4abc4",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "condition": "new_old",
+      "n": 624,
+      "run_key": "45df8f854dff3f02bb70d03981b60c00450ca8b9d8e581bb365240003aca9d45",
+      "seconds": 128.7
+    },
+    "llama3.1-8b/tag_old_new": {
+      "model_tag": "llama3.1-8b",
+      "repo": "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
+      "revision": "db1f81ad4b8c7e39777509fac66c652eb0a52f91",
+      "snapshot": "db1f81ad4b8c7e39777509fac66c652eb0a52f91",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 6144,
+      "max_tokens": 160,
+      "gpu_mem": 0.85,
+      "seed": 2026,
+      "chat_template_kwargs": {},
+      "flashinfer_sampler": "0",
+      "script_sha256": "833c7fe70abac2648d2335c2ee241064a33961a9d68464e3b023c9fa0ec4abc4",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "condition": "tag_old_new",
+      "n": 624,
+      "run_key": "5c072cedd4625ae5dfbce5980a18506490159c0fa73b7275b3a271dfb8bc3764",
+      "seconds": 134.9
+    },
+    "llama3.1-8b/tag_new_old": {
+      "model_tag": "llama3.1-8b",
+      "repo": "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
+      "revision": "db1f81ad4b8c7e39777509fac66c652eb0a52f91",
+      "snapshot": "db1f81ad4b8c7e39777509fac66c652eb0a52f91",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 6144,
+      "max_tokens": 160,
+      "gpu_mem": 0.85,
+      "seed": 2026,
+      "chat_template_kwargs": {},
+      "flashinfer_sampler": "0",
+      "script_sha256": "833c7fe70abac2648d2335c2ee241064a33961a9d68464e3b023c9fa0ec4abc4",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "condition": "tag_new_old",
+      "n": 624,
+      "run_key": "e28719914be31b5614ed47b8f96e8457eabc0f54429358f4a15baaa121409bda",
+      "seconds": 134.0
+    },
+    "llama3.1-8b/old_changelog": {
+      "model_tag": "llama3.1-8b",
+      "repo": "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
+      "revision": "db1f81ad4b8c7e39777509fac66c652eb0a52f91",
+      "snapshot": "db1f81ad4b8c7e39777509fac66c652eb0a52f91",
+      "vllm": "0.31.0",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "gpu": "NVIDIA GeForce RTX 4070",
+      "python": "3.11.17",
+      "max_model_len": 6144,
+      "max_tokens": 160,
+      "gpu_mem": 0.85,
+      "seed": 2026,
+      "chat_template_kwargs": {},
+      "flashinfer_sampler": "0",
+      "script_sha256": "833c7fe70abac2648d2335c2ee241064a33961a9d68464e3b023c9fa0ec4abc4",
+      "structured_outputs": "xgrammar, disable_any_whitespace",
+      "condition": "old_changelog",
+      "n": 624,
+      "run_key": "70eb1bda0f840fd3adfcc67462e3f802386ce5de43bee0c2d4e0bc18dca88d99",
+      "seconds": 125.4
+    }
+  },
+  "outputs": {
+    "raw/llama3.1-8b/new.jsonl": "af7fcfcf4ecc61902cdbdbe4ec66aa811fabc47448f3d79cd53551a654a930e4",
+    "raw/llama3.1-8b/new_old.jsonl": "36518aa615449905d8b7e24a584824fad0c6b7409967b17a3249fb291c915573",
+    "raw/llama3.1-8b/old.jsonl": "5384ee9c80b1329ae886cf3be65f3a219fd599e7d2468e92274de6147b4b1d32",
+    "raw/llama3.1-8b/old_changelog.jsonl": "1cd6f54d4c2b9b0f883d5fb30c4e01a7bdf6ec34eab2884b6b04a06dd99f21a1",
+    "raw/llama3.1-8b/old_new.jsonl": "9fc5d2e4af2f4f47b61f7ffc16a25f3a7c10a308888643f07a7ea2380e230876",
+    "raw/llama3.1-8b/tag_new_old.jsonl": "ce411cbae732a557ffc9fbd5dd715cdbe9153a204cc03ec76a4a1fc918b9eeca",
+    "raw/llama3.1-8b/tag_old_new.jsonl": "6220ac132f8a16927f833d20b1b570299533f19febd47f78a919cfcfa7432d46",
+    "raw/qwen3-8b/new.jsonl": "ac3f813df4a60df90a9b6c9d0dc5907f1bd31cd6a4ea5ccb7c053e316f005672",
+    "raw/qwen3-8b/new_old.jsonl": "4aba371dfb62d021ea108f09470691279b58b516897dbeb4c07c0b9d03169155",
+    "raw/qwen3-8b/old.jsonl": "fb34df51d7e7cbc662692db37ce35db581a23dff53bf184b886fe61b5d032bbc",
+    "raw/qwen3-8b/old_changelog.jsonl": "09f58802d1d3dee7bd060b9ae0d40c5c3422adaae40c2be4e35cf194172e7b62",
+    "raw/qwen3-8b/old_new.jsonl": "3d467227324fcdb3fae092b7a66626a70f019f1836c7b5853d1ea9434e7cc4fd",
+    "raw/qwen3-8b/tag_new_old.jsonl": "96ed3363ce286419f3d72afdc61c51d51cc33fee5000d097ace4731ed5e689d1",
+    "raw/qwen3-8b/tag_old_new.jsonl": "344befb43b0a0a5ae62fb4f2d8556caa359218ce7e26e3b080665ea255282bc8",
+    "scored.csv": "b5d2b04b2e48cd615f90fd7590516fa8adf00a41c184f13dd1774afbf0a65a35",
+    "summary_by_template.csv": "282193afc7e981d6f4616edd08944dd2abd61b996bb3430706fae6efeafffa41",
+    "summary_conditions.csv": "4d82d7caf2821dc8b4e4a2cc095cf5ce95a03470db316de3c800234f32b667ee",
+    "summary_hypotheses.csv": "8ca20f720e96607bb43b55308fe05519813204344a93cd4034e7369a5a8aec3a",
+    "summary_hypotheses_unversioned.csv": "3687fe8286a058325b8e1042556eb22a273edbc154514e02bf65c7fb3a31e297",
+    "summary_outcomes.csv": "6ae0b24f87c1b953bb9a6bb10d978d19d332e5e47c36a44b70a782ec1fb8b17e"
+  }
+}

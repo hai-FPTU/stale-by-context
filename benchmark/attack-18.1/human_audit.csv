@@ -1,0 +1,1017 @@
+qid,template,question,gold,evidence_excerpt,annotator_A_correct,annotator_B_correct,notes
+Q1-00181,Q1_tech_tactic,Under which ATT&CK Enterprise tactic(s) is T1491.002 (External Defacement) categorized?,Impact (TA0040),"ATT&CK Technique T1491.002: External Defacement
+Tactics: Impact (TA0040).
+Sub-technique of: T1491 Defacement.
+Platforms: Windows, IaaS, Linux, macOS.
+An adversary may deface systems external to an organization in an attempt to deliver messaging, intimidate, or otherwise mislead an organization or users. External Defacement may ultimately cause users to distrust the systems and to question/discredit the system’s integrity. Externally-facing websites are a common victim of defacement; often targeted by adversary and hacktivist groups in order to push a political message or spread propaganda. Ext",,,
+Q1-00091,Q1_tech_tactic,"In the ATT&CK Enterprise matrix, what tactic(s) is the technique Communication Through Removable Media (T1092) listed under?",Command and Control (TA0011),"ATT&CK Technique T1092: Communication Through Removable Media
+Tactics: Command and Control (TA0011).
+Platforms: Linux, macOS, Windows.
+Adversaries can perform command and control between compromised hosts on potentially disconnected networks using removable media to transfer commands from system to system. Both systems would need to be compromised, with the likelihood that an Internet-connected system was compromised first and the second through lateral movement by Replication Through Removable Media. Commands and files would be relayed from the disconnected system to the Internet-connected sy",,,
+Q1-00361,Q1_tech_tactic,Which MITRE ATT&CK tactic(s) does the technique Scanning IP Blocks (T1595.001) belong to?,Reconnaissance (TA0043),"ATT&CK Technique T1595.001: Scanning IP Blocks
+Tactics: Reconnaissance (TA0043).
+Sub-technique of: T1595 Active Scanning.
+Platforms: PRE.
+Adversaries may scan victim IP blocks to gather information that can be used during targeting. Public IP addresses may be allocated to organizations by block, or a range of sequential addresses.
+
+Adversaries may scan IP blocks in order to Gather Victim Network Information, such as which IP addresses are actively in use as well as more detailed information about hosts assigned these addresses. Scans may range from simple pings (ICMP requests and responses) to",,,
+Q1-00014,Q1_tech_tactic,Under which ATT&CK Enterprise tactic(s) is T1021 (Remote Services) categorized?,Lateral Movement (TA0008),"ATT&CK Technique T1021: Remote Services
+Tactics: Lateral Movement (TA0008).
+Platforms: Linux, macOS, Windows, IaaS, ESXi.
+Adversaries may use Valid Accounts to log into a service that accepts remote connections, such as telnet, SSH, and VNC. The adversary may then perform actions as the logged-on user.
+
+In an enterprise environment, servers and workstations can be organized into domains. Domains provide centralized identity management, allowing users to login using one set of credentials across the entire network. If an adversary is able to obtain a set of valid domain credentials, they could ",,,
+Q1-00190,Q1_tech_tactic,Under which ATT&CK Enterprise tactic(s) is T1499 (Endpoint Denial of Service) categorized?,Impact (TA0040),"ATT&CK Technique T1499: Endpoint Denial of Service
+Tactics: Impact (TA0040).
+Platforms: Windows, Linux, macOS, Containers, IaaS.
+Adversaries may perform Endpoint Denial of Service (DoS) attacks to degrade or block the availability of services to users. Endpoint DoS can be performed by exhausting the system resources those services are hosted on or exploiting the system to cause a persistent crash condition. Example services include websites, email services, DNS, and web-based applications. Adversaries have been observed conducting DoS attacks for political purposes and to support other malicio",,,
+Q1-00185,Q1_tech_tactic,"In the ATT&CK Enterprise matrix, what tactic(s) is the technique Virtualization/Sandbox Evasion (T1497) listed under?","Defense Evasion (TA0005), Discovery (TA0007)","ATT&CK Technique T1497: Virtualization/Sandbox Evasion
+Tactics: Defense Evasion (TA0005), Discovery (TA0007).
+Platforms: Linux, macOS, Windows.
+Adversaries may employ various means to detect and avoid virtualization and analysis environments. This may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (VME) or sandbox. If the adversary detects a VME, they may alter their malware to disengage from the victim or conceal the core functions of the implant. They may also search for VME artifacts before dropping seconda",,,
+Q1-00134,Q1_tech_tactic,Under which ATT&CK Enterprise tactic(s) is T1195.002 (Compromise Software Supply Chain) categorized?,Initial Access (TA0001),"ATT&CK Technique T1195.002: Compromise Software Supply Chain
+Tactics: Initial Access (TA0001).
+Sub-technique of: T1195 Supply Chain Compromise.
+Platforms: Linux, Windows, macOS.
+Adversaries may manipulate application software prior to receipt by a final consumer for the purpose of data or system compromise. Supply chain compromise of software can take place in a number of ways, including manipulation of the application source code, manipulation of the update/distribution mechanism for that software, or replacing compiled releases with a modified version.
+
+Targeting may be specific to a desired",,,
+Q1-00083,Q1_tech_tactic,Under which ATT&CK Enterprise tactic(s) is T1082 (System Information Discovery) categorized?,Discovery (TA0007),"ATT&CK Technique T1082: System Information Discovery
+Tactics: Discovery (TA0007).
+Platforms: ESXi, IaaS, Linux, macOS, Network Devices, Windows.
+An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. Adversaries may use this information to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions. This behavior is distinct from Local Storage Discovery which is an adversary's discovery of local drive, disks and/or volumes",,,
+Q1-00336,Q1_tech_tactic,"In the ATT&CK Enterprise matrix, what tactic(s) is the technique Exploits (T1587.004) listed under?",Resource Development (TA0042),"ATT&CK Technique T1587.004: Exploits
+Tactics: Resource Development (TA0042).
+Sub-technique of: T1587 Develop Capabilities.
+Platforms: PRE.
+Adversaries may develop exploits that can be used during targeting. An exploit takes advantage of a bug or vulnerability in order to cause unintended or unanticipated behavior to occur on computer hardware or software. Rather than finding/modifying exploits from online or purchasing them from exploit vendors, an adversary may develop their own exploits. Adversaries may use information acquired via Vulnerabilities to focus exploit development efforts. As par",,,
+Q1-00005,Q1_tech_tactic,Under which ATT&CK Enterprise tactic(s) is T1003.006 (DCSync) categorized?,Credential Access (TA0006),"ATT&CK Technique T1003.006: DCSync
+Tactics: Credential Access (TA0006).
+Sub-technique of: T1003 OS Credential Dumping.
+Platforms: Windows.
+Adversaries may attempt to access credentials and other sensitive information by abusing a Windows Domain Controller's application programming interface (API) to simulate the replication process from a remote domain controller using a technique called DCSync.
+
+Members of the Administrators, Domain Admins, and Enterprise Admin groups or computer accounts on the domain controller are able to run DCSync to pull password data from Active Directory, which may in",,,
+Q1-00096,Q1_tech_tactic,"In the ATT&CK Enterprise matrix, what tactic(s) is the technique Dead Drop Resolver (T1102.001) listed under?",Command and Control (TA0011),"ATT&CK Technique T1102.001: Dead Drop Resolver
+Tactics: Command and Control (TA0011).
+Sub-technique of: T1102 Web Service.
+Platforms: ESXi, Linux, macOS, Windows.
+Adversaries may use an existing, legitimate external Web service to host information that points to additional command and control (C2) infrastructure. Adversaries may post content, known as a dead drop resolver, on Web services with embedded (and often obfuscated/encoded) domains or IP addresses. Once infected, victims will reach out to and be redirected by these resolvers.
+
+Popular websites and social media acting as a mechanism fo",,,
+Q1-00158,Q1_tech_tactic,Under which ATT&CK Enterprise tactic(s) is T1218.008 (Odbcconf) categorized?,Defense Evasion (TA0005),"ATT&CK Technique T1218.008: Odbcconf
+Tactics: Defense Evasion (TA0005).
+Sub-technique of: T1218 System Binary Proxy Execution.
+Platforms: Windows.
+Adversaries may abuse odbcconf.exe to proxy execution of malicious payloads. Odbcconf.exe is a Windows utility that allows you to configure Open Database Connectivity (ODBC) drivers and data source names. The Odbcconf.exe binary may be digitally signed by Microsoft.
+
+Adversaries may abuse odbcconf.exe to bypass application control solutions that do not account for its potential abuse. Similar to Regsvr32, odbcconf.exe has a REGSVR flag that can be m",,,
+Q1-00318,Q1_tech_tactic,"In the ATT&CK Enterprise matrix, what tactic(s) is the technique Create Snapshot (T1578.001) listed under?",Defense Evasion (TA0005),"ATT&CK Technique T1578.001: Create Snapshot
+Tactics: Defense Evasion (TA0005).
+Sub-technique of: T1578 Modify Cloud Compute Infrastructure.
+Platforms: IaaS.
+An adversary may create a snapshot or data backup within a cloud account to evade defenses. A snapshot is a point-in-time copy of an existing cloud compute component such as a virtual machine (VM), virtual hard drive, or volume. An adversary may leverage permissions to create a snapshot in order to bypass restrictions that prevent access to existing compute service infrastructure, unlike in Revert Cloud Instance where an adversary may reve",,,
+Q1-00313,Q1_tech_tactic,Which MITRE ATT&CK tactic(s) does the technique Dynamic Linker Hijacking (T1574.006) belong to?,"Persistence (TA0003), Privilege Escalation (TA0004), Defense Evasion (TA0005)","ATT&CK Technique T1574.006: Dynamic Linker Hijacking
+Tactics: Persistence (TA0003), Privilege Escalation (TA0004), Defense Evasion (TA0005).
+Sub-technique of: T1574 Hijack Execution Flow.
+Platforms: Linux, macOS.",,,
+Q1-00182,Q1_tech_tactic,Which MITRE ATT&CK tactic(s) does the technique Firmware Corruption (T1495) belong to?,Impact (TA0040),"ATT&CK Technique T1495: Firmware Corruption
+Tactics: Impact (TA0040).
+Platforms: Linux, macOS, Network Devices, Windows.
+Adversaries may overwrite or corrupt the flash memory contents of system BIOS or other firmware in devices attached to a system in order to render them inoperable or unable to boot, thus denying the availability to use the devices and/or the system. Firmware is software that is loaded and executed from non-volatile memory on hardware devices in order to initialize and manage device functionality. These devices may include the motherboard, hard drive, or video cards.
+
+In gene",,,
+Q1-00269,Q1_tech_tactic,"In the ATT&CK Enterprise matrix, what tactic(s) is the technique Inter-Process Communication (T1559) listed under?",Execution (TA0002),"ATT&CK Technique T1559: Inter-Process Communication
+Tactics: Execution (TA0002).
+Platforms: Linux, macOS, Windows.
+Adversaries may abuse inter-process communication (IPC) mechanisms for local code or command execution. IPC is typically used by processes to share data, communicate with each other, or synchronize execution. IPC is also commonly used to avoid situations such as deadlocks, which occurs when processes are stuck in a cyclic waiting pattern. 
+
+Adversaries may abuse IPC to execute arbitrary code or commands. IPC mechanisms may differ depending on OS, but typically exists in a form acc",,,
+Q1-00000,Q1_tech_tactic,Under which ATT&CK Enterprise tactic(s) is T1001 (Data Obfuscation) categorized?,Command and Control (TA0011),"ATT&CK Technique T1001: Data Obfuscation
+Tactics: Command and Control (TA0011).
+Platforms: ESXi, Linux, macOS, Windows.
+Adversaries may obfuscate command and control traffic to make it more difficult to detect. Command and control (C2) communications are hidden (but not necessarily encrypted) in an attempt to make the content more difficult to discover or decipher and to make the communication less conspicuous and hide commands from being seen. This encompasses many methods, such as adding junk data to protocol traffic, using steganography, or impersonating legitimate protocols.
+Mitigations: M",,,
+Q1-00291,Q1_tech_tactic,"In the ATT&CK Enterprise matrix, what tactic(s) is the technique Data Manipulation (T1565) listed under?",Impact (TA0040),"ATT&CK Technique T1565: Data Manipulation
+Tactics: Impact (TA0040).
+Platforms: Linux, macOS, Windows.
+Adversaries may insert, delete, or manipulate data in order to influence external outcomes or hide activity, thus threatening the integrity of the data. By manipulating data, adversaries may attempt to affect a business process, organizational understanding, or decision making.
+
+The type of modification and the impact it will have depends on the target application and process as well as the goals and objectives of the adversary. For complex systems, an adversary would likely need special exper",,,
+Q1-00266,Q1_tech_tactic,Under which ATT&CK Enterprise tactic(s) is T1557.004 (Evil Twin) categorized?,"Credential Access (TA0006), Collection (TA0009)","ATT&CK Technique T1557.004: Evil Twin
+Tactics: Credential Access (TA0006), Collection (TA0009).
+Sub-technique of: T1557 Adversary-in-the-Middle.
+Platforms: Network Devices.
+Adversaries may host seemingly genuine Wi-Fi access points to deceive users into connecting to malicious networks as a way of supporting follow-on behaviors such as Network Sniffing, Transmitted Data Manipulation, or Input Capture.
+
+By using a Service Set Identifier (SSID) of a legitimate Wi-Fi network, fraudulent Wi-Fi access points may trick devices or users into connecting to malicious Wi-Fi networks. Adversaries may pro",,,
+Q1-00283,Q1_tech_tactic,Under which ATT&CK Enterprise tactic(s) is T1563 (Remote Service Session Hijacking) categorized?,Lateral Movement (TA0008),"ATT&CK Technique T1563: Remote Service Session Hijacking
+Tactics: Lateral Movement (TA0008).
+Platforms: Linux, macOS, Windows.
+Adversaries may take control of preexisting sessions with remote services to move laterally in an environment. Users may use valid credentials to log into a service specifically designed to accept remote connections, such as telnet, SSH, and RDP. When a user logs into a service, a session will be established that will allow them to maintain a continuous interaction with that service.
+
+Adversaries may commandeer these sessions to carry out actions on remote systems. Rem",,,
+Q1-00029,Q1_tech_tactic,Under which ATT&CK Enterprise tactic(s) is T1027.014 (Polymorphic Code) categorized?,Defense Evasion (TA0005),"ATT&CK Technique T1027.014: Polymorphic Code
+Tactics: Defense Evasion (TA0005).
+Sub-technique of: T1027 Obfuscated Files or Information.
+Platforms: Windows, macOS, Linux.
+Adversaries may utilize polymorphic code (also known as metamorphic or mutating code) to evade detection. Polymorphic code is a type of software capable of changing its runtime footprint during code execution. With each execution of the software, the code is mutated into a different version of itself that achieves the same purpose or objective as the original. This functionality enables the malware to evade traditional signat",,,
+Q1-00314,Q1_tech_tactic,Which MITRE ATT&CK tactic(s) does the technique Path Interception by Search Order Hijacking (T1574.008) belong to?,"Persistence (TA0003), Privilege Escalation (TA0004), Defense Evasion (TA0005)","ATT&CK Technique T1574.008: Path Interception by Search Order Hijacking
+Tactics: Persistence (TA0003), Privilege Escalation (TA0004), Defense Evasion (TA0005).
+Sub-technique of: T1574 Hijack Execution Flow.
+Platforms: Windows.
+Adversaries may execute their own malicious payloads by hijacking the search order used to load other programs. Because some programs do not call other programs using the full path, adversaries may place their own file in the directory where the calling program is located, causing the operating system to launch their malicious software at the request of the calling progr",,,
+Q1-00103,Q1_tech_tactic,Which MITRE ATT&CK tactic(s) does the technique Credential Stuffing (T1110.004) belong to?,Credential Access (TA0006),"ATT&CK Technique T1110.004: Credential Stuffing
+Tactics: Credential Access (TA0006).
+Sub-technique of: T1110 Brute Force.
+Platforms: Windows, SaaS, IaaS, Linux, macOS, Containers, Network Devices, Office Suite, Identity Provider, ESXi.
+Adversaries may use credentials obtained from breach dumps of unrelated accounts to gain access to target accounts through credential overlap. Occasionally, large numbers of username and password pairs are dumped online when a website or service is compromised and the user account credentials accessed. The information may be useful to an adversary attempting to ",,,
+Q1-00007,Q1_tech_tactic,Which MITRE ATT&CK tactic(s) does the technique /etc/passwd and /etc/shadow (T1003.008) belong to?,Credential Access (TA0006),"ATT&CK Technique T1003.008: /etc/passwd and /etc/shadow
+Tactics: Credential Access (TA0006).
+Sub-technique of: T1003 OS Credential Dumping.
+Platforms: Linux.
+Adversaries may attempt to dump the contents of /etc/passwd and /etc/shadow to enable offline password cracking. Most modern Linux operating systems use a combination of /etc/passwd and /etc/shadow to store user account information, including password hashes in /etc/shadow. By default, /etc/shadow is only readable by the root user.
+
+Linux stores user information such as user ID, group ID, home directory path, and login shell in /etc/passw",,,
+Q1-00154,Q1_tech_tactic,Under which ATT&CK Enterprise tactic(s) is T1217 (Browser Information Discovery) categorized?,Discovery (TA0007),"ATT&CK Technique T1217: Browser Information Discovery
+Tactics: Discovery (TA0007).
+Platforms: Linux, macOS, Windows.
+Adversaries may enumerate information about browsers to learn more about compromised environments. Data saved by browsers (such as bookmarks, accounts, and browsing history) may reveal a variety of personal information about users (e.g., banking sites, relationships/interests, social media, etc.) as well as details about internal network resources such as servers, tools/dashboards, or other related infrastructure.
+
+Browser information may also highlight additional targets after ",,,
+Q1-00243,Q1_tech_tactic,"In the ATT&CK Enterprise matrix, what tactic(s) is the technique Elevated Execution with Prompt (T1548.004) listed under?","Privilege Escalation (TA0004), Defense Evasion (TA0005)","ATT&CK Technique T1548.004: Elevated Execution with Prompt
+Tactics: Privilege Escalation (TA0004), Defense Evasion (TA0005).
+Sub-technique of: T1548 Abuse Elevation Control Mechanism.
+Platforms: macOS.
+Adversaries may leverage the AuthorizationExecuteWithPrivileges API to escalate privileges by prompting the user for credentials. The purpose of this API is to give application developers an easy way to perform operations with root privileges, such as for application installation or updating. This API does not validate that the program requesting root privileges comes from a reputable source or ",,,
+Q1-00298,Q1_tech_tactic,"In the ATT&CK Enterprise matrix, what tactic(s) is the technique Exfiltration to Cloud Storage (T1567.002) listed under?",Exfiltration (TA0010),"ATT&CK Technique T1567.002: Exfiltration to Cloud Storage
+Tactics: Exfiltration (TA0010).
+Sub-technique of: T1567 Exfiltration Over Web Service.
+Platforms: ESXi, Linux, macOS, Windows.
+Adversaries may exfiltrate data to a cloud storage service rather than over their primary command and control channel. Cloud storage services allow for the storage, edit, and retrieval of data from a remote cloud storage server over the Internet.
+
+Examples of cloud storage services include Dropbox and Google Docs. Exfiltration to these cloud storage services can provide a significant amount of cover to the adver",,,
+Q1-00066,Q1_tech_tactic,Which MITRE ATT&CK tactic(s) does the technique Lua (T1059.011) belong to?,Execution (TA0002),"ATT&CK Technique T1059.011: Lua
+Tactics: Execution (TA0002).
+Sub-technique of: T1059 Command and Scripting Interpreter.
+Platforms: Linux, Network Devices, Windows, macOS.
+Adversaries may abuse Lua commands and scripts for execution. Lua is a cross-platform scripting and programming language primarily designed for embedded use in applications. Lua can be executed on the command-line (through the stand-alone lua interpreter), via scripts (.lua), or from Lua-embedded programs (through the struct lua_State).
+
+Lua scripts may be executed by adversaries for malicious purposes. Adversaries may incorp",,,
+Q2-00550,Q2_subtech_parent,"Which ATT&CK technique has ""Malicious Copy and Paste"" as one of its sub-techniques?",T1204 User Execution,"ATT&CK Technique T1204.004: Malicious Copy and Paste
+Tactics: Execution (TA0002).
+Sub-technique of: T1204 User Execution.
+Platforms: Linux, macOS, Windows.
+An adversary may rely upon a user copying and pasting code in order to gain execution. Users may be subjected to social engineering to get them to copy and paste code directly into a Command and Scripting Interpreter. One such strategy is ""ClickFix,"" in which adversaries present users with seemingly helpful solutions—such as prompts to fix errors or complete CAPTCHAs—that instead instruct the user to copy and paste malicious code.
+
+Maliciou",,,
+Q2-00739,Q2_subtech_parent,"Which ATT&CK technique has ""Dylib Hijacking"" as one of its sub-techniques?",T1574 Hijack Execution Flow,"ATT&CK Technique T1574.004: Dylib Hijacking
+Tactics: Persistence (TA0003), Privilege Escalation (TA0004), Defense Evasion (TA0005).
+Sub-technique of: T1574 Hijack Execution Flow.
+Platforms: macOS.
+Adversaries may execute their own payloads by placing a malicious dynamic library (dylib) with an expected name in a path a victim application searches at runtime. The dynamic loader will try to find the dylibs based on the sequential order of the search paths. Paths to dylibs may be prefixed with @rpath, which allows developers to use relative paths to specify an array of search paths used at runtim",,,
+Q2-00517,Q2_subtech_parent,"Which ATT&CK technique has ""Dead Drop Resolver"" as one of its sub-techniques?",T1102 Web Service,"ATT&CK Technique T1102.001: Dead Drop Resolver
+Tactics: Command and Control (TA0011).
+Sub-technique of: T1102 Web Service.
+Platforms: ESXi, Linux, macOS, Windows.
+Adversaries may use an existing, legitimate external Web service to host information that points to additional command and control (C2) infrastructure. Adversaries may post content, known as a dead drop resolver, on Web services with embedded (and often obfuscated/encoded) domains or IP addresses. Once infected, victims will reach out to and be redirected by these resolvers.
+
+Popular websites and social media acting as a mechanism fo",,,
+Q2-00612,Q2_subtech_parent,"What is the parent ATT&CK technique of the sub-technique named ""Systemd Service""?",T1543 Create or Modify System Process,"ATT&CK Technique T1543.002: Systemd Service
+Tactics: Persistence (TA0003), Privilege Escalation (TA0004).
+Sub-technique of: T1543 Create or Modify System Process.
+Platforms: Linux.
+Adversaries may create or modify systemd services to repeatedly execute malicious payloads as part of persistence. Systemd is a system and service manager commonly used for managing background daemon processes (also known as services) and other system resources. Systemd is the default initialization (init) system on many Linux distributions replacing legacy init systems, including SysVinit and Upstart, while remaini",,,
+Q2-00656,Q2_subtech_parent,"What is the parent ATT&CK technique of the sub-technique named ""Credentials in Registry""?",T1552 Unsecured Credentials,"ATT&CK Technique T1552.002: Credentials in Registry
+Tactics: Credential Access (TA0006).
+Sub-technique of: T1552 Unsecured Credentials.
+Platforms: Windows.
+Adversaries may search the Registry on compromised systems for insecurely stored credentials. The Windows Registry stores configuration information that can be used by the system or other programs. Adversaries may query the Registry looking for credentials and passwords that have been stored for use by other programs or services. Sometimes these credentials are used for automatic logons.
+
+Example commands to find Registry keys related to pa",,,
+Q2-00745,Q2_subtech_parent,"What is the parent ATT&CK technique of the sub-technique named ""Services Registry Permissions Weakness""?",T1574 Hijack Execution Flow,"ATT&CK Technique T1574.011: Services Registry Permissions Weakness
+Tactics: Persistence (TA0003), Privilege Escalation (TA0004), Defense Evasion (TA0005).
+Sub-technique of: T1574 Hijack Execution Flow.
+Platforms: Windows.",,,
+Q2-00718,Q2_subtech_parent,"In MITRE ATT&CK, the sub-technique ""Email Hiding Rules"" belongs to which parent technique?",T1564 Hide Artifacts,"ATT&CK Technique T1564.008: Email Hiding Rules
+Tactics: Defense Evasion (TA0005).
+Sub-technique of: T1564 Hide Artifacts.
+Platforms: Windows, Linux, macOS, Office Suite.
+Adversaries may use email rules to hide inbound emails in a compromised user's mailbox. Many email clients allow users to create inbox rules for various email functions, including moving emails to other folders, marking emails as read, or deleting emails. Rules may be created or modified within email clients or through external features such as the New-InboxRule or Set-InboxRule PowerShell cmdlets on Windows systems.
+
+Adversar",,,
+Q2-00639,Q2_subtech_parent,"In MITRE ATT&CK, the sub-technique ""Shortcut Modification"" belongs to which parent technique?",T1547 Boot or Logon Autostart Execution,"ATT&CK Technique T1547.009: Shortcut Modification
+Tactics: Persistence (TA0003), Privilege Escalation (TA0004).
+Sub-technique of: T1547 Boot or Logon Autostart Execution.
+Platforms: Windows.
+Adversaries may create or modify shortcuts that can execute a program during system boot or user login. Shortcuts or symbolic links are used to reference other files or programs that will be opened or executed when the shortcut is clicked or executed by a system startup process.
+
+Adversaries may abuse shortcuts in the startup folder to execute their tools and achieve persistence. Although often used as pay",,,
+Q2-00446,Q2_subtech_parent,"In MITRE ATT&CK, the sub-technique ""Login Hook"" belongs to which parent technique?",T1037 Boot or Logon Initialization Scripts,"ATT&CK Technique T1037.002: Login Hook
+Tactics: Persistence (TA0003), Privilege Escalation (TA0004).
+Sub-technique of: T1037 Boot or Logon Initialization Scripts.
+Platforms: macOS.
+Adversaries may use a Login Hook to establish persistence executed upon user logon. A login hook is a plist file that points to a specific script to execute with root privileges upon user logon. The plist file is located in the /Library/Preferences/com.apple.loginwindow.plist file and can be modified using the defaults command-line utility. This behavior is the same for logout hooks where a script can be executed up",,,
+Q2-00641,Q2_subtech_parent,"Which ATT&CK technique has ""Print Processors"" as one of its sub-techniques?",T1547 Boot or Logon Autostart Execution,"ATT&CK Technique T1547.012: Print Processors
+Tactics: Persistence (TA0003), Privilege Escalation (TA0004).
+Sub-technique of: T1547 Boot or Logon Autostart Execution.
+Platforms: Windows.
+Adversaries may abuse print processors to run malicious DLLs during system boot for persistence and/or privilege escalation. Print processors are DLLs that are loaded by the print spooler service, `spoolsv.exe`, during boot.
+
+Adversaries may abuse the print spooler service by adding print processors that load malicious DLLs at startup. A print processor can be installed through the AddPrintProcessor API call wi",,,
+Q2-00786,Q2_subtech_parent,"What is the parent ATT&CK technique of the sub-technique named ""Disable Crypto Hardware""?",T1600 Weaken Encryption,"ATT&CK Technique T1600.002: Disable Crypto Hardware
+Tactics: Defense Evasion (TA0005).
+Sub-technique of: T1600 Weaken Encryption.
+Platforms: Network Devices.
+Adversaries disable a network device’s dedicated hardware encryption, which may enable them to leverage weaknesses in software encryption in order to reduce the effort involved in collecting, manipulating, and exfiltrating transmitted data.
+
+Many network devices such as routers, switches, and firewalls, perform encryption on network traffic to secure transmission across networks. Often, these devices are equipped with special, dedicated e",,,
+Q2-00483,Q2_subtech_parent,"Which ATT&CK technique has ""Hypervisor CLI"" as one of its sub-techniques?",T1059 Command and Scripting Interpreter,"ATT&CK Technique T1059.012: Hypervisor CLI
+Tactics: Execution (TA0002).
+Sub-technique of: T1059 Command and Scripting Interpreter.
+Platforms: ESXi.
+Adversaries may abuse hypervisor command line interpreters (CLIs) to execute malicious commands. Hypervisor CLIs typically enable a wide variety of functionality for managing both the hypervisor itself and the guest virtual machines it hosts. 
+
+For example, on ESXi systems, tools such as `esxcli` and `vim-cmd` allow administrators to configure firewall rules and log forwarding on the hypervisor, list virtual machines, start and stop virtual machine",,,
+Q2-00610,Q2_subtech_parent,"Which ATT&CK technique has ""ROMMONkit"" as one of its sub-techniques?",T1542 Pre-OS Boot,"ATT&CK Technique T1542.004: ROMMONkit
+Tactics: Persistence (TA0003), Defense Evasion (TA0005).
+Sub-technique of: T1542 Pre-OS Boot.
+Platforms: Network Devices.
+Adversaries may abuse the ROM Monitor (ROMMON) by loading an unauthorized firmware with adversary code to provide persistent access and manipulate device behavior that is difficult to detect. 
+
+
+ROMMON is a Cisco network device firmware that functions as a boot loader, boot image, or boot helper to initialize hardware and software when the platform is powered on or reset. Similar to TFTP Boot, an adversary may upgrade the ROMMON image l",,,
+Q2-00593,Q2_subtech_parent,"Which ATT&CK technique has ""Direct Network Flood"" as one of its sub-techniques?",T1498 Network Denial of Service,"ATT&CK Technique T1498.001: Direct Network Flood
+Tactics: Impact (TA0040).
+Sub-technique of: T1498 Network Denial of Service.
+Platforms: Windows, IaaS, Linux, macOS.
+Adversaries may attempt to cause a denial of service (DoS) by directly sending a high-volume of network traffic to a target. This DoS attack may also reduce the availability and functionality of the targeted system(s) and network. Direct Network Floods are when one or more systems are used to send a high-volume of network packets towards the targeted service's network. Almost any network protocol may be used for flooding. Stateles",,,
+Q2-00573,Q2_subtech_parent,"What is the parent ATT&CK technique of the sub-technique named ""MMC""?",T1218 System Binary Proxy Execution,"ATT&CK Technique T1218.014: MMC
+Tactics: Defense Evasion (TA0005).
+Sub-technique of: T1218 System Binary Proxy Execution.
+Platforms: Windows.
+Adversaries may abuse mmc.exe to proxy execution of malicious.msc files. Microsoft Management Console (MMC) is a binary that may be signed by Microsoft and is used in several ways in either its GUI or in a command prompt. MMC can be used to create, open, and save custom consoles that contain administrative tools created by Microsoft, called snap-ins. These snap-ins may be used to manage Windows systems locally or remotely. MMC can also be used to open Mi",,,
+Q2-00797,Q2_subtech_parent,"Which ATT&CK technique has ""Link Target"" as one of its sub-techniques?",T1608 Stage Capabilities,"ATT&CK Technique T1608.005: Link Target
+Tactics: Resource Development (TA0042).
+Sub-technique of: T1608 Stage Capabilities.
+Platforms: PRE.",,,
+Q2-00726,Q2_subtech_parent,"What is the parent ATT&CK technique of the sub-technique named ""Transmitted Data Manipulation""?",T1565 Data Manipulation,"ATT&CK Technique T1565.002: Transmitted Data Manipulation
+Tactics: Impact (TA0040).
+Sub-technique of: T1565 Data Manipulation.
+Platforms: Linux, macOS, Windows.
+Adversaries may alter data en route to storage or other systems in order to manipulate external outcomes or hide activity, thus threatening the integrity of the data. By manipulating transmitted data, adversaries may attempt to affect a business process, organizational understanding, and decision making.
+
+Manipulation may be possible over a network connection or between system processes where there is an opportunity deploy a tool that ",,,
+Q2-00578,Q2_subtech_parent,"What is the parent ATT&CK technique of the sub-technique named ""Windows File and Directory Permissions Modification""?",T1222 File and Directory Permissions Modification,"ATT&CK Technique T1222.001: Windows File and Directory Permissions Modification
+Tactics: Defense Evasion (TA0005).
+Sub-technique of: T1222 File and Directory Permissions Modification.
+Platforms: Windows.
+Adversaries may modify file or directory permissions/attributes to evade access control lists (ACLs) and access protected files. File and directory permissions are commonly managed by ACLs configured by the file or directory owner, or users with the appropriate permissions. File and directory ACL implementations vary by platform, but generally explicitly designate which users or groups can per",,,
+Q2-00688,Q2_subtech_parent,"Which ATT&CK technique has ""Kerberoasting"" as one of its sub-techniques?",T1558 Steal or Forge Kerberos Tickets,"ATT&CK Technique T1558.003: Kerberoasting
+Tactics: Credential Access (TA0006).
+Sub-technique of: T1558 Steal or Forge Kerberos Tickets.
+Platforms: Windows.
+Adversaries may abuse a valid Kerberos ticket-granting ticket (TGT) or sniff network traffic to obtain a ticket-granting service (TGS) ticket that may be vulnerable to Brute Force. 
+
+Service principal names (SPNs) are used to uniquely identify each instance of a Windows service. To enable authentication, Kerberos requires that SPNs be associated with at least one service logon account (an account specifically tasked with running a service).",,,
+Q2-00496,Q2_subtech_parent,"What is the parent ATT&CK technique of the sub-technique named ""Web Protocols""?",T1071 Application Layer Protocol,"ATT&CK Technique T1071.001: Web Protocols
+Tactics: Command and Control (TA0011).
+Sub-technique of: T1071 Application Layer Protocol.
+Platforms: ESXi, Linux, macOS, Network Devices, Windows.
+Adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server. 
+
+Protocols such as HTTP/S and WebSocket that carry web traffic may be very common in environment",,,
+Q2-00684,Q2_subtech_parent,"What is the parent ATT&CK technique of the sub-technique named ""DHCP Spoofing""?",T1557 Adversary-in-the-Middle,"ATT&CK Technique T1557.003: DHCP Spoofing
+Tactics: Credential Access (TA0006), Collection (TA0009).
+Sub-technique of: T1557 Adversary-in-the-Middle.
+Platforms: Linux, Windows, macOS.",,,
+Q2-00489,Q2_subtech_parent,"In MITRE ATT&CK, the sub-technique ""File Deletion"" belongs to which parent technique?",T1070 Indicator Removal,"ATT&CK Technique T1070.004: File Deletion
+Tactics: Defense Evasion (TA0005).
+Sub-technique of: T1070 Indicator Removal.
+Platforms: ESXi, Linux, macOS, Windows.
+Adversaries may delete files left behind by the actions of their intrusion activity. Malware, tools, or other non-native files dropped or created on a system by an adversary (ex: Ingress Tool Transfer) may leave traces to indicate to what was done within a network and how. Removal of these files can occur during an intrusion, or as part of a post-intrusion process to minimize the adversary's footprint.
+
+There are tools available from th",,,
+Q2-00590,Q2_subtech_parent,"Which ATT&CK technique has ""System Checks"" as one of its sub-techniques?",T1497 Virtualization/Sandbox Evasion,"ATT&CK Technique T1497.001: System Checks
+Tactics: Defense Evasion (TA0005), Discovery (TA0007).
+Sub-technique of: T1497 Virtualization/Sandbox Evasion.
+Platforms: Linux, macOS, Windows.",,,
+Q2-00521,Q2_subtech_parent,"What is the parent ATT&CK technique of the sub-technique named ""Password Cracking""?",T1110 Brute Force,"ATT&CK Technique T1110.002: Password Cracking
+Tactics: Credential Access (TA0006).
+Sub-technique of: T1110 Brute Force.
+Platforms: Linux, macOS, Windows, Network Devices, Office Suite, Identity Provider.
+Adversaries may use password cracking to attempt to recover usable credentials, such as plaintext passwords, when credential material such as password hashes are obtained. OS Credential Dumping can be used to obtain password hashes, this may only get an adversary so far when Pass the Hash is not an option. Further, adversaries may leverage Data from Configuration Repository in order to obtain ",,,
+Q2-00541,Q2_subtech_parent,"What is the parent ATT&CK technique of the sub-technique named ""Add-ins""?",T1137 Office Application Startup,"ATT&CK Technique T1137.006: Add-ins
+Tactics: Persistence (TA0003).
+Sub-technique of: T1137 Office Application Startup.
+Platforms: Windows, Office Suite.
+Adversaries may abuse Microsoft Office add-ins to obtain persistence on a compromised system. Office add-ins can be used to add functionality to Office programs. There are different types of add-ins that can be used by the various Office products; including Word/Excel add-in Libraries (WLL/XLL), VBA add-ins, Office Component Object Model (COM) add-ins, automation add-ins, VBA Editor (VBE), Visual Studio Tools for Office (VSTO) add-ins, and Out",,,
+Q2-00408,Q2_subtech_parent,"Which ATT&CK technique has ""Exfiltration Over Bluetooth"" as one of its sub-techniques?",T1011 Exfiltration Over Other Network Medium,"ATT&CK Technique T1011.001: Exfiltration Over Bluetooth
+Tactics: Exfiltration (TA0010).
+Sub-technique of: T1011 Exfiltration Over Other Network Medium.
+Platforms: Linux, macOS, Windows.
+Adversaries may attempt to exfiltrate data over Bluetooth rather than the command and control channel. If the command and control network is a wired Internet connection, an adversary may opt to exfiltrate data using a Bluetooth communication channel.
+
+Adversaries may choose to do this if they have sufficient access and proximity. Bluetooth connections might not be secured or defended as well as the primary Inte",,,
+Q2-00769,Q2_subtech_parent,"Which ATT&CK technique has ""Identify Roles"" as one of its sub-techniques?",T1591 Gather Victim Org Information,"ATT&CK Technique T1591.004: Identify Roles
+Tactics: Reconnaissance (TA0043).
+Sub-technique of: T1591 Gather Victim Org Information.
+Platforms: PRE.
+Adversaries may gather information about identities and roles within the victim organization that can be used during targeting. Information about business roles may reveal a variety of targetable details, including identifiable information for key personnel as well as what data/resources they have access to.
+
+Adversaries may gather this information in various ways, such as direct elicitation via Phishing for Information. Information about business ",,,
+Q2-00647,Q2_subtech_parent,"In MITRE ATT&CK, the sub-technique ""Sudo and Sudo Caching"" belongs to which parent technique?",T1548 Abuse Elevation Control Mechanism,"ATT&CK Technique T1548.003: Sudo and Sudo Caching
+Tactics: Privilege Escalation (TA0004), Defense Evasion (TA0005).
+Sub-technique of: T1548 Abuse Elevation Control Mechanism.
+Platforms: Linux, macOS.",,,
+Q3-01150,Q3_tech_mitigation,"To defend against Identify Business Tempo (T1591.003), which ATT&CK mitigations apply?",M1056 Pre-compromise,"ATT&CK Mitigation M1056: Pre-compromise
+Mitigates T1591.003 Identify Business Tempo: This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls. Efforts should focus on minimizing the amount and sensitivity of data available to external parties.
+Mitigates T1591.004 Identify Roles: This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls. Efforts should focus on minimizing the amount ",,,
+Q3-01071,Q3_tech_mitigation,What ATT&CK mitigations (M-IDs) does MITRE list for the technique T1563.001 (SSH Hijacking)?,M1022 Restrict File and Directory Permissions; M1026 Privileged Account Management; M1027 Password Policies; M1042 Disable or Remove Feature or Program,"ATT&CK Mitigation M1022: Restrict File and Directory Permissions
+Mitigates T1552.001 Credentials In Files: Restrict file shares to specific directories with access only to necessary users.
+Mitigates T1552.004 Private Keys: Ensure permissions are properly set on folders containing sensitive private keys to prevent unintended access. Additionally, on Cisco devices, set the `nonexportable` flag during RSA key pair generation.
+Mitigates T1553.003 SIP and Trust Provider Hijacking: Restrict storage and execution of SIP DLLs to protected directories, such as C:\\Windows, rather than user directories.",,,
+Q3-01044,Q3_tech_mitigation,What ATT&CK mitigations (M-IDs) does MITRE list for the technique T1555.006 (Cloud Secrets Management Stores)?,M1026 Privileged Account Management,"ATT&CK Mitigation M1026: Privileged Account Management
+Mitigates T1553.006 Code Signing Policy Modification: Limit the usage of local administrator and domain administrator accounts to be used for day-to-day operations that may expose them to potential adversaries.
+Mitigates T1555 Credentials from Password Stores: Limit the number of accounts and services with permission to query information from password stores to only those required. Ensure that accounts and services with permissions to query password stores only have access to the secrets they require.
+Mitigates T1555.006 Cloud Secrets Mana",,,
+Q3-00949,Q3_tech_mitigation,Which MITRE ATT&CK mitigations are recommended against Customer Relationship Management Software (T1213.004)?,M1017 User Training; M1018 User Account Management; M1047 Audit; M1054 Software Configuration,"ATT&CK Mitigation M1017: User Training
+Mitigates T1204.005 Malicious Library: Train developers to be aware of the existence of malicious libraries and how to avoid installing them.
+Mitigates T1213 Data from Information Repositories: Develop and publish policies that define acceptable information to be stored in repositories.
+Mitigates T1213.001 Confluence: Develop and publish policies that define acceptable information to be stored in Confluence repositories.
+Mitigates T1213.002 Sharepoint: Develop and publish policies that define acceptable information to be stored in SharePoint repositories.",,,
+Q3-00912,Q3_tech_mitigation,Which MITRE ATT&CK mitigations are recommended against Automated Collection (T1119)?,M1029 Remote Data Storage; M1041 Encrypt Sensitive Information,"ATT&CK Mitigation M1029: Remote Data Storage
+Mitigates T1072 Software Deployment Tools: If the application deployment system can be configured to deploy only signed binaries, then ensure that the trusted signing certificates are not co-located with the application deployment system and are instead located on a system that cannot be accessed remotely or to which remote access is tightly controlled.
+Mitigates T1119 Automated Collection: Encryption and off-system storage of sensitive information may be one way to mitigate collection of files, but may not stop an adversary from acquiring the infor",,,
+Q3-00980,Q3_tech_mitigation,Which MITRE ATT&CK mitigations are recommended against Network Denial of Service (T1498)?,M1037 Filter Network Traffic,"ATT&CK Mitigation M1037: Filter Network Traffic
+Mitigates T1219.002 Remote Desktop Software: Properly configure firewalls, application firewalls, and proxies to limit outgoing traffic to sites and services used by remote access software.
+Mitigates T1498 Network Denial of Service: When flood volumes exceed the capacity of the network connection being targeted, it is typically necessary to intercept the incoming traffic upstream to filter out the attack traffic from the legitimate traffic. Such defenses can be provided by the hosting Internet Service Provider (ISP) or by a 3rd party such …
+Mitig",,,
+Q3-01162,Q3_tech_mitigation,Which MITRE ATT&CK mitigations are recommended against Search Open Technical Databases (T1596)?,M1056 Pre-compromise,"ATT&CK Mitigation M1056: Pre-compromise
+Mitigates T1595.002 Vulnerability Scanning: This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls. Efforts should focus on minimizing the amount and sensitivity of data available to external parties.
+Mitigates T1595.003 Wordlist Scanning: This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls. Efforts should focus on minimizing the amoun",,,
+Q3-01050,Q3_tech_mitigation,Which MITRE ATT&CK mitigations are recommended against Multi-Factor Authentication (T1556.006)?,M1018 User Account Management; M1032 Multi-factor Authentication; M1047 Audit,"ATT&CK Mitigation M1018: User Account Management
+Mitigates T1555.005 Password Managers: Implement strict user account management policies to prevent unnecessary accounts from accessing sensitive systems. Regularly audit user accounts to identify and disable inactive accounts that may be targeted by attackers to extract credentials or gain unauthorized access.
+Mitigates T1556 Modify Authentication Process: Ensure that proper policies are implemented to dictate the the secure enrollment and deactivation of authentication mechanisms, such as MFA, for user accounts.
+Mitigates T1556.006 Multi-Facto",,,
+Q3-00894,Q3_tech_mitigation,"To defend against SSH Authorized Keys (T1098.004), which ATT&CK mitigations apply?",M1018 User Account Management; M1022 Restrict File and Directory Permissions; M1042 Disable or Remove Feature or Program,"ATT&CK Mitigation M1018: User Account Management
+Mitigates T1087 Account Discovery: Manage the creation, modification, use, and permissions associated to user accounts.
+Mitigates T1087.004 Cloud Account: Limit permissions to discover cloud accounts in accordance with least privilege. Organizations should limit the number of users within the organization with an IAM role that has administrative privileges, strive to reduce all permanent privileged role assignments, and conduct periodic entitlement reviews on IAM users, roles and policies.
+Mitigates T1098 Account Manipulation: Ensure that low-pr",,,
+Q3-01099,Q3_tech_mitigation,"To defend against Symmetric Cryptography (T1573.001), which ATT&CK mitigations apply?",M1031 Network Intrusion Prevention,"ATT&CK Mitigation M1031: Network Intrusion Prevention
+Mitigates T1571 Non-Standard Port: Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level.
+Mitigates T1572 Protocol Tunneling: Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level.
+Mitigates T1573 Encrypted Channel: Network intrusion detection and prevention systems that use network si",,,
+Q3-01036,Q3_tech_mitigation,"To defend against Chat Messages (T1552.008), which ATT&CK mitigations apply?",M1017 User Training; M1047 Audit,"ATT&CK Mitigation M1017: User Training
+Mitigates T1539 Steal Web Session Cookie: Train users to identify aspects of phishing attempts where they're asked to enter credentials into a site that has the incorrect domain for the application they are logging into. Additionally, train users not to run untrusted JavaScript in their browser, such as by copying and pasting code or dragging and …
+Mitigates T1547.007 Re-opened Applications: Holding the Shift key while logging in prevents apps from opening automatically.
+Mitigates T1552 Unsecured Credentials: Ensure that developers and system administrato",,,
+Q3-01065,Q3_tech_mitigation,"To defend against Impair Command History Logging (T1562.003), which ATT&CK mitigations apply?",M1028 Operating System Configuration; M1039 Environment Variable Permissions,"ATT&CK Mitigation M1028: Operating System Configuration
+Mitigates T1553.004 Install Root Certificate: Windows Group Policy can be used to manage root certificates and the Flags value of HKLM\\SOFTWARE\\Policies\\Microsoft\\SystemCertificates\\Root\\ProtectedRoots can be set to 1 to prevent non-administrator users from making further root installations into their own HKCU certificate store.
+Mitigates T1556 Modify Authentication Process: Ensure only valid password filters are registered. Filter DLLs must be present in Windows installation directory (`C:\Windows\System32\` by default) of a domain",,,
+Q3-01077,Q3_tech_mitigation,What ATT&CK mitigations (M-IDs) does MITRE list for the technique T1564.008 (Email Hiding Rules)?,M1047 Audit,"ATT&CK Mitigation M1047: Audit
+Mitigates T1562.012 Disable or Modify Linux Audit System: Routinely check account role permissions to ensure only expected users and roles have permission to modify logging settings. To ensure Audit rules can not be modified at runtime, add the `auditctl -e 2` as the last command in the audit.rules files. Once started, any attempt to change the configuration in …
+Mitigates T1562.013 Disable or Modify Network Device Firewall: Routinely check account role permissions to ensure only expected users and roles have permission to modify system firewalls.
+Mitigates T1563",,,
+Q3-01136,Q3_tech_mitigation,What ATT&CK mitigations (M-IDs) does MITRE list for the technique T1588.003 (Code Signing Certificates)?,M1056 Pre-compromise,"ATT&CK Mitigation M1056: Pre-compromise
+Mitigates T1588 Obtain Capabilities: This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.
+Mitigates T1588.001 Malware: This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.
+Mitigates T1588.002 Tool: This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of ente",,,
+Q3-01170,Q3_tech_mitigation,"To defend against Phishing for Information (T1598), which ATT&CK mitigations apply?",M1017 User Training; M1054 Software Configuration,"ATT&CK Mitigation M1017: User Training
+Mitigates T1566.004 Spearphishing Voice: Users can be trained to identify and report social engineering techniques and spearphishing attempts, while also being suspicious of and verifying the identify of callers.
+Mitigates T1598 Phishing for Information: Users can be trained to identify social engineering techniques and spearphishing attempts.
+Mitigates T1598.001 Spearphishing Service: Users can be trained to identify social engineering techniques and spearphishing attempts.
+Mitigates T1598.002 Spearphishing Attachment: Users can be trained to identify so",,,
+Q3-00848,Q3_tech_mitigation,Which MITRE ATT&CK mitigations are recommended against Exfiltration Over Physical Medium (T1052)?,M1034 Limit Hardware Installation; M1042 Disable or Remove Feature or Program; M1057 Data Loss Prevention,"ATT&CK Mitigation M1034: Limit Hardware Installation
+*Tools for Implementation*
+
+USB and Device Control:
+
+- Microsoft Group Policy Objects (GPO)
+- Microsoft Defender for Endpoint
+- Symantec Endpoint Protection
+- McAfee Device Control
+
+Endpoint Monitoring:
+
+- EDRs
+- OSSEC (open-source host-based IDS)
+
+Hardware Whitelisting:
+
+- BitLocker for external drives (Windows)
+- Windows Device Installation Policies
+- Device Control 
+
+BIOS/UEFI Security:
+
+- Secure Boot (Windows/Linux)
+Firmware management tools like Dell Command Update or HP Sure Start
+Mitigates T1052 Exfiltration Over Physical Medium: Limi",,,
+Q3-00830,Q3_tech_mitigation,"To defend against Compression (T1027.015), which ATT&CK mitigations apply?",M1049 Antivirus/Antimalware,"ATT&CK Mitigation M1049: Antivirus/Antimalware
+Mitigates T1027.014 Polymorphic Code: Anti-virus can be used to automatically detect and quarantine suspicious files. Employment of advanced anti-malware techniques that make use of technologies like machine learning and behavior-based mechanisms to conduct signature-less malware detection will also be more effective than traditional indicator-based detection methods.
+Mitigates T1027.015 Compression: Anti-virus can be used to automatically detect and quarantine suspicious files. Consider anti-virus products capable of unpacking and inspecting comp",,,
+Q3-01175,Q3_tech_mitigation,"To defend against Forge Web Credentials (T1606), which ATT&CK mitigations apply?",M1018 User Account Management; M1026 Privileged Account Management; M1047 Audit; M1054 Software Configuration,"ATT&CK Mitigation M1018: User Account Management
+Mitigates T1578.002 Create Cloud Instance: Limit permissions for creating new instances in accordance with least privilege. Organizations should limit the number of users within the organization with an IAM role that has administrative privileges, strive to reduce all permanent privileged role assignments, and conduct periodic entitlement reviews on IAM users, roles and policies.
+Mitigates T1578.003 Delete Cloud Instance: Limit permissions for deleting new instances in accordance with least privilege. Organizations should limit the number of use",,,
+Q3-01120,Q3_tech_mitigation,"To defend against Compromise Infrastructure (T1584), which ATT&CK mitigations apply?",M1056 Pre-compromise,"ATT&CK Mitigation M1056: Pre-compromise
+Mitigates T1583.002 DNS Server: This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.
+Mitigates T1583.003 Virtual Private Server: This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.
+Mitigates T1583.004 Server: This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the s",,,
+Q3-01102,Q3_tech_mitigation,Which MITRE ATT&CK mitigations are recommended against Dynamic Linker Hijacking (T1574.006)?,M1028 Operating System Configuration; M1038 Execution Prevention,"ATT&CK Mitigation M1028: Operating System Configuration
+Mitigates T1574.006 Dynamic Linker Hijacking: When System Integrity Protection (SIP) is enabled in macOS, the aforementioned environment variables are ignored when executing protected binaries. Third-party applications can also leverage Apple’s Hardened Runtime, ensuring these environment variables are subject to imposed restrictions. Admins can add restrictions to applications by setting the setuid and/or setgid bits, use …",,,
+Q3-00906,Q3_tech_mitigation,Which MITRE ATT&CK mitigations are recommended against Password Spraying (T1110.003)?,M1027 Password Policies; M1032 Multi-factor Authentication; M1036 Account Use Policies,"ATT&CK Mitigation M1027: Password Policies
+Mitigates T1078.002 Domain Accounts: Implement and enforce strong password policies for domain accounts to ensure passwords are complex, unique, and regularly rotated. This reduces the likelihood of password guessing, credential stuffing, and other attack methods that rely on weak or static credentials.
+Mitigates T1078.003 Local Accounts: Ensure that local administrator accounts have complex, unique passwords across all systems on the network.
+Mitigates T1078.004 Cloud Accounts: Ensure that cloud accounts, particularly privileged accounts, have comple",,,
+Q3-00932,Q3_tech_mitigation,Which MITRE ATT&CK mitigations are recommended against Outlook Rules (T1137.005)?,M1040 Behavior Prevention on Endpoint; M1051 Update Software,"ATT&CK Mitigation M1040: Behavior Prevention on Endpoint
+Mitigates T1106 Native API: On Windows 10, enable Attack Surface Reduction (ASR) rules to prevent Office VBA macros from calling Win32 APIs.
+Mitigates T1137 Office Application Startup: On Windows 10, enable Attack Surface Reduction (ASR) rules to prevent Office applications from creating child processes and from writing potentially malicious executable content to disk.
+Mitigates T1137.001 Office Template Macros: On Windows 10, enable Attack Surface Reduction (ASR) rules to prevent Office applications from creating child processes and fro",,,
+Q3-01135,Q3_tech_mitigation,"To defend against Malware (T1588.001), which ATT&CK mitigations apply?",M1056 Pre-compromise,"ATT&CK Mitigation M1056: Pre-compromise
+Mitigates T1588 Obtain Capabilities: This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.
+Mitigates T1588.001 Malware: This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls.
+Mitigates T1588.002 Tool: This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of ente",,,
+Q3-00998,Q3_tech_mitigation,What ATT&CK mitigations (M-IDs) does MITRE list for the technique T1542.002 (Component Firmware)?,M1051 Update Software,"ATT&CK Mitigation M1051: Update Software
+Mitigates T1211 Exploitation for Defense Evasion: Update software regularly by employing patch management for internal enterprise endpoints and servers.
+Mitigates T1212 Exploitation for Credential Access: Update software regularly by employing patch management for internal enterprise endpoints and servers.
+Mitigates T1495 Firmware Corruption: Patch the BIOS and other firmware as necessary to prevent successful use of known vulnerabilities.
+Mitigates T1539 Steal Web Session Cookie: Regularly update web browsers, password managers, and all related softwar",,,
+Q3-01026,Q3_tech_mitigation,"To defend against Elevated Execution with Prompt (T1548.004), which ATT&CK mitigations apply?",M1038 Execution Prevention,"ATT&CK Mitigation M1038: Execution Prevention
+Mitigates T1546.010 AppInit DLLs: Adversaries can install new AppInit DLLs binaries to execute this technique. Identify and block potentially malicious software executed through AppInit DLLs functionality by using application control tools, like Windows Defender Application Control, AppLocker, or Software Restriction Policies where appropriate.
+Mitigates T1547.004 Winlogon Helper DLL: Identify and block potentially malicious software that may be executed through the Winlogon helper process by using application control tools like AppLocker that are ",,,
+Q3-01196,Q3_tech_mitigation,"To defend against Input Injection (T1674), which ATT&CK mitigations apply?",M1034 Limit Hardware Installation; M1038 Execution Prevention,"ATT&CK Mitigation M1034: Limit Hardware Installation
+*Tools for Implementation*
+
+USB and Device Control:
+
+- Microsoft Group Policy Objects (GPO)
+- Microsoft Defender for Endpoint
+- Symantec Endpoint Protection
+- McAfee Device Control
+
+Endpoint Monitoring:
+
+- EDRs
+- OSSEC (open-source host-based IDS)
+
+Hardware Whitelisting:
+
+- BitLocker for external drives (Windows)
+- Windows Device Installation Policies
+- Device Control 
+
+BIOS/UEFI Security:
+
+- Secure Boot (Windows/Linux)
+Firmware management tools like Dell Command Update or HP Sure Start
+Mitigates T1052 Exfiltration Over Physical Medium: Limi",,,
+Q3-01141,Q3_tech_mitigation,"To defend against Email Addresses (T1589.002), which ATT&CK mitigations apply?",M1056 Pre-compromise,"ATT&CK Mitigation M1056: Pre-compromise
+Mitigates T1589.001 Credentials: This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls. Efforts should focus on minimizing the amount and sensitivity of data available to external parties.
+Mitigates T1589.002 Email Addresses: This technique cannot be easily mitigated with preventive controls since it is based on behaviors performed outside of the scope of enterprise defenses and controls. Efforts should focus on minimizing the amount and sensiti",,,
+Q3-00989,Q3_tech_mitigation,"To defend against Web Shell (T1505.003), which ATT&CK mitigations apply?",M1018 User Account Management; M1042 Disable or Remove Feature or Program,"ATT&CK Mitigation M1018: User Account Management
+Mitigates T1489 Service Stop: Limit privileges of user accounts and groups so that only authorized administrators can interact with service changes and service configurations.
+Mitigates T1490 Inhibit System Recovery: Limit the user accounts that have access to backups to only those required. In AWS environments, consider using Service Control Policies to restrict API calls to delete backups, snapshots, and images.
+Mitigates T1505 Server Software Component: Enforce the principle of least privilege by limiting privileges of user accounts so only a",,,
+Q4-01588,Q4_group_uses,"Per ATT&CK, has the threat group G1045 (Salt Typhoon) been reported to use Build Image on Host (T1612)? Answer yes or no.",no,"ATT&CK Group G1045: Salt Typhoon
+Salt Typhoon is a People's Republic of China (PRC) state-backed actor that has been active since at least 2019 and responsible for numerous compromises of network infrastructure at major U.S. telecommunication and internet service providers (ISP).
+Uses T1021.004 SSH: Salt Typhoon has modified the loopback address on compromised switches and used them as the source of SSH connections to additional devices within the target environment, allowing them to bypass access control lists (ACLs).
+Uses T1040 Network Sniffing: Salt Typhoon has used a variety of tools and t",,,
+Q4-01273,Q4_group_uses,"According to MITRE ATT&CK, is the group RTM (G0048) documented as using Hypervisor CLI (T1059.012)?",no,"ATT&CK Group G0048: RTM
+RTM is a cybercriminal group that has been active since at least 2015 and is primarily interested in users of remote banking systems in Russia and neighboring countries. The group uses a Trojan by the same name (RTM).
+Uses T1102.001 Dead Drop Resolver: RTM has used an RSS feed on Livejournal to update a list of encrypted C2 server names.
+Uses T1189 Drive-by Compromise: RTM has distributed its malware via the RIG and SUNDOWN exploit kits, as well as online advertising network Yandex.Direct.
+Uses T1204.002 Malicious File: RTM has attempted to lure victims into opening e-m",,,
+Q4-01472,Q4_group_uses,"According to MITRE ATT&CK, is the group LAPSUS$ (G1004) documented as using Malware (T1588.001)?",yes,"ATT&CK Group G1004: LAPSUS$
+Uses T1552.008 Chat Messages: LAPSUS$ has targeted various collaboration tools like Slack, Teams, JIRA, Confluence, and others to hunt for exposed credentials to support privilege escalation and lateral movement.
+Uses T1555.003 Credentials from Web Browsers: LAPSUS$ has obtained passwords and session tokens with the use of the Redline password stealer.
+Uses T1555.005 Password Managers: LAPSUS$ has accessed local password managers and databases to obtain further credentials from a compromised network.
+Uses T1578.002 Create Cloud Instance: LAPSUS$ has created new virt",,,
+Q4-01341,Q4_group_uses,Does MITRE ATT&CK record that SilverTerrier (G0083) has used the technique T1071.003 (Mail Protocols)?,yes,"ATT&CK Group G0083: SilverTerrier
+SilverTerrier is a Nigerian threat group that has been seen active since 2014. SilverTerrier mainly targets organizations in high technology, higher education, and manufacturing.
+Uses T1071.001 Web Protocols: SilverTerrier uses HTTP for C2 communications.
+Uses T1071.002 File Transfer Protocols: SilverTerrier uses FTP for C2 communications.
+Uses T1071.003 Mail Protocols: SilverTerrier uses SMTP for C2 communications.
+Uses T1657 Financial Theft: SilverTerrier targets organizations in high technology, higher education, and manufacturing for business email comprom",,,
+Q4-01466,Q4_group_uses,Does MITRE ATT&CK record that HEXANE (G1001) has used the technique T1546.009 (AppCert DLLs)?,no,"ATT&CK Group G1001: HEXANE
+Associated names: Lyceum, Siamesekitten, Spirlin.
+HEXANE is a cyber espionage threat group that has targeted oil & gas, telecommunications, aviation, and internet service provider organizations since at least 2017. Targeted companies have been located in the Middle East and Africa, including Israel, Saudi Arabia, Kuwait, Morocco, and Tunisia. HEXANE's TTPs appear similar to APT33 and OilRig but due to differences in victims and tools it is tracked as a separate entity.
+Uses T1010 Application Window Discovery: HEXANE has used a PowerShell-based keylogging tool to capt",,,
+Q4-01301,Q4_group_uses,"Per ATT&CK, has the threat group G0053 (FIN5) been reported to use PowerShell Profile (T1546.013)? Answer yes or no.",no,"ATT&CK Group G0053: FIN5
+FIN5 is a financially motivated threat group that has targeted personally identifiable information and payment card information. The group has been active since at least 2008 and has targeted the restaurant, gaming, and hotel industries. The group is made up of actors who likely speak Russian.
+Uses T1018 Remote System Discovery: FIN5 has used the open source tool Essential NetTools to map the network and build a list of targets.
+Uses T1059 Command and Scripting Interpreter: FIN5 scans processes on all victim systems in the environment and uses automated scripts to pull",,,
+Q4-01408,Q4_group_uses,Does MITRE ATT&CK record that DarkVishnya (G0105) has used the technique T1674 (Input Injection)?,no,"ATT&CK Group G0105: DarkVishnya
+DarkVishnya is a financially motivated threat actor targeting financial institutions in Eastern Europe. In 2017-2018 the group attacked at least 8 banks in this region.
+Uses T1040 Network Sniffing: DarkVishnya used network sniffing to obtain login data.
+Uses T1046 Network Service Discovery: DarkVishnya performed port scanning to obtain the list of active services.
+Uses T1059.001 PowerShell: DarkVishnya used PowerShell to create shellcode loaders.
+Uses T1110 Brute Force: DarkVishnya used brute-force attack to obtain login data.
+Uses T1135 Network Share Discovery:",,,
+Q4-01416,Q4_group_uses,"According to MITRE ATT&CK, is the group Blue Mockingbird (G0108) documented as using Impair Defenses (T1562)?",no,"ATT&CK Group G0108: Blue Mockingbird
+Blue Mockingbird is a cluster of observed activity involving Monero cryptocurrency-mining payloads in dynamic-link library (DLL) form on Windows systems. The earliest observed Blue Mockingbird tools were created in December 2019.
+Uses T1003.001 LSASS Memory: Blue Mockingbird has used Mimikatz to retrieve credentials from LSASS memory.
+Uses T1021.001 Remote Desktop Protocol: Blue Mockingbird has used Remote Desktop to log on to servers interactively and manually copy files to remote hosts.
+Uses T1021.002 SMB/Windows Admin Shares: Blue Mockingbird has used Wi",,,
+Q4-01263,Q4_group_uses,Does MITRE ATT&CK record that Patchwork (G0040) has used the technique T1547.001 (Registry Run Keys / Startup Folder)?,yes,"ATT&CK Group G0040: Patchwork
+Uses T1197 BITS Jobs: Patchwork has used BITS jobs to download malicious payloads.
+Uses T1203 Exploitation for Client Execution: Patchwork uses malicious documents to deliver remote execution exploits as part of. The group has previously exploited CVE-2017-8570, CVE-2012-1856, CVE-2014-4114, CVE-2017-0199, CVE-2017-11882, and CVE-2015-1641.
+Uses T1204.001 Malicious Link: Patchwork has used spearphishing with links to try to get users to click, download and open malicious files.
+Uses T1204.002 Malicious File: Patchwork embedded a malicious macro in a Word document ",,,
+Q4-01508,Q4_group_uses,Does MITRE ATT&CK record that ToddyCat (G1022) has used the technique T1559 (Inter-Process Communication)?,no,"ATT&CK Group G1022: ToddyCat
+ToddyCat is a sophisticated threat group that has been active since at least 2020 using custom loaders and malware in multi-stage infection chains against government and military targets across Europe and Asia.
+Uses T1005 Data from Local System: ToddyCat has run scripts to collect documents from targeted hosts.
+Uses T1018 Remote System Discovery: ToddyCat has used `ping %REMOTE_HOST%` for post exploit discovery.
+Uses T1021.002 SMB/Windows Admin Shares: ToddyCat has used locally mounted network shares for lateral movement through targated environments.
+Uses T1036.00",,,
+Q4-01500,Q4_group_uses,"According to MITRE ATT&CK, is the group Volt Typhoon (G1017) documented as using Odbcconf (T1218.008)?",no,"ATT&CK Group G1017: Volt Typhoon
+Associated names: BRONZE SILHOUETTE, Vanguard Panda, DEV-0391, UNC3236, Voltzite, Insidious Taurus.
+Volt Typhoon is a People's Republic of China (PRC) state-sponsored actor that has been active since at least 2021 primarily targeting critical infrastructure organizations in the US and its territories including Guam. Volt Typhoon's targeting and pattern of behavior have been assessed as pre-positioning to enable lateral movement to operational technology (OT) assets for potential destructive or disruptive attacks. Volt Typhoon has emphasized stealth in operation",,,
+Q4-01594,Q4_group_uses,"Per ATT&CK, has the threat group G1047 (Velvet Ant) been reported to use Exploitation for Defense Evasion (T1211)? Answer yes or no.",yes,"ATT&CK Group G1047: Velvet Ant
+Uses T1133 External Remote Services: Velvet Ant has leveraged access to internet-facing remote services to compromise and retain access to victim environments.
+Uses T1211 Exploitation for Defense Evasion: Velvet Ant exploited CVE-2024-20399 in Cisco Switches to which the threat actor was already able to authenticate in order to escape the NX-OS command line interface and gain access to the underlying operating system for arbitrary command execution.
+Uses T1562.001 Disable or Modify Tools: Velvet Ant attempted to disable local security tools and endpoint detection",,,
+Q4-01532,Q4_group_uses,Does MITRE ATT&CK record that Saint Bear (G1031) has used the technique T1027.002 (Software Packing)?,yes,"ATT&CK Group G1031: Saint Bear
+Associated names: Storm-0587, TA471, UAC-0056, Lorec53.
+Saint Bear is a Russian-nexus threat actor active since early 2021, primarily targeting entities in Ukraine and Georgia. The group is notable for a specific remote access tool, Saint Bot, and information stealer, OutSteel in campaigns. Saint Bear typically relies on phishing or web staging of malicious documents and related file types for initial access, spoofing government or related entities. Saint Bear has previously been confused with Ember Bear operations, but analysis of behaviors, tools, and targeting",,,
+Q4-01550,Q4_group_uses,Does MITRE ATT&CK record that Winter Vivern (G1035) has used the technique T1059 (Command and Scripting Interpreter)?,yes,"ATT&CK Group G1035: Winter Vivern
+Associated names: TA473, UAC-0114.
+Winter Vivern is a group linked to Russian and Belorussian interests active since at least 2020 targeting various European government and NGO entities, along with sporadic targeting of Indian and US victims. The group leverages a combination of document-based phishing activity and server-side exploitation for initial access, leveraging adversary-controlled and -created infrastructure for follow-on command and control.
+Uses T1020 Automated Exfiltration: Winter Vivern delivered a PowerShell script capable of recursively scannin",,,
+Q4-01402,Q4_group_uses,"Per ATT&CK, has the threat group G0103 (Mofang) been reported to use Encrypted/Encoded File (T1027.013)? Answer yes or no.",yes,"ATT&CK Group G0103: Mofang
+Mofang is a likely China-based cyber espionage group, named for its frequent practice of imitating a victim's infrastructure. This adversary has been observed since at least May 2012 conducting focused attacks against government and critical infrastructure in Myanmar, as well as several other countries and sectors including military, automobile, and weapons industries.
+Uses T1027.013 Encrypted/Encoded File: Mofang has encrypted payloads before they are downloaded to victims.
+Uses T1027.015 Compression: Mofang has compressed the ShimRat executable within malicious ema",,,
+Q4-01529,Q4_group_uses,Does MITRE ATT&CK record that Agrius (G1030) has used the technique T1583 (Acquire Infrastructure)?,yes,"ATT&CK Group G1030: Agrius
+Uses T1110 Brute Force: Agrius engaged in various brute forcing activities via SMB in victim environments.
+Uses T1110.003 Password Spraying: Agrius engaged in password spraying via SMB in victim environments.
+Uses T1119 Automated Collection: Agrius used a custom tool, sql.net4.exe, to query SQL databases and then identify and extract personally identifiable information.
+Uses T1140 Deobfuscate/Decode Files or Information: Agrius has deployed base64-encoded variants of ASPXSpy to evade detection.
+Uses T1190 Exploit Public-Facing Application: Agrius exploits public-faci",,,
+Q4-01224,Q4_group_uses,"According to MITRE ATT&CK, is the group APT3 (G0022) documented as using Data Obfuscation (T1001)?",no,"ATT&CK Group G0022: APT3
+Associated names: Gothic Panda, Pirpi, UPS Team, Buckeye, Threat Group-0110, TG-0110.
+APT3 is a China-based threat group that researchers have attributed to China's Ministry of State Security. This group is responsible for the campaigns known as Operation Clandestine Fox, Operation Clandestine Wolf, and Operation Double Tap. As of June 2015, the group appears to have shifted from targeting primarily US victims to primarily political organizations in Hong Kong.
+Uses T1003.001 LSASS Memory: APT3 has used a tool to dump credentials by injecting itself into lsass.exe and t",,,
+Q4-01494,Q4_group_uses,"According to MITRE ATT&CK, is the group FIN13 (G1016) documented as using Disable or Modify System Firewall (T1562.004)?",no,"ATT&CK Group G1016: FIN13
+Associated names: Elephant Beetle.
+FIN13 is a financially motivated cyber threat group that has targeted the financial, retail, and hospitality industries in Mexico and Latin America, as early as 2016. FIN13 achieves its objectives by stealing intellectual property, financial data, mergers and acquisition information, or PII.
+Uses T1003.001 LSASS Memory: FIN13 has obtained memory dumps with ProcDump to parse and extract credentials from a victim's LSASS process memory with Mimikatz.
+Uses T1003.002 Security Account Manager: FIN13 has extracted the SAM and SYSTEM regist",,,
+Q4-01233,Q4_group_uses,"Per ATT&CK, has the threat group G0028 (Threat Group-1314) been reported to use Domain Accounts (T1078.002)? Answer yes or no.",yes,"ATT&CK Group G0028: Threat Group-1314
+Associated names: TG-1314.
+Threat Group-1314 is an unattributed threat group that has used compromised credentials to log into a victim's remote access infrastructure.
+Uses T1021.002 SMB/Windows Admin Shares: Threat Group-1314 actors mapped network drives using net use.
+Uses T1059.003 Windows Command Shell: Threat Group-1314 actors spawned shells on remote systems on a victim network to execute commands.
+Uses T1072 Software Deployment Tools: Threat Group-1314 actors used a victim's endpoint management platform, Altiris, for lateral movement.
+Uses T1078.002",,,
+Q4-01493,Q4_group_uses,"Per ATT&CK, has the threat group G1014 (LuminousMoth) been reported to use Port Knocking (T1205.001)? Answer yes or no.",no,"ATT&CK Group G1014: LuminousMoth
+LuminousMoth is a Chinese-speaking cyber espionage group that has been active since at least October 2020. LuminousMoth has targeted high-profile organizations, including government entities, in Myanmar, the Philippines, Thailand, and other parts of Southeast Asia. Some security researchers have concluded there is a connection between LuminousMoth and Mustang Panda based on similar targeting and TTPs, as well as network infrastructure overlaps.
+Uses T1005 Data from Local System: LuminousMoth has collected files and data from compromised machines.
+Uses T1030 Dat",,,
+Q4-01317,Q4_group_uses,"Per ATT&CK, has the threat group G0062 (TA459) been reported to use Phishing (T1566)? Answer yes or no.",no,"ATT&CK Group G0062: TA459
+TA459 is a threat group believed to operate out of China that has targeted countries including Russia, Belarus, Mongolia, and others.
+Uses T1059.001 PowerShell: TA459 has used PowerShell for execution of a payload.
+Uses T1059.005 Visual Basic: TA459 has a VBScript for execution.
+Uses T1203 Exploitation for Client Execution: TA459 has exploited Microsoft Word vulnerability CVE-2017-0199 for execution.
+Uses T1204.002 Malicious File: TA459 has attempted to get victims to open malicious Microsoft Word attachment sent via spearphishing.
+Uses T1566.001 Spearphishing Attachm",,,
+Q4-01346,Q4_group_uses,Does MITRE ATT&CK record that Gallmaker (G0084) has used the technique T1059.001 (PowerShell)?,yes,"ATT&CK Group G0084: Gallmaker
+Gallmaker is a cyberespionage group that has targeted victims in the Middle East and has been active since at least December 2017. The group has mainly targeted victims in the defense, military, and government sectors.
+Uses T1027 Obfuscated Files or Information: Gallmaker obfuscated shellcode used during execution.
+Uses T1059.001 PowerShell: Gallmaker used PowerShell to download additional payloads and for execution.
+Uses T1204.002 Malicious File: Gallmaker sent victims a lure document with a warning that asked victims to “enable content” for execution.
+Uses T1559",,,
+Q4-01248,Q4_group_uses,"According to MITRE ATT&CK, is the group Stealth Falcon (G0038) documented as using Credentials from Web Browsers (T1555.003)?",yes,"ATT&CK Group G0038: Stealth Falcon
+Uses T1555 Credentials from Password Stores: Stealth Falcon malware gathers passwords from multiple sources, including Windows Credential Vault and Outlook.
+Uses T1555.003 Credentials from Web Browsers: Stealth Falcon malware gathers passwords from multiple sources, including Internet Explorer, Firefox, and Chrome.
+Uses T1555.004 Windows Credential Manager: Stealth Falcon malware gathers passwords from the Windows Credential Vault.
+Uses T1573.001 Symmetric Cryptography: Stealth Falcon malware encrypts C2 traffic using RC4 with a hard-coded key.",,,
+Q4-01202,Q4_group_uses,Does MITRE ATT&CK record that Cleaver (G0003) has used the technique T1003.001 (LSASS Memory)?,yes,"ATT&CK Group G0003: Cleaver
+Associated names: Threat Group 2889, TG-2889.
+Cleaver is a threat group that has been attributed to Iranian actors and is responsible for activity tracked as Operation Cleaver. Strong circumstantial evidence suggests Cleaver is linked to Threat Group 2889 (TG-2889).
+Uses T1003.001 LSASS Memory: Cleaver has been known to dump credentials using Mimikatz and Windows Credential Editor.
+Uses T1557.002 ARP Cache Poisoning: Cleaver has used custom tools to facilitate ARP cache poisoning.
+Uses T1585.001 Social Media Accounts: Cleaver has created fake LinkedIn profiles that ",,,
+Q4-01566,Q4_group_uses,"According to MITRE ATT&CK, is the group RedCurl (G1039) documented as using Executable Installer File Permissions Weakness (T1574.005)?",no,"ATT&CK Group G1039: RedCurl
+RedCurl is a threat actor active since 2018 notable for corporate espionage targeting a variety of locations, including Ukraine, Canada and the United Kingdom, and a variety of industries, including but not limited to travel agencies, insurance companies, and banks. RedCurl is allegedly a Russian-speaking threat actor. The group’s operations typically start with spearphishing emails to gain initial access, then the group executes discovery and collection commands and scripts to find corporate data. The group concludes operations by exfiltrating files to the C2 serve",,,
+Q4-01488,Q4_group_uses,"According to MITRE ATT&CK, is the group LuminousMoth (G1014) documented as using Archive Collected Data (T1560)?",yes,"ATT&CK Group G1014: LuminousMoth
+Uses T1547.001 Registry Run Keys / Startup Folder: LuminousMoth has used malicious DLLs that setup persistence in the Registry Key `HKCU\Software\Microsoft\Windows\Current Version\Run`.
+Uses T1553.002 Code Signing: LuminousMoth has signed their malware with a valid digital signature.
+Uses T1557.002 ARP Cache Poisoning: LuminousMoth has used ARP spoofing to redirect a compromised machine to an actor-controlled website.
+Uses T1560 Archive Collected Data: LuminousMoth has manually archived stolen files from victim machines before exfiltration.
+Uses T1564.001 Hidde",,,
+Q4-01577,Q4_group_uses,"Per ATT&CK, has the threat group G1043 (BlackByte) been reported to use Hide Artifacts (T1564)? Answer yes or no.",no,"ATT&CK Group G1043: BlackByte
+Associated names: Hecamede.
+BlackByte is a ransomware threat actor operating since at least 2021. BlackByte is associated with several versions of ransomware also labeled BlackByte Ransomware. BlackByte ransomware operations initially used a common encryption key allowing for the development of a universal decryptor, but subsequent versions such as BlackByte 2.0 Ransomware use more robust encryption mechanisms. BlackByte is notable for operations targeting critical infrastructure entities among other targets across North America.
+Uses T1003 OS Credential Dumping: ",,,
+Q4-01465,Q4_group_uses,Does MITRE ATT&CK record that HEXANE (G1001) has used the technique T1204.002 (Malicious File)?,yes,"ATT&CK Group G1001: HEXANE
+Uses T1102.002 Bidirectional Communication: HEXANE has used cloud services, including OneDrive, for C2.
+Uses T1105 Ingress Tool Transfer: HEXANE has downloaded additional payloads and malicious scripts onto a compromised host.
+Uses T1110 Brute Force: HEXANE has used brute force attacks to compromise valid credentials.
+Uses T1110.003 Password Spraying: HEXANE has used password spraying attacks to obtain valid credentials.
+Uses T1204.002 Malicious File: HEXANE has relied on victim's executing malicious file attachments delivered via email or embedded within actor-contr",,,
+Q5-01836,Q5_cve_cwe,Which CWE weakness is associated with CVE-2023-20198 (Cisco IOS XE Web UI)?,CWE-420 Unprotected Alternate Channel,"CVE-2023-20198: Cisco IOS XE Web UI Privilege Escalation Vulnerability
+Vendor/product: Cisco IOS XE Web UI.
+Weakness: CWE-420 Unprotected Alternate Channel.
+CVSS v3 base score 10.0 (CRITICAL), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H.
+Cisco is providing an update for the ongoing investigation into observed exploitation of the web UI feature in Cisco IOS XE Software. We are updating the list of fixed releases and adding the Software Checker. Our investigation has determined that the actors exploited two previously unknown issues. The attacker first exploited CVE-2023-20198 to gain in",,,
+Q5-01812,Q5_cve_cwe,"What is the CWE classification of CVE-2022-24990, the TerraMaster TerraMaster OS vulnerability?",CWE-306 Missing Authentication for Critical Function,"CVE-2022-24990: TerraMaster OS Remote Command Execution Vulnerability
+Vendor/product: TerraMaster TerraMaster OS.
+Weakness: CWE-306 Missing Authentication for Critical Function.
+CVSS v3 base score 9.8 (CRITICAL), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H.
+TerraMaster NAS 4.2.29 and earlier allows remote attackers to discover the administrative password by sending ""User-Agent: TNAS"" to module/api.php?mobile/webNasIPS and then reading the PWD field in the response.
+Added to the CISA KEV catalog on 2023-02-10; known ransomware campaign use: Known.",,,
+Q5-01714,Q5_cve_cwe,Which CWE weakness is associated with CVE-2020-13927 (Apache Airflow's Experimental API)?,CWE-1188 Initialization of a Resource with an Insecure Default; CWE-306 Missing Authentication for Critical Function,"CVE-2020-13927: Apache Airflow's Experimental API Authentication Bypass
+Vendor/product: Apache Airflow's Experimental API.
+Weakness: CWE-1188 Initialization of a Resource with an Insecure Default; CWE-306 Missing Authentication for Critical Function.
+CVSS v3 base score 9.8 (CRITICAL), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H.
+The previous default setting for Airflow's Experimental API was to allow all API requests without authentication, but this poses security risks to users who miss this fact. From Airflow 1.10.11 the default has been changed to deny all requests by default and is",,,
+Q5-01617,Q5_cve_cwe,CVE-2014-0497 affecting Adobe Flash Player maps to which CWE?,CWE-191 Integer Underflow (Wrap or Wraparound),"CVE-2014-0497: Adobe Flash Player Integer Underflow Vulnerablity
+Vendor/product: Adobe Flash Player.
+Weakness: CWE-191 Integer Underflow (Wrap or Wraparound).
+CVSS v3 base score 8.8 (HIGH), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H.
+Integer underflow in Adobe Flash Player before 11.7.700.261 and 11.8.x through 12.0.x before 12.0.0.44 on Windows and Mac OS X, and before 11.2.202.336 on Linux, allows remote attackers to execute arbitrary code via unspecified vectors.
+Added to the CISA KEV catalog on 2024-09-17; known ransomware campaign use: Unknown.",,,
+Q5-01987,Q5_cve_cwe,"What is the CWE classification of CVE-2026-68820, the Microsoft Windows Ancillary Function Driver for WinSock vulnerability?",CWE-416 Use After Free,"CVE-2026-68820: Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability
+Vendor/product: Microsoft Windows Ancillary Function Driver for WinSock.
+Weakness: CWE-416 Use After Free.
+CVSS v3 base score 7.0 (HIGH), vector CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C.
+Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.
+Added to the CISA KEV catalog on 2026-08-11; known ransomware campaign use: Unknown.",,,
+Q5-01964,Q5_cve_cwe,CVE-2026-20131 affecting Cisco Secure Firewall Management Center (FMC) maps to which CWE?,CWE-502 Deserialization of Untrusted Data,"CVE-2026-20131: Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management Deserialization of Untrusted Data Vulnerability
+Vendor/product: Cisco Secure Firewall Management Center (FMC).
+Weakness: CWE-502 Deserialization of Untrusted Data.
+CVSS v3 base score 10.0 (CRITICAL), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H.
+A vulnerability in the web-based management interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to execute arbitrary Java code as root&nbsp;on an affecte",,,
+Q5-01599,Q5_cve_cwe,"What is the CWE classification of CVE-2009-0556, the Microsoft Office vulnerability?",CWE-94 Improper Control of Generation of Code ('Code Injection'),"CVE-2009-0556: Microsoft Office PowerPoint Code Injection Vulnerability
+Vendor/product: Microsoft Office.
+Weakness: CWE-94 Improper Control of Generation of Code ('Code Injection').
+CVSS v3 base score 8.8 (HIGH), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H.
+Microsoft Office PowerPoint 2000 SP3, 2002 SP3, and 2003 SP3, and PowerPoint in Microsoft Office 2004 for Mac, allows remote attackers to execute arbitrary code via a PowerPoint file with an OutlineTextRefAtom containing an an invalid index value that triggers memory corruption, as exploited in the wild in April 2009 by Exploit:Win3",,,
+Q5-01822,Q5_cve_cwe,Which CWE weakness is associated with CVE-2022-32893 (Apple iOS and macOS)?,CWE-20 Improper Input Validation; CWE-787 Out-of-bounds Write,"CVE-2022-32893: Apple iOS and macOS Out-of-Bounds Write Vulnerability
+Vendor/product: Apple iOS and macOS.
+Weakness: CWE-20 Improper Input Validation; CWE-787 Out-of-bounds Write.
+CVSS v3 base score 8.8 (HIGH), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H.
+An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 15.6.1 and iPadOS 15.6.1, macOS Monterey 12.5.1, Safari 15.6.1. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
+Added to the ",,,
+Q5-01824,Q5_cve_cwe,CVE-2022-36537 affecting ZK Framework AuUploader maps to which CWE?,CWE-441 Unintended Proxy or Intermediary ('Confused Deputy'),"CVE-2022-36537: ZK Framework AuUploader Unspecified Vulnerability
+Vendor/product: ZK Framework AuUploader.
+Weakness: CWE-441 Unintended Proxy or Intermediary ('Confused Deputy').
+CVSS v3 base score 7.5 (HIGH), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N.
+ZK Framework v9.6.1, 9.6.0.1, 9.5.1.3, 9.0.1.2 and 8.6.4.1 allows attackers to access sensitive information via a crafted POST request sent to the component AuUploader.
+Added to the CISA KEV catalog on 2023-02-27; known ransomware campaign use: Known.",,,
+Q5-01646,Q5_cve_cwe,"What is the CWE classification of CVE-2017-12617, the Apache Tomcat vulnerability?",CWE-434 Unrestricted Upload of File with Dangerous Type,"CVE-2017-12617: Apache Tomcat Remote Code Execution Vulnerability
+Vendor/product: Apache Tomcat.
+Weakness: CWE-434 Unrestricted Upload of File with Dangerous Type.
+CVSS v3 base score 8.1 (HIGH), vector CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H.
+When running Apache Tomcat versions 9.0.0.M1 to 9.0.0, 8.5.0 to 8.5.22, 8.0.0.RC1 to 8.0.46 and 7.0.0 to 7.0.81 with HTTP PUTs enabled (e.g. via setting the readonly initialisation parameter of the Default servlet to false) it was possible to upload a JSP file to the server via a specially crafted request. This JSP could then be requested and any cod",,,
+Q5-01637,Q5_cve_cwe,"What is the CWE classification of CVE-2016-7200, the Microsoft Edge vulnerability?",CWE-119 Improper Restriction of Operations within the Bounds of a Memory Buffer,"CVE-2016-7200: Microsoft Edge Memory Corruption Vulnerability
+Vendor/product: Microsoft Edge.
+Weakness: CWE-119 Improper Restriction of Operations within the Bounds of a Memory Buffer.
+CVSS v3 base score 8.8 (HIGH), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H.
+The Chakra JavaScript scripting engine in Microsoft Edge allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka ""Scripting Engine Memory Corruption Vulnerability,"" a different vulnerability than CVE-2016-7201, CVE-2016-7202, CVE-2016-7203, CVE-2016-7208, CVE-",,,
+Q5-01952,Q5_cve_cwe,Which CWE weakness is associated with CVE-2025-6543 (Citrix NetScaler ADC and Gateway)?,CWE-119 Improper Restriction of Operations within the Bounds of a Memory Buffer,"CVE-2025-6543: Citrix NetScaler ADC and Gateway Buffer Overflow Vulnerability
+Vendor/product: Citrix NetScaler ADC and Gateway.
+Weakness: CWE-119 Improper Restriction of Operations within the Bounds of a Memory Buffer.
+Memory overflow vulnerability leading to unintended control flow and Denial of Service in NetScaler ADC and NetScaler Gateway when configured as Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA virtual server
+Added to the CISA KEV catalog on 2025-06-30; known ransomware campaign use: Unknown.",,,
+Q5-01788,Q5_cve_cwe,CVE-2021-37415 affecting Zoho ManageEngine ServiceDesk Plus (SDP) maps to which CWE?,CWE-306 Missing Authentication for Critical Function,"CVE-2021-37415: Zoho ManageEngine ServiceDesk Authentication Bypass Vulnerability
+Vendor/product: Zoho ManageEngine ServiceDesk Plus (SDP).
+Weakness: CWE-306 Missing Authentication for Critical Function.
+CVSS v3 base score 9.8 (CRITICAL), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H.
+Zoho ManageEngine ServiceDesk Plus before 11302 is vulnerable to authentication bypass that allows a few REST-API URLs without authentication.
+Added to the CISA KEV catalog on 2021-12-01; known ransomware campaign use: Unknown.",,,
+Q5-01766,Q5_cve_cwe,CVE-2021-25395 affecting Samsung Mobile Devices maps to which CWE?,CWE-362 Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),"CVE-2021-25395: Samsung Mobile Devices Race Condition Vulnerability
+Vendor/product: Samsung Mobile Devices.
+Weakness: CWE-362 Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition').
+CVSS v3 base score 6.4 (MEDIUM), vector CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H.
+A race condition in MFC charger driver prior to SMR MAY-2021 Release 1 allows local attackers to bypass signature check given a radio privilege is compromised.
+Added to the CISA KEV catalog on 2023-06-29; known ransomware campaign use: Unknown.",,,
+Q5-01918,Q5_cve_cwe,"What is the CWE classification of CVE-2025-23006, the SonicWall SMA1000 Appliances vulnerability?",CWE-502 Deserialization of Untrusted Data,"CVE-2025-23006: SonicWall SMA1000 Appliances Deserialization Vulnerability
+Vendor/product: SonicWall SMA1000 Appliances.
+Weakness: CWE-502 Deserialization of Untrusted Data.
+CVSS v3 base score 9.8 (CRITICAL), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H.
+Pre-authentication deserialization of untrusted data vulnerability has been identified in the SMA1000 Appliance Management Console (AMC) and Central Management Console (CMC), which in specific conditions could potentially enable a remote unauthenticated attacker to execute arbitrary OS commands.
+Added to the CISA KEV catalog on 2025-01-",,,
+Q5-01970,Q5_cve_cwe,Which CWE weakness is associated with CVE-2026-23760 (SmarterTools SmarterMail)?,CWE-288 Authentication Bypass Using an Alternate Path or Channel,"CVE-2026-23760: SmarterTools SmarterMail Authentication Bypass Using an Alternate Path or Channel Vulnerability
+Vendor/product: SmarterTools SmarterMail.
+Weakness: CWE-288 Authentication Bypass Using an Alternate Path or Channel.
+SmarterTools SmarterMail versions prior to build 9511 contain an authentication bypass vulnerability in the password reset API. The force-reset-password endpoint permits anonymous requests and fails to verify the existing password or a reset token when resetting system administrator accounts. An unauthenticated attacker can supply a target administrator username and a",,,
+Q5-01692,Q5_cve_cwe,Which CWE weakness is associated with CVE-2019-5591 (Fortinet FortiOS)?,CWE-306 Missing Authentication for Critical Function,"CVE-2019-5591: Fortinet FortiOS Default Configuration Vulnerability
+Vendor/product: Fortinet FortiOS.
+Weakness: CWE-306 Missing Authentication for Critical Function.
+CVSS v3 base score 6.5 (MEDIUM), vector CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N.
+A Default Configuration vulnerability in FortiOS may allow an unauthenticated attacker on the same subnet to intercept sensitive information by impersonating the LDAP server.
+Added to the CISA KEV catalog on 2021-11-03; known ransomware campaign use: Known.",,,
+Q5-01771,Q5_cve_cwe,"What is the CWE classification of CVE-2021-27561, the Yealink Device Management vulnerability?",CWE-78 Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),"CVE-2021-27561: Yealink Device Management Server-Side Request Forgery (SSRF) Vulnerability
+Vendor/product: Yealink Device Management.
+Weakness: CWE-78 Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection').
+CVSS v3 base score 9.8 (CRITICAL), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H.
+Yealink Device Management (DM) 3.6.0.20 allows command injection as root via the /sm/api/v1/firewall/zone/services URI, without authentication.
+Added to the CISA KEV catalog on 2021-11-03; known ransomware campaign use: Unknown.",,,
+Q5-01965,Q5_cve_cwe,CVE-2026-20133 affecting Cisco Catalyst SD-WAN Manager maps to which CWE?,CWE-200 Exposure of Sensitive Information to an Unauthorized Actor,"CVE-2026-20133: Cisco Catalyst SD-WAN Manager Exposure of Sensitive Information to an Unauthorized Actor Vulnerability
+Vendor/product: Cisco Catalyst SD-WAN Manager.
+Weakness: CWE-200 Exposure of Sensitive Information to an Unauthorized Actor.
+CVSS v3 base score 6.5 (MEDIUM), vector CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N.
+A vulnerability in Cisco Catalyst SD-WAN Software could allow an unauthenticated, remote attacker to view sensitive information on an affected system.
+
+ This vulnerability is due to insufficient file system restrictions. An authenticated attacker with netadmin privileg",,,
+Q5-01914,Q5_cve_cwe,"What is the CWE classification of CVE-2025-14611, the Gladinet CentreStack and Triofox vulnerability?",CWE-798 Use of Hard-coded Credentials,"CVE-2025-14611: Gladinet CentreStack and Triofox Hard Coded Cryptographic Vulnerability
+Vendor/product: Gladinet CentreStack and Triofox.
+Weakness: CWE-798 Use of Hard-coded Credentials.
+Gladinet CentreStack and Triofox prior to version 16.12.10420.56791 used hardcoded values for their implementation of the AES cryptoscheme. This degrades security for public exposed endpoints that may make use of it and may offer arbitrary local file inclusion when provided a specially crafted request without authentication. This opens the door for future exploitation and can be leveraged with previous vulnera",,,
+Q5-01995,Q5_cve_cwe,Which CWE weakness is associated with CVE-2026-93616 (Check Point Multiple Products)?,CWE-22 Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),"CVE-2026-93616: Check Point Multiple Products Path Traversal Vulnerability
+Vendor/product: Check Point Multiple Products.
+Weakness: CWE-22 Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal').
+CVSS v3 base score 9.8 (CRITICAL), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H.
+A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute arbitrary scripts on Check Point Management Server.
+Added to the CISA KEV catalog on 2026-09-22; known ransomware campaign use: Unknown.",,,
+Q5-01981,Q5_cve_cwe,Which CWE weakness is associated with CVE-2026-50751 (Check Point Security Gateway)?,CWE-287 Improper Authentication,"CVE-2026-50751: Check Point Security Gateway Improper Authentication Vulnerability
+Vendor/product: Check Point Security Gateway.
+Weakness: CWE-287 Improper Authentication.
+CVSS v3 base score 9.3 (CRITICAL), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N.
+A logic flow weakness in Remote Access and Mobile Access certificate validation in deprecated IKEv1 key exchange allows an unauthenticated remote attacker to bypass user authentication and establish a remote access VPN connection without a valid user password.
+Added to the CISA KEV catalog on 2026-06-08; known ransomware campaign use: Kno",,,
+Q5-01767,Q5_cve_cwe,"What is the CWE classification of CVE-2021-26084, the Atlassian Confluence Server and Data Center vulnerability?",CWE-917 Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),"CVE-2021-26084: Atlassian Confluence Server and Data Center Object-Graph Navigation Language (OGNL) Injection Vulnerability
+Vendor/product: Atlassian Confluence Server and Data Center.
+Weakness: CWE-917 Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection').
+CVSS v3 base score 9.8 (CRITICAL), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H.
+In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Serv",,,
+Q5-01727,Q5_cve_cwe,Which CWE weakness is associated with CVE-2020-35730 (Roundcube Roundcube Webmail)?,CWE-79 Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),"CVE-2020-35730: Roundcube Webmail Cross-Site Scripting (XSS) Vulnerability
+Vendor/product: Roundcube Roundcube Webmail.
+Weakness: CWE-79 Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting').
+CVSS v3 base score 6.1 (MEDIUM), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N.
+An XSS issue was discovered in Roundcube Webmail before 1.2.13, 1.3.x before 1.3.16, and 1.4.x before 1.4.10. The attacker can send a plain text e-mail message, with JavaScript in a link reference element that is mishandled by linkref_addindex in rcube_string_replacer.php.
+Added to the CISA",,,
+Q5-01819,Q5_cve_cwe,CVE-2022-26923 affecting Microsoft Active Directory maps to which CWE?,CWE-295 Improper Certificate Validation,"CVE-2022-26923: Microsoft Active Directory Domain Services Privilege Escalation Vulnerability
+Vendor/product: Microsoft Active Directory.
+Weakness: CWE-295 Improper Certificate Validation.
+CVSS v3 base score 8.8 (HIGH), vector CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C.
+Active Directory Domain Services Elevation of Privilege Vulnerability
+Added to the CISA KEV catalog on 2022-08-18; known ransomware campaign use: Unknown.",,,
+Q5-01705,Q5_cve_cwe,Which CWE weakness is associated with CVE-2020-0069 (MediaTek Multiple Chipsets)?,CWE-787 Out-of-bounds Write,"CVE-2020-0069: Mediatek Multiple Chipsets Insufficient Input Validation Vulnerability
+Vendor/product: MediaTek Multiple Chipsets.
+Weakness: CWE-787 Out-of-bounds Write.
+CVSS v3 base score 7.8 (HIGH), vector CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H.
+In the ioctl handlers of the Mediatek Command Queue driver, there is a possible out of bounds write due to insufficient input sanitization and missing SELinux restrictions. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: And",,,
+Q5-01852,Q5_cve_cwe,CVE-2023-32434 affecting Apple Multiple Products maps to which CWE?,CWE-190 Integer Overflow or Wraparound,"CVE-2023-32434: Apple Multiple Products Integer Overflow Vulnerability
+Vendor/product: Apple Multiple Products.
+Weakness: CWE-190 Integer Overflow or Wraparound.
+CVSS v3 base score 7.8 (HIGH), vector CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H.
+An integer overflow was addressed with improved input validation. This issue is fixed in watchOS 9.5.2, macOS Big Sur 11.7.8, iOS 15.7.7 and iPadOS 15.7.7, macOS Monterey 12.6.7, watchOS 8.8.1, iOS 16.5.1 and iPadOS 16.5.1, macOS Ventura 13.4.1. An app may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this is",,,
+Q5-01702,Q5_cve_cwe,Which CWE weakness is associated with CVE-2019-9670 (Synacor Zimbra Collaboration Suite (ZCS))?,CWE-611 Improper Restriction of XML External Entity Reference,"CVE-2019-9670: Synacor Zimbra Collaboration Suite (ZCS) Improper Restriction of XML External Entity Reference
+Vendor/product: Synacor Zimbra Collaboration Suite (ZCS).
+Weakness: CWE-611 Improper Restriction of XML External Entity Reference.
+CVSS v3 base score 9.8 (CRITICAL), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H.
+mailboxd component in Synacor Zimbra Collaboration Suite 8.7.x before 8.7.11p10 has an XML External Entity injection (XXE) vulnerability, as demonstrated by Autodiscover/Autodiscover.xml.
+Added to the CISA KEV catalog on 2022-01-10; known ransomware campaign use: Unknown",,,
+Q6-02120,Q6_cve_severity,What CVSS v3 severity rating does CVE-2019-1458 (Microsoft Win32k) have?,"HIGH (7.8, nguồn CISA-ADP)","CVE-2019-1458: Microsoft Win32k Privilege Escalation Vulnerability
+Vendor/product: Microsoft Win32k.
+CVSS v3 base score 7.8 (HIGH), vector CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H.
+An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'.
+Added to the CISA KEV catalog on 2022-01-10; known ransomware campaign use: Known.",,,
+Q6-02225,Q6_cve_severity,"How severe is CVE-2021-38647 in Microsoft Open Management Infrastructure (OMI) according to its CVSS v3 base score: LOW, MEDIUM, HIGH or CRITICAL?","CRITICAL (9.8, nguồn CNA)","CVE-2021-38647: Microsoft Open Management Infrastructure (OMI) Remote Code Execution Vulnerability
+Vendor/product: Microsoft Open Management Infrastructure (OMI).
+Weakness: CWE-1390 Weak Authentication.
+CVSS v3 base score 9.8 (CRITICAL), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C.
+Open Management Infrastructure (OMI) Remote Code Execution Vulnerability
+Added to the CISA KEV catalog on 2021-11-03; known ransomware campaign use: Known.",,,
+Q6-02009,Q6_cve_severity,"How severe is CVE-2010-1428 in Red Hat JBoss according to its CVSS v3 base score: LOW, MEDIUM, HIGH or CRITICAL?","MEDIUM (5.9, nguồn CISA-ADP)","CVE-2010-1428: Red Hat JBoss Information Disclosure Vulnerability
+Vendor/product: Red Hat JBoss.
+Weakness: CWE-264.
+CVSS v3 base score 5.9 (MEDIUM), vector CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N.
+The Web Console (aka web-console) in JBossAs in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.2 before 4.2.0.CP09 and 4.3 before 4.3.0.CP08 performs access control only for the GET and POST methods, which allows remote attackers to obtain sensitive information via an unspecified request that uses a different method.
+Added to the CISA KEV catalog on 2022-05-25; known ra",,,
+Q6-02004,Q6_cve_severity,What is the CVSS v3 base severity of CVE-2009-0556 (Microsoft Office)?,"HIGH (8.8, nguồn CISA-ADP)","CVE-2009-0556: Microsoft Office PowerPoint Code Injection Vulnerability
+Vendor/product: Microsoft Office.
+Weakness: CWE-94 Improper Control of Generation of Code ('Code Injection').
+CVSS v3 base score 8.8 (HIGH), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H.
+Microsoft Office PowerPoint 2000 SP3, 2002 SP3, and 2003 SP3, and PowerPoint in Microsoft Office 2004 for Mac, allows remote attackers to execute arbitrary code via a PowerPoint file with an OutlineTextRefAtom containing an an invalid index value that triggers memory corruption, as exploited in the wild in April 2009 by Exploit:Win3",,,
+Q6-02355,Q6_cve_severity,"How severe is CVE-2025-24985 in Microsoft Windows according to its CVSS v3 base score: LOW, MEDIUM, HIGH or CRITICAL?","HIGH (7.8, nguồn CNA)","CVE-2025-24985: Microsoft Windows Fast FAT File System Driver Integer Overflow Vulnerability
+Vendor/product: Microsoft Windows.
+Weakness: CWE-122 Heap-based Buffer Overflow; CWE-190 Integer Overflow or Wraparound.
+CVSS v3 base score 7.8 (HIGH), vector CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C.
+Integer overflow or wraparound in Windows Fast FAT Driver allows an unauthorized attacker to execute code locally.
+Added to the CISA KEV catalog on 2025-03-11; known ransomware campaign use: Unknown.",,,
+Q6-02145,Q6_cve_severity,What is the CVSS v3 base severity of CVE-2020-25213 (WordPress File Manager Plugin)?,"CRITICAL (10.0, nguồn CNA)","CVE-2020-25213: WordPress File Manager Plugin Remote Code Execution Vulnerability
+Vendor/product: WordPress File Manager Plugin.
+Weakness: CWE-434 Unrestricted Upload of File with Dangerous Type.
+CVSS v3 base score 10.0 (CRITICAL), vector CVSS:3.1/AC:L/AV:N/A:H/C:H/I:H/PR:N/S:C/UI:N.
+The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote attackers to upload and execute arbitrary PHP code because it renames an unsafe example elFinder connector file to have the.php extension. This, for example, allows attackers to run the elFinder upload (or mkfile and put) command to w",,,
+Q6-02084,Q6_cve_severity,"How severe is CVE-2017-7269 in Microsoft Internet Information Services (IIS) according to its CVSS v3 base score: LOW, MEDIUM, HIGH or CRITICAL?","CRITICAL (9.8, nguồn CISA-ADP)","CVE-2017-7269: Microsoft Windows Server Buffer Overflow Vulnerability
+Vendor/product: Microsoft Internet Information Services (IIS).
+Weakness: CWE-119 Improper Restriction of Operations within the Bounds of a Memory Buffer.
+CVSS v3 base score 9.8 (CRITICAL), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H.
+Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in Internet Information Services (IIS) 6.0 in Microsoft Windows Server 2003 R2 allows remote attackers to execute arbitrary code via a long header beginning with ""If: <http://"" in a PROPFIND request, as exploited ",,,
+Q6-02304,Q6_cve_severity,What is the CVSS v3 base severity of CVE-2023-46604 (Apache ActiveMQ)?,"CRITICAL (10.0, nguồn CNA)","CVE-2023-46604: Apache ActiveMQ Deserialization of Untrusted Data Vulnerability
+Vendor/product: Apache ActiveMQ.
+Weakness: CWE-502 Deserialization of Untrusted Data.
+CVSS v3 base score 10.0 (CRITICAL), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:H.
+The Java OpenWire protocol marshaller is vulnerable to Remote Code 
+Execution. This vulnerability may allow a remote attacker with network 
+access to either a Java-based OpenWire broker or client to run arbitrary
+ shell commands by manipulating serialized class types in the OpenWire 
+protocol to cause either the client or the broker (respectiv",,,
+Q6-02075,Q6_cve_severity,"How severe is CVE-2017-0263 in Microsoft Win32k according to its CVSS v3 base score: LOW, MEDIUM, HIGH or CRITICAL?","HIGH (7.8, nguồn CISA-ADP)","CVE-2017-0263: Microsoft Win32k Privilege Escalation Vulnerability
+Vendor/product: Microsoft Win32k.
+Weakness: CWE-416 Use After Free.
+CVSS v3 base score 7.8 (HIGH), vector CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H.
+The kernel-mode drivers in Microsoft Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, 1607, 1703, and Windows Server 2016 allow local users to gain privileges via a crafted application, aka ""Win32k Elevation of Privilege Vulnerability.""
+Added to the CISA KEV catalog on 2022-02-10; known ransom",,,
+Q6-02014,Q6_cve_severity,What CVSS v3 severity rating does CVE-2010-3904 (Linux Kernel) have?,"HIGH (7.8, nguồn CISA-ADP)","CVE-2010-3904: Linux Kernel Improper Input Validation Vulnerability
+Vendor/product: Linux Kernel.
+Weakness: CWE-20 Improper Input Validation.
+CVSS v3 base score 7.8 (HIGH), vector CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H.
+The rds_page_copy_user function in net/rds/page.c in the Reliable Datagram Sockets (RDS) protocol implementation in the Linux kernel before 2.6.36 does not properly validate addresses obtained from user space, which allows local users to gain privileges via crafted use of the sendmsg and recvmsg system calls.
+Added to the CISA KEV catalog on 2023-05-12; known ransomware c",,,
+Q6-02047,Q6_cve_severity,"How severe is CVE-2015-1770 in Microsoft Office according to its CVSS v3 base score: LOW, MEDIUM, HIGH or CRITICAL?","HIGH (8.8, nguồn CISA-ADP)","CVE-2015-1770: Microsoft Office Uninitialized Memory Use Vulnerability
+Vendor/product: Microsoft Office.
+Weakness: CWE-19.
+CVSS v3 base score 8.8 (HIGH), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H.
+Microsoft Office 2013 SP1 and 2013 RT SP1 allows remote attackers to execute arbitrary code via a crafted Office document, aka ""Microsoft Office Uninitialized Memory Use Vulnerability.""
+Added to the CISA KEV catalog on 2022-03-28; known ransomware campaign use: Unknown.",,,
+Q6-02343,Q6_cve_severity,"How severe is CVE-2024-57968 in Advantive VeraCore according to its CVSS v3 base score: LOW, MEDIUM, HIGH or CRITICAL?","CRITICAL (9.9, nguồn CNA)","CVE-2024-57968: Advantive VeraCore Unrestricted File Upload Vulnerability
+Vendor/product: Advantive VeraCore.
+Weakness: CWE-434 Unrestricted Upload of File with Dangerous Type.
+CVSS v3 base score 9.9 (CRITICAL), vector CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H.
+Advantive VeraCore before 2024.4.2.1 allows remote authenticated users to upload files to unintended folders (e.g., ones that are accessible during web browsing by other users). upload.aspx can be used for this.
+Added to the CISA KEV catalog on 2025-03-10; known ransomware campaign use: Unknown.",,,
+Q6-02125,Q6_cve_severity,"How severe is CVE-2019-19781 in Citrix Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance according to its CVSS v3 base score: LOW, MEDIUM, HIGH or CRITICAL?","CRITICAL (9.8, nguồn CISA-ADP)","CVE-2019-19781: Citrix ADC, Gateway, and SD-WAN WANOP Appliance Code Execution Vulnerability
+Vendor/product: Citrix Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance.
+Weakness: CWE-22 Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal').
+CVSS v3 base score 9.8 (CRITICAL), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H.
+An issue was discovered in Citrix Application Delivery Controller (ADC) and Gateway 10.5, 11.1, 12.0, 12.1, and 13.0. They allow Directory Traversal.
+Added to the CISA KEV catalog on 2021-11-03; known ransomware campaign us",,,
+Q6-02265,Q6_cve_severity,What CVSS v3 severity rating does CVE-2023-0266 (Linux Kernel) have?,"HIGH (7.9, nguồn CNA)","CVE-2023-0266: Linux Kernel Use-After-Free Vulnerability
+Vendor/product: Linux Kernel.
+Weakness: CWE-416 Use After Free.
+CVSS v3 base score 7.9 (HIGH), vector CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:C/C:L/I:H/A:H.
+A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ|WRITE}32 is missing locks that can be used in a use-after-free that can result in a priviledge escalation to gain ring0 access from the system user. We recommend upgrading past commit 56b88b50565cd8b946a2d00b0c83927b7ebb055e
+Added to the CISA KEV catalog on 2023-03-30; known ransomwar",,,
+Q6-02237,Q6_cve_severity,"How severe is CVE-2022-0609 in Google Chromium Animation according to its CVSS v3 base score: LOW, MEDIUM, HIGH or CRITICAL?","HIGH (8.8, nguồn CISA-ADP)","CVE-2022-0609: Google Chromium Animation Use-After-Free Vulnerability
+Vendor/product: Google Chromium Animation.
+Weakness: CWE-416 Use After Free.
+CVSS v3 base score 8.8 (HIGH), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H.
+Use after free in Animation in Google Chrome prior to 98.0.4758.102 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+Added to the CISA KEV catalog on 2022-02-15; known ransomware campaign use: Unknown.",,,
+Q6-02281,Q6_cve_severity,"How severe is CVE-2023-32435 in Apple Multiple Products according to its CVSS v3 base score: LOW, MEDIUM, HIGH or CRITICAL?","HIGH (8.8, nguồn CISA-ADP)","CVE-2023-32435: Apple Multiple Products WebKit Memory Corruption Vulnerability
+Vendor/product: Apple Multiple Products.
+Weakness: CWE-787 Out-of-bounds Write.
+CVSS v3 base score 8.8 (HIGH), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H.
+A memory corruption issue was addressed with improved state management. This issue is fixed in macOS Ventura 13.3, Safari 16.4, iOS 16.4 and iPadOS 16.4, iOS 15.7.7 and iPadOS 15.7.7. Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited against versions of iOS released bef",,,
+Q6-02078,Q6_cve_severity,What is the CVSS v3 base severity of CVE-2017-12637 (SAP NetWeaver)?,"HIGH (7.5, nguồn CISA-ADP)","CVE-2017-12637: SAP NetWeaver Directory Traversal Vulnerability
+Vendor/product: SAP NetWeaver.
+Weakness: CWE-22 Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal').
+CVSS v3 base score 7.5 (HIGH), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N.
+Directory traversal vulnerability in scheduler/ui/js/ffffffffbca41eb4/UIUtilJavaScriptJS in SAP NetWeaver Application Server Java 7.5 allows remote attackers to read arbitrary files via a.. (dot dot) in the query string, as exploited in the wild in August 2017, aka SAP Security Note 2486657.
+Added to the CISA KEV catalog o",,,
+Q6-02383,Q6_cve_severity,"How severe is CVE-2026-39808 in Fortinet FortiSandbox according to its CVSS v3 base score: LOW, MEDIUM, HIGH or CRITICAL?","CRITICAL (9.1, nguồn CNA)","CVE-2026-39808: Fortinet FortiSandbox OS Command Injection Vulnerability
+Vendor/product: Fortinet FortiSandbox.
+Weakness: CWE-78 Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection').
+CVSS v3 base score 9.1 (CRITICAL), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C.
+A improper neutralization of special elements used in an os command ('os command injection') vulnerability in Fortinet FortiSandbox 4.4.0 through 4.4.8 may allow attacker to execute unauthorized code or commands via <insert attack vector here>
+Added to the CISA KEV catalog on ",,,
+Q6-02242,Q6_cve_severity,What CVSS v3 severity rating does CVE-2022-22965 (VMware Spring Framework) have?,"CRITICAL (9.8, nguồn CISA-ADP)","CVE-2022-22965: Spring Framework JDK 9+ Remote Code Execution Vulnerability
+Vendor/product: VMware Spring Framework.
+Weakness: CWE-94 Improper Control of Generation of Code ('Code Injection').
+CVSS v3 base score 9.8 (CRITICAL), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H.
+A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment. If the application is deployed as a Spring Boot executable jar, i.e. the default, it is not vulnerable to t",,,
+Q6-02000,Q6_cve_severity,"How severe is CVE-2008-2992 in Adobe Acrobat and Reader according to its CVSS v3 base score: LOW, MEDIUM, HIGH or CRITICAL?","HIGH (7.8, nguồn CISA-ADP)","CVE-2008-2992: Adobe Reader and Acrobat Input Validation Vulnerability
+Vendor/product: Adobe Acrobat and Reader.
+Weakness: CWE-119 Improper Restriction of Operations within the Bounds of a Memory Buffer.
+CVSS v3 base score 7.8 (HIGH), vector CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H.
+Stack-based buffer overflow in Adobe Acrobat and Reader 8.1.2 and earlier allows remote attackers to execute arbitrary code via a PDF file that calls the util.printf JavaScript function with a crafted format string argument, a related issue to CVE-2008-1104.
+Added to the CISA KEV catalog on 2022-03-03; known ra",,,
+Q6-02335,Q6_cve_severity,What CVSS v3 severity rating does CVE-2024-4610 (Arm Mali GPU Kernel Driver) have?,"HIGH (7.4, nguồn CISA-ADP)","CVE-2024-4610: Arm Mali GPU Kernel Driver Use-After-Free Vulnerability
+Vendor/product: Arm Mali GPU Kernel Driver.
+Weakness: CWE-416 Use After Free.
+CVSS v3 base score 7.4 (HIGH), vector CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H.
+Use After Free vulnerability in Arm Ltd Bifrost GPU Kernel Driver, Arm Ltd Valhall GPU Kernel Driver allows a local non-privileged user to make improper GPU memory processing operations to gain access to already freed memory.This issue affects Bifrost GPU Kernel Driver: from r34p0 through r40p0; Valhall GPU Kernel Driver: from r34p0 through r40p0.
+Added to the CISA",,,
+Q6-02172,Q6_cve_severity,"How severe is CVE-2021-20028 in SonicWall Secure Remote Access (SRA) according to its CVSS v3 base score: LOW, MEDIUM, HIGH or CRITICAL?","CRITICAL (9.8, nguồn CISA-ADP)","CVE-2021-20028: SonicWall Secure Remote Access (SRA) SQL Injection Vulnerability
+Vendor/product: SonicWall Secure Remote Access (SRA).
+Weakness: CWE-89 Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection').
+CVSS v3 base score 9.8 (CRITICAL), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H.
+Improper neutralization of a SQL Command leading to SQL Injection vulnerability impacting end-of-life Secure Remote Access (SRA) products, specifically the SRA appliances running all 8.x firmware and 9.0.0.9-26sv or earlier
+Added to the CISA KEV catalog on 2022-03-28; known",,,
+Q6-02210,Q6_cve_severity,"How severe is CVE-2021-3199 in ONLYOFFICE Docs according to its CVSS v3 base score: LOW, MEDIUM, HIGH or CRITICAL?","CRITICAL (9.8, nguồn CISA-ADP)","CVE-2021-3199: ONLYOFFICE Docs Server Path Traversal Vulnerability
+Vendor/product: ONLYOFFICE Docs.
+Weakness: CWE-22 Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal').
+CVSS v3 base score 9.8 (CRITICAL), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H.
+Directory traversal with remote code execution can occur in /upload in ONLYOFFICE Document Server before 5.6.3, when JWT is used, via a /.. sequence in an image upload parameter.
+Added to the CISA KEV catalog on 2026-10-08; known ransomware campaign use: Unknown.",,,
+Q6-02019,Q6_cve_severity,What CVSS v3 severity rating does CVE-2012-1535 (Adobe Flash Player) have?,"HIGH (7.8, nguồn CISA-ADP)","CVE-2012-1535: Adobe Flash Player Arbitrary Code Execution Vulnerability
+Vendor/product: Adobe Flash Player.
+CVSS v3 base score 7.8 (HIGH), vector CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H.
+Unspecified vulnerability in Adobe Flash Player before 11.3.300.271 on Windows and Mac OS X and before 11.2.202.238 on Linux allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via crafted SWF content, as exploited in the wild in August 2012 with SWF content in a Word document.
+Added to the CISA KEV catalog on 2022-03-03; known ransomware campaign use: Unkno",,,
+Q6-02232,Q6_cve_severity,What CVSS v3 severity rating does CVE-2021-41379 (Microsoft Windows) have?,"MEDIUM (5.5, nguồn CNA)","CVE-2021-41379: Microsoft Windows Installer Privilege Escalation Vulnerability
+Vendor/product: Microsoft Windows.
+Weakness: CWE-1386 Insecure Operation on Windows Junction / Mount Point.
+CVSS v3 base score 5.5 (MEDIUM), vector CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C.
+Windows Installer Elevation of Privilege Vulnerability
+Added to the CISA KEV catalog on 2022-03-03; known ransomware campaign use: Known.",,,
+Q6-02151,Q6_cve_severity,"How severe is CVE-2020-3452 in Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) according to its CVSS v3 base score: LOW, MEDIUM, HIGH or CRITICAL?","HIGH (7.5, nguồn CNA)","CVE-2020-3452: Cisco ASA and FTD Read-Only Path Traversal Vulnerability
+Vendor/product: Cisco Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD).
+Weakness: CWE-20 Improper Input Validation.
+CVSS v3 base score 7.5 (HIGH), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N.
+A vulnerability in the web services interface of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct directory traversal attacks and read sensitive files on a targeted system. The vulnerability is due t",,,
+Q6-02272,Q6_cve_severity,What is the CVSS v3 base severity of CVE-2023-23529 (Apple Multiple Products)?,"HIGH (8.8, nguồn CISA-ADP)","CVE-2023-23529: Apple Multiple Products WebKit Type Confusion Vulnerability
+Vendor/product: Apple Multiple Products.
+Weakness: CWE-843 Access of Resource Using Incompatible Type ('Type Confusion').
+CVSS v3 base score 8.8 (HIGH), vector CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H.
+A type confusion issue was addressed with improved checks. This issue is fixed in iOS 15.7.4 and iPadOS 15.7.4, iOS 16.3.1 and iPadOS 16.3.1, macOS Ventura 13.2.1, Safari 16.3. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been act",,,
+Q6-02065,Q6_cve_severity,What CVSS v3 severity rating does CVE-2016-4655 (Apple iOS) have?,"MEDIUM (5.5, nguồn CISA-ADP)","CVE-2016-4655: Apple iOS Information Disclosure Vulnerability
+Vendor/product: Apple iOS.
+Weakness: CWE-200 Exposure of Sensitive Information to an Unauthorized Actor.
+CVSS v3 base score 5.5 (MEDIUM), vector CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N.
+The kernel in Apple iOS before 9.3.5 allows attackers to obtain sensitive information from memory via a crafted app.
+Added to the CISA KEV catalog on 2022-05-24; known ransomware campaign use: Unknown.",,,
+Q7-02491,Q7_capec_attack,Install New Service (CAPEC-550) is mapped to which ATT&CK technique(s)?,T1543 Create or Modify System Process,"CAPEC CAPEC-550: Install New Service
+When an operating system starts, it also starts programs called services or daemons. Adversaries may install a new service which will be executed at startup (on a Windows system, by modifying the registry). The service name may be disguised by using a name from a related operating system or benign software. Services are usually run with elevated privileges.
+Related weaknesses: CWE-284 Improper Access Control.
+Mapped ATT&CK techniques: T1543 Create or Modify System Process.",,,
+Q7-02563,Q7_capec_attack,What MITRE ATT&CK technique corresponds to CAPEC-98 (Phishing)?,T1566 Phishing; T1598 Phishing for Information,"CAPEC CAPEC-98: Phishing
+Phishing is a social engineering technique where an attacker masquerades as a legitimate entity with which the victim might do business in order to prompt the user to reveal some confidential information (very frequently authentication credentials) that can later be used by an attacker. Phishing is essentially a form of information gathering or ""fishing"" for information.
+Related weaknesses: CWE-451 User Interface (UI) Misrepresentation of Critical Information.
+Mapped ATT&CK techniques: T1566 Phishing; T1598 Phishing for Information.",,,
+Q7-02457,Q7_capec_attack,What MITRE ATT&CK technique corresponds to CAPEC-465 (Transparent Proxy Abuse)?,T1090.001 Internal Proxy,"CAPEC CAPEC-465: Transparent Proxy Abuse
+A transparent proxy serves as an intermediate between the client and the internet at large. It intercepts all requests originating from the client and forwards them to the correct location. The proxy also intercepts all responses to the client and forwards these to the client. All of this is done in a manner transparent to the client.
+Related weaknesses: CWE-441 Unintended Proxy or Intermediary ('Confused Deputy').
+Mapped ATT&CK techniques: T1090.001 Internal Proxy.",,,
+Q7-02407,Q7_capec_attack,Which ATT&CK technique(s) does the attack pattern CAPEC-132 (Symlink Attack) map to?,T1547.009 Shortcut Modification,"CAPEC CAPEC-132: Symlink Attack
+An adversary positions a symbolic link in such a manner that the targeted user or application accesses the link's endpoint, assuming that it is accessing a file with the link's name.
+Related weaknesses: CWE-59 Improper Link Resolution Before File Access ('Link Following').
+Mapped ATT&CK techniques: T1547.009 Shortcut Modification.",,,
+Q7-02401,Q7_capec_attack,Privilege Abuse (CAPEC-122) is mapped to which ATT&CK technique(s)?,T1548 Abuse Elevation Control Mechanism,"CAPEC CAPEC-122: Privilege Abuse
+An adversary is able to exploit features of the target that should be reserved for privileged users or administrators but are exposed to use by lower or non-privileged accounts. Access to sensitive information and functionality must be controlled to ensure that only authorized users are able to access these resources.
+Related weaknesses: CWE-1317 Improper Access Control in Fabric Bridge; CWE-269 Improper Privilege Management; CWE-732 Incorrect Permission Assignment for Critical Resource.
+Mapped ATT&CK techniques: T1548 Abuse Elevation Control Mechanism.",,,
+Q7-02474,Q7_capec_attack,What MITRE ATT&CK technique corresponds to CAPEC-509 (Kerberoasting)?,T1558.003 Kerberoasting,"CAPEC CAPEC-509: Kerberoasting
+Through the exploitation of how service accounts leverage Kerberos authentication with Service Principal Names (SPNs), the adversary obtains and subsequently cracks the hashed credentials of a service account target to exploit its privileges. The Kerberos authentication protocol centers around a ticketing system which is used to request/grant access to services and to then access the requested services. As an authenticated user, the adversary may request Active Directory and obtain a service ticket with portions encrypted via RC4 with the private key of the authe",,,
+Q7-02527,Q7_capec_attack,Use of Captured Hashes (Pass The Hash) (CAPEC-644) is mapped to which ATT&CK technique(s)?,T1550.002 Pass the Hash,"CAPEC CAPEC-644: Use of Captured Hashes (Pass The Hash)
+An adversary obtains (i.e. steals or purchases) legitimate Windows domain credential hash values to access systems within the domain that leverage the Lan Man (LM) and/or NT Lan Man (NTLM) authentication protocols.
+Related weaknesses: CWE-294 Authentication Bypass by Capture-replay; CWE-308 Use of Single-factor Authentication; CWE-522 Insufficiently Protected Credentials; CWE-836 Use of Password Hash Instead of Password for Authentication.
+Mapped ATT&CK techniques: T1550.002 Pass the Hash.",,,
+Q7-02443,Q7_capec_attack,Which ATT&CK technique(s) does the attack pattern CAPEC-37 (Retrieve Embedded Sensitive Data) map to?,T1005 Data from Local System; T1552.004 Private Keys,"CAPEC CAPEC-37: Retrieve Embedded Sensitive Data
+An attacker examines a target system to find sensitive data that has been embedded within it. This information can reveal confidential contents, such as account numbers or individual keys/credentials that can be used as an intermediate step in a larger attack.
+Related weaknesses: CWE-1239 Improper Zeroization of Hardware Register; CWE-1258 Exposure of Sensitive System Information Due to Uncleared Debug Information; CWE-1266 Improper Scrubbing of Sensitive Data from Decommissioned Device; CWE-1272 Sensitive Information Uncleared Before Debug/Powe",,,
+Q7-02539,Q7_capec_attack,Which ATT&CK technique(s) does the attack pattern CAPEC-657 (Malicious Automated Software Update via Spoofing) map to?,T1072 Software Deployment Tools,"CAPEC CAPEC-657: Malicious Automated Software Update via Spoofing
+An attackers uses identify or content spoofing to trick a client into performing an automated software update from a malicious source. A malicious automated software update that leverages spoofing can include content or identity spoofing as well as protocol spoofing. Content or identity spoofing attacks can trigger updates in software by embedding scripted mechanisms within a malicious web page, which masquerades as a legitimate update source. Scripting mechanisms communicate with software components and trigger updates from loc",,,
+Q7-02425,Q7_capec_attack,Lifting Sensitive Data Embedded in Cache (CAPEC-204) is mapped to which ATT&CK technique(s)?,T1005 Data from Local System,"CAPEC CAPEC-204: Lifting Sensitive Data Embedded in Cache
+An adversary examines a target application's cache, or a browser cache, for sensitive information. Many applications that communicate with remote entities or which perform intensive calculations utilize caches to improve efficiency. However, if the application computes or receives sensitive information and the cache is not appropriately protected, an attacker can browse the cache and retrieve this information. This can result in the disclosure of sensitive information.
+Related weaknesses: CWE-1239 Improper Zeroization of Hardware Regist",,,
+Q7-02506,Q7_capec_attack,What MITRE ATT&CK technique corresponds to CAPEC-573 (Process Footprinting)?,T1057 Process Discovery,"CAPEC CAPEC-573: Process Footprinting
+An adversary exploits functionality meant to identify information about the currently running processes on the target system to an authorized user. By knowing what processes are running on the target system, the adversary can learn about the target environment as a means towards further malicious behavior.
+Related weaknesses: CWE-200 Exposure of Sensitive Information to an Unauthorized Actor.
+Mapped ATT&CK techniques: T1057 Process Discovery.",,,
+Q7-02405,Q7_capec_attack,What MITRE ATT&CK technique corresponds to CAPEC-130 (Excessive Allocation)?,T1499.003 Application Exhaustion Flood,"CAPEC CAPEC-130: Excessive Allocation
+An adversary causes the target to allocate excessive resources to servicing the attackers' request, thereby reducing the resources available for legitimate services and degrading or denying services. Usually, this attack focuses on memory allocation, but any finite resource on the target could be the attacked, including bandwidth, processing cycles, or other resources. This attack does not attempt to force this allocation through a large number of requests (that would be Resource Depletion through Flooding) but instead uses one or a small number of request",,,
+Q7-02469,Q7_capec_attack,SSL Flood (CAPEC-489) is mapped to which ATT&CK technique(s)?,T1499.002 Service Exhaustion Flood,"CAPEC CAPEC-489: SSL Flood
+An adversary may execute a flooding attack using the SSL protocol with the intent to deny legitimate users access to a service by consuming all the available resources on the server side. These attacks take advantage of the asymmetric relationship between the processing power used by the client and the processing power used by the server to create a secure connection. In this manner the attacker can make a large number of HTTPS requests on a low provisioned machine to tie up a disproportionately large number of resources on the server. The clients then continue to ke",,,
+Q7-02544,Q7_capec_attack,Which ATT&CK technique(s) does the attack pattern CAPEC-668 (Key Negotiation of Bluetooth Attack (KNOB)) map to?,T1565.002 Transmitted Data Manipulation,"CAPEC CAPEC-668: Key Negotiation of Bluetooth Attack (KNOB)
+An adversary can exploit a flaw in Bluetooth key negotiation allowing them to decrypt information sent between two devices communicating via Bluetooth. The adversary uses an Adversary in the Middle setup to modify packets sent between the two devices during the authentication process, specifically the entropy bits. Knowledge of the number of entropy bits will allow the attacker to easily decrypt information passing over the line of communication.
+Related weaknesses: CWE-285 Improper Authorization; CWE-425 Direct Request ('Forced Brows",,,
+Q7-02422,Q7_capec_attack,Which ATT&CK technique(s) does the attack pattern CAPEC-196 (Session Credential Falsification through Forging) map to?,T1134.002 Create Process with Token; T1134.003 Make and Impersonate Token; T1606 Forge Web Credentials,"CAPEC CAPEC-196: Session Credential Falsification through Forging
+An attacker creates a false but functional session credential in order to gain or usurp access to a service. Session credentials allow users to identify themselves to a service after an initial authentication without needing to resend the authentication information (usually a username and password) with every message. If an attacker is able to forge valid session credentials they may be able to bypass authentication or piggy-back off some other authenticated user's session. This attack differs from Reuse of Session IDs and Sessi",,,
+Q7-02494,Q7_capec_attack,Which ATT&CK technique(s) does the attack pattern CAPEC-555 (Remote Services with Stolen Credentials) map to?,T1021 Remote Services; T1114.002 Remote Email Collection; T1133 External Remote Services,"CAPEC CAPEC-555: Remote Services with Stolen Credentials
+This pattern of attack involves an adversary that uses stolen credentials to leverage remote services such as RDP, telnet, SSH, and VNC to log into a system. Once access is gained, any number of malicious activities could be performed.
+Related weaknesses: CWE-262 Not Using Password Aging; CWE-263 Password Aging with Long Expiration; CWE-294 Authentication Bypass by Capture-replay; CWE-308 Use of Single-factor Authentication; CWE-309 Use of Password System for Primary Authentication; CWE-521 Weak Password Requirements; CWE-522 Insufficien",,,
+Q7-02468,Q7_capec_attack,What MITRE ATT&CK technique corresponds to CAPEC-488 (HTTP Flood)?,T1499.002 Service Exhaustion Flood,"CAPEC CAPEC-488: HTTP Flood
+An adversary may execute a flooding attack using the HTTP protocol with the intent to deny legitimate users access to a service by consuming resources at the application layer such as web services and their infrastructure. These attacks use legitimate session-based HTTP GET requests designed to consume large amounts of a server's resources. Since these are legitimate sessions this attack is very difficult to detect.
+Related weaknesses: CWE-770 Allocation of Resources Without Limits or Throttling.
+Mapped ATT&CK techniques: T1499.002 Service Exhaustion Flood.",,,
+Q7-02396,Q7_capec_attack,Which ATT&CK technique(s) does the attack pattern CAPEC-1 (Accessing Functionality Not Properly Constrained by ACLs) map to?,T1574.010 Services File Permissions Weakness,"CAPEC CAPEC-1: Accessing Functionality Not Properly Constrained by ACLs
+In applications, particularly web applications, access to functionality is mitigated by an authorization framework. This framework maps Access Control Lists (ACLs) to elements of the application's functionality; particularly URL's for web apps. In the case that the administrator failed to specify an ACL for a particular element, an attacker may be able to access it with impunity. An attacker with the ability to access functionality not properly constrained by ACLs can obtain sensitive information and possibly compromise th",,,
+Q7-02516,Q7_capec_attack,Which ATT&CK technique(s) does the attack pattern CAPEC-600 (Credential Stuffing) map to?,T1110.004 Credential Stuffing,"CAPEC CAPEC-600: Credential Stuffing
+<xhtml:p>An adversary tries known username/password combinations against different systems, applications, or services to gain additional authenticated access. Credential Stuffing attacks rely upon the fact that many users leverage the same username/password combination for multiple systems, applications, and services.</xhtml:p>
+Related weaknesses: CWE-262 Not Using Password Aging; CWE-263 Password Aging with Long Expiration; CWE-307 Improper Restriction of Excessive Authentication Attempts; CWE-308 Use of Single-factor Authentication; CWE-309 Use of Passwor",,,
+Q7-02483,Q7_capec_attack,Infiltration of Hardware Development Environment (CAPEC-537) is mapped to which ATT&CK technique(s)?,T1195.003 Compromise Hardware Supply Chain,"CAPEC CAPEC-537: Infiltration of Hardware Development Environment
+An adversary, leveraging the ability to manipulate components of primary support systems and tools within the development and production environments, inserts malicious software within the hardware and/or firmware development environment. The infiltration purpose is to alter developed hardware components in a system destined for deployment at the victim's organization, for the purpose of disruption or further compromise.
+Mapped ATT&CK techniques: T1195.003 Compromise Hardware Supply Chain.",,,
+Q7-02533,Q7_capec_attack,What MITRE ATT&CK technique corresponds to CAPEC-65 (Sniff Application Code)?,T1040 Network Sniffing,"CAPEC CAPEC-65: Sniff Application Code
+An adversary passively sniffs network communications and captures application code bound for an authorized client. Once obtained, they can use it as-is, or through reverse-engineering glean sensitive information or exploit the trust relationship between the client and server. Such code may belong to a dynamic update to the client, a patch being applied to a client component or any such interaction where the client is authorized to communicate with the server.
+Related weaknesses: CWE-311 Missing Encryption of Sensitive Data; CWE-318 Cleartext Storage of Se",,,
+Q7-02500,Q7_capec_attack,Password Spraying (CAPEC-565) is mapped to which ATT&CK technique(s)?,T1110.003 Password Spraying,"CAPEC CAPEC-565: Password Spraying
+<xhtml:p>In a Password Spraying attack, an adversary tries a small list (e.g. 3-5) of common or expected passwords, often matching the target's complexity policy, against a known list of user accounts to gain valid credentials. The adversary tries a particular password for each user account, before moving onto the next password in the list. This approach assists the adversary in remaining undetected by avoiding rapid or frequent account lockouts. The adversary may then reattempt the process with additional passwords, once enough time has passed to prevent ind",,,
+Q7-02536,Q7_capec_attack,Which ATT&CK technique(s) does the attack pattern CAPEC-652 (Use of Known Kerberos Credentials) map to?,T1558 Steal or Forge Kerberos Tickets,"CAPEC CAPEC-652: Use of Known Kerberos Credentials
+An adversary obtains (i.e. steals or purchases) legitimate Kerberos credentials (e.g. Kerberos service account userID/password or Kerberos Tickets) with the goal of achieving authenticated access to additional systems, applications, or services within the domain.
+Related weaknesses: CWE-262 Not Using Password Aging; CWE-263 Password Aging with Long Expiration; CWE-294 Authentication Bypass by Capture-replay; CWE-307 Improper Restriction of Excessive Authentication Attempts; CWE-308 Use of Single-factor Authentication; CWE-309 Use of Password S",,,
+Q7-02537,Q7_capec_attack,What MITRE ATT&CK technique corresponds to CAPEC-654 (Credential Prompt Impersonation)?,T1056 Input Capture; T1548.004 Elevated Execution with Prompt,"CAPEC CAPEC-654: Credential Prompt Impersonation
+An adversary, through a previously installed malicious application, impersonates a credential prompt in an attempt to steal a user's credentials.
+Related weaknesses: CWE-1021 Improper Restriction of Rendered UI Layers or Frames.
+Mapped ATT&CK techniques: T1056 Input Capture; T1548.004 Elevated Execution with Prompt.",,,
+Q7-02486,Q7_capec_attack,Application Fingerprinting (CAPEC-541) is mapped to which ATT&CK technique(s)?,T1592.002 Software,"CAPEC CAPEC-541: Application Fingerprinting
+An adversary engages in fingerprinting activities to determine the type or version of an application installed on a remote target.
+Related weaknesses: CWE-204 Observable Response Discrepancy; CWE-205 Observable Behavioral Discrepancy; CWE-208 Observable Timing Discrepancy.
+Mapped ATT&CK techniques: T1592.002 Software.",,,
+Q7-02400,Q7_capec_attack,What MITRE ATT&CK technique corresponds to CAPEC-115 (Authentication Bypass)?,T1548 Abuse Elevation Control Mechanism,"CAPEC CAPEC-115: Authentication Bypass
+An attacker gains access to application, service, or device with the privileges of an authorized or privileged user by evading or circumventing an authentication mechanism. The attacker is therefore able to access protected data without authentication ever having taken place.
+Related weaknesses: CWE-287 Improper Authentication.
+Mapped ATT&CK techniques: T1548 Abuse Elevation Control Mechanism.",,,
+Q7-02496,Q7_capec_attack,What MITRE ATT&CK technique corresponds to CAPEC-558 (Replace Trusted Executable)?,T1505.005 Terminal Services DLL; T1546.008 Accessibility Features,"CAPEC CAPEC-558: Replace Trusted Executable
+An adversary exploits weaknesses in privilege management or access control to replace a trusted executable with a malicious version and enable the execution of malware when that trusted executable is called.
+Related weaknesses: CWE-284 Improper Access Control.
+Mapped ATT&CK techniques: T1505.005 Terminal Services DLL; T1546.008 Accessibility Features.",,,
+Q7-02458,Q7_capec_attack,Which ATT&CK technique(s) does the attack pattern CAPEC-469 (HTTP DoS) map to?,T1499.002 Service Exhaustion Flood,"CAPEC CAPEC-469: HTTP DoS
+An attacker performs flooding at the HTTP level to bring down only a particular web application rather than anything listening on a TCP/IP connection. This denial of service attack requires substantially fewer packets to be sent which makes DoS harder to detect. This is an equivalent of SYN flood in HTTP. The idea is to keep the HTTP session alive indefinitely and then repeat that hundreds of times. This attack targets resource depletion weaknesses in web server software. The web server will wait to attacker's responses on the initiated HTTP sessions while the connect",,,

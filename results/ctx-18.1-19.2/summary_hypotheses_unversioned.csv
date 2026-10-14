@@ -1,0 +1,21 @@
+model,giả thuyết,so sánh,hiệu,hỗ trợ
+qwen3-8b,H1 vị trí,drift_ext(old_new) − drift_ext(new_old),"0.09 [0.01, 0.18]",✓
+qwen3-8b,H2 có mặt đoạn cũ,drift_ext(new_old) − drift_ext(new),"0.78 [0.70, 0.85]",✓
+qwen3-8b,H3a nhãn (cũ trước),drift_ext(old_new) − drift_ext(tag_old_new),"0.13 [0.08, 0.19]",✓
+qwen3-8b,H3b nhãn (mới trước),drift_ext(new_old) − drift_ext(tag_new_old),"0.36 [0.28, 0.44]",✓
+qwen3-8b,H4 ghi chú thay đổi,drift_ext(old) − drift_ext(old_changelog),"0.66 [0.57, 0.74]",✓
+qwen3-8b,H1-label vị trí,label_drift(old_new) − label_drift(new_old),"0.18 [0.10, 0.26]",✓
+qwen3-8b,H2-label có mặt đoạn cũ,label_drift(new_old) − label_drift(new),"0.82 [0.74, 0.90]",✓
+qwen3-8b,H3-label nhãn,label_drift(new_old) − label_drift(tag_new_old),"0.29 [0.19, 0.39]",✓
+qwen3-8b,"H5 nhãn quen thuộc (new_old, khám phá)","drift(NEW_TACTIC) − drift(EXISTING_TACTICS), chỉ kỹ thuật còn hiệu lực","0.33 [0.14, 0.53]",✓
+qwen3-8b,"H5 nhãn quen thuộc (old_new, khám phá)","drift(NEW_TACTIC) − drift(EXISTING_TACTICS), chỉ kỹ thuật còn hiệu lực","0.16 [0.03, 0.29]",✓
+llama3.1-8b,H1 vị trí,drift_ext(old_new) − drift_ext(new_old),"0.21 [0.14, 0.29]",✓
+llama3.1-8b,H2 có mặt đoạn cũ,drift_ext(new_old) − drift_ext(new),"0.66 [0.58, 0.74]",✓
+llama3.1-8b,H3a nhãn (cũ trước),drift_ext(old_new) − drift_ext(tag_old_new),"0.18 [0.11, 0.24]",✓
+llama3.1-8b,H3b nhãn (mới trước),drift_ext(new_old) − drift_ext(tag_new_old),"0.40 [0.32, 0.50]",✓
+llama3.1-8b,H4 ghi chú thay đổi,drift_ext(old) − drift_ext(old_changelog),"0.47 [0.38, 0.57]",✓
+llama3.1-8b,H1-label vị trí,label_drift(old_new) − label_drift(new_old),"0.20 [0.11, 0.29]",✓
+llama3.1-8b,H2-label có mặt đoạn cũ,label_drift(new_old) − label_drift(new),"0.79 [0.70, 0.88]",✓
+llama3.1-8b,H3-label nhãn,label_drift(new_old) − label_drift(tag_new_old),"0.40 [0.29, 0.51]",✓
+llama3.1-8b,"H5 nhãn quen thuộc (new_old, khám phá)","drift(NEW_TACTIC) − drift(EXISTING_TACTICS), chỉ kỹ thuật còn hiệu lực","0.35 [0.14, 0.55]",✓
+llama3.1-8b,"H5 nhãn quen thuộc (old_new, khám phá)","drift(NEW_TACTIC) − drift(EXISTING_TACTICS), chỉ kỹ thuật còn hiệu lực","0.13 [0.03, 0.26]",✓

@@ -1,0 +1,25 @@
+{
+  "model_tag": "qwen3-8b",
+  "repo": "Qwen/Qwen3-8B-AWQ",
+  "revision": "4da05a8edb55c6046cce958586c33b61da07bb79",
+  "snapshot": "4da05a8edb55c6046cce958586c33b61da07bb79",
+  "vllm": "0.31.0",
+  "torch": "2.13.0+cu130",
+  "cuda": "13.0",
+  "gpu": "NVIDIA GeForce RTX 4070",
+  "python": "3.11.17",
+  "max_model_len": 6144,
+  "max_tokens": 160,
+  "gpu_mem": 0.85,
+  "seed": 2026,
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "flashinfer_sampler": "0",
+  "script_sha256": "833c7fe70abac2648d2335c2ee241064a33961a9d68464e3b023c9fa0ec4abc4",
+  "structured_outputs": "xgrammar, disable_any_whitespace",
+  "condition": "old_changelog",
+  "n": 14,
+  "run_key": "14c15c916db4ba1e9b54d252bb406dc53b3b5588e999acd52ea9f54f7a109122",
+  "seconds": 2.9
+}

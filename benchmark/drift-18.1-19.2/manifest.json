@@ -1,0 +1,95 @@
+{
+  "driftset_version": "1.2",
+  "v_old": "18.1",
+  "v_new": "19.2",
+  "created_utc": "2026-10-12T08:48:37+00:00",
+  "config": {
+    "SEED": 2026,
+    "DEV_PERCENT": 20,
+    "MAX_MITIGATIONS": 6,
+    "CONTROLS_PER_TEMPLATE": 40,
+    "MAX_PER_CLASS": 80
+  },
+  "inputs": {
+    "attack_old": {
+      "path": "data/raw/attack_versions/enterprise-attack-18.1.json",
+      "sha256": "f857d8f78f2f0c0b7db321a711a39fba98546c1e3076a657684850c83d0962fb"
+    },
+    "attack_new": {
+      "path": "data/raw/attack_versions/enterprise-attack-19.2.json",
+      "sha256": "dc1639caa5501d720e280cf1cbd8fbe009884a0c9b3e6e9ed9d0c25166c3d8f4"
+    },
+    "change_events": {
+      "path": "drift/change_events.csv",
+      "sha256": "ab7f97888bf7c5a083de015c450362aa671821d1646fb55eb3059cda25c46ebf"
+    },
+    "corpus_old": {
+      "path": "benchmark/attack-18.1/corpus.jsonl",
+      "sha256": "d435b77a7e8faabe3e2d1cf5f64e0efda3e22b3786af60d70d1f83a6775ee56e"
+    },
+    "corpus_new": {
+      "path": "benchmark/attack-19.2/corpus.jsonl",
+      "sha256": "0198ec96b46b902b9d08025b1d7efcdfe84838cc927fbea8ad64e698032f040c"
+    },
+    "capec": {
+      "path": "data/raw/stix-capec.json",
+      "sha256": "ee6244f48259c1963d0507535e1843d67ba08fe58b4dfe351c1b74f9e376fa69"
+    }
+  },
+  "splits_manual_n": 0,
+  "revoked_ids_mentioned_in_new_corpus": 0,
+  "checks": {
+    "1_unique_item_id": true,
+    "2_gold_valid_in_version": true,
+    "3_class_label_consistent": true,
+    "4_D1_backed_by_nb01_TACTIC_CHANGED": true,
+    "5_evidence_contains_gold": true,
+    "6_split_consistent_with_nb02": true,
+    "7_no_dev_test_leak_via_successor": true
+  },
+  "counts": {
+    "items": 2415,
+    "queries_all": 7190,
+    "pilot_items": 435,
+    "pilot_queries": 1250,
+    "corpus_mixed": 5206,
+    "corpus_shared": 4239,
+    "excluded": {
+      "D2_subtech_parent:PROMOTED": 6,
+      "D2_subtech_parent:already_asked_by_old_name": 2,
+      "D2_subtech_parent:name_not_unique": 48,
+      "D3_tech_mitigation:mitigation_count_out_of_range": 137
+    },
+    "by_class": {
+      "D1_tech_tactic:ANCHOR_RENAMED": 1,
+      "D1_tech_tactic:ANSWER_CHANGED": 72,
+      "D1_tech_tactic:LABEL_CHANGED": 126,
+      "D1_tech_tactic:NEW_ONLY": 23,
+      "D1_tech_tactic:REVOKED_ANCHOR": 17,
+      "D1_tech_tactic:STABLE": 475,
+      "D2_subtech_parent:ANCHOR_RENAMED": 3,
+      "D2_subtech_parent:NEW_ONLY": 12,
+      "D2_subtech_parent:REVOKED_ANCHOR": 8,
+      "D2_subtech_parent:STABLE": 410,
+      "D3_tech_mitigation:ANCHOR_RENAMED": 4,
+      "D3_tech_mitigation:NEW_ONLY": 20,
+      "D3_tech_mitigation:REVOKED_ANCHOR": 14,
+      "D3_tech_mitigation:STABLE": 539,
+      "D4_id_currency:ANCHOR_RENAMED": 4,
+      "D4_id_currency:REVOKED_ANCHOR": 17,
+      "D4_id_currency:STABLE": 670
+    }
+  },
+  "outputs": {
+    "corpus_mixed.jsonl": "301ddae87bf73b1a841b8644769836b2bc21edc3d3be659fc03a02834c10a71c",
+    "items.jsonl": "b728835cf4e9c5b2843108df10bbe3d01b3738438888c296eacabebaa9d5222f",
+    "pilot_items.jsonl": "d76133e1cd33c2b8265353da1c8785965555ed71cfd46edd26996512b1cb2c07",
+    "pilot_queries.jsonl": "1382ad00e2b46be9fcac4f405147fd9a7006cc179d75107e495cd142f4b0175f",
+    "population_by_class.csv": "b3bbc8cc40f8ea669368303b30ab48a525f70f271cce469f415c9ef89ba8c758",
+    "queries_all.jsonl": "a1275541391f6d66ec1ff7509ec97a3c36c98cfd68c65a3374e95c4b1a92bfdf",
+    "tactic_alias.json": "a5efc74481539bb160213a920d73546ad8e85709a211383a5674f632e5791179",
+    "DATASHEET.md": "7880d6652ff07a90848984266ab4f4a32882a3213692de865675c8f605109486",
+    "capec_attack_tag_status.csv": "549756aadee00572f5b2b512073299d3521dac6b40c63b6b869f544caf856abf"
+  },
+  "capec_last_modified": "2023-01-24"
+}
