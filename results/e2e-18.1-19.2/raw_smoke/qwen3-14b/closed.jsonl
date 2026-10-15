@@ -1,0 +1,8 @@
+{"query_id": "D1-T1011.001|current", "condition": "closed", "model_tag": "qwen3-14b", "text": "{\"answer\": [\"TA0010 Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 166, "n_output_tokens": 14}
+{"query_id": "D1-T1027|current", "condition": "closed", "model_tag": "qwen3-14b", "text": "{\"answer\": [\"TA0007 Defense Evasion\"]}", "finish_reason": "stop", "n_prompt_tokens": 162, "n_output_tokens": 14}
+{"query_id": "D1-T1070.001|current", "condition": "closed", "model_tag": "qwen3-14b", "text": "{\"answer\": [\"TA0007 Defense Evasion\"]}", "finish_reason": "stop", "n_prompt_tokens": 165, "n_output_tokens": 14}
+{"query_id": "D1-T1112|current", "condition": "closed", "model_tag": "qwen3-14b", "text": "{\"answer\": [\"TA0002 Persistence\"]}", "finish_reason": "stop", "n_prompt_tokens": 159, "n_output_tokens": 12}
+{"query_id": "D2-T1001.001|current", "condition": "closed", "model_tag": "qwen3-14b", "text": "{\"answer\": [\"T1070.002\"]}", "finish_reason": "stop", "n_prompt_tokens": 161, "n_output_tokens": 15}
+{"query_id": "D2-T1070.001|current", "condition": "closed", "model_tag": "qwen3-14b", "text": "{\"answer\": [\"T1070.002\"]}", "finish_reason": "stop", "n_prompt_tokens": 162, "n_output_tokens": 15}
+{"query_id": "D4-T1001.001|current", "condition": "closed", "model_tag": "qwen3-14b", "text": "{\"answer\": [\"T1001.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 162, "n_output_tokens": 15}
+{"query_id": "D4-T1070.001|current", "condition": "closed", "model_tag": "qwen3-14b", "text": "{\"answer\": [\"T1070.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 163, "n_output_tokens": 15}

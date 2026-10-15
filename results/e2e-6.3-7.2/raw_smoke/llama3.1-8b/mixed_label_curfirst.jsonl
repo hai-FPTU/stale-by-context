@@ -1,0 +1,5 @@
+{"query_id": "D1-T1001|current", "condition": "mixed_label_curfirst", "model_tag": "llama3.1-8b", "text": "{\"answer\": [\"TA0011\", \"Command and Control\"]}", "finish_reason": "stop", "n_prompt_tokens": 1044, "n_output_tokens": 14}
+{"query_id": "D1-T1002|current", "condition": "mixed_label_curfirst", "model_tag": "llama3.1-8b", "text": "{\"answer\": [\"TA0010 Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 1220, "n_output_tokens": 12}
+{"query_id": "D1-T1037|current", "condition": "mixed_label_curfirst", "model_tag": "llama3.1-8b", "text": "{\"answer\": [\"TA0003 Persistence\", \"TA0004 Privilege Escalation\"]}", "finish_reason": "stop", "n_prompt_tokens": 1086, "n_output_tokens": 20}
+{"query_id": "D4-T1001|current", "condition": "mixed_label_curfirst", "model_tag": "llama3.1-8b", "text": "{\"answer\": [\"T1001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1038, "n_output_tokens": 9}
+{"query_id": "D4-T1002|current", "condition": "mixed_label_curfirst", "model_tag": "llama3.1-8b", "text": "{\"answer\": [\"T1547.001\", \"T1547.002\"]}", "finish_reason": "stop", "n_prompt_tokens": 1351, "n_output_tokens": 18}

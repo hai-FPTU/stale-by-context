@@ -1,0 +1,5 @@
+{"query_id": "D1-T1001|current", "condition": "old_new", "model_tag": "phi4-mini", "text": "{\"answer\": [\"TA0011 Command and Control (C2)\"]}", "finish_reason": "stop", "n_prompt_tokens": 1027, "n_output_tokens": 17}
+{"query_id": "D1-T1002|current", "condition": "old_new", "model_tag": "phi4-mini", "text": "{\"answer\": [\"TA0010 Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 1017, "n_output_tokens": 13}
+{"query_id": "D1-T1037|current", "condition": "old_new", "model_tag": "phi4-mini", "text": "{\"answer\": [\"TA0003 Persistence\", \"TA0008 Lateral Movement\"]}", "finish_reason": "stop", "n_prompt_tokens": 1070, "n_output_tokens": 19}
+{"query_id": "D4-T1001|current", "condition": "old_new", "model_tag": "phi4-mini", "text": "{\"answer\": [\"T1001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1064, "n_output_tokens": 10}
+{"query_id": "D4-T1002|current", "condition": "old_new", "model_tag": "phi4-mini", "text": "{\"answer\": [\"T1002\"]}", "finish_reason": "stop", "n_prompt_tokens": 1054, "n_output_tokens": 10}

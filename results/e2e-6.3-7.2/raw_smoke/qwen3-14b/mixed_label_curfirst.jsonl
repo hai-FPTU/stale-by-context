@@ -1,0 +1,5 @@
+{"query_id": "D1-T1001|current", "condition": "mixed_label_curfirst", "model_tag": "qwen3-14b", "text": "{\"answer\": [\"TA0011 Command and Control\"]}", "finish_reason": "stop", "n_prompt_tokens": 1077, "n_output_tokens": 14}
+{"query_id": "D1-T1002|current", "condition": "mixed_label_curfirst", "model_tag": "qwen3-14b", "text": "{\"answer\": [\"TA0010 Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 1275, "n_output_tokens": 14}
+{"query_id": "D1-T1037|current", "condition": "mixed_label_curfirst", "model_tag": "qwen3-14b", "text": "{\"answer\": [\"TA0003 Persistence\"]}", "finish_reason": "stop", "n_prompt_tokens": 1114, "n_output_tokens": 12}
+{"query_id": "D4-T1001|current", "condition": "mixed_label_curfirst", "model_tag": "qwen3-14b", "text": "{\"answer\": [\"T1001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1075, "n_output_tokens": 11}
+{"query_id": "D4-T1002|current", "condition": "mixed_label_curfirst", "model_tag": "qwen3-14b", "text": "{\"answer\": [\"T1002\"]}", "finish_reason": "stop", "n_prompt_tokens": 1404, "n_output_tokens": 11}

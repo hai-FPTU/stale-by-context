@@ -1,0 +1,7 @@
+model,lần trước,n,trùng văn bản,trùng đáp án,lỗi thời (changed): lần này / lần trước
+qwen3-8b,results/mech-18.1-19.2,624,0.998,0.998,0.888 / 0.888
+llama3.1-8b,results/mech-18.1-19.2,624,0.994,0.995,0.853 / 0.848
+gemma2-9b,results/conf-18.1-19.2,624,0.994,0.995,0.835 / 0.835
+phi4-mini,results/conf-18.1-19.2,624,0.997,1.0,0.826 / 0.826
+mistral7b-v0.3,results/conf-18.1-19.2,624,0.997,1.0,0.795 / 0.795
+qwen3-14b,results/ext14b-18.1-19.2,624,1.0,1.0,0.888 / 0.888

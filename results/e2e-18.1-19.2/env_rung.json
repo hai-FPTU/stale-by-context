@@ -1,0 +1,166 @@
+{
+  "rung": {
+    "gemma2-9b": {
+      "rung": 0,
+      "ladder": "8b",
+      "name": "mặc định",
+      "env": {},
+      "engine": {},
+      "gpu_mem": 0.85,
+      "max_model_len": 6144,
+      "effective": {
+        "gpu_mem": 0.85,
+        "max_model_len": 6144
+      }
+    },
+    "phi4-mini": {
+      "rung": 0,
+      "ladder": "8b",
+      "name": "mặc định",
+      "env": {},
+      "engine": {},
+      "gpu_mem": 0.85,
+      "max_model_len": 6144,
+      "effective": {
+        "gpu_mem": 0.85,
+        "max_model_len": 4096
+      }
+    },
+    "mistral7b-v0.3": {
+      "rung": 0,
+      "ladder": "8b",
+      "name": "mặc định",
+      "env": {},
+      "engine": {},
+      "gpu_mem": 0.85,
+      "max_model_len": 6144,
+      "effective": {
+        "gpu_mem": 0.85,
+        "max_model_len": 6144
+      }
+    },
+    "qwen3-14b": {
+      "rung": 2,
+      "ladder": "14b",
+      "name": "rất gọn bộ nhớ",
+      "env": {},
+      "engine": {
+        "enforce_eager": true,
+        "max_num_seqs": 8,
+        "max_num_batched_tokens": 1024
+      },
+      "gpu_mem": 0.95,
+      "max_model_len": 2560,
+      "effective": {
+        "gpu_mem": 0.95,
+        "max_model_len": 2560
+      }
+    },
+    "qwen3-8b": {
+      "rung": 0,
+      "ladder": "8b",
+      "name": "mặc định",
+      "env": {},
+      "engine": {},
+      "gpu_mem": 0.85,
+      "max_model_len": 6144,
+      "effective": {
+        "gpu_mem": 0.85,
+        "max_model_len": 6144
+      }
+    },
+    "llama3.1-8b": {
+      "rung": 0,
+      "ladder": "8b",
+      "name": "mặc định",
+      "env": {},
+      "engine": {},
+      "gpu_mem": 0.85,
+      "max_model_len": 6144,
+      "effective": {
+        "gpu_mem": 0.85,
+        "max_model_len": 6144
+      }
+    }
+  },
+  "start": {
+    "gemma2-9b": 0,
+    "phi4-mini": 0,
+    "mistral7b-v0.3": 0,
+    "qwen3-14b": 2
+  },
+  "attempts": {
+    "qwen3-8b": [
+      {
+        "phase": "chạy thử",
+        "rung": 0,
+        "ok": true
+      },
+      {
+        "phase": "chạy chính",
+        "rung": 0,
+        "ok": true
+      }
+    ],
+    "llama3.1-8b": [
+      {
+        "phase": "chạy thử",
+        "rung": 0,
+        "ok": true
+      },
+      {
+        "phase": "chạy chính",
+        "rung": 0,
+        "ok": true
+      }
+    ],
+    "gemma2-9b": [
+      {
+        "phase": "chạy thử",
+        "rung": 0,
+        "ok": true
+      },
+      {
+        "phase": "chạy chính",
+        "rung": 0,
+        "ok": true
+      }
+    ],
+    "phi4-mini": [
+      {
+        "phase": "chạy thử",
+        "rung": 0,
+        "ok": true
+      },
+      {
+        "phase": "chạy chính",
+        "rung": 0,
+        "ok": true
+      }
+    ],
+    "mistral7b-v0.3": [
+      {
+        "phase": "chạy thử",
+        "rung": 0,
+        "ok": true
+      },
+      {
+        "phase": "chạy chính",
+        "rung": 0,
+        "ok": true
+      }
+    ],
+    "qwen3-14b": [
+      {
+        "phase": "chạy thử",
+        "rung": 2,
+        "ok": true
+      },
+      {
+        "phase": "chạy chính",
+        "rung": 2,
+        "ok": true
+      }
+    ]
+  }
+}

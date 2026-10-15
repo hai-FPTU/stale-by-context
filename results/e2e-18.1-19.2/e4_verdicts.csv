@@ -1,0 +1,4 @@
+giả thuyết,tên,đánh giá được,cần đạt,đạt,ngược chiều,kết luận (nhánh A)
+R1,Lọc theo phiên bản giảm lỗi thời,6,5,6,0,ĐƯỢC ỦNG HỘ
+R2,Truy hồi theo dòng dõi giúp mã bị thu hồi (acc),6,5,4,0,không được ủng hộ
+R3,Nhãn tin cậy giảm lỗi thời trên truy hồi thật,6,5,6,0,ĐƯỢC ỦNG HỘ

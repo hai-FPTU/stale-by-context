@@ -1,0 +1,5 @@
+{"query_id": "D1-T1001|current", "condition": "closed", "model_tag": "gemma2-9b", "text": "{\"answer\": []}", "finish_reason": "stop", "n_prompt_tokens": 157, "n_output_tokens": 6}
+{"query_id": "D1-T1002|current", "condition": "closed", "model_tag": "gemma2-9b", "text": "{\"answer\": []}", "finish_reason": "stop", "n_prompt_tokens": 155, "n_output_tokens": 6}
+{"query_id": "D1-T1037|current", "condition": "closed", "model_tag": "gemma2-9b", "text": "{\"answer\": []}", "finish_reason": "stop", "n_prompt_tokens": 156, "n_output_tokens": 6}
+{"query_id": "D4-T1001|current", "condition": "closed", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"T1001\"]}", "finish_reason": "stop", "n_prompt_tokens": 154, "n_output_tokens": 11}
+{"query_id": "D4-T1002|current", "condition": "closed", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"T1002\"]}", "finish_reason": "stop", "n_prompt_tokens": 152, "n_output_tokens": 11}

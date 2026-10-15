@@ -1,0 +1,5 @@
+{"query_id": "D1-T1001|current", "condition": "closed", "model_tag": "phi4-mini", "text": "{\"answer\": [\"TA0001 Data Obfuscation\"]}", "finish_reason": "stop", "n_prompt_tokens": 143, "n_output_tokens": 14}
+{"query_id": "D1-T1002|current", "condition": "closed", "model_tag": "phi4-mini", "text": "{\"answer\": [\"TA0002 Data Exfiltration - Data Compressed\"]}", "finish_reason": "stop", "n_prompt_tokens": 142, "n_output_tokens": 18}
+{"query_id": "D1-T1037|current", "condition": "closed", "model_tag": "phi4-mini", "text": "{\"answer\": [\"TA0003 Logon Scripts\"]}", "finish_reason": "stop", "n_prompt_tokens": 142, "n_output_tokens": 13}
+{"query_id": "D4-T1001|current", "condition": "closed", "model_tag": "phi4-mini", "text": "{\"answer\": [\"T1001\"]}", "finish_reason": "stop", "n_prompt_tokens": 137, "n_output_tokens": 10}
+{"query_id": "D4-T1002|current", "condition": "closed", "model_tag": "phi4-mini", "text": "{\"answer\": [\"T1002\"]}", "finish_reason": "stop", "n_prompt_tokens": 136, "n_output_tokens": 10}

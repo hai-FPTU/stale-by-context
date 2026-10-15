@@ -1,0 +1,5 @@
+{"query_id": "D1-T1001|current", "condition": "cf_new_old", "model_tag": "gemma2-9b", "text": "{\"answer\": [\".TA0011 Command and Control\"], \"conflict\": false}", "finish_reason": "stop", "n_prompt_tokens": 1112, "n_output_tokens": 20}
+{"query_id": "D1-T1002|current", "condition": "cf_new_old", "model_tag": "gemma2-9b", "text": "{\"answer\": [\".TA0010 Exfiltration\"], \"conflict\": false}", "finish_reason": "stop", "n_prompt_tokens": 1093, "n_output_tokens": 19}
+{"query_id": "D1-T1037|current", "condition": "cf_new_old", "model_tag": "gemma2-9b", "text": "{\"answer\": [\".TA0003 Persistence\", \".TA0008 Lateral Movement\"], \"conflict\": false}", "finish_reason": "stop", "n_prompt_tokens": 1170, "n_output_tokens": 27}
+{"query_id": "D4-T1001|current", "condition": "cf_new_old", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"T1001\"], \"conflict\": false}", "finish_reason": "stop", "n_prompt_tokens": 1150, "n_output_tokens": 16}
+{"query_id": "D4-T1002|current", "condition": "cf_new_old", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"T1002\"], \"conflict\": false}", "finish_reason": "stop", "n_prompt_tokens": 1131, "n_output_tokens": 16}

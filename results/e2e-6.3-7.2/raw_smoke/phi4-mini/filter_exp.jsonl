@@ -1,0 +1,5 @@
+{"query_id": "D1-T1001|current", "condition": "filter_exp", "model_tag": "phi4-mini", "text": "{\"answer\": [\"TA0011 Command and Control\"]}", "finish_reason": "stop", "n_prompt_tokens": 826, "n_output_tokens": 13}
+{"query_id": "D1-T1002|current", "condition": "filter_exp", "model_tag": "phi4-mini", "text": "{\"answer\": []}", "finish_reason": "stop", "n_prompt_tokens": 951, "n_output_tokens": 6}
+{"query_id": "D1-T1037|current", "condition": "filter_exp", "model_tag": "phi4-mini", "text": "{\"answer\": [\"TA0003 Persistence\", \"TA0004 Privilege Escalation\"]}", "finish_reason": "stop", "n_prompt_tokens": 879, "n_output_tokens": 21}
+{"query_id": "D4-T1001|current", "condition": "filter_exp", "model_tag": "phi4-mini", "text": "{\"answer\": [\"T1001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1046, "n_output_tokens": 10}
+{"query_id": "D4-T1002|current", "condition": "filter_exp", "model_tag": "phi4-mini", "text": "{\"answer\": [\"T1002\"]}", "finish_reason": "stop", "n_prompt_tokens": 710, "n_output_tokens": 10}

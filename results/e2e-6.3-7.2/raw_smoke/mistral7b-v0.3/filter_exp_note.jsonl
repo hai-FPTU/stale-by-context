@@ -1,0 +1,5 @@
+{"query_id": "D1-T1001|current", "condition": "filter_exp_note", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"TA0011 Command and Control\"]}", "finish_reason": "stop", "n_prompt_tokens": 1004, "n_output_tokens": 15}
+{"query_id": "D1-T1002|current", "condition": "filter_exp_note", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"TA0009 Collection\"]}", "finish_reason": "stop", "n_prompt_tokens": 1240, "n_output_tokens": 13}
+{"query_id": "D1-T1037|current", "condition": "filter_exp_note", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"TA0003 Persistence\"]}", "finish_reason": "stop", "n_prompt_tokens": 1066, "n_output_tokens": 14}
+{"query_id": "D4-T1001|current", "condition": "filter_exp_note", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"T1001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1257, "n_output_tokens": 12}
+{"query_id": "D4-T1002|current", "condition": "filter_exp_note", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"T1560\", \"T1560.001\", \"T1560.002\", \"T1560.003\"]}", "finish_reason": "stop", "n_prompt_tokens": 908, "n_output_tokens": 45}

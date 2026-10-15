@@ -1,0 +1,5 @@
+{"query_id": "D1-T1001|current", "condition": "closed", "model_tag": "llama3.1-8b", "text": "{\"answer\": [\"TA0005\", \"Impact\"]}", "finish_reason": "stop", "n_prompt_tokens": 174, "n_output_tokens": 13}
+{"query_id": "D1-T1002|current", "condition": "closed", "model_tag": "llama3.1-8b", "text": "{\"answer\": [\"TA0005\", \"Impact\"]}", "finish_reason": "stop", "n_prompt_tokens": 173, "n_output_tokens": 13}
+{"query_id": "D1-T1037|current", "condition": "closed", "model_tag": "llama3.1-8b", "text": "{\"answer\": [\"TA0006\", \"Credential Dumping\", \"TA0007\", \"Lateral Movement\", \"TA0008\", \"Privilege Escalation\", \"TA0009\", \"Defense Evasion\"]}", "finish_reason": "stop", "n_prompt_tokens": 173, "n_output_tokens": 46}
+{"query_id": "D4-T1001|current", "condition": "closed", "model_tag": "llama3.1-8b", "text": "{\"answer\": [\"T1001.001\", \"T1001.002\"]}", "finish_reason": "stop", "n_prompt_tokens": 168, "n_output_tokens": 18}
+{"query_id": "D4-T1002|current", "condition": "closed", "model_tag": "llama3.1-8b", "text": "{\"answer\": [\"T1002.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 167, "n_output_tokens": 11}

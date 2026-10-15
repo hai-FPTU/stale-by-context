@@ -1,0 +1,8 @@
+{"query_id": "D1-T1011.001|current", "condition": "closed", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"TA0010 Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 169, "n_output_tokens": 16}
+{"query_id": "D1-T1027|current", "condition": "closed", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"TA0008 Defense Evasion\", \"TA0015 Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 165, "n_output_tokens": 27}
+{"query_id": "D1-T1070.001|current", "condition": "closed", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"TA0010 Defense Evasion\", \"TA0013 Discovery\"]}", "finish_reason": "stop", "n_prompt_tokens": 167, "n_output_tokens": 24}
+{"query_id": "D1-T1112|current", "condition": "closed", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"TA0009 Persistence\", \"TA0016 Defense Evasion\"]}", "finish_reason": "stop", "n_prompt_tokens": 162, "n_output_tokens": 24}
+{"query_id": "D2-T1001.001|current", "condition": "closed", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"T1564.007\"]}", "finish_reason": "stop", "n_prompt_tokens": 160, "n_output_tokens": 16}
+{"query_id": "D2-T1070.001|current", "condition": "closed", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"T1027.002\"]}", "finish_reason": "stop", "n_prompt_tokens": 162, "n_output_tokens": 16}
+{"query_id": "D4-T1001.001|current", "condition": "closed", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"T1001.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 160, "n_output_tokens": 16}
+{"query_id": "D4-T1070.001|current", "condition": "closed", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"T1070.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 162, "n_output_tokens": 16}

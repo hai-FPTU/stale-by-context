@@ -1,0 +1,5 @@
+{"query_id": "D1-T1001|current", "condition": "closed", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"TA0008 Defense Evasion\"]}", "finish_reason": "stop", "n_prompt_tokens": 162, "n_output_tokens": 15}
+{"query_id": "D1-T1002|current", "condition": "closed", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"TA0003 Defense Evasion\", \"TA0015 Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 160, "n_output_tokens": 26}
+{"query_id": "D1-T1037|current", "condition": "closed", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"TA0008 Defense Evasion\", \"TA0016 Privilege Escalation\"]}", "finish_reason": "stop", "n_prompt_tokens": 161, "n_output_tokens": 28}
+{"query_id": "D4-T1001|current", "condition": "closed", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"T1001\"]}", "finish_reason": "stop", "n_prompt_tokens": 157, "n_output_tokens": 12}
+{"query_id": "D4-T1002|current", "condition": "closed", "model_tag": "mistral7b-v0.3", "text": "{\"answer\": [\"T1002\"]}", "finish_reason": "stop", "n_prompt_tokens": 155, "n_output_tokens": 12}

@@ -1,0 +1,8 @@
+{"query_id": "D1-T1011.001|current", "condition": "filter_exp", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"TA0010 Exfiltration\"]}", "finish_reason": "stop", "n_prompt_tokens": 1319, "n_output_tokens": 13}
+{"query_id": "D1-T1027|current", "condition": "filter_exp", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"TA0005 Stealth\"]}", "finish_reason": "stop", "n_prompt_tokens": 1068, "n_output_tokens": 12}
+{"query_id": "D1-T1070.001|current", "condition": "filter_exp", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"TA0112 Defense Impairment\"]}", "finish_reason": "stop", "n_prompt_tokens": 835, "n_output_tokens": 14}
+{"query_id": "D1-T1112|current", "condition": "filter_exp", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"TA0002 Persistence\", \"TA0009 Execution\"]}", "finish_reason": "stop", "n_prompt_tokens": 1732, "n_output_tokens": 20}
+{"query_id": "D2-T1001.001|current", "condition": "filter_exp", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"T1071.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1412, "n_output_tokens": 15}
+{"query_id": "D2-T1070.001|current", "condition": "filter_exp", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"T1685\"]}", "finish_reason": "stop", "n_prompt_tokens": 830, "n_output_tokens": 11}
+{"query_id": "D4-T1001.001|current", "condition": "filter_exp", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"T1001.001\"]}", "finish_reason": "stop", "n_prompt_tokens": 1584, "n_output_tokens": 15}
+{"query_id": "D4-T1070.001|current", "condition": "filter_exp", "model_tag": "gemma2-9b", "text": "{\"answer\": [\"T1685.005\"]}", "finish_reason": "stop", "n_prompt_tokens": 832, "n_output_tokens": 15}
