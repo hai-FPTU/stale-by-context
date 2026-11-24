@@ -1,6 +1,6 @@
 # Stale by Context: ATT&CK version drift in retrieval-augmented CTI assistants
 
-This repository accompanies the paper *"Stale by Context: How Superseded MITRE ATT&CK Passages and Their Labels Mislead Retrieval-Augmented CTI Assistants"* (under review). It contains the release-diff analysis, the version-paired benchmark, every prompt, all raw model outputs, the scored results, the analysis plan with its full version history, and the notebooks that produced them.
+This repository accompanies the paper *"Stale by Context: How Superseded MITRE ATT&CK Passages and Their Labels Mislead Retrieval-Augmented CTI Assistants"* (IEEE CCWC 2027). It contains the release-diff analysis, the version-paired benchmark, every prompt, all raw model outputs, the scored results, the analysis plan with its full version history, and the notebooks that produced them.
 
 Notebook comments and printed messages are partly in Vietnamese. Code, file names and result columns are in English.
 
@@ -19,12 +19,24 @@ Notebook comments and printed messages are partly in Vietnamese. Code, file name
 | `09_phong_thu_dau_cuoi.ipynb` → `results/e2e-*` | Pre-specified extension: end-to-end BM25 retrieval over a mixed-release index with defences (E4), conflict-reporting option (E5), and re-run reproducibility |
 | `ctidrift_scoring.py`, `ctidrift_scoring_v13.py` | Scorers v1.2 (primary) and v1.3 (sensitivity) |
 | `ctidrift_infer.py`, `ctidrift_infer_v2.py` | vLLM inference modules (v2 is used by notebooks 07–09) |
+| `scripts/count_rule_repos.py` | Counts of ATT&CK release mixing in the Elastic and SigmaHQ rule repositories (Sec. I; clones at commits 195f15c and 7d8b152) |
+| `scripts/consistency_check.py` | Metadata-free release-consistency check on the retrieved contexts of notebook 09 (Sec. VI; descriptive, post hoc) |
 | `docs/` | Analysis plan with version history (v1.0–v1.5 addenda), annotation guideline, independent annotation of 150 confirmatory responses and the key that maps each annotated row to model and condition |
 | `FILES.sha256` | SHA-256 of every file copied from the project |
 
 Each `results/<run>/` folder contains `prompts/` (one JSONL per condition), `raw/` (model outputs), `scored.csv` (one row per response), summary and confirmatory CSVs, `manifest.json` (input/output hashes, model revisions, library versions) and `logs/`.
 
-The raw STIX bundles are not included; notebook 01 downloads them from `mitre-attack/attack-stix-data` and checks them against `drift/manifest.json`. The notebook builder scripts whose hashes the analysis plan cites will be added with the public release.
+The raw STIX bundles are not included; notebook 01 downloads them from `mitre-attack/attack-stix-data` and checks them against `drift/manifest.json`. The notebooks are included exactly as run, with their outputs; the builder scripts that generated them are not included, so the builder hashes cited in the analysis plan cannot be checked from this repository.
+
+## Citation
+
+```
+H. Ho, "Stale by Context: How Superseded MITRE ATT&CK Passages and Their Labels Mislead
+Retrieval-Augmented CTI Assistants," in Proc. IEEE Computing and Communication Workshop
+and Conference (CCWC), Las Vegas, NV, USA, Jan. 2027.
+```
+
+The version of this repository that accompanies the paper is tagged `ccwc2027`.
 
 ## Reproducing the runs
 
